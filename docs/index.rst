@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to uppmax_docs's documentation!
+Welcome to UPPMAX documentation pages
 =======================================
 
 .. toctree::
