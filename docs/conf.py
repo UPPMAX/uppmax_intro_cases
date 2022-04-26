@@ -18,7 +18,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Python-at-UPPMAX'
+project = 'UPPMAX Documentation'
 copyright = 'UPPMAX'
 author = 'UPPMAX'
 
