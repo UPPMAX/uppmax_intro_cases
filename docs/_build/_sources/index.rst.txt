@@ -30,6 +30,11 @@ https://www.uppmax.uu.se/
    userguide.md
    software.md
    specific.md
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Courses
+   
    courses.md   
    
 
