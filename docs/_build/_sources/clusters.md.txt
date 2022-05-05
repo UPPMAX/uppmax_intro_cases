@@ -23,6 +23,9 @@ https://www.uppmax.uu.se/resources/systems/the-bianca-cluster/
 ## Miarka
 https://www.uppmax.uu.se/resources/systems/miarka-cluster/
 
+## The UPPMAX Cloud
+https://www.uppmax.uu.se/resources/systems/the-uppmax-cloud/
+
 ## System usage
 https://www.uppmax.uu.se/resources/system-usage/
 

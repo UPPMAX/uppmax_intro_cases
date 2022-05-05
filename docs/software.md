@@ -70,6 +70,8 @@ Docker will unfortunately not work on the clusters, since it requires root permi
 20.2    | ***3.1.6***, ***4.0.4***
 20.4    | ***3.1.6***, ***4.0.4***, *4.1.0*, *4.1.1*
 
+## Spack
+
 ### Own development...
 
 
