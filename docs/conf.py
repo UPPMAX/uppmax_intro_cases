@@ -35,6 +35,8 @@ extensions = ["sphinx_lesson",
               'sphinx-prompt'
 ]
 
+#source_suffix = ['.rst', '.md']
+
 myst_enable_extensions = [
     "amsmath",
     "colon_fence",
