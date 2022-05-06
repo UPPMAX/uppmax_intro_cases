@@ -12,20 +12,20 @@ We have a number of compute clusters:
 The storage systems we have provide a total volume of about 20 PB, the equivalent of nearly 15 billion 3.5-inch floppy disks or 40,000 years of 128-bit encoded music. Read more on the storage systems page.
 
 ## Rackham
-https://www.uppmax.uu.se/resources/systems/the-rackham-cluster/
+[Rackham](https://www.uppmax.uu.se/resources/systems/the-rackham-cluster/)
 
 ## Snowy
-https://www.uppmax.uu.se/resources/systems/the-snowy-cluster/
+[Snowy](https://www.uppmax.uu.se/resources/systems/the-snowy-cluster/)
 
 ## Bianca
-https://www.uppmax.uu.se/resources/systems/the-bianca-cluster/
+[Bianca](https://www.uppmax.uu.se/resources/systems/the-bianca-cluster/)
 
 ## Miarka
-https://www.uppmax.uu.se/resources/systems/miarka-cluster/
+[Miarka](https://www.uppmax.uu.se/resources/systems/miarka-cluster/)
 
 ## The UPPMAX Cloud
-https://www.uppmax.uu.se/resources/systems/the-uppmax-cloud/
+[UPPMAX cloud](https://www.uppmax.uu.se/resources/systems/the-uppmax-cloud/)
 
 ## System usage
-https://www.uppmax.uu.se/resources/system-usage/
+[System usage](https://www.uppmax.uu.se/resources/system-usage/)
 

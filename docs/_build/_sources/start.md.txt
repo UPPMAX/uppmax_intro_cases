@@ -6,18 +6,17 @@ UPPMAX is also a cluster and cloud provider for Uppsala University educational c
 If the results you get from using the resources at UPPMAX end up in a paper or are presented at a workshop or conference, we kindly ask you to acknowledge UPPMAX and SNIC. 
 
 ## Apply for a user account
-https://www.uppmax.uu.se/support/getting-started/applying-for-a-user-account/
+[Apply for a user account](https://www.uppmax.uu.se/support/getting-started/applying-for-a-user-account/)
 
 ## Apply for a project
-https://www.uppmax.uu.se/support/getting-started/applying-for-projects/
-ogin
+[Apply for a project](https://www.uppmax.uu.se/support/getting-started/applying-for-projects/)
 
 ## Setting up two-factor authentication for UPPMAX
-https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/
+[two-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/)
 
-## Applying for CPU-time - Policy and Instructions
-https://www.uppmax.uu.se/support/user-guides/compute-time-policy/
+## Apply for CPU-time - Policy and Instructions
+[Apply for CPU-time](https://www.uppmax.uu.se/support/user-guides/compute-time-policy/)
 
 ## Disk storage guide
-https://www.uppmax.uu.se/support/user-guides/disk-storage-guide/
+[Disk storage guide](https://www.uppmax.uu.se/support/user-guides/disk-storage-guide/)
 

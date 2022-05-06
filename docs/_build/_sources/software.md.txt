@@ -2,29 +2,32 @@
 
 ## Modules
 
-https://www.uppmax.uu.se/resources/software/
-https://www.uppmax.uu.se/resources/software/module-system/
+- [Software at UPPMAX](https://www.uppmax.uu.se/resources/software/)
+- [Module system](https://www.uppmax.uu.se/resources/software/module-system/)
 
 ## Installed software
-https://www.uppmax.uu.se/resources/software/installed-software/
+- [Installed software at UPPMAX](https://www.uppmax.uu.se/resources/software/installed-software/)
 
-## Install your own software
+## Installed databases
+- [Installed databases at UPPMAX](https://www.uppmax.uu.se/resources/databases/)
 
-Python packages
+## Install software yourself
 
-## "Containers"
-### Conda
-https://www.uppmax.uu.se/support/user-guides/conda-user-guide/
+### Python packages
+[Python packages](https://uppmax.uu.se/support/user-guides/python-user-guide/)
+### "Containers"
+#### Conda
+- [Conda user guide](https://www.uppmax.uu.se/support/user-guides/conda-user-guide/)
 
-### Singularity
-https://www.uppmax.uu.se/support/user-guides/singularity-user-guide/
+#### Singularity
+- [Singularity user guide](https://www.uppmax.uu.se/support/user-guides/singularity-user-guide/)
 
-### Docker
+#### Docker
 Docker will unfortunately not work on the clusters, since it requires root permission.
 
-## Build from source
+### Build from source
 
-### Rackham
+#### Rackham
 
 - Also on Snowy in *italic*
 - Also on Snowy AND Bianca in ***bold***
@@ -70,7 +73,7 @@ Docker will unfortunately not work on the clusters, since it requires root permi
 20.2    | ***3.1.6***, ***4.0.4***
 20.4    | ***3.1.6***, ***4.0.4***, *4.1.0*, *4.1.1*
 
-## Spack
+### Spack
 
 ### Own development...
 
