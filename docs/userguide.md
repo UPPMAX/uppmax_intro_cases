@@ -28,8 +28,8 @@
 
 
 ## Rackham user guide
-[Rackham](https://www.uppmax.uu.se/support/user-guides/rackham-user-guide/)
-## Bianca user guide)
+- [Rackham](https://www.uppmax.uu.se/support/user-guides/rackham-user-guide/)
+## Bianca user guide
 - [Bianca](https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/)
 - [Transit](https://www.uppmax.uu.se/support/user-guides/transit-user-guide/)
 - [Deliver](https://www.uppmax.uu.se/support/user-guides/deliver-user-guide/)
