@@ -3,6 +3,30 @@
 ## FAQ
 [FAQ](https://www.uppmax.uu.se/support/faq/)
 
+## What is a cluster?
+
+- A network of computers, each computer working as a node.
+- From small scale RaspberryPi cluster :-)
+- To supercomputers like Rackham.
+- Each node contains several processor cores and RAM and a local disk called scratch.
+- The user logs in to login nodes via Internet through ssh or Thinlinc.
+  -  Here the file management and lighter data analysis can be performed.
+- The calculation nodes must be used for intense computing. 
+
+  - "Normal" softwares use one core.
+  -  Parallelized software can utilize several cores or even several nodes. Keywords signalizing this are e.g.:
+    -     "multi-threaded", "openMP", "shared memory", "MPI", "distributed memory".
+  -  To let your software run on the calculation nodes
+    -   start an "interactive session" or
+    -    "submit a batch job".
+- All nodes can access:
+
+  -  Your home directory on Domus or Castor
+  -  Your project directories on Crex or Castor
+  -  Its own local scratch disk (2-3 TB)
+
+
+
 ## Rackham user guide
 [Rackham](https://www.uppmax.uu.se/support/user-guides/rackham-user-guide/)
 ## Bianca user guide)

@@ -1,0 +1,52 @@
+Fixing links and content
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	new file:   _build/doctrees/clusters.doctree
+#	new file:   _build/doctrees/courses.doctree
+#	new file:   _build/doctrees/glue_cache.json
+#	new file:   _build/doctrees/index.doctree
+#	new file:   _build/doctrees/login.doctree
+#	new file:   _build/doctrees/rackham.doctree
+#	new file:   _build/doctrees/software.doctree
+#	new file:   _build/doctrees/specific.doctree
+#	new file:   _build/doctrees/start.doctree
+#	new file:   _build/doctrees/userguide.doctree
+#	new file:   docs/.software.md.swp
+#	modified:   docs/_build/.doctrees/clusters.doctree
+#	modified:   docs/_build/.doctrees/courses.doctree
+#	modified:   docs/_build/.doctrees/environment.pickle
+#	modified:   docs/_build/.doctrees/login.doctree
+#	modified:   docs/_build/.doctrees/software.doctree
+#	modified:   docs/_build/.doctrees/specific.doctree
+#	modified:   docs/_build/.doctrees/start.doctree
+#	modified:   docs/_build/.doctrees/userguide.doctree
+#	modified:   docs/_build/_sources/clusters.md.txt
+#	modified:   docs/_build/_sources/courses.md.txt
+#	modified:   docs/_build/_sources/login.md.txt
+#	modified:   docs/_build/_sources/software.md.txt
+#	modified:   docs/_build/_sources/specific.md.txt
+#	modified:   docs/_build/_sources/start.md.txt
+#	modified:   docs/_build/_sources/userguide.md.txt
+#	modified:   docs/_build/clusters.html
+#	modified:   docs/_build/courses.html
+#	modified:   docs/_build/index.html
+#	modified:   docs/_build/login.html
+#	modified:   docs/_build/rackham.html
+#	modified:   docs/_build/searchindex.js
+#	modified:   docs/_build/software.html
+#	modified:   docs/_build/specific.html
+#	modified:   docs/_build/start.html
+#	modified:   docs/_build/userguide.html
+#	modified:   docs/clusters.md
+#	modified:   docs/courses.md
+#	modified:   docs/login.md
+#	modified:   docs/software.md
+#	modified:   docs/specific.md
+#	modified:   docs/start.md
+#	modified:   docs/userguide.md
+#

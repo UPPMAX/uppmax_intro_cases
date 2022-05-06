@@ -59,6 +59,7 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">User guide</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#faq">FAQ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-a-cluster">What is a cluster?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#rackham-user-guide">Rackham user guide</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#bianca-user-guide">Bianca user guide)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#snowy-user-guide">Snowy user guide</a></li>
@@ -106,6 +107,40 @@
 <div class="section" id="faq">
 <h2>FAQ<a class="headerlink" href="#faq" title="Permalink to this headline"></a></h2>
 <p><a class="reference external" href="https://www.uppmax.uu.se/support/faq/">FAQ</a></p>
+</div>
+<div class="section" id="what-is-a-cluster">
+<h2>What is a cluster?<a class="headerlink" href="#what-is-a-cluster" title="Permalink to this headline"></a></h2>
+<ul>
+<li><p>A network of computers, each computer working as a node.</p></li>
+<li><p>From small scale RaspberryPi cluster :-)</p></li>
+<li><p>To supercomputers like Rackham.</p></li>
+<li><p>Each node contains several processor cores and RAM and a local disk called scratch.</p></li>
+<li><p>The user logs in to login nodes via Internet through ssh or Thinlinc.</p>
+<ul class="simple">
+<li><p>Here the file management and lighter data analysis can be performed.</p></li>
+</ul>
+</li>
+<li><p>The calculation nodes must be used for intense computing.</p>
+<ul>
+<li><p>“Normal” softwares use one core.</p></li>
+<li><p>Parallelized software can utilize several cores or even several nodes. Keywords signalizing this are e.g.:</p></li>
+<li><div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&quot;multi-threaded&quot;, &quot;openMP&quot;, &quot;shared memory&quot;, &quot;MPI&quot;, &quot;distributed memory&quot;.
+</pre></div>
+</div>
+</li>
+<li><p>To let your software run on the calculation nodes</p></li>
+<li><p>start an “interactive session” or</p></li>
+<li><p>“submit a batch job”.</p></li>
+</ul>
+</li>
+<li><p>All nodes can access:</p>
+<ul class="simple">
+<li><p>Your home directory on Domus or Castor</p></li>
+<li><p>Your project directories on Crex or Castor</p></li>
+<li><p>Its own local scratch disk (2-3 TB)</p></li>
+</ul>
+</li>
+</ul>
 </div>
 <div class="section" id="rackham-user-guide">
 <h2>Rackham user guide<a class="headerlink" href="#rackham-user-guide" title="Permalink to this headline"></a></h2>
