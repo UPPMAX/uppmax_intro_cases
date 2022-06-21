@@ -3,25 +3,47 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to UPPMAX documentation pages
+Welcome to Introduction to UPPMAX first day lessons
 =======================================
 Here you will find *some* of the documentation for the UPPMAX resources in a easy to find place.
+
+.. list-table:: Preliminary schedule
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Time
+     - Topic
+     - Activity
+   * - 9:15
+     - Overview of SNIC and the UPPMAX clusters
+     - Lecture
+   * - 
+     - Login 
+     - Lecture+code along
+   * - 
+     - Linux  
+     - Lecture+code along
+   * - 
+     - Using the UPPMAX systems  
+     - Lecture+code along
+
 
 You can also find more information at:
 https://www.uppmax.uu.se/
 
 .. toctree::
    :maxdepth: 2
-   :caption: About
+   :caption: Overview
     
    clusters.md
+   start.md
 
 .. toctree::
    :maxdepth: 2
    :caption: Get started
    
-   start.md
    login.md
+   linux.md
 
 .. toctree::
    :maxdepth: 2
