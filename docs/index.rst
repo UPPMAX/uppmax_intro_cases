@@ -50,8 +50,9 @@ https://www.uppmax.uu.se/
    :maxdepth: 2
    :caption: More about UPPMAX
    
+   snic.md
    clusters.md
-   bianca
+   bianca.md
    software.md
    slurmintro.md
 
