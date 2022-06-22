@@ -23,7 +23,7 @@ Here you will find *some* of the documentation for the UPPMAX resources in a eas
    * - 
      - Linux  
      - Lecture+code along
-   * - 
+   * - 13:15
      - Using the UPPMAX systems  
      - Lecture+code along
 
