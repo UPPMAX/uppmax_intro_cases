@@ -1,3 +1,6 @@
-# What is Linux?
+# Linux
+## What is Linux?
 
+## Using the command line
 
+## Basic toolkit
