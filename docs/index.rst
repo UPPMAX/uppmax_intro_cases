@@ -54,7 +54,7 @@ https://www.uppmax.uu.se/
    clusters.md
    bianca.md
    software.md
-   slurmintro.md
+   slurm_intro.md
 
  
    
