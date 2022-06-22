@@ -35,8 +35,8 @@ https://www.uppmax.uu.se/
    :maxdepth: 2
    :caption: Overview
     
-   clusters.md
-   start.md
+   overview.md
+   hpc.md
 
 .. toctree::
    :maxdepth: 2
@@ -47,17 +47,14 @@ https://www.uppmax.uu.se/
 
 .. toctree::
    :maxdepth: 2
-   :caption: User guides
+   :caption: More about UPPMAX
    
-   userguide.md
+   clusters.md
+   bianca
    software.md
-   specific.md
+   slurmintro.md
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Courses
-   
-   courses.md   
+ 
    
 
 ..
