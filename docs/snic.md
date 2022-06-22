@@ -1,3 +1,5 @@
+# SNIC
+
 ## SNIC HPC Clusters
 
 ### Locally financed systems for local users
