@@ -44,6 +44,7 @@ https://www.uppmax.uu.se/
    
    login.md
    linux.md
+   linux_basics.md
 
 .. toctree::
    :maxdepth: 2
