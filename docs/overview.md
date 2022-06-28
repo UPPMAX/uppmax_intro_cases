@@ -1,14 +1,12 @@
 # Overview
 
-[UPPMAX = UppMACS] (http://uppmax.uu.se)
-    
-Uppsala Multidisciplinary Center for Advanced Computational Science 
-    Links to an external site.
+**UPPMAX = UppMACS**
+[Uppsala Multidisciplinary Center for Advanced Computational Science](http://uppmax.uu.se)
+
     
 ## Organisational orienteering
 
-    VR/SRC
-        Links to an external site. and a consortium of universities funds SNICLinks to an external site. — the Swedish National Infrastructure for Computing.
+[VR/SRC](https://www.vr.se/english.html) and a consortium of universities funds [SNIC](https://snic.se/) — the Swedish National Infrastructure for Computing.
     SNIC and Uppsala University fund UPPMAXLinks to an external site. — UU’s supercomputing centre.
     Compute and Storage is a unit of NBISLinks to an external site., the national bioinformatics support infrastructure and a SciLifeLab platform, and is hosted by UPPMAX.
     
