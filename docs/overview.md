@@ -32,7 +32,7 @@ More details in the afternoon about Organisational orienteering!
 
 - From small scale RaspberryPi cluster
      
-![RaspBerry](./img/IMG_5111.png)
+![RaspBerry](./img/IMG_5111.jpeg)
 
 - To supercomputers like Rackham.
 
@@ -40,7 +40,7 @@ More details in the afternoon about Organisational orienteering!
 
 - Each node contains several processor cores and RAM and a local disk called scratch.
 
-![Node](./img/node.jpg)
+![Node](./img/node.png)
 
 - The user logs in to login nodes via Internet through ssh or Thinlinc.
 
