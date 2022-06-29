@@ -39,6 +39,7 @@ More details in the afternoon about Organisational orienteering!
 ![Rackham](./img/uppmax-light2.jpg)
 
 - Each node contains several processor cores and RAM and a local disk called scratch.
+
 ![Node](./img/node.jpg)
 
 - The user logs in to login nodes via Internet through ssh or Thinlinc.
