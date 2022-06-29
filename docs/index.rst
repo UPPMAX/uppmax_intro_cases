@@ -36,7 +36,6 @@ https://www.uppmax.uu.se/
    :caption: Overview
     
    overview.md
-   hpc.md
 
 .. toctree::
    :maxdepth: 2
@@ -52,6 +51,7 @@ https://www.uppmax.uu.se/
    
    overview2.md
    snic.md
+   hpc.md
    clusters.md
    bianca.md
    software.md
