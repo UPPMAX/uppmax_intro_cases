@@ -46,17 +46,9 @@ More details in the afternoon about Organisational orienteering!
   - Here the file management and lighter data analysis can be performed.
 
 ![RaspBerry](./img/nodes.png)
+
 ![RaspBerry](./img/Bild1.png)
 
 - The calculation nodes has to be used for intense computing. 
 
-    "Normal" softwares use one core.
-    Parallelized software can utilize several cores or even several nodes. Keywords signalizing this are e.g.:
-        "multi-threaded", "MPI", "distributed memory", "openMP", "shared memory".
-    To let your software run on the calculation nodes
-        start an "interactive session" or
-        "submit a batch job".
-        More about this in today's lecture on jobs.
-
-        
         
