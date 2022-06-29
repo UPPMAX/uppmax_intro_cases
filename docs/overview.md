@@ -28,11 +28,11 @@ More details in the afternoon about Organisational orienteering!
 # High Performance Computing — HPC
 ## What is a cluster?
 
-    A network of computers, each computer working as a node.
+A network of computers, each computer working as a node.
 
-     From small scale RaspberryPi cluster
+From small scale RaspberryPi cluster
      
-     ![RaspBerry](./img/Bild1.png)
+![RaspBerry](./img/Bild1.png)
 
 To supercomputers like Rackham.
 Each node contains several processor cores and RAM and a local disk called scratch.
