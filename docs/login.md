@@ -13,7 +13,7 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 ```
 - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
 
-![Terminal](./img/Skärmavbild 2021-08-13 kl. 15.21.03.png)
+![Terminal](./img/Mac_terminal.png)
 
 - For copying of files between your client computer (where you are) and the cluster Filezilla can be the choice.
         https://filezilla-project.org/download.php?type=client (Links to an external site.) 
@@ -23,67 +23,59 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 ![Caption](./img/fz3_osx_main.png )
 
  
+- If problem with installations, the built-in terminal is sufficient first days of the course!
 
-    If problem with installations, the built-in terminal is sufficient first days of the course!
+## Windows users
 
-Windows users
+- Download and install ONE of the X-servers below (to enable graphics)
+  - GWSL https://sourceforge.net/projects/vcxsrv/ (Links to an external site.)
+  - X-ming https://opticos.github.io/gwsl (Links to an external site.)z
+  - VcXsrv https://sourceforge.net/projects/xming/ (Links to an external site.)
 
-    Download and install ONE of the X-servers below (to enable graphics)
-        GWSL https://sourceforge.net/projects/vcxsrv/ (Links to an external site.)
-        X-ming https://opticos.github.io/gwsl (Links to an external site.)z
-        VcXsrv https://sourceforge.net/projects/xming/ (Links to an external site.)
-
- 
-
-    Install WSL (Windows Subsystem for Linux) 
-        https://docs.microsoft.com/en-us/windows/wsl/install-win10 (Links to an external site.)
-            Don’t forget to update to wsl2
-    Install a distribution or a ssh (secure shell) program
-        Distribution such as ubuntu or
-        (recommended) a ssh program such as MobaXTerm
-            https://mobaxterm.mobatek.net/ (Links to an external site.)
-            sftp frame makes it easy to move, upload and download files.
+- not necessary:
+  - Install WSL (Windows Subsystem for Linux) 
+    - https://docs.microsoft.com/en-us/windows/wsl/install-win10 (Links to an external site.)
+    - Don’t forget to update to wsl2
+- Install a distribution or a ssh (secure shell) program
+  - Distribution such as ubuntu or
+  - (recommended) a ssh program such as MobaXTerm
+  - https://mobaxterm.mobatek.net/ (Links to an external site.)
+    - sftp frame makes it easy to move, upload and download files.
 
  
 
-    You may want to check this webpage as well!
-        https://hackmd.io/@pmitev/Linux4WinUsers (Links to an external site.)
+- You may want to check this webpage as well!
+  - https://hackmd.io/@pmitev/Linux4WinUsers (Links to an external site.)
 
  
-MobaXterm
+## MobaXterm
 
-![Caption](./img/Skärmbild 2021-08-13 152756.jpg )
+![Caption](./img/mobax.jpg )
 
- 
+- Start local terminal and a SSH session by:
 
-    Start local terminal and a SSH session by:
-
+```bash=
 $ ssh -X username@rackham.uppmax.uu.se
+```
 
-![Caption](./img/Skärmbild 2021-08-23 121634.jpg)
+![Caption](./img/mobax_start1.jpg)
 
- 
+- Or even better, create and save a SSH session, as shown in image below.
+  - This allows you to use MobaXterm as a file manager and  to use the built-in graphical texteditor.
+  - You can rename the session in the Bookmark settings tab.
 
-    Or even better, create and save a SSH session, as shown in image below.
-        This allows you to use MobaXterm as a file manager and  to use the built-in graphical texteditor.
-        You can rename the session in the Bookmark settings tab.
+![Caption](./img/mobax_start.jpg)
 
- 
-
-![Caption](./img/Skärmbild 2021-08-20 110716.jpg)
-
- 
-
-    If problem with installations, the putty.exe terminal is sufficient first days of the course!
-        No graphics.
-        https://www.putty.org/ (Links to an external site.)
+- If problem with installations, the putty.exe terminal is sufficient first days of the course!
+  - No graphics.
+  - https://www.putty.org/ (Links to an external site.)
 
  
 
-![Caption](./img/Skärmbild 2021-08-23 121347.jpg)
+![Caption](./img/putty.jpg)
 
  
-X11-forwarding from the command line
+## X11-forwarding from the command line
 
     Graphics can be sent through the SSH connection you’re using to connect
         Use primarily ssh -Y <...> or secondary ssh -X <...>
