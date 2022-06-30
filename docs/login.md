@@ -77,18 +77,16 @@ $ ssh -X username@rackham.uppmax.uu.se
  
 ## X11-forwarding from the command line
 
-    Graphics can be sent through the SSH connection you’re using to connect
-        Use primarily ssh -Y <...> or secondary ssh -X <...>
+- Graphics can be sent through the SSH connection you’re using to connect
+  - Use primarily ssh -Y <...> or secondary ssh -X <...>
 
- 
-
-    The X servers that enables graphics are needed, as mentioned above!
-    When starting a graphical program, a new window will open, but your terminal will be “locked”.
-    Run using "&" at the end to run it as a background process e.g. "xeyes &" or “gedit &”
+- The X servers that enables graphics are needed, as mentioned above!
+  - When starting a graphical program, a new window will open, but your terminal will be “locked”.
+  - Run using "&" at the end to run it as a background process e.g. "xeyes &" or “gedit &”
 
 ![Caption](./img/xeyes.png)
 
-    Alternatively, use ctrl-z to put e.g. gedit to sleep and type "bg" to make last process in background.
+- Alternatively, use ctrl-z to put e.g. gedit to sleep and type "bg" to make last process in background.
 
  
 ### ThinLinc (all platforms!)
