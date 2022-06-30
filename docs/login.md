@@ -89,7 +89,7 @@ $ ssh -X username@rackham.uppmax.uu.se
 - Alternatively, use ctrl-z to put e.g. gedit to sleep and type "bg" to make last process in background.
 
  
-### ThinLinc (all platforms!)
+## ThinLinc (all platforms!)
 
 - Both Rackham and Bianca offer graphical login.
 - This gives you a desktop environment, as if you were working on your own computer!
