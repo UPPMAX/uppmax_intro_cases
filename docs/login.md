@@ -3,8 +3,8 @@
 ## MAC and LINUX users
 
 - Download XQuartz or other X11 server for Mac OS
-  - https://www.xquartz.org/ (Links to an external site.) )
-  -This is to enable graphics.
+  - [https://www.xquartz.org/](https://www.xquartz.org/)
+  - This is to enable graphics.
 
 - Start built-in Terminal.
 
