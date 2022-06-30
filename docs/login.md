@@ -11,20 +11,16 @@
 ```bash=
 $ ssh -Y <username>@rackham.uppmax.uu.se
 ```
+- "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
 
+![Terminal](./img/Skärmavbild 2021-08-13 kl. 15.21.03.png)
 
-    "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
-
-Skärmavbild 2021-08-13 kl. 15.21.03.png
-
- 
-
-    For copying of files between your client computer (where you are) and the cluster Filezilla can be the choice.
+- For copying of files between your client computer (where you are) and the cluster Filezilla can be the choice.
         https://filezilla-project.org/download.php?type=client (Links to an external site.) 
 
  
 
-fz3_osx_main.png  
+![Caption](./img/fz3_osx_main.png )
 
  
 
@@ -56,7 +52,7 @@ Windows users
  
 MobaXterm
 
-Skärmbild 2021-08-13 152756.jpg 
+![Caption](./img/Skärmbild 2021-08-13 152756.jpg )
 
  
 
@@ -64,7 +60,7 @@ Skärmbild 2021-08-13 152756.jpg
 
 $ ssh -X username@rackham.uppmax.uu.se
 
-Skärmbild 2021-08-23 121634.jpg
+![Caption](./img/Skärmbild 2021-08-23 121634.jpg)
 
  
 
@@ -74,7 +70,7 @@ Skärmbild 2021-08-23 121634.jpg
 
  
 
-Skärmbild 2021-08-20 110716.jpg
+![Caption](./img/Skärmbild 2021-08-20 110716.jpg)
 
  
 
@@ -84,7 +80,7 @@ Skärmbild 2021-08-20 110716.jpg
 
  
 
-Skärmbild 2021-08-23 121347.jpg
+![Caption](./img/Skärmbild 2021-08-23 121347.jpg)
 
  
 X11-forwarding from the command line
@@ -98,7 +94,7 @@ X11-forwarding from the command line
     When starting a graphical program, a new window will open, but your terminal will be “locked”.
     Run using "&" at the end to run it as a background process e.g. "xeyes &" or “gedit &”
 
-xeyes.png
+![Caption](./img/xeyes.png)
 
     Alternatively, use ctrl-z to put e.g. gedit to sleep and type "bg" to make last process in background.
 
@@ -114,7 +110,7 @@ ThinLinc (all platforms!)
 
  
 
-Skärmbild 2021-08-18 114619.jpg
+![Caption](./img/Skärmbild 2021-08-18 114619.jpg)
 
  
 
