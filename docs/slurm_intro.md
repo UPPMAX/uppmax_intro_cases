@@ -4,11 +4,11 @@
 - Problem: 1000 users, 500 nodes, 10k cores
   - Need a queue:
 
-[Image](./img/queue1.png)
+![Image](./img/queue1.png)
 
 - Easiest to schedule single-threaded, short jobs
 
-[Image](./img/queue2.png)
+![Image](./img/queue2.png)
 [Image](./img/queue3.png)
 
 ## Jobs
