@@ -264,7 +264,7 @@ MANUAL SECTIONS
 ### Let’s get wild with Wildcards
 
 
-![Caption](./img/wildcards bear.png)
+![Caption](./img/wildcards_bear.png)
 
 $ ls many_files
 
