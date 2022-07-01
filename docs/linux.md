@@ -95,66 +95,52 @@
 ![Content](./img/tab.png)
 
  
-Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
+- Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
 ask Bash to complete what you’re writing.
 
-    Get in the habit of this — it will save you many hours!
+- Get in the habit of this — it will save you many hours!
 
  
 ### Editing files
 
 ![Content](./img/edit.png)
 
-File/text editors :
+#### File/text editors
 
-    gedit (graphical user interface — GUI, needs X-server)
+- gedit (graphical user interface — GUI, needs X-server)
 
+- Also graphical editor within MobaXterm
+
+- nano (keyboard shortcuts shown on-screen)
+  - Cheatsheet: http://staffwww.fullcoll.edu/sedwards/nano/UsefulNanoKeyCommands.html (Links to an external site.)
+    - (^ = Ctrl, M = meta key)
+       - (Windows M = Alt)
+       - (On Mac: in the Terminal.app go to Preferences -> Settings -> Keyboard and turn on "Use option as meta key": then M = Alt
+
+- vim (fast and powerful, once you learn it)
+  - on UPPMAX started with command "vi"
+
+  - 1. Insert mode (type like normal text editor. Press i for insert mode)
+
+  - 2. Command mode (give commands to the editor to get things done . Press ESC for command mode)
+  - Cheatsheet: https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started (Links to an external site.)
  
+- gvim vim with a GUI, lots of features very Fast
 
-    Also graphical editor within MobaXterm
+- emacs (fast and powerful, once you learn it)
+  - Cheatsheet: https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf (Links to an external site.)
+    - (C = Ctrl)
+   - also With GUI
+   - $ emacs –nw
+     - keeps you in terminal window.
 
- 
+- When starting the graphical versions, add "&" to be able to use the command line while program is open.
+  - $ gedit &
+  - If not, you can Ctrl+z and type bg to send program to background.
 
-    nano (keyboard shortcuts shown on-screen)
-        Cheatsheet: http://staffwww.fullcoll.edu/sedwards/nano/UsefulNanoKeyCommands.html (Links to an external site.)
-            (^ = Ctrl, M = meta key)
-                (Windows M = Alt)
-                (On Mac: in the Terminal.app go to Preferences -> Settings -> Keyboard and turn on "Use option as meta key": then M = Alt
+- **Try them out and pick one favorite editor!**
 
- 
 
-    vim (fast and powerful, once you learn it)
-        on UPPMAX started with command "vi"
-
-        1. Insert mode (type like normal text editor. Press i for insert mode)
-
-        2. Command mode (give commands to the editor to get things done . Press ESC for command mode)
-        Cheatsheet: https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started (Links to an external site.)
-
- 
-
-    gvim vim with a GUI, lots of features very Fast
-
- 
-
-    emacs (fast and powerful, once you learn it)
-        Cheatsheet: https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf (Links to an external site.)
-            (C = Ctrl)
-        also With GUI
-        $ emacs –nw
-             keeps you in terminal window.
-
- 
-
-    When starting the graphical versions, add "&" to be able to use the command line while program is open.
-        $ gedit &
-        If not, you can Ctrl+z and type bg to send program to background.
-
- 
-
-    Try them out and pick one favorite editor!
-
- 
 ### Typical sources of error
 
 ![Content](./img/cross.png)
