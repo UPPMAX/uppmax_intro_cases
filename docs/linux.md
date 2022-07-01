@@ -145,43 +145,41 @@ ask Bash to complete what you’re writing.
 
 ![Content](./img/cross.png)
 
-    Capitalization matters in file names and program names
+- Capitalization matters in file names and program names
 
-    Spaces matter.
-        Always have a space after the program name.
-        Don’t add spaces within file names.
-    Check that you are in the right place in the file system.
-    File permissions. Check that the right read,write and execute permission are set.
+- Spaces matter.
+  - Always have a space after the program name.
+  - Don’t add spaces within file names.
+- Check that you are in the right place in the file system.
+- File permissions. Check that the right read,write and execute permission are set.
 
  
 ### Caution!!
 
 ![Content](./img/caution.png)
 
- 
-
-    Some words of warning:
-        There is no undo for
-            copy (cp),
-            move (mv), and
-            remove (rm).
-        Beware of overwriting files and deleting the wrong ones.
+- Some words of warning:
+  - There is no undo for
+    - copy (cp),
+    - move (mv), and
+    - remove (rm).
+  - **Beware of overwriting files and deleting the wrong ones.**
 
  
 
-    Tip: make "rm" ask if you really want to erase:
-        Within a session: Type in the command prompt
+- **Tip: make "rm" ask if you really want to erase:**
+  - Within a session: Type in the command prompt
 
         alias rm=‘rm -i’
 
-        Override asking with 
+  - Override asking with 
 
         rm –f <>
 
-        Edit file ".bashrc" in /home directory by adding the alias line for this to start everytime.
-    This will also work for mv and cp!
+  - Edit file ".bashrc" in /home directory by adding the alias line for this to start everytime.
+- This will also work for mv and cp!
 
  
 
-    If you do destroy your data, email UPPMAX support, we may be able to help.
+- If you do destroy your data, email UPPMAX support, we may be able to help.
 
