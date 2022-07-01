@@ -1,7 +1,7 @@
-
 ## Basic toolkit
 
- terminal.png
+
+![Caption](./img/terminal.png)
 
  
 ### We will cover these commands
@@ -263,7 +263,8 @@ MANUAL SECTIONS
  
 ### Let’s get wild with Wildcards
 
-wildcards bear.png
+
+![Caption](./img/wildcards bear.png)
 
 $ ls many_files
 
@@ -294,7 +295,8 @@ $ ls
 
  
 #### cat - concatenate files and print on the standard output
-cat.png
+
+![Caption](./img/cat.png)
 
  
 
@@ -317,7 +319,8 @@ $ cat a the_best > combinedfiles.txt
  
 #### head — display the top of a file
 
-head.png 
+
+![Caption](./img/head.png)
 
 $ head a
 
@@ -328,7 +331,8 @@ $ head -n 4 a
  
 #### tail — display the end of a file
 
-tail.png
+
+![Caption](./img/tail.png)
 
     Tail is the same as head, but for the other end.
 
@@ -351,7 +355,8 @@ $ less a
 “less is more”
 ### File permissions
 
-permission.png
+
+![Caption](./img/permission.png)
 
 #### Example
 
