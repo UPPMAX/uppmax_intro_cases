@@ -67,6 +67,6 @@ Software
 
  
 
-![Image](./img/Thinlinc2.jpg
+![Image](./img/Thinlinc2.jpg)
 
  
