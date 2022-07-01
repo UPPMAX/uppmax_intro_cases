@@ -4,18 +4,18 @@
  terminal.png
 
  
-We will cover these commands
-Navigation and file management
+### We will cover these commands
+#### Navigation and file management
 
-    pwd  present directory
-    ls  list content
-    cd  change directory
-    mkdir  make directory
-    cp  copy
-    scp  remotely copy
-    mv  move
-    rm  remove
-    rmdir  remove empty directory
+1. pwd  present directory
+1. ls  list content
+1. cd  change directory
+1. mkdir  make directory
+1. cp  copy
+1. scp  remotely copy
+1. mv  move
+1. rm  remove
+1. rmdir  remove empty directory
 
  
 Read files and change file properties
