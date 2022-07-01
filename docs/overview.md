@@ -25,8 +25,8 @@ More details in the afternoon about Organisational orienteering!
 - Cloud
   - Dis (region EAST-1)
 
-# High Performance Computing — HPC
-## What is a cluster?
+## High Performance Computing — HPC
+### What is a cluster?
 
 - A network of computers, each computer working as a node.
 
