@@ -355,23 +355,26 @@ permission.png
 
 #### Example
 
-  $ ls -l
+```bash=
+$ ls -l
 
   drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd 
   -rwxr-xr-x 1 marcusl marcusl 17198 Jul 16 14:12 files.tar.gz
-
+```
 - Leading symbol:
   - d directory
   - - regular file
   - l symbolic link (more on this tomorrow)
   - Others exist, but you can ignore them for now
 
+  ```bash=
   $ ls -l
-
+ 
   drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd
 
   -rwxr-xr-x 1 marcusl marcusl 17198 Jul 16 14:12 files.tar.gz
-
+  ```
+  
 - Three sets of “rwx” permissions
   - rwx: r ead, w rite, ex ecute
   - User: the user account that owns the file (usually the one that created it)
@@ -392,7 +395,9 @@ permission.png
 
 - Now try:
 
+  ```bash=
   $ ls -l /proj/introtouppmax/
+```
 
 - Huh, rwxrwsr-x?
 - ‘s’ in the group means ‘x’ but with gid bit set ( g roup id of creator not launcher).
