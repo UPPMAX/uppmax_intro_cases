@@ -52,7 +52,6 @@ https://www.uppmax.uu.se/
    overview2.md
    hpc.md
    snic.md
-   clusters.md
    bianca.md
    software.md
    slurm_intro.md
