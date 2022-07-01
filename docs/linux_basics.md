@@ -349,7 +349,7 @@ $ less a
     "man" uses "less"!
 
 “less is more”
-## File permissions
+### File permissions
 
 permission.png
 
