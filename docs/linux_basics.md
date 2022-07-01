@@ -360,11 +360,11 @@ permission.png
   drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd 
   -rwxr-xr-x 1 marcusl marcusl 17198 Jul 16 14:12 files.tar.gz
 
--    Leading symbol:
-  -      d directory
-  -      - regular file
-  -      l symbolic link (more on this tomorrow)
-  -      Others exist, but you can ignore them for now
+- Leading symbol:
+  - d directory
+  - - regular file
+  - l symbolic link (more on this tomorrow)
+  - Others exist, but you can ignore them for now
 
   $ ls -l
 
@@ -372,23 +372,23 @@ permission.png
 
   -rwxr-xr-x 1 marcusl marcusl 17198 Jul 16 14:12 files.tar.gz
 
--    Three sets of “rwx” permissions
-        rwx: r ead, w rite, ex ecute
-        User: the user account that owns the file (usually the one that created it)
-        Group: the group that owns the file (usually the project group in /proj/xyz or  the user’s group elsewhere
-        Others: everyone else on the system (literally a thousand strangers)
+- Three sets of “rwx” permissions
+  - rwx: r ead, w rite, ex ecute
+  - User: the user account that owns the file (usually the one that created it)
+  - Group: the group that owns the file (usually the project group in /proj/xyz or  the user’s group elsewhere
+  - Others: everyone else on the system (literally a thousand strangers)
 
--    r – read
-        Files: Read the contents of the file
-        Directories: List the files in the directory
+- r – read
+  - Files: Read the contents of the file
+  - Directories: List the files in the directory
 
--    w – write
-        Files: Modify the file
-        Directories: Add, rename, or delete files in the directory
+- w – write
+  - Files: Modify the file
+  - Directories: Add, rename, or delete files in the directory
 
--    x – execute
-        Files: Run the file as a program
-        Directories: Traverse the directory (e.g. with “cd”)
+- x – execute
+  - Files: Run the file as a program
+  - Directories: Traverse the directory (e.g. with “cd”)
 
 - Now try:
 
