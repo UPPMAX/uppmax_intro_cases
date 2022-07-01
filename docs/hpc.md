@@ -46,8 +46,7 @@
         
  ## The UPPMAX hardware   
  
- 
-    More about the systems can be found https://www.uppmax.uu.se/resources/systems/Links to an external site. .
+- More about the systems can be found https://www.uppmax.uu.se/resources/systems/Links to an external site. .
 
  
 ### A little bit more about Snowy
