@@ -41,7 +41,7 @@ Some commands:
 ### Python packages
 [Python packages](https://uppmax.uu.se/support/user-guides/python-user-guide/)
 
-    #### Conda
+#### Conda
 - [Conda user guide](https://www.uppmax.uu.se/support/user-guides/conda-user-guide/)
 
 ### "Containers"
