@@ -8,7 +8,8 @@
 
 - Easiest to schedule single-threaded, short jobs
 
-[Image](./img/queue2.pngqueue3.png)
+[Image](./img/queue2.png)
+[Image](./img/queue3.png)
 
 ## Jobs
 - Job = what happens during booked time
