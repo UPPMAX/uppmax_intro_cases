@@ -80,10 +80,10 @@
 ### Example bash command
 
 
-![Content](./img/mv inbox.png)
+![Content](./img/mv_inbox.png)
 
 
-![Content](./img/program flags.png)
+![Content](./img/program_flags.png)
 
 - Terminal screen shows
 
