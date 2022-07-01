@@ -397,7 +397,7 @@ $ ls -l
 
   ```bash=
   $ ls -l /proj/introtouppmax/
-```
+  ```
 
 - Huh, rwxrwsr-x?
 - ‘s’ in the group means ‘x’ but with gid bit set ( g roup id of creator not launcher).
