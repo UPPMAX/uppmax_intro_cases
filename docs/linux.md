@@ -53,9 +53,10 @@
 
 - [info] is configurable, and usually tells you who you are, on what system, and where in the file system.
   - Example: 
+
     ```bash=
-[bjornc@rackham3 linux_tutorial]$
-```
+      [bjornc@rackham3 linux_tutorial]$
+    ```
 
   - For changing info (only for advanced users!):
     - https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html (Links to an external site.)
