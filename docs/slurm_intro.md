@@ -9,7 +9,7 @@
 - Easiest to schedule single-threaded, short jobs
 
 ![Image](./img/queue2.png)
-[Image](./img/queue3.png)
+![Image](./img/queue3.png)
 
 ## Jobs
 - Job = what happens during booked time
@@ -33,7 +33,7 @@
   - -n 1
   - -t 10-00:00:00
 
-[Image](./img/queue1.png)
+![Image](./img/queue1.png)
 
  
 
