@@ -33,7 +33,7 @@
  
 ## Using the command line
 
-Command line with bash (Bourne Again Shell)
+### Command line with bash (Bourne Again Shell)
 
     A Unix shell and command language.
     Often default shell
@@ -67,7 +67,7 @@ Command line with bash (Bourne Again Shell)
 
 
  
-The prompt
+### The prompt
 
 [info]$ program word1 word2 word3 […]
 
@@ -82,7 +82,7 @@ The prompt
         All words are separated by spaces
 
  
-Program, flags, and files
+### Program, flags, and files
 
     Input to the program:
         Flags: specific single letters or words that change the behaviour of a program.
@@ -117,7 +117,7 @@ program flags.png
 ![Content](./img/screen.png)               
 
  
-Tab Completion
+### Tab Completion
 
 ![Content](./img/tab.png)
 
@@ -128,7 +128,7 @@ ask Bash to complete what you’re writing.
     Get in the habit of this — it will save you many hours!
 
  
-Editing files
+### Editing files
 
 ![Content](./img/edit.png)
 
@@ -182,7 +182,7 @@ File/text editors :
     Try them out and pick one favorite editor!
 
  
-Typical sources of error
+### Typical sources of error
 
 ![Content](./img/cross.png)
 
@@ -195,7 +195,7 @@ Typical sources of error
     File permissions. Check that the right read,write and execute permission are set.
 
  
-Caution!!
+### Caution!!
 
 ![Content](./img/caution.png)
 
