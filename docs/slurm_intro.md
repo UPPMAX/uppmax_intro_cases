@@ -4,13 +4,13 @@
     Problem: 1000 users, 500 nodes, 10k cores
         Need a queue:
 
-queue1.png
+[Image](./img/queue1.png)
 
  
 
     Easiest to schedule single-threaded, short jobs
 
-queue2.pngqueue3.png
+[Image](./img/queue2.pngqueue3.png)
 
 ## Jobs
     Job = what happens during booked time
@@ -34,7 +34,7 @@ queue2.pngqueue3.png
         -n 1
         -t 10-00:00:00
 
-queue1.png
+[Image](./img/queue1.png)
 
  
 
