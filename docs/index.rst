@@ -50,8 +50,8 @@ https://www.uppmax.uu.se/
    :caption: More about UPPMAX
    
    overview2.md
-   snic.md
    hpc.md
+   snic.md
    clusters.md
    bianca.md
    software.md
