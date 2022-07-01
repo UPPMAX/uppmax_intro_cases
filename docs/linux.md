@@ -34,85 +34,57 @@
 ## Using the command line
 
 ### Command line with bash (Bourne Again Shell)
-
-    A Unix shell and command language.
-    Often default shell
+- A Unix shell and command language.
+- Often default shell
 
 ![Content](./img/shell.jpg)
 
- 
+- The command-line interface: the bash prompt $
+- bash can be seen as a program that finds and runs other programs
+- bash is scripting language that is referred to as a shell
+  - (because it sits around the kernel making it easy to interact with)
 
- 
-
- 
-
-    The command-line interface: the bash prompt $
-    bash can be seen as a program that finds and runs other programs
-    bash is scripting language that is referred to as a shell
-        (because it sits around the kernel making it easy to interact with)
-
- 
-
-![Content](./img/unix_architecture.jpg)
-
- 
-
- 
-
- 
-
- 
-
- 
-
+ ![Content](./img/unix_architecture.jpg)
 
  
 ### The prompt
 
 [info]$ program word1 word2 word3 […]
 
-    [info] is configurable, and usually tells you who you are, on what system, and where in the file system.
-        Example: 
+- [info] is configurable, and usually tells you who you are, on what system, and where in the file system.
+  - Example: 
+    ```bash=
+[bjornc@rackham3 linux_tutorial]$
+```
 
-        [bjornc@rackham3 linux_tutorial]$
-
-        For changing info (only for advanced users!):
-            https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html (Links to an external site.)
-        The program to run is the first word
-        All words are separated by spaces
+  - For changing info (only for advanced users!):
+    - https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html (Links to an external site.)
+  - The program to run is the first word
+  - All words are separated by spaces
 
  
 ### Program, flags, and files
 
-    Input to the program:
-        Flags: specific single letters or words that change the behaviour of a program.
-        Arguments: text given to the program when started, e.g. file names.
-        Terminal input: text given to the program while it runs.
+- Input to the program:
+  - Flags: specific single letters or words that change the behaviour of a program.
+  - Arguments: text given to the program when started, e.g. file names.
+  - Terminal input: text given to the program while it runs.
 
-    Output from the program:
-        Most Linux programs output to the terminal.
-        Some programs also write to files.
-
- 
+- Output from the program:
+  - Most Linux programs output to the terminal.
+  - Some programs also write to files.
 
 ![Content](./img/folders.png)
-
  
+### Example bash command
 
- 
 
- 
+![Content](./img/mv inbox.png)
 
- 
 
- 
-Example bash command
+![Content](./img/program flags.png)
 
-mv inbox.png
-
-program flags.png
-
-      Terminal screen shows
+- Terminal screen shows
 
 ![Content](./img/screen.png)               
 
