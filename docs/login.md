@@ -27,6 +27,13 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 
 ## Windows users
 
+- Install a ssh (secure shell) program
+  - MobaXterm
+  -  https://mobaxterm.mobatek.net/ (Links to an external site.)
+    - sftp frame makes it easy to move, upload and download files.
+  - See section below
+
+
 - Download and install ONE of the X-servers below (to enable graphics)
   - GWSL https://sourceforge.net/projects/vcxsrv/ (Links to an external site.)
   - X-ming https://opticos.github.io/gwsl (Links to an external site.)z
