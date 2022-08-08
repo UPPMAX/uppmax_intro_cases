@@ -27,12 +27,20 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 
 ## Windows users
 
-- Install a ssh (secure shell) program
-  - MobaXterm
-  -  https://mobaxterm.mobatek.net/ (Links to an external site.)
+### Most straigt-forward
+- Install a ssh (secure shell) program with built-in X11 and sftp file manager
+  - [MobaXterm](https://mobaxterm.mobatek.net/)
     - sftp frame makes it easy to move, upload and download files.
   - See section below
 
+- If problem with above installation, the putty.exe terminal is sufficient first days of the course!
+
+    - No graphics.
+
+    - [https://www.putty.org/](https://www.putty.org/)
+
+
+### A bit more complicated (and not necessary)
 
 - Download and install ONE of the X-servers below (to enable graphics)
   - GWSL https://sourceforge.net/projects/vcxsrv/ (Links to an external site.)
