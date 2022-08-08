@@ -46,13 +46,11 @@
         
  ## The UPPMAX hardware   
  
-- More about the systems can be found https://www.uppmax.uu.se/resources/systems/Links to an external site. .
+- More about the systems can be found at the [System resources page](https://www.uppmax.uu.se/resources/systems/)
 
  
 ### A little bit more about Snowy
 
-- User guide
-  - https://www.uppmax.uu.se/support/user-guides/snowy-user-guide/Links .
-  - There is a local compute round for UU users applying for Snowy in SUPR.
-         https://supr.snic.se/round/uppmaxcompute2021/Links to an external site.
-  - GU applications (including GU GPU usage) are not done in SUPR, but are supposed to be routed through the service desk. The details can be found at https://www.uppmax.uu.se/support/getting-started/course-projects/Links to an external site. .
+- [User guide](https://www.uppmax.uu.se/support/user-guides/snowy-user-guide/).
+  - There is a [local compute round](https://supr.snic.se/round/uppmaxcompute2021/) for UU users applying for Snowy in SUPR.
+  - GU (courses) applications (including GU GPU usage) are not done in SUPR, but are supposed to be routed through the service desk. The details can be found at the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/).
