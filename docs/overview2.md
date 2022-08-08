@@ -46,7 +46,7 @@
   - intro courses like this
 - Transfer computational know-how within the respective fields
   - Physics, chemistry, bioinformatics, geoscience, coding
-  - https://www.uppmax.uu.se/about-us/application-experts/Links to an external site.
+  - [About the application-experts](https://www.uppmax.uu.se/about-us/application-experts/)
 - In other words:
   - installing software,
   - troubleshooting,
