@@ -31,12 +31,10 @@
 - The purpose of Swestore allocations, granted by Swedish National Allocations Committee (SNAC), is to provide large scale data storage for “live” or “working” research data, also known as active research data.
 - https://www.snic.se/resources/swestore/'
 
-### UPPMAX storage
+### UPPMAX storage system names
 - Rackham storage: Crex & Domus
 - Bianca storage: Castor & Cygnus
 - NGI production system: Irma & Lupus / Miarka & Vulpes
 - NGI delivery server: Grus
 - Off-load storage: Lutra
 
-
-### UPPMAX storage system names
