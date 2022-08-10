@@ -72,9 +72,11 @@
 - Quickly give you a job and logs you in to the compute node
 - Require same Slurm parameters as other jobs
 - Try it:
-  - ```bash=
+
+```bash=
   $ interactive -A snic2021-22-606 -p core -n 1 -t 10:00
-    ```
+```
+
 - Which node are you on?
   - Logout with Ctrl-D or logout
 
@@ -119,7 +121,7 @@ echo Hello world!
 - Jobstats — efficiency of booked resources
 
  
-### More on next Thursday!
+### More on Thursday afternoon!
 
  
 
