@@ -52,12 +52,16 @@ Some commands:
 Docker will unfortunately not work on the clusters, since it requires root permission.
 
 ### Build from source
-
-#### Rackham
-
-
+- We have several compiler versions from GNU and INTEL
+- [Guide for compiling serial and parallel programs](https://www.uppmax.uu.se/support/user-guides/mpi-and-openmp-user-guide/)
+    
 ### Spack
+- The UPPMAX staff has already other ways to install most software applications. 
+- Please use Spack only if other ways to install your tool is not possible or very difficult, e.g. requiring very many dependencies and it is not available through, e.g. Easybuild.
+- [Spack user guide at UPPMAX](https://www.uppmax.uu.se/support/user-guides/spack-on-uppmax/)
 
 ### Own development...
-
+- You may have your own code that you want to run on UPPMAX.
+- See above for the available compilers and parallel libraries
+- [User guide for debuggers and profilers](https://www.uppmax.uu.se/support/user-guides/debuggers-and-profiling-tools/)
 
