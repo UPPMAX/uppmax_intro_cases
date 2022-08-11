@@ -27,7 +27,7 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 
 ## Windows users
 
-### Most straigt-forward
+### Most straight-forward
 - Install a ssh (secure shell) program with built-in X11 and sftp file manager
   - [MobaXterm](https://mobaxterm.mobatek.net/)
     - sftp frame makes it easy to move, upload and download files.
