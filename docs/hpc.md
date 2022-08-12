@@ -52,7 +52,7 @@
 
   -  [Rackham](https://www.uppmax.uu.se/resources/systems/the-rackham-cluster/)
 , reserved for SNIC projects
-  -  [Snowy](https://www.uppmax.uu.se/resources/systems/the-snowy-cluster/), GPU and long jobs reserved for UPPMAX projects
+  -  [Snowy](https://www.uppmax.uu.se/resources/systems/the-snowy-cluster/), GPU, long jobs reserved for UPPMAX projects and Education
   -  [Bianca](https://www.uppmax.uu.se/resources/systems/the-bianca-cluster/)
 , a part of SNIC-SENS
   -  [Miarka](https://www.uppmax.uu.se/resources/systems/miarka-cluster/), reserved for Scilifelab production
@@ -77,7 +77,7 @@
 
 - [User guide](https://www.uppmax.uu.se/support/user-guides/snowy-user-guide/).
   - There is a [local compute round](https://supr.snic.se/round/uppmaxcompute2021/) for UU users applying for Snowy in SUPR.
-  - GU (courses) applications (including GU GPU usage) are not done in SUPR, but are supposed to be routed through the service desk. The details can be found at the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/).
+  - GU (courses) applications (including GU GPU usage) are not done in SUPR, but are supposed to be routed through the service desk.   - The details can be found at the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/).
 
 ### About Bianca?
 - Wait for it!
@@ -87,10 +87,10 @@
 | |Rackham|Snowy|Bianca|
 |-------|-----|------|---|
 |**Purpose**|General-purpose|General-purpose|Sensitive|
-|**# Nodes**|486|228<br>50 Nvidia T4 GPUs|204<br>4 nodes á 2 NVIDIA A100 GPUs|
-|**Cores per node**|20|16|16|
+|**# Nodes**|486+144|228<br>50 Nvidia T4 GPUs|204<br>4 nodes á 2 NVIDIA A100 GPUs|
+|**Cores per node**|20/16|16|16|
 |**Memory/node**|128 GB|128 GB|128 GB
-|**Fat nodes**|256GB & 1 TB| 256, 512 GB & 4 TB| 256 & 512 GB|
+|**Fat nodes**|256GB,1 & 3 TB| 256, 512 GB & 4 TB| 256 & 512 GB|
 |**Local disk (scratch)**|2 TB| 4 TB| 4 TB |
 |**Login nodes**|Yes| No (reached from Rackham)|Yes|
 |**Storage**|Crex, Lutra|Crex, Lutra|Castor, Cygnus|
