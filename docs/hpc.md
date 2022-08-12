@@ -87,7 +87,7 @@
 | |Rackham|Snowy|Bianca|
 |-------|-----|------|---|
 |**Purpose**|General-purpose|General-purpose|Sensitive|
-|**# Nodes**|486|228 +50 Nvidia T4 GPUs|204 +4 nodes á 2 NVIDIA A100 GPUs|
+|**# Nodes**|486|228<br>50 Nvidia T4 GPUs|204<br>4 nodes á 2 NVIDIA A100 GPUs|
 |**Cores per node**|20|16|16|
 |**Memory/node**|128 GB|128 GB|128 GB
 |**Fat nodes**|256GB & 1 TB| 256, 512 GB & 4 TB| 256 & 512 GB|
