@@ -82,6 +82,7 @@
 ### About Bianca?
 - Wait for it!
 
+## Summary about the three "common" UPPMAX clusters
 
 | |Rackham|Snowy|Bianca|
 |-------|-----|------|---|
