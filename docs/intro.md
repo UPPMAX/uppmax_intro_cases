@@ -51,7 +51,7 @@ and limited to last, perhaps, 500 rows
 - shellshare
 - your own terminal
 
-![4windows](./img/4windows.jpeg)
+![worst](./img/worst.jpeg)
 
 
 ## Modules
