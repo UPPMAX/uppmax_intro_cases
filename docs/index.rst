@@ -33,6 +33,12 @@ https://www.uppmax.uu.se/
 
 .. toctree::
    :maxdepth: 2
+   :caption: Intro
+    
+   intro.md
+
+.. toctree::
+   :maxdepth: 2
    :caption: Overview
     
    overview.md
