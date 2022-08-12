@@ -60,6 +60,13 @@
 
 - The storage systems we have provide a total volume of about 20 PB, the equivalent of nearly 15 billion 3.5-inch floppy disks or 40,000 years of 128-bit encoded music. Read more on the storage systems page.
 
+### UPPMAX storage system names
+- Rackham storage: Crex & Domus
+- Bianca storage: Castor & Cygnus
+- NGI production system (Miarka): Vulpes
+- NGI delivery server: Grus
+- Off-load storage: Lutra
+
 ### System usage
 [System usage](https://www.uppmax.uu.se/resources/system-usage/)
 
