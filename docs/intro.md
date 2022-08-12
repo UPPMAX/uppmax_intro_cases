@@ -27,14 +27,20 @@ Hence we've made it possible to sign up only for the days that are interesting t
 - Questions that come up off-line can as well be put here!
 - We will test this very soon!
 
-- Breakout rooms may be opened for some sessions.
+### Exercises
+- Exercises may be solved in small groups in classroom or 
+- Breakout rooms for online students.
 
+
+### Type along
 
 - Shellshare will be used in some cases
+  - You can follow the teacher's typing and be able to copy-pasting if necessary
   - You don't need to install anything
   - just follow the posted link when the teacher is opening it.
   - However, it will only be available during our session
 and limited to last, perhaps, 500 rows
+
 
 
 ## Example of arrangement for the "worst case"!
@@ -44,7 +50,6 @@ and limited to last, perhaps, 500 rows
 - your own terminal
 
 ![worst](./img/worst.jpg)
-
 
 ## Lesson Modules
 ### Linux I at 9-12 Tuesday
