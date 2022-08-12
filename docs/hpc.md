@@ -94,3 +94,25 @@
 |**Local disk (scratch)**|2 TB| 4 TB| 4 TB |
 |**Login nodes**|Yes| No (reached from Rackham)|Yes|
 |**Storage**|Crex, Lutra|Crex, Lutra|Castor, Cygnus|
+
+## Mindmap
+
+```markmap
+# Tutorial
+
+## Text editor
+### Regex
+ctrl + f
+/<regular expression>/
+### Emojjis
+### mathjax & UML
+https://hackmd.io/MathJax-and-UML?both
+- $$
+#### UML
+- markmap
+- sequence
+- flow
+- graphviz
+- mermaid gantt
+- abc
+´´´
