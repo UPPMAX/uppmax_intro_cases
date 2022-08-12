@@ -52,7 +52,7 @@
 
   -  [Rackham](https://www.uppmax.uu.se/resources/systems/the-rackham-cluster/)
 , reserved for SNIC projects
-  -  [Snowy](https://www.uppmax.uu.se/resources/systems/the-snowy-cluster/), reserved for UPPMAX projects
+  -  [Snowy](https://www.uppmax.uu.se/resources/systems/the-snowy-cluster/), GPU and long jobs reserved for UPPMAX projects
   -  [Bianca](https://www.uppmax.uu.se/resources/systems/the-bianca-cluster/)
 , a part of SNIC-SENS
   -  [Miarka](https://www.uppmax.uu.se/resources/systems/miarka-cluster/), reserved for Scilifelab production
