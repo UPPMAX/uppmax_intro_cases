@@ -34,6 +34,7 @@ release = '0.1'
 extensions = ["sphinx_lesson",
               'sphinx-prompt', 
               'sphinx.ext.autodoc'
+              'mkdocs-markmap'
 ]
 
 source_suffix = ['.rst', '.md']
