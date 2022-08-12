@@ -15,25 +15,19 @@ Hence we've made it possible to sign up only for the days that are interesting t
 
 ## Questions
 
-- Questions very much related to the present talk during the lessons are best posed directly by voice
-  - Online chat or raise hand
+### Questions very much related to the present talk during the lessons 
+- best posed directly by voice
+- Online chat or raise hand
 
-
-- For questions requiring more effort to explain or answer use the HackMD session below:
+### Questions requiring more effort to explain or answer 
+- Use the HackMD session below:
 
 [https://hackmd.io/@dianai/uppmax-intro](https://hackmd.io/VN85GrBbTb22izq5856kVg?both)
 
-    - click edit to do your contributions!
+- Questions that come up off-line can as well be put here!
+- We will test this very soon!
 
-- Questions that come up off-line can as well be put in a Discussions topic.
-
-
-
-
-For short live surveys: Click Yes or No in ZOOM (if not other stated)
-
-
-Breakout rooms will be opened for some sessions.
+- Breakout rooms may be opened for some sessions.
 
 
 - Shellshare will be used in some cases
@@ -43,65 +37,70 @@ Breakout rooms will be opened for some sessions.
 and limited to last, perhaps, 500 rows
 
 
-
-
 ## Example of arrangement for the "worst case"!
 - HackMD
 - ZOOM view
 - shellshare
 - your own terminal
 
-![worst](./img/worst.jpeg)
+![worst](./img/worst.jpg)
 
 
-## Modules
-### Linux I 9-12 Tuesday
-Linux basics
-Logging in to UPPMAX
-Using the command line
+## Lesson Modules
+### Linux I at 9-12 Tuesday
+- Overview
+- Logging in to UPPMAX
+- Linux basics
+- Using the command line
+
+
 ### Intro to UPPMAX 13-16 Tuesday
-Organisation
-HPC computing
-Bianca cluster
-Using softwares
-Submitting jobs to calculation nodes
-### Linux II 9-12 Wednesday
-Using the command line level 2
-Input, output and pipes
-Wildcards
-The find command
-Links
-### Linux III 13-16 Wednesday
-The grep command
-Using the command line level 3
-Variables, parameters and $(...)
-Filenames
-### Bash Scripts 9-12 Thursday
-Bash scripting, why's and basics
-Parameters
-The if statement
-File tests
-For and while loops
-Background processes and job control
-### Slurm at UPPMAX 13-16 Thursday
-A workload manager
-Queuing
-Monitoring
-in queue
-while running
-when finished
-Job testing within the interactive or "devel" mode
-Scripting
-### Python I 9-12 Friday
-Introduction
-Basics
-Data types
-Control structures
-Writing and executing a program
-### Python II 13-16 Friday
-Creating a program
-Functions
-Icebreaker in HackMD
-https://hackmd.io/@dianai/uppmax-intro
+- Organisation
+- HPC computing
+- SNIC
+- Bianca cluster
+- Using software and tools
+- Submitting jobs to calculation nodes (intro)
 
-click edit to do your contributions!
+
+### Linux II 9-12 Wednesday
+- Using the command line level 2
+- Input, output and pipes
+- Wildcards
+- The find command
+- Links
+### Linux III 13-16 Wednesday
+- The grep command
+- Using the command line level 3
+- Variables, parameters and $(...)
+- Filenames
+### Bash Scripts 9-12 Thursday
+- Bash scripting, why's and basics
+- Parameters
+- The IF statement
+- File tests
+- FOR and WHILE loops
+- Background processes and job control
+### Slurm at UPPMAX 13-16 Thursday
+- A workload manager
+- Queuing
+- Monitoring
+- in queue
+- while running
+- when finished
+- Job testing within the interactive or "devel" mode
+- Scripting
+### Python I 9-12 Friday
+- Introduction
+- Basics
+- Data types
+- Control structures
+- Writing and executing a program
+### Python II 13-16 Friday
+- Creating a program
+- Functions
+
+
+## Icebreaker in HackMD
+- [https://hackmd.io/@dianai/uppmax-intro](https://hackmd.io/VN85GrBbTb22izq5856kVg?both)
+
