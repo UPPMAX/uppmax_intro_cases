@@ -64,20 +64,20 @@
   - The <span style="color:blue">program</span> to run is the first word
   - All words are separated by spaces
 
-ders.png)
+![folders](./img/folders.png)
  
 ### Example bash command
 
 ```{image} ./img/mv_inbox.png
 :alt: mv inbox
 :width: 300px
-:align: right
+:align: left
 ```
-
+<br>
 ```{image} ./img/program_flags.png
 :alt: program flags
 :width: 300px
-:align: right
+:align: left
 ```
 
 
@@ -91,7 +91,7 @@ ders.png)
 ```{image} ./img/tab.png
 :alt: tab
 :width: 300px
-:align: right
+:align: left
 ```
  
 - Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
