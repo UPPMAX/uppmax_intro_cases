@@ -64,31 +64,22 @@
   - The <span style="color:blue">program</span> to run is the first word
   - All words are separated by spaces
 
- 
-### Program, flags, and files
-
-- Input to the program:
-  - Flags: specific single letters or words that change the behaviour of a program.
-  - Arguments: text given to the program when started, e.g. file names.
-  - Terminal input: text given to the program while it runs.
-
-- Output from the program:
-  - Most Linux programs output to the terminal.
-  - Some programs also write to files.
-
-![Content](./img/folders.png)
+ders.png)
  
 ### Example bash command
 
 ```{image} ./img/mv_inbox.png
-:alt: Select Parameters
-:width: 100px
-:align: center
+:alt: mv inbox
+:width: 300px
+:align: right
 ```
-<img src="./img/mv_inbox.png" alt="content" />
 
+```{image} ./img/program_flags.png
+:alt: program flags
+:width: 300px
+:align: right
+```
 
-<img src="./img/program_flags.png" alt="content"  />
 
 - Terminal screen shows
 
@@ -97,9 +88,11 @@
  
 ### Tab Completion
 
-<img src="./img/tab.png" alt="drawing"  width="250"/>
-
-
+```{image} ./img/tab.png
+:alt: tab
+:width: 300px
+:align: right
+```
  
 - Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
 ask Bash to complete what you’re writing.
