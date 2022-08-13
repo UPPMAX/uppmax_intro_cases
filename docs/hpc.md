@@ -95,36 +95,5 @@
 |**Login nodes**|Yes| No (reached from Rackham)|Yes|
 |**Storage**|Crex, Lutra|Crex, Lutra|Castor, Cygnus|
 
-## Mindmap
 
-'''uml
 
-   @startmindmap
-   * root node
-      * some first level node
-         * second level node
-         * another second level node
-      * another first level node
-   @endmindmap
-'''   
-   
-
-```markmap
-# Tutorial
-
-## Text editor
-### Regex
-ctrl + f
-/<regular expression>/
-### Emojjis
-### mathjax & UML
-https://hackmd.io/MathJax-and-UML?both
-- $$
-#### UML
-- markmap
-- sequence
-- flow
-- graphviz
-- mermaid gantt
-- abc
-´´´
