@@ -83,26 +83,30 @@
 ```
 
 
+<p>
+
 - Terminal screen shows
+    
+</p>
 
 ![Content](./img/screen.png)               
 
  
 ### Tab Completion
+<p>
 
 ```{image} ./img/tab.png
 :alt: tab
 :width: 200px
 :align: left
 ```
- 
-<br><br>
-
+</p>
+<p>
 - Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
 ask Bash to complete what you’re writing.
 
 - Get in the habit of this — it will save you many hours!
-
+</p>
  
 ## Editing files
 
