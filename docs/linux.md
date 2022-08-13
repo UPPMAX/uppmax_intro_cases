@@ -103,11 +103,11 @@ ask Bash to complete what you’re writing.
 - Get in the habit of this — it will save you many hours!
 
  
-### Editing files
+## Editing files
 
 ![Content](./img/edit.png)
 
-#### File/text editors
+### File/text editors
 
 - gedit (graphical user interface — GUI, needs X-server)
 
@@ -143,7 +143,7 @@ ask Bash to complete what you’re writing.
 - **Try them out and pick one favorite editor!**
 
 
-### Typical sources of error
+## Typical sources of error
 
 ![Content](./img/cross.png)
 
