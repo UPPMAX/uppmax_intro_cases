@@ -76,7 +76,7 @@
   - Most Linux programs output to the terminal.
   - Some programs also write to files.
 
-![Content](./img/folders.png)
+![Content](./img/folders.png | width=20px)
  
 ### Example bash command
 
