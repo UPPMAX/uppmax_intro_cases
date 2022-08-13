@@ -80,7 +80,11 @@
  
 ### Example bash command
 
-
+```{image} ./img/mv_inbox.png
+:alt: Select Parameters
+:width: 100px
+:align: center
+```
 <img src="./img/mv_inbox.png" alt="content" />
 
 
