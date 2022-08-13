@@ -73,7 +73,9 @@
 :width: 300px
 :align: left
 ```
+
 <br>
+
 ```{image} ./img/program_flags.png
 :alt: program flags
 :width: 300px
@@ -94,6 +96,8 @@
 :align: left
 ```
  
+<br>
+
 - Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
 ask Bash to complete what you’re writing.
 
