@@ -44,7 +44,7 @@
 - bash is scripting language that is referred to as a shell
   - (because it sits around the kernel making it easy to interact with)
 
- ![Content](./img/unix_architecture.jpg | width=100)
+ ![Content](./img/unix_architecture.jpg|width=50)
 
  
 ### The prompt
@@ -76,12 +76,12 @@
   - Most Linux programs output to the terminal.
   - Some programs also write to files.
 
-![Content](./img/folders.png | width=20px)
+![Content](./img/folders.png|width=50)
  
 ### Example bash command
 
 
-<img src="./img/mv_inbox.png" alt="content" width="200"/>
+<img src="./img/mv_inbox.png" alt="content" width="100"/>
 
 
 <img src="./img/program_flags.png" alt="content"  style="width:100px;"/>
