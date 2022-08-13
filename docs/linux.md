@@ -49,9 +49,10 @@
  
 ### The prompt
 
-[info]$ program word1 word2 word3 […]
+[info]$ <span style="color:blue">program</span> word1 word2 word3 […]
 
 - [info] is configurable, and usually tells you who you are, on what system, and where in the file system.
+  - Does not matter for this course!
   - Example: 
 
     ```bash=
