@@ -81,10 +81,10 @@
 ### Example bash command
 
 
-![Content](./img/mv_inbox.png)
+<img src="./img/mv_inbox.png"  width="200")/>
 
 
-![Content](./img/program_flags.png)
+<img src="./img/program_flags.png"  width="200")/>
 
 - Terminal screen shows
 
