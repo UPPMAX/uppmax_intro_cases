@@ -61,7 +61,7 @@
 
   - For changing info (only for advanced users!)  Does not matter for this course!:
     - https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html (Links to an external site.)
-  - The program to run is the first word
+  - The <span style="color:blue">program</span> to run is the first word
   - All words are separated by spaces
 
  
