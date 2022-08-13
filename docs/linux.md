@@ -81,10 +81,10 @@
 ### Example bash command
 
 
-<img src="./img/mv_inbox.png" alt="content" width="50" />
+<img src="./img/mv_inbox.png" alt="content" />
 
 
-<img src="./img/program_flags.png" alt="content"  style="width:100px;" />
+<img src="./img/program_flags.png" alt="content"  />
 
 - Terminal screen shows
 
@@ -93,7 +93,7 @@
  
 ### Tab Completion
 
-<img src="./img/tab.png" alt="drawing"  style="width:50px;">
+<img src="./img/tab.png" alt="drawing"  width="250"/>
 
 
  
