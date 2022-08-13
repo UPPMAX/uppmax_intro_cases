@@ -81,10 +81,10 @@
 ### Example bash command
 
 
-<img src="./img/mv_inbox.png"  width="100")/>
+<img src="./img/mv_inbox.png"  style="width:100px;")/>
 
 
-<img src="./img/program_flags.png"  width="100")/>
+<img src="./img/program_flags.png"  style="width:100px;")/>
 
 - Terminal screen shows
 
@@ -93,7 +93,8 @@
  
 ### Tab Completion
 
-![Content](./img/tab.png)
+<img src="./img/tab.png"  style="width:50px;")/>
+
 
  
 - Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
