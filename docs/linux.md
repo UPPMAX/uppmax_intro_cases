@@ -81,10 +81,10 @@
 ### Example bash command
 
 
-<img src="./img/mv_inbox.png"  width="200")/>
+<img src="./img/mv_inbox.png"  width="100")/>
 
 
-<img src="./img/program_flags.png"  width="200")/>
+<img src="./img/program_flags.png"  width="100")/>
 
 - Terminal screen shows
 
