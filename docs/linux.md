@@ -52,14 +52,14 @@
 [info]$ <span style="color:blue">program</span> word1 word2 word3 […]
 
 - [info] is configurable, and usually tells you who you are, on what system, and where in the file system.
-  - Does not matter for this course!
+  
   - Example: 
 
     ```bash=
       [bjornc@rackham3 linux_tutorial]$
     ```
 
-  - For changing info (only for advanced users!):
+  - For changing info (only for advanced users!)  Does not matter for this course!:
     - https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html (Links to an external site.)
   - The program to run is the first word
   - All words are separated by spaces
