@@ -44,7 +44,7 @@
 - bash is scripting language that is referred to as a shell
   - (because it sits around the kernel making it easy to interact with)
 
- ![Content](./img/unix_architecture.jpg)
+ ![Content](./img/unix_architecture.jpg | width=100)
 
  
 ### The prompt
