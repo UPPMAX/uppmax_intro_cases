@@ -116,71 +116,90 @@ ask Bash to complete what you’re writing.
 - Get in the habit of this — it will save you many hours!
 
  
-## Editing files
+## Editing files with file/text editors
 
 ![Content](./img/edit.png)
 
-### File/text editors
 
-- gedit (graphical user interface — GUI, needs X-server)
+### gedit 
+- graphical user interface — GUI, needs X-server
 
 - Also graphical editor within MobaXterm
 
-- nano (keyboard shortcuts shown on-screen)
-  - Cheatsheet: http://staffwww.fullcoll.edu/sedwards/nano/UsefulNanoKeyCommands.html (Links to an external site.)
-    - (^ = Ctrl, M = meta key)
-       - (Windows M = Alt)
-       - (On Mac: in the Terminal.app go to Preferences -> Settings -> Keyboard and turn on "Use option as meta key": then M = Alt
+### nano 
+- keyboard shortcuts shown on-screen)
+- Cheatsheet: http://staffwww.fullcoll.edu/sedwards/nano/UsefulNanoKeyCommands.html (Links to an external site.)
+  - (^ = Ctrl, M = meta key)
+    - (Windows M = Alt)
+    - (On Mac: in the Terminal.app go to Preferences -> Settings -> Keyboard and turn on "Use option as meta key": then M = Alt
 
-- vim (fast and powerful, once you learn it)
-  - on UPPMAX started with command "vi"
+### vim 
+- fast and powerful, once you learn it
+- on UPPMAX started with command "vi"
 
-  - 1. Insert mode (type like normal text editor. Press i for insert mode)
+  - 1. Insert mode (type like normal text editor. Press 'i' for insert mode)
 
   - 2. Command mode (give commands to the editor to get things done . Press ESC for command mode)
   - Cheatsheet: https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started (Links to an external site.)
  
-- gvim vim with a GUI, lots of features very Fast
+### gvim 
+- vim with a GUI, lots of features very Fast
 
-- emacs (fast and powerful, once you learn it)
+### emacs 
+- fast and powerful, once you learn it
   - Cheatsheet: https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf (Links to an external site.)
     - (C = Ctrl)
-   - also With GUI
+- also With GUI
    - $ emacs –nw
      - keeps you in terminal window.
 
-- When starting the graphical versions, add "&" to be able to use the command line while program is open.
+## The grphical editors
+- When starting the graphical versions of an editor, add "&" to be able to use the command line while program is open.
   - $ gedit &
-  - If not, you can Ctrl+z and type bg to send program to background.
+  - If not, you can Ctrl+z and type "bg" to send program to background.
 
 - **Try them out and pick one favorite editor!**
 
+```{discussion} Try out later!
+   **Try them out and pick one favorite editor!**
+```
 
 ## Typical sources of error
 
 ![Content](./img/cross.png)
 
+```{Warning}
 - Capitalization matters in file names and program names
-
 - Spaces matter.
   - Always have a space after the program name.
   - Don’t add spaces within file names.
 - Check that you are in the right place in the file system.
 - File permissions. Check that the right read,write and execute permission are set.
+```
+
 
  
-### Caution!!
+## Caution!!
 
 ![Content](./img/caution.png)
 
-- Some words of warning:
-  - There is no undo for
+```{Warning}
+
+- There is no undo for
     - copy (cp),
     - move (mv), and
     - remove (rm).
   - **Beware of overwriting files and deleting the wrong ones.**
-
+```
  
+> **Tip**
+> Within a session: Type in the command prompt
+>
+>        alias rm=‘rm -i’
+>
+>  - Override asking with 
+>
+>        rm –f <>
 
 - **Tip: make "rm" ask if you really want to erase:**
   - Within a session: Type in the command prompt
