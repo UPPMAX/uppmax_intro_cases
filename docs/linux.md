@@ -74,7 +74,7 @@
 :alt: mv inbox
 :width: 300px
 :align: left
-```
+``` 
 
 <br/><br/>
 
@@ -85,8 +85,11 @@
 ```
     
 <br/><br/>
+   
 
 </section>
+
+\\\\\\\ 
 
 - Terminal screen shows
     
