@@ -180,8 +180,9 @@ ask Bash to complete what you’re writing.
 
 ![Content](./img/caution.png)
 
-!!! Warning
-This is a warning for you.
+```{Admonition}
+test
+```
 
 ```{Warning}
 
