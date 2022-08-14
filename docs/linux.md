@@ -210,6 +210,10 @@ ask Bash to complete what you’re writing.
   - Edit file ".bashrc" in /home directory by adding the alias line for this to start everytime.
 - This will also work for mv and cp!
 
+.. warning::
+
+   Do *not* use the directives :dudir:`sectnum`, :dudir:`header` and
+   :dudir:`footer`.
  
 
 - If you do destroy your data, email UPPMAX support, we may be able to help.
