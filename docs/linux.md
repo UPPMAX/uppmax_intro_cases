@@ -84,7 +84,7 @@
 :align: left
 ```
     
-<br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
    
 
 </section>
@@ -107,7 +107,7 @@
 :align: left
 ```
 
-<br/><br/>
+<br/><br/><br/><br/>
 </section>
 
 - Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
