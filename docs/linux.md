@@ -68,6 +68,7 @@
  
 ### Example bash command
 
+<section>
 ```{image} ./img/mv_inbox.png
 :alt: mv inbox
 :width: 300px
@@ -81,9 +82,7 @@
 :width: 300px
 :align: left
 ```
-
-
-<p>
+</section>
 
 - Terminal screen shows
     
@@ -93,20 +92,20 @@
 
  
 ### Tab Completion
-<p>
+<section>
 
 ```{image} ./img/tab.png
 :alt: tab
 :width: 200px
 :align: left
 ```
-</p>
-<p>
+</section>
+
 - Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
 ask Bash to complete what you’re writing.
 
 - Get in the habit of this — it will save you many hours!
-</p>
+
  
 ## Editing files
 
