@@ -76,7 +76,7 @@
 :align: left
 ```
 
-<br><br>
+<br/><br/>
 
 ```{image} ./img/program_flags.png
 :alt: program flags
@@ -84,6 +84,8 @@
 :align: left
 ```
     
+<br/><br/>
+
 </section>
 
 - Terminal screen shows
@@ -102,6 +104,7 @@
 :align: left
 ```
 
+<br/><br/>
 </section>
 
 - Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
