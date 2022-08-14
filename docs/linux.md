@@ -189,15 +189,7 @@ ask Bash to complete what you’re writing.
 - **Beware of overwriting files and deleting the wrong ones.**
 ```
  
-> **Tip**
-> Within a session: Type in the command prompt
->
->        alias rm=‘rm -i’
->
->  - Override asking with 
->
->        rm –f <>
-
+```{Note}
 - **Tip: make "rm" ask if you really want to erase:**
   - Within a session: Type in the command prompt
 
@@ -209,12 +201,8 @@ ask Bash to complete what you’re writing.
 
   - Edit file ".bashrc" in /home directory by adding the alias line for this to start everytime.
 - This will also work for mv and cp!
+```
 
-.. warning::
-
-   Do *not* use the directives :dudir:`sectnum`, :dudir:`header` and
-   :dudir:`footer`.
- 
-
+```{Note}
 - If you do destroy your data, email UPPMAX support, we may be able to help.
-
+```
