@@ -69,6 +69,7 @@
 ### Example bash command
 
 <section>
+    
 ```{image} ./img/mv_inbox.png
 :alt: mv inbox
 :width: 300px
@@ -82,6 +83,7 @@
 :width: 300px
 :align: left
 ```
+    
 </section>
 
 - Terminal screen shows
@@ -99,6 +101,7 @@
 :width: 200px
 :align: left
 ```
+
 </section>
 
 - Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
