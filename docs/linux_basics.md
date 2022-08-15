@@ -75,7 +75,7 @@ $ man ls
 - To change directory, use cd <target>
 
 ```bash=
- $ cd /proj/introtouppmax
+$ cd /proj/introtouppmax
 
 $ pwd
 
@@ -108,11 +108,11 @@ $ cd ~
 ```{solution} Solution 
 - `cd -` : goes back to your last directory
 
-- ´cd ..´ : goes a level up in the hierarchy
+- `cd ..` : goes a level up in the hierarchy
 
-- ´cd´ : goes to home directory
+- `cd` : goes to home directory
 
-- ´cd ~´ : also goes to home directory
+- `cd ~` : also goes to home directory
 ```
 
  
@@ -120,29 +120,29 @@ $ cd ~
 ## Copy, Create, Move
 ### mkdir — make directories
 
-    Make sure you’re in your home directory ($ cd ~)
 
+- Make sure you’re in your home directory 
+- The create a new direcotry "uppmax-intro"
+```
+$ cd ~
 $ mkdir uppmax-intro
+```
+- Go in there:
 
-    Go in there:
-
-$ cd uppmax-intro/
+```$ cd uppmax-intro/```
 
  
 ### cp — copy files and directories
 
-    Copy files with: cp <source> <target>
-    Set target to "." to keep name and to point at present directory.
+- Copy files with: `cp <source> <target>`
+- Set target to "." to keep name and to point at present directory.
 
- 
-
+``` 
 $ cp /proj/introtouppmax/labs/linux_tutorial/ .
+```
 
-    Well, that didn’t work. What does the error say?
-
- 
-
-    So... try
+- Well, that didn’t work. What does the error say?
+- So... try
 
 $ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 
@@ -150,32 +150,31 @@ $ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 
  
 
-    Move to your just created linux_tutorial/
+- Move to your just created linux_tutorial/
 
 $ cd linux_tutorial
-
-    Make a copy of the file “newfile” in the same directory:
+- Make a copy of the file “newfile” in the same directory:
 
 $ cp newfile copyfile
 
  
 ### scp —secure copy (remote file copy program)
 
-    Linux/MacOS: To copy data to/from Rackham, you can use scp from the terminal on your local machine:
-    Upload
-
+- Linux/MacOS: To copy data to/from Rackham, you can use scp from the terminal on your local machine:
+- Upload  from present directory on local machine to your home directory on cluster.
+ - Example (*not done by us today*)
+ 
 [bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/copyofmyinput
 
 [bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/                       (keeping filename)
 
-    Download
+- Download
 
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata copyofmydata
 
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata .                       (keeping file name)
 
  
-
 ### mv — move/rename file
 
     Moving files works just like copying files:
