@@ -6,6 +6,7 @@
 
 ```{objectives}
 - Let's dig into the most important BASH commands
+- We'll do a type-along session
 ```
  
 ## We will cover these commands
@@ -14,22 +15,22 @@
 1. pwd  &emsp; present directory
 1. ls  &emsp;list content
 1. cd  &emsp;change directory
-1. mkdir  make directory
-1. cp  copy
-1. scp  remotely copy
-1. mv  move
-1. rm  remove
-1. rmdir  remove empty directory
+1. mkdir  &emsp;make directory
+1. cp  &emsp;copy
+1. scp  &emsp;securely remotely copy
+1. mv  &emsp;move
+1. rm  &emsp;remove
+1. rmdir  &emsp;remove empty directory
 
 ### Read files and change file properties
 
-10. cat  print content on screen
-11. head  print first part
-12. tail  print last part
-13. less  browse content
-14. tar  compress or extract file
-15. chmod  change file permissions
-16. man  info about a command
+10. cat  &emsp;print content on screen
+11. head  &emsp;print first part
+12. tail  &emsp;print last part
+13. less  &emsp;browse content
+14. tar  &emsp;compress or extract file
+15. chmod  &emsp;change file permissions
+16. man  &emsp;info about a command
 
 ## File system Navigation
 ### pwd — where are you now? “Print name of current/Working Directory”
@@ -53,11 +54,11 @@ $ ls -a
 
 $ ls -l
 
-        gives you listed and detailed information.
+        -l gives you listed and detailed information.
 
 $ ls -lt
 
-       sorts things by time modified.
+       -lt sorts things by time modified.
 
 $ ls –lrt
 
@@ -65,14 +66,13 @@ $ ls –lrt
 
 $ man ls
 
-     for complete information.
-    TIP:  -$ man <command> works for almost any command!
-        scroll with arrows and quit with "q".
+- for complete information about a command.
+- TIP: `-$ man <command>` works for almost any command!
+  - scroll with arrows and quit with "q".
 
  
 ### cd — Change the shell working Directory
-
-    To change directory, use cd <target>
+- To change directory, use cd <target>
 
 $ cd /proj/introtouppmax
 
@@ -84,12 +84,12 @@ $ cd labs
 
 $ pwd
 
-    Experiment with cd. Try adding spaces or extra / in various places.
-    Use tab completion to avoid typos and typing “ls” a lot.
+```{challenge} Experiment with cd 
+- Experiment with cd. 
+- Try adding spaces or extra / in various places.
+- Use tab completion to avoid typos and typing “ls” a lot.
 
- 
-
-    Figure out the use of the following:
+- Figure out the use of the following:
 
 $ cd -
 
@@ -99,7 +99,17 @@ $ cd
 
 $ cd ~
 
+```
  
+```{solution} Solution 
+cd - : goes back to your last directory
+
+cd ..: goes a level up in the hierarchy
+
+cd : goes to home directory
+
+cd ~ : also goes to home directory
+```
 
  
 
