@@ -43,20 +43,22 @@
   - You can get VPN credentials from all Swedish universities.
 
 <br>
+
 - The whole Bianca cluster (blue) contains hundreds of virtual project clusters (green), each of which is isolated from each other and the Internet.
 - Data can be transferred to or from a virtual project cluster through the Wharf, which is a special file area that is visible from the Internet.
 
 ### The log in steps
 1. When you log in to <bianca.uppmax.uu.se> , your SSH or ThinLinc client first meets the blue Bianca login node.
   - `<username>-<projid>@bianca.uppmax.uu.se`
-  - like : `myname-sens2016999@bianca.uppmax.uu.se`
+  - like: `myname-sens2016999@bianca.uppmax.uu.se`
 3. After checking your [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/), this server looks for your virtual project cluster.
 4. If it's present, then you are transferred to a login prompt on your cluster's login node. If not, then the virtual cluster is started.
 5. Inside each virtual project cluster, by default there is just a one-core login node. When you need more memory or more CPU power, you submit a job (interactive or batch), and an idle node will be moved into your project cluster.
 
 
 ### Data transfers:
-<https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/> # 3. Transfer files to and from Bianca
+<https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/> 
+  - section 3. Transfer files to and from Bianca
 - wharf
 - NGI Deliver through SUPR
 - Transit server (<transit.uppmax.uu.se>)
@@ -89,5 +91,5 @@
    - wharf
    - transit server
    - many installed software
- - ask support if you need additional software tools
+ - Ask support if you need additional software tools
  ```
