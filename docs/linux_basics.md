@@ -395,8 +395,8 @@ $ ls
  $ less a
  ```
 
-- Search with `/<keyword>` and `n`/´N`
-- Hit `q´ to quit.
+- Search with `/<keyword>` and `n`/`N`
+- Hit `q to quit.
 - scroll with arrows.
 - "man" uses "less"!
 
@@ -416,9 +416,9 @@ $ ls -l
   -rwxr-xr-x 1 marcusl marcusl 17198 Jul 16 14:12 files.tar.gz
 ```
 - Leading symbol:
-  - d directory
-  - - regular file
-  - l symbolic link (more on this tomorrow)
+  - `d` directory
+  - `-` regular file
+  - `l` symbolic link (more on this tomorrow)
   - Others exist, but you can ignore them for now
 
   ```bash=
@@ -447,50 +447,57 @@ $ ls -l
   - Files: Run the file as a program
   - Directories: Traverse the directory (e.g. with “cd”)
 
-- Now try:
+#### For the interested
+ - Now try:
 
   ```bash=
   $ ls -l /proj/introtouppmax/
   ```
 
 - Huh, rwxrwsr-x?
-- ‘s’ in the group means ‘x’ but with gid bit set ( g roup id of creator not launcher).
-- ‘S’ means ‘-’ with gid bit set (rarely seen).
+- `s` in the group means `x` but with gid bit set ( g roup id of creator not launcher).
+- `S` means `-` with gid bit set (rarely seen).
 - Among other things, this makes the default group for new files/subdirectories the g2020018 group.
 
  
 ## Changing permissions
 **chmod** — change file mode bits
 
-- Files with w can be modified and destroyed by accident. Protect your input data!
+- Files with `w` can be modified and destroyed by accident. Protect your input data!
 - If you want to share data or scripts with a person not in your project (e.g. support staff like me), you can!
 - If you want to keep non-members from even seeing which files you have, you can!
 
-- chmod <mode> <files>
+- `chmod <mode> <files>`
 - <mode> can be e.g.
-  - u+x (let you run a script you just wrote)
-  - –w (no write permissions for anyone)
-  - g+rw (let group members read and edit this file)
-  - g=xw (let group members go into your directory and put files there, but not see which files are there)
+    u+x (let you run a script you just wrote)
+    -w (no write permissions for anyone)
+    +rw (let group members read and edit this file)
+    =xw (let group members go into your directory and put files there, but not see which files are there)
 
 - chmod takes flags as usual, e.g.
-  -R for recursive (i.e. all files and sub-directories therein)
+    -R for recursive (i.e. all files and sub-directories therein)
 
-- Online, you will come across e.g. “chmod 755”, what does this mean? It’s a "octal bit mask”:
-  -      7 = 4 + 2 + 1 = r + w + x
-  -      5 = 4 + 0 + 1 = r + x
+- Online, you will come across e.g. `chmod 755`, what does this mean? It’s a "octal bit mask”:
+    7 = 4 + 2 + 1 = r + w + x
+    5 = 4 + 0 + 1 = r + x
 
-- Chmod — change file mode bits (man page)
 - What number would r+w be?
 
+```{solution}
+6
+ ```
  
-### chmod — Hands-on
+```{challenge} chmod — Hands-on
 
 - In the linux_tutorial directory, find important files and old saved data that you wouldn’t want to lose.
   - Directories: important_results/, old_project/
   - File: last_years_data
-- Use chmod to remove write permission from those files and directories (use the -R flag to also do the files in the directories).
+- Use chmod to remove write permission from those files and directories (use the `-R` flag (not `-r`) to also do the files in the directories).
   - Take a moment to play around with chmod and explore the effects of permissions on files and directories.
-
+```
+```{solution}
+ chmod -wR <target>
+ 
+```
  
 **More about bash command line and scripts on Wednesday and  Thursday!**
