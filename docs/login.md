@@ -113,13 +113,16 @@ The built-in terminal without X is sufficient first days of the course!
 ```{challenge} Login to **Rackham**, using your terminal
 - First try:
 ```bash=
-$ ssh -Y <username>@rackham.uppmax.uu.se```
+$ ssh -Y <username>@rackham.uppmax.uu.se
+```
 - If you receive errors or warnings, instead try:
 ```bash=
-$ ssh <username>@rackham.uppmax.uu.se```
+$ ssh <username>@rackham.uppmax.uu.se
+```
 - If you do have X11 installed:
 ```bash=
-$ xeyes & ```
+$ xeyes &
+```
 ```
  
 ## ThinLinc (all platforms!)
