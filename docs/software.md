@@ -1,9 +1,18 @@
 # Software and tools
+```{objectives}
+- We'll briefly get overviews over 
+    -  software tools on UPPMAX
+    -  databases
+- Introduction quide for installing own software or packages
+- Very short introduction to developing old programs
+``
 
 - 800+ programs and packages are installed.
-- To avoid chaos and collisions, they are managed by a module system.
+- To avoid chaos and collisions, they are managed by a **module system**.
 - This system keeps installed software hidden by default, and users have to explicitly tell their terminal which version of which software they need.
-- Note: Bioinformatics tools require loading the “bioinfo-tools” module first.
+```{note}
+- NBioinformatics tools require loading the “bioinfo-tools” module first.
+```
 
 ## Modules
 
@@ -12,9 +21,10 @@
 
 Some commands:
 
-- module spider <name> — search for modules
 
 - module avail  — list all modules
+
+- module avail <part of tool name> — search for modules (full name not needed and case insensitive)
 
 - module load <module name> — Loads the module
 
@@ -23,6 +33,8 @@ Some commands:
 - module list — Lists loaded modules
 
 - module help <module name> — Displays a brief module-specific help
+ 
+- module spider <part of tool name> — like "avail" but "stronger"
 
 
 ## Installed software
