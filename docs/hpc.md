@@ -1,5 +1,9 @@
 # High Performance Computing — HPC
-- A recap
+
+```{objectives}
+- Let's recap and go a little further into the UPPMAX hardware!
+```
+
 ## What is a cluster?
 - A network of computers, each computer working as a node.
 
@@ -39,9 +43,11 @@
   - Its own local scratch disk (2-3 TB)
 
 - If you’re reading/writing a file once, use a directory on Crex or Castor
-  - If you’re reading/writing a file many times...
+- If you’re reading/writing a file many times...
     - Copy the file to ”scratch”, the node local disk:
-        cp myFile $SNIC_TMP
+    ```
+    cp myFile $SNIC_TMP
+    ```
         
         
 ## The UPPMAX hardware   
@@ -57,6 +63,8 @@
 , a part of SNIC-SENS
   -  [Miarka](https://www.uppmax.uu.se/resources/systems/miarka-cluster/), reserved for Scilifelab production
   -  [UPPMAX cloud](https://www.uppmax.uu.se/resources/systems/the-uppmax-cloud/), a part of SNIC Science Cloud
+
+- [User guides](https://www.uppmax.uu.se/support/user-guides/)
 
 - The storage systems we have provide a total volume of about 20 PB, the equivalent of nearly 15 billion 3.5-inch floppy disks or 40,000 years of 128-bit encoded music. Read more on the storage systems page.
 
