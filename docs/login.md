@@ -13,6 +13,10 @@
 - Try yourself
 ```
 
+```{note}
+If you lack account, visit the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/)
+```
+
 ## The login
 - When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.
 - This means that only light analysis and and calculations should be made here
