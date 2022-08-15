@@ -117,10 +117,12 @@ module load bioinfo-tools samtools
 - Run the program "sunray"
 ```
 ``````{solution}
-```
-./sunray
+- For me:
+```bash=
+ ~/programming/fcode/sunray
 ```
 ``````
+
 ```{keypoints}
 - Centrally installed software are reached through the module system and available throughout all nodes.
 - Your own installed software, scripts, python packages etcetera are available from their paths.
