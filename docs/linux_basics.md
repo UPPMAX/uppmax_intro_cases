@@ -1,11 +1,11 @@
-## Basic toolkit
+# Basic toolkit
 
-
+<!---
 ![Caption](./img/terminal.png)
-
+--->
  
-### We will cover these commands
-#### Navigation and file management
+## We will cover these commands
+### Navigation and file management
 
 1. pwd  present directory
 1. ls  list content
@@ -17,7 +17,7 @@
 1. rm  remove
 1. rmdir  remove empty directory
 
-#### Read files and change file properties
+### Read files and change file properties
 
 10. cat  print content on screen
 11. head  print first part
@@ -27,8 +27,8 @@
 15. chmod  change file permissions
 16. man  info about a command
 
-### File system Navigation
-#### pwd — where are you now? “Print name of current/Working Directory”
+## File system Navigation
+### pwd — where are you now? “Print name of current/Working Directory”
 
 ```bash=
 $ pwd
@@ -39,7 +39,7 @@ $ pwd -P
   - ignores how you got there
 
  
-#### ls —list directory contents
+### ls —list directory contents
 
     Type ls to display the contents of the current directory.
 
@@ -66,7 +66,7 @@ $ man ls
         scroll with arrows and quit with "q".
 
  
-#### cd — Change the shell working Directory
+### cd — Change the shell working Directory
 
     To change directory, use cd <target>
 
@@ -99,8 +99,8 @@ $ cd ~
 
  
 
-### Copy, Create, Move
-#### mkdir — make directories
+## Copy, Create, Move
+### mkdir — make directories
 
     Make sure you’re in your home directory ($ cd ~)
 
@@ -111,7 +111,7 @@ $ mkdir uppmax-intro
 $ cd uppmax-intro/
 
  
-#### cp — copy files and directories
+### cp — copy files and directories
 
     Copy files with: cp <source> <target>
     Set target to "." to keep name and to point at present directory.
@@ -141,7 +141,7 @@ $ cd linux_tutorial
 $ cp newfile copyfile
 
  
-#### scp —secure copy (remote file copy program)
+### scp —secure copy (remote file copy program)
 
     Linux/MacOS: To copy data to/from Rackham, you can use scp from the terminal on your local machine:
     Upload
@@ -158,7 +158,7 @@ $ cp newfile copyfile
 
  
 
-#### mv — move/rename file
+### mv — move/rename file
 
     Moving files works just like copying files:
     mv <source> <target>
@@ -173,7 +173,7 @@ $ mv ../copyfile ../renamedfile
  
 
  
-### Archiving
+## Archiving
 tar — archiving and compression
 
     We’re going to need more files.
@@ -188,8 +188,8 @@ $ tar -vxzf files.tar.gz
     You should see a list of files being extracted
 
  
-### Deleting
-#### rm — delete files  or directories
+## Deleting
+### rm — delete files  or directories
 
     Deleting files works just like copying or moving them:
         rm <target>
@@ -203,7 +203,7 @@ $ rm this_is_empty
     hmmmm...
 
  
-#### rmdir — delete an empty directory
+### rmdir — delete an empty directory
 
 Need another command to delete directories
 
@@ -220,8 +220,8 @@ $ rmdir this_has_a_file
  
 
  
-### Help
-#### man — manual, look up the right flags
+## Help
+### man — manual, look up the right flags
 
     Nobody can remember whether it’s -R or -r for recursive, or if -f lets you choose a file or forces an action.
 
@@ -261,7 +261,7 @@ MANUAL SECTIONS
        8      System Administration tools and Deamons
 
  
-### Let’s get wild with Wildcards
+## Let’s get wild with Wildcards
 
 
 ![Caption](./img/wildcards_bear.png)
@@ -283,7 +283,7 @@ $ rm */*.tmp
     Exercise:  Create a new directory and move all .txt files in many_files to it.
 
  
-### Reading files
+## Reading files
 
     In Linux, you can (if you wish) also display files without being able to change them
 
@@ -294,7 +294,7 @@ $ ls
     Hmm, which of these files are useful?
 
  
-#### cat - concatenate files and print on the standard output
+### cat - concatenate files and print on the standard output
 
 ![Caption](./img/cat.png)
 
@@ -317,7 +317,7 @@ $ cat a
 $ cat a the_best > combinedfiles.txt
 
  
-#### head — display the top of a file
+### head — display the top of a file
 
 
 ![Caption](./img/head.png)
@@ -329,7 +329,7 @@ $ head a
 $ head -n 4 a
 
  
-#### tail — display the end of a file
+### tail — display the end of a file
 
 
 ![Caption](./img/tail.png)
@@ -341,7 +341,7 @@ $ tail -n 5 a
     Handy to look at log files or to figure out the structure of a text file.
 
  
-#### less — read a whole file
+### less — read a whole file
 
     cat doesn’t really work for long files
 
@@ -353,12 +353,12 @@ $ less a
     "man" uses "less"!
 
 “less is more”
-### File permissions
+## File permissions
 
 
 ![Caption](./img/permission.png)
 
-#### Example
+### Example
 
 ```bash=
 $ ls -l
@@ -410,7 +410,7 @@ $ ls -l
 - Among other things, this makes the default group for new files/subdirectories the g2020018 group.
 
  
-### Changing permissions
+## Changing permissions
 **chmod** — change file mode bits
 
 - Files with w can be modified and destroyed by accident. Protect your input data!
@@ -444,4 +444,4 @@ $ ls -l
   - Take a moment to play around with chmod and explore the effects of permissions on files and directories.
 
  
-**More about bash command line and scripts on Tuesday until Wednesday!**
+**More about bash command line and scripts on Wednesday and  Thursday!**
