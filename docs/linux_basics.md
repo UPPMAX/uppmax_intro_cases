@@ -3,13 +3,17 @@
 <!---
 ![Caption](./img/terminal.png)
 --->
+
+```{objectives}
+- Let's dig into the most important BASH commands
+```
  
 ## We will cover these commands
 ### Navigation and file management
 
-1. pwd  present directory
-1. ls  list content
-1. cd  change directory
+1. pwd  &emsp; present directory
+1. ls  &emsp;list content
+1. cd  &emsp;change directory
 1. mkdir  make directory
 1. cp  copy
 1. scp  remotely copy
