@@ -59,6 +59,11 @@ https://www.uppmax.uu.se/
    hpc.md
    snic.md
    bianca.md
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Using UPPMAX
+   
    software.md
    slurm_intro.md
 
