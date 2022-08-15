@@ -122,14 +122,16 @@ $ cd ~
 
 
 - Make sure you’re in your home directory 
-- The create a new direcotry "uppmax-intro"
+- Then create a new direcotry "uppmax-intro"
 ```
 $ cd ~
 $ mkdir uppmax-intro
 ```
 - Go in there:
 
-```$ cd uppmax-intro/```
+```
+ $ cd uppmax-intro/
+```
 
  
 ### cp — copy files and directories
@@ -143,20 +145,20 @@ $ cp /proj/introtouppmax/labs/linux_tutorial/ .
 
 - Well, that didn’t work. What does the error say?
 - So... try
-
+```
 $ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
-
-    -r is for recursive, meaning including files and subdirectories!
-
- 
+```
+  -r is for recursive, meaning including files and subdirectories!
 
 - Move to your just created linux_tutorial/
 
+ ```
 $ cd linux_tutorial
+ ```
 - Make a copy of the file “newfile” in the same directory:
-
+```
 $ cp newfile copyfile
-
+```
  
 ### scp —secure copy (remote file copy program)
 
@@ -164,16 +166,18 @@ $ cp newfile copyfile
 - Upload  from present directory on local machine to your home directory on cluster.
  - Example (*not done by us today*)
  
-[bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/copyofmyinput
+```
+ [bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/copyofmyinput
 
-[bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/                       (keeping filename)
-
+[bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/                      # (keeping filename)
+``` 
+ 
 - Download
-
+```
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata copyofmydata
 
-[bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata .                       (keeping file name)
-
+[bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata .                      # (keeping file name)
+```
  
 ### mv — move/rename file
 
