@@ -43,6 +43,9 @@ The built-in terminal without X is sufficient first days of the course!
 
     - [https://www.putty.org/](https://www.putty.org/)
 
+![Caption](./img/putty.jpg)
+
+
 <!---
 ### A bit more complicated (and not necessary)
 
@@ -83,11 +86,6 @@ $ ssh -X <username>@rackham.uppmax.uu.se
 
 ![Caption](./img/mobax_start.jpg)
 
-- If problem with installations, the putty.exe terminal is sufficient first days of the course!
-  - No graphics.
-  - https://www.putty.org/ (Links to an external site.)
-
-![Caption](./img/putty.jpg)
 
 ### Graphical file manager (Windows)
 
@@ -112,25 +110,16 @@ The built-in terminal without X is sufficient first days of the course!
 
 - Alternatively, use ctrl-z to put e.g. gedit to sleep and type "bg" to make last process in background.
 
-```{challenge} Login to **Rackham*, using your terminal
-
+```{challenge} Login to **Rackham**, using your terminal
 - First try:
 ```bash=
-$ ssh -Y <username>@rackham.uppmax.uu.se
-```
-
+$ ssh -Y <username>@rackham.uppmax.uu.se```
 - If you receive errors or warnings, instead try:
-
 ```bash=
-$ ssh <username>@rackham.uppmax.uu.se
-```
-
-- If you Dohave X11 installed:
-
+$ ssh <username>@rackham.uppmax.uu.se```
+- If you do have X11 installed:
 ```bash=
-$ xeyes &
-```
-
+$ xeyes & ```
 ```
  
 ## ThinLinc (all platforms!)
