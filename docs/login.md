@@ -1,5 +1,32 @@
 # Login
 
+```{questions}
+- How to reach UPPMAX clusters
+- Can one use graphics?
+- Where do I arrive when I log in?
+
+```
+
+```{objectives}
+- We'll relate our login session to the specific "area" in the cluster
+- We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX.
+- Try ourself
+- 
+```
+
+## The login
+- When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.
+- This means that only light analysis and and calculations should be made here
+- You will see this in the prompt after "@" as the clustername and a low number. For instance:
+   ```bash=
+      [<user>@**rackham3** linux_tutorial]$
+    ```
+- You willl ater learn how to reach the calculation nodes. Then the prompt states the node number with a single letter, like "r" for Rackham. For instance:
+   ```bash=
+      [<user>@**r484** linux_tutorial]
+   ```
+
+
 ## MAC and LINUX users
 
 ### Terminal
@@ -143,4 +170,9 @@ $ xeyes &
   - Try the web version now if you don't already have the software installed!
   ```
 
- 
+ ```{keypoints}
+- You reach UPPMAX clusters either using a terminal or Thinlinc
+- Graphics are included in Thinlinc and from terminakl if you have enabled X11
+- When you log in from your local computer wyou will always arrive at a login node with limited resources. 
+  - You reach the calculations nodes from within the login node (See  Submitting jobs section)
+```
