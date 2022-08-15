@@ -113,6 +113,11 @@ module load bioinfo-tools samtools
 ## Run own scripts or programs
 - Unless your script or program is in the active path, you run it by the full path or `./<file>` if you are in the present directory.
 
-```{challenge} Run a Fortran program 
+```{challenge} Demo: Run a Fortran program 
 - Run the program "sunray"
 ```
+``````{solution}
+```
+./sunray
+```
+``````
