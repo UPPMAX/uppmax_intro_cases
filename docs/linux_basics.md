@@ -120,9 +120,10 @@ $ cd ~
 ## Copy, Create, Move
 ### mkdir — make directories
 
-
-- Make sure you’re in your home directory 
-- Then create a new direcotry "uppmax-intro"
+```{warning}
+- Make sure you’re in your home directory by `cd ~`
+ ```
+- Create a new direcotry "uppmax-intro"
 ```
 $ cd ~
 $ mkdir uppmax-intro
