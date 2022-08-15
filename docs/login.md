@@ -2,6 +2,8 @@
 
 ## MAC and LINUX users
 
+### Terminal
+
 - Download XQuartz or other X11 server for Mac OS
   - [https://www.xquartz.org/](https://www.xquartz.org/)
   - This is to enable graphics.
@@ -15,15 +17,17 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 
 ![Terminal](./img/Mac_terminal.png)
 
-- For copying of files between your client computer (where you are) and the cluster Filezilla can be the choice.
-        https://filezilla-project.org/download.php?type=client (Links to an external site.) 
+### Graphical file manager
 
+- For copying of files with sftp (secure file transfer protocol) between your client computer (where you are) and the cluster **Filezilla** can be the choice.
+        [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client)
  
 
 ![Caption](./img/fz3_osx_main.png )
 
- 
-- If problem with installations, the built-in terminal is sufficient first days of the course!
+```{callout} Problems with installations?
+The built-in terminal without X is sufficient first days of the course!
+```
 
 ## Windows users
 
@@ -39,7 +43,7 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 
     - [https://www.putty.org/](https://www.putty.org/)
 
-
+<!---
 ### A bit more complicated (and not necessary)
 
 - Download and install ONE of the X-servers below (to enable graphics)
@@ -57,13 +61,12 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
   - https://mobaxterm.mobatek.net/ (Links to an external site.)
     - sftp frame makes it easy to move, upload and download files.
 
- 
 
 - You may want to check this webpage as well!
   - https://hackmd.io/@pmitev/Linux4WinUsers (Links to an external site.)
-
+--->
  
-## MobaXterm
+### MobaXterm
 
 ![Caption](./img/mobax.jpg )
 
@@ -89,8 +92,16 @@ $ ssh -X username@rackham.uppmax.uu.se
 
 ![Caption](./img/putty.jpg)
 
+### Graphical file manager (Windows)
+
+- For copying of files between your client computer (where you are) and the cluster WinSCP can also be the choice.
+  - [https://winscp.net/eng/download.php](https://winscp.net/eng/download.php) 
+
+```{callout} Problems with installations?
+The built-in terminal without X is sufficient first days of the course!
+```
  
-## X11-forwarding from the command line
+## X11-forwarding from the command line (generally)
 
 - Graphics can be sent through the SSH connection you’re using to connect
   - Use primarily ssh -Y <...> or secondary ssh -X <...>
