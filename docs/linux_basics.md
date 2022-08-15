@@ -140,24 +140,24 @@ $ mkdir uppmax-intro
 - Copy files with: `cp <source> <target>`
 - Set target to "." to keep name and to point at present directory.
 
-``` 
+```bash=
 $ cp /proj/introtouppmax/labs/linux_tutorial/ .
 ```
 
 - Well, that didn’t work. What does the error say?
 - So... try
-```
+```bash=
 $ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 ```
        -r is for recursive, meaning including files and subdirectories!
 
 - Move to your just created linux_tutorial/
 
- ```
+```bash=
 $ cd linux_tutorial
  ```
 - Make a copy of the file “newfile” in the same directory:
-```
+```bash=
 $ cp newfile copyfile
 ```
  
@@ -229,47 +229,51 @@ $ tar -vxzf files.tar.gz
 `rm <target>`
 
 - Try it out:
-
+```bash=
 $ rm ../renamedfile
 
 $ rm this_is_empty
+ ```
 
-    hmmmm...
+- hmmmm...
 
  
 ### rmdir — delete an empty directory
 
-Need another command to delete directories
+- Need another command to delete directories
 
+```bash=
 $ rmdir this_is_empty
 
 $ rmdir this_has_a_file
-
-    Is there a way to use rm to delete directories?
-
+```
+- Again??
  
-
-    Recursive commands are applied to directories and their contents
-
+- Is there a way to use rm to delete directories?
  
-
- 
+ ```{solution}
+- Recursive commands `-r`are applied to directories and their contents
+```bash=
+$ rmdir -r this_has_a_file
+```
+  
 ## Help
 ### man — manual, look up the right flags
 
-    Nobody can remember whether it’s -R or -r for recursive, or if -f lets you choose a file or forces an action.
+- Nobody can remember whether it’s -R or -r for recursive, or if -f lets you choose a file or forces an action.
 
 $ man ls 
 
         shows you how to use ls and all its options
-    Type ‘/<keyword>’ to search for “<keyword>”, use ‘n’ and ‘N’ to scan through hits.
-    Scroll with arrows.
-    Type ‘q’ to quit.
-    Spend some time now to browse the man pages for the commands you’ve just learned!
-
+- Type ‘/<keyword>’ to search for “<keyword>”, use ‘n’ and ‘N’ to scan through hits.
+- Scroll with arrows.
+- Type ‘q’ to quit.
  
-
-Not only user commands!
+```{challenge}
+- Spend some time now to browse the man pages for the commands you’ve just learned!
+```
+ 
+- Not only user commands!
 
     Use sections like
 
