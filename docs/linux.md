@@ -11,7 +11,7 @@
 - We'll briefly get an overview of Linux
   - How the command line works
   - Some text editors
-  - Things to be aware 
+  - Things to be aware of
 ```
 
 ## What is Linux?
@@ -233,11 +233,12 @@ ask Bash to complete what you’re writing.
         - vim
         - emacs
     - graphical:
-        gedit
+      - gedit
 - Tips
     - use Tab completion
     - capitalization and spaces matters
     - no undo:s for copying, moving and removing
+      - Solution: `alias rm=‘rm -i’`
 ```
 
 
