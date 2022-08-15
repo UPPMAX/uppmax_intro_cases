@@ -104,5 +104,8 @@
 |**Login nodes**|Yes| No (reached from Rackham)|Yes|
 |**Storage**|Crex, Lutra|Crex, Lutra|Castor, Cygnus|
 
-
-
+```{keypoints}
+- UPPMAX has several clusters 
+     - each having its focus and limitation or possibilites
+     - access is determined ny type of project
+```
