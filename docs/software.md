@@ -119,7 +119,9 @@ module load bioinfo-tools samtools
 ``````{solution}
 - For me:
 ```bash=
- ~/programming/fcode/sunray
+ /proj/introtouppmax/bjorn-test/sunray
+ cd /proj/introtouppmax/bjorn-test/
+ ./sunray
 ```
 ``````
 
