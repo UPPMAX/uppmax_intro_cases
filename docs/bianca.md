@@ -11,6 +11,11 @@
   - human genomic data
   - images/videos containing persons
   - health registry (health data records from healthcare providers)
+- More about sensitive data
+  - [GDPR](https://gdpr.eu/)
+  - [Data protection](https://ec.europa.eu/info/law/law-topic/data-protection_en)
+  - [Skydd av personuppgifter](https://ec.europa.eu/info/law/law-topic/data-protection_sv)
+  
 - When in doubt, contact your university's [data protection officer](https://www.uppmax.uu.se/support/faq/general-miscellaneous-faq/sensitive+data+questions/).
 - Generally, there must be a [Data Processing Agreement](https://www.uppmax.uu.se/support/faq/general-miscellaneous-faq/how-to-establish-a-puba-with-uu/) between UU and the data controlling university.
 
