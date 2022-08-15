@@ -98,8 +98,8 @@
 
 # go to some directory
 
-cd /proj/introtouppmax/bjornc
-pwd
+cd /proj/introtouppmax/labs
+pwd -P
 
 # load software modules
 
