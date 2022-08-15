@@ -1,15 +1,29 @@
 # SNIC SENS and Bianca
+```{objectives}
+- We'll briefly get an overview of kinds of sensitive data
+- ... and the **Bianca** system
+```
 
 ## Sensitive personal data
 
-- When in doubt, contact your university's data protection officerLinks to an external site..
+- <https://www.snic.se/allocations/snic-sens/>
+- Traced to now living persons, e.g.
+  - human genomic data
+  - images/videos containing persons
+  - health registry (health data records from healthcare providers)
+- When in doubt, contact your university's [data protection officer](https://www.uppmax.uu.se/support/faq/general-miscellaneous-faq/sensitive+data+questions/).
+- Generally, there must be a [Data Processing Agreement](https://www.uppmax.uu.se/support/faq/general-miscellaneous-faq/how-to-establish-a-puba-with-uu/) between UU and the data controlling university.
+
+## Bianca
 - Bianca is a great platform for computationally intensive research on sensitive personal data. It can also be useful for:
   - national and international collaboration on sensitive personal data (without a high compute need)
   - other types of sensitive data
 - Bianca is not good for:
   - storing data
-  - publishing data (unless the dataset is very popular among Bianca users, e.g. [Swegen](https://snd.gu.se/en/catalogue/study/ext0285) and [SIMPLER](https://www.simpler4health.se/)
+  - publishing data
+     - unless the dataset is very popular among Bianca users, e.g. [Swegen](https://snd.gu.se/en/catalogue/study/ext0285), [SIMPLER](https://www.simpler4health.se/)
 
+ 
 ## Bianca's design
 
 - Bianca was designed
@@ -19,19 +33,15 @@
   - to provide a maximum amount of resources
   - and to satisfy regulations.
 
- 
-
 ![Image](./img/biancaorganisation-01.png)
 
- 
-
 - Bianca is only accessible from within Sunet (i.e. from university networks).
+- Use VPN outside Sunet. [Link to VPN for UU](https://mp.uu.se/en/web/info/stod/it-telefoni/it-support/network-on-campus/vpn-service)
+  - You can get VPN credentials from all Swedish universities.
 - The whole Bianca cluster (blue) contains hundreds of virtual project clusters (green), each of which is isolated from each other and the Internet.
 - Data can be transferred to or from a virtual project cluster through the Wharf, which is a special file area that is visible from the Internet.
 
- 
-
-- When you log in to bianca.uppmax.uu.seLinks to an external site., your SSH or ThinLinc client first meets the blue Bianca login node.
+- When you log in to <bianca.uppmax.uu.se> , your SSH or ThinLinc client first meets the blue Bianca login node.
 - After checking your two-factor authentication, this server looks for your virtual project cluster.
 - If it's present, then you are transferred to a login prompt on your cluster's login node. If not, then the virtual cluster is started.
 - Inside each virtual project cluster, by default there is just a one-core login node. When you need more memory or more CPU power, you submit a job (interactive or batch), and an idle node will be moved into your project cluster.
@@ -42,8 +52,9 @@
 
 ### Data transfers:
 
+- wharf
 - NGI Deliver through SUPR
-- Transit server (transit.uppmax.uu.se)
+- Transit server (<transit.uppmax.uu.se>)
 
 ### Software
 
@@ -51,8 +62,6 @@
 - Local Conda repository
 - Local Perl modules
 - Local R packages
-
- 
 
 - More info at [Bianca user guide](https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/)
 
@@ -66,7 +75,14 @@
     - requires [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/)
 
  
-
 ![Image](./img/Thinlinc2.jpg)
 
- 
+ ```{keypoints}
+ - If you handle sensitive data, apply for a SNIC-SENS project
+ - SENS projects will get accounts on Bianca
+ - Bianca has no internet itself but there are solutions like:
+   - wharf
+   - transit server
+   - many installed software
+ - ask support if you need additional software tools
+ ```
