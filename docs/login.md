@@ -20,7 +20,7 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 ### Graphical file manager
 
 - For copying of files with sftp (secure file transfer protocol) between your client computer (where you are) and the cluster **Filezilla** can be the choice.
-        [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client)
+- [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client)
  
 
 ![Caption](./img/fz3_osx_main.png )
@@ -37,7 +37,7 @@ The built-in terminal without X is sufficient first days of the course!
     - sftp frame makes it easy to move, upload and download files.
   - See section below
 
-- If problem with above installation, the putty.exe terminal is sufficient first days of the course!
+- If problem with the above installation, the putty.exe terminal is sufficient first days of the course!
 
     - No graphics.
 
@@ -61,7 +61,6 @@ The built-in terminal without X is sufficient first days of the course!
   - https://mobaxterm.mobatek.net/ (Links to an external site.)
     - sftp frame makes it easy to move, upload and download files.
 
-
 - You may want to check this webpage as well!
   - https://hackmd.io/@pmitev/Linux4WinUsers (Links to an external site.)
 --->
@@ -73,7 +72,7 @@ The built-in terminal without X is sufficient first days of the course!
 - Start local terminal and a SSH session by:
 
 ```bash=
-$ ssh -X username@rackham.uppmax.uu.se
+$ ssh -X <username>@rackham.uppmax.uu.se
 ```
 
 ![Caption](./img/mobax_start1.jpg)
@@ -88,8 +87,6 @@ $ ssh -X username@rackham.uppmax.uu.se
   - No graphics.
   - https://www.putty.org/ (Links to an external site.)
 
- 
-
 ![Caption](./img/putty.jpg)
 
 ### Graphical file manager (Windows)
@@ -100,6 +97,7 @@ $ ssh -X username@rackham.uppmax.uu.se
 ```{callout} Problems with installations?
 The built-in terminal without X is sufficient first days of the course!
 ```
+
  
 ## X11-forwarding from the command line (generally)
 
@@ -114,6 +112,26 @@ The built-in terminal without X is sufficient first days of the course!
 
 - Alternatively, use ctrl-z to put e.g. gedit to sleep and type "bg" to make last process in background.
 
+```{challenge} Login to **Rackham*, using your terminal
+
+- First try:
+```bash=
+$ ssh -Y <username>@rackham.uppmax.uu.se
+```
+
+- If you receive errors or warnings, instead try:
+
+```bash=
+$ ssh <username>@rackham.uppmax.uu.se
+```
+
+- If you Dohave X11 installed:
+
+```bash=
+$ xeyes &
+```
+
+```
  
 ## ThinLinc (all platforms!)
 
@@ -122,7 +140,7 @@ The built-in terminal without X is sufficient first days of the course!
 - On web:
   - [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se)
   - [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
-   -requires [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/)
+    - requires [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/)
 
 ![Caption](./img/Thinlinc2.jpg)
 
@@ -130,6 +148,7 @@ The built-in terminal without X is sufficient first days of the course!
   - [https://www.cendio.com/thinlinc/download](https://www.cendio.com/thinlinc/download)
 
 ```{challenge} Try Thinlinc from web
-  - Try the web version now if you don't already have the software installed!```
+  - Try the web version now if you don't already have the software installed!
+  ```
 
  
