@@ -149,7 +149,7 @@ $ cp /proj/introtouppmax/labs/linux_tutorial/ .
 ```
 $ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 ```
-  -r is for recursive, meaning including files and subdirectories!
+       -r is for recursive, meaning including files and subdirectories!
 
 - Move to your just created linux_tutorial/
 
@@ -165,10 +165,10 @@ $ cp newfile copyfile
 
 - Linux/MacOS: To copy data to/from Rackham, you can use scp from the terminal on your local machine:
 - Upload  from present directory on local machine to your home directory on cluster.
- - Example (*not done by us today*)
+  - Example (*not done by us today*)
  
 ```
- [bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/copyofmyinput
+[bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/copyofmyinput
 
 [bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/                      # (keeping filename)
 ``` 
@@ -182,41 +182,53 @@ $ cp newfile copyfile
  
 ### mv — move/rename file
 
-    Moving files works just like copying files:
-    mv <source> <target>
-    Move the copy you just made to another place:
-
+- Moving files works just like copying files:
+- `mv <source> <target>`
+- Move the copy you just made to another place:
+```bash=
 $ mv copyfile ../
-
-    Rename it.
-
+``` 
+- Rename it.
+```bash=
 $ mv ../copyfile ../renamedfile
-
- 
-
+```
  
 ## Archiving
-tar — archiving and compression
+**tar — archiving and compression**
 
-    We’re going to need more files.
-
+- We’re going to need more files.
+```
 $ tar -vxzf files.tar.gz
-
-    The flags mean:
+```
+- The flags mean:
         -verbosely
         -extract
         -zipped
         -file
-    You should see a list of files being extracted
-
+- order of flags won't matter!
+- You should see a list of files being extracted
  
 ## Deleting
 ### rm — delete files  or directories
 
-    Deleting files works just like copying or moving them:
-        rm <target>
+```{Note}
+- **Tip: make "rm" ask if you really want to erase:**
+  - Within a session: Type in the command prompt
 
-    Try it out:
+        alias rm=‘rm -i’
+
+  - Override asking with 
+
+        rm –f <>
+
+  - Edit file ".bashrc" in /home directory by adding the alias line for this to start everytime.
+- This will also work for mv and cp!
+```
+
+- Deleting files works just like copying or moving them:
+`rm <target>`
+
+- Try it out:
 
 $ rm ../renamedfile
 
