@@ -41,12 +41,12 @@
 
 ## Installed software
 - You can also find (almost) all installed software at:
-    https://www.uppmax.uu.se/resources/software/installed-software/
+    <https://www.uppmax.uu.se/resources/software/installed-software/>
   
 ## Installed databases
 - [Installed databases at UPPMAX](https://www.uppmax.uu.se/resources/databases/)
     
-```{challenge} Hands on using a tool
+``````{challenge} Hands on using a tool
 1. use matlab
 
 ```
@@ -75,7 +75,7 @@ module load bioinfo-tools samtools
 ```
 - Bioinformatic tools are hidden by default
 
-```
+``````
 
 ## Install software yourself
 - You can install in your home directory.
@@ -84,7 +84,7 @@ module load bioinfo-tools samtools
   - This way the project contains both data and software — good for reproducibility, collaboration, and everyone's general sanity.
 
 ### Python packages
-[Python packages](https://uppmax.uu.se/support/user-guides/python-user-guide/)
+- [Python packages](https://uppmax.uu.se/support/user-guides/python-user-guide/)
 
 #### Conda
 - [Conda user guide](https://www.uppmax.uu.se/support/user-guides/conda-user-guide/)
@@ -94,7 +94,7 @@ module load bioinfo-tools samtools
 - [Singularity user guide](https://www.uppmax.uu.se/support/user-guides/singularity-user-guide/)
 
 #### Docker
-Docker will unfortunately not work on the clusters, since it requires root permission.
+- Docker will unfortunately not work on the clusters, since it requires root permission.
 
 ### Build from source
 - We have several compiler versions from GNU and INTEL
@@ -107,7 +107,7 @@ Docker will unfortunately not work on the clusters, since it requires root permi
 
 ### Own development...
 - You may have your own code that you want to run on UPPMAX.
-- See above for the available compilers and parallel libraries
+- See the [guide for compiling serial and parallel programs](https://www.uppmax.uu.se/support/user-guides/mpi-and-openmp-user-guide/)
 - [User guide for debuggers and profilers](https://www.uppmax.uu.se/support/user-guides/debuggers-and-profiling-tools/)
 
 ## Run own scripts or programs
