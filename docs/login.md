@@ -171,7 +171,7 @@ $ xeyes &
 
  ```{keypoints}
 - You reach UPPMAX clusters either using a terminal or Thinlinc
-- Graphics are included in Thinlinc and from terminakl if you have enabled X11
+- Graphics are included in Thinlinc and from terminal if you have enabled X11
 - When you log in from your local computer wyou will always arrive at a login node with limited resources. 
   - You reach the calculations nodes from within the login node (See  Submitting jobs section)
 ```
