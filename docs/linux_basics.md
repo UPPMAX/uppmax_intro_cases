@@ -74,7 +74,8 @@ $ man ls
 ### cd — Change the shell working Directory
 - To change directory, use cd <target>
 
-$ cd /proj/introtouppmax
+```bash=
+ $ cd /proj/introtouppmax
 
 $ pwd
 
@@ -83,15 +84,17 @@ $ ls
 $ cd labs
 
 $ pwd
+```
 
-```{challenge} Experiment with cd 
+``````{challenge} Experiment with cd 
 - Experiment with cd. 
 - Try adding spaces or extra / in various places.
 - Use tab completion to avoid typos and typing “ls” a lot.
 
 - Figure out the use of the following:
 
-$ cd -
+```bash=
+ $ cd -
 
 $ cd ..
 
@@ -100,15 +103,16 @@ $ cd
 $ cd ~
 
 ```
+``````
  
 ```{solution} Solution 
-cd - : goes back to your last directory
+- cd - : goes back to your last directory
 
-cd ..: goes a level up in the hierarchy
+- cd .. : goes a level up in the hierarchy
 
-cd : goes to home directory
+-- cd : goes to home directory
 
-cd ~ : also goes to home directory
+-- cd ~ : also goes to home directory
 ```
 
  
