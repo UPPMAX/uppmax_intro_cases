@@ -10,8 +10,7 @@
 ```{objectives}
 - We'll relate our login session to the specific "area" in the cluster
 - We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX.
-- Try ourself
-- 
+- Try yourself
 ```
 
 ## The login
@@ -19,11 +18,11 @@
 - This means that only light analysis and and calculations should be made here
 - You will see this in the prompt after "@" as the clustername and a low number. For instance:
    ```bash=
-      [<user>@**rackham3** linux_tutorial]$
+      [<user>@rackham3 linux_tutorial]$
     ```
 - You willl ater learn how to reach the calculation nodes. Then the prompt states the node number with a single letter, like "r" for Rackham. For instance:
    ```bash=
-      [<user>@**r484** linux_tutorial]
+      [<user>@r484 linux_tutorial]
    ```
 
 
