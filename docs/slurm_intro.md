@@ -9,22 +9,34 @@
 - Need a queue:
 
 ![Image](./img/queue1.png)
+x-axis: cores, one thread per core
+y-axis: time
 
 - [Slurm](https://slurm.schedmd.com/) is a jobs scheduler
-- 
-- Easiest to schedule single-threaded, short jobs
+- Plan your job and but in the slurm job batch (sbatch)
+    `sbatch <flags> <program>` or
+    `sbatch <job script>`
+
+- Easiest to schedule *single-threaded*, short jobs
 
 ![Image](./img/queue2.png)
 ![Image](./img/queue3.png)
+- Left: 4 one-core jobs can run immediately (or a 4-core wide job).
+
+  - The jobs are too long to fit in core number 9-13.
+
+- Right: A 5-core job has to wait.
+
+  - Too long to fit in cores 9-13 and too wide to fit in the last cores.
 
 ## Jobs
 - Job = what happens during booked time
 - Described in a Bash script file
-  - Slurm parameters
+  - Slurm parameters (**flags**)
   - Load software modules
-  - Move around file system
+  - (Move around file system)
   - Run programs
-  - Collect output
+  - (Collect output)
 - ... and more
 
 ## Slurm parameters
@@ -47,7 +59,7 @@
 - Use a whole node or just part of it?
   - 1 node = 20 cores (16 on Bianca & Snowy)
   - 1 hour walltime = 20 core hours = expensive
-   -Waste of resources unless you have a parallel program or need all the memory
+   -Waste of resources unless you have a parallel program or need all the memory, e.g. 128 GB per node
 - Default value: core
 
 ## Interactive jobs
@@ -61,10 +73,11 @@
 ```bash=
   interactive -A snic2022-22-739 -p core -n 1 -t 10:00
 ```
-``````
-
 - Which node are you on?
   - Logout with Ctrl-D or logout
+``````
+
+
 
  
 ### A simple job script template
@@ -106,9 +119,36 @@ echo Hello world!
 - Finishedjobinfo — summary of finished jobs
 - Jobstats — efficiency of booked resources
 
+``````{challange} Exercise at home
+- Copy the code just further up!
+- Put it into a file named “jobtemplate.sh”
+- Make the file executable (chmod)
+- Submit the job:
+```
+$ sbatch jobtemplate.sh
+```
+- Note the job id!
+- Check the queue:
+```
+$ squeue -u <username>
+$ jobinfo -u <username>
+```
+- When it’s done (rather fast), look for the output file (slurm-<jobid>.out):
+```
+$ ls -lrt slurm-*
+```
+- Check the output file to see if it ran correctly
+```
+$ cat <filename>
+```
+``````
  
-### More on Thursday afternoon!
+**More on Thursday afternoon!**
 
- 
-
+```{keypoints} 
+- You are always in the login node unless you:
+  - start an interactive session
+  - start a batch job
+- Slurm is a job scheduler
+  - add flags to describe your job.
  
