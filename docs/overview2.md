@@ -1,5 +1,10 @@
 # Overview
 
+```{objectives}
+- Let's recap and go a little deeper into the organization of SNIC/UPPMAX
+
+```
+
 **UPPMAX = UppMACS**
 - [Uppsala Multidisciplinary Center for Advanced Computational Science](http://uppmax.uu.se)
 
@@ -24,7 +29,7 @@
   - Rackham (general purpose)
     - Snowy
   - Bianca (sensitive)
-    - Miarka (new)
+    - Miarka (Scilifelab production)
 - Storage
   - On-load directly connected to the clusters
   - Off-load for large data not needed for computation analysis anymore
@@ -52,6 +57,6 @@
   - troubleshooting,
   - general advice,
   - possibly make jobs more efficient.
-- Email support for any query: support@uppmax.uu.se
+- Email support for any query: support@uppmax.uu.se or use [support form](https://supr.snic.se/support/)
   - “tickets” are distributed according to competence
 
