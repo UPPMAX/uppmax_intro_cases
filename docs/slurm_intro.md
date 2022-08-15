@@ -9,8 +9,8 @@
 - Need a queue:
 
 ![Image](./img/queue1.png)
-x-axis: cores, one thread per core
-y-axis: time
+- x-axis: cores, one thread per core
+- y-axis: time
 
 - [Slurm](https://slurm.schedmd.com/) is a jobs scheduler
 - Plan your job and but in the slurm job batch (sbatch)
