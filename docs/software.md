@@ -123,5 +123,5 @@ module load bioinfo-tools samtools
 ``````
 ```{keypoints}
 - Centrally installed software are reached through the module system and available throughout all nodes.
-- Your own installed software, python packages etcetera are available from their paths
+- Your own installed software, scripts, python packages etcetera are available from their paths.
 ```
