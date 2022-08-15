@@ -478,8 +478,8 @@ $ ls -l
     -R for recursive (i.e. all files and sub-directories therein)
 
 - Online, you will come across e.g. `chmod 755`, what does this mean? It’s a "octal bit mask”:
-    7 = 4 + 2 + 1 = r + w + x
-    5 = 4 + 0 + 1 = r + x
+        7 = 4 + 2 + 1 = r + w + x
+        5 = 4 + 0 + 1 = r +   + x
 
 - What number would r+w be?
 
@@ -495,9 +495,10 @@ $ ls -l
 - Use chmod to remove write permission from those files and directories (use the `-R` flag (not `-r`) to also do the files in the directories).
   - Take a moment to play around with chmod and explore the effects of permissions on files and directories.
 ```
-```{solution}
- chmod -wR <target>
- 
-```
+``````{solution}
+```bash=
+$ chmod -wR <target>
+ ```
+``````
  
 **More about bash command line and scripts on Wednesday and  Thursday!**
