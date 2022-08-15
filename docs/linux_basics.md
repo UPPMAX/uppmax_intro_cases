@@ -357,7 +357,7 @@ $ ls
 
 ```
  $ cat a the_best > combinedfiles.txt
-´´´
+```
  
 ### head — display the top (<u>head</u>ing) of a file
 
