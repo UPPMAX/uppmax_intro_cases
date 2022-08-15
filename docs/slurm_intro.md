@@ -119,7 +119,7 @@ echo Hello world!
 - Finishedjobinfo — summary of finished jobs
 - Jobstats — efficiency of booked resources
 
-``````{challange} Exercise at home
+``````{challenge} Exercise at home
 - Copy the code just further up!
 - Put it into a file named “jobtemplate.sh”
 - Make the file executable (chmod)
