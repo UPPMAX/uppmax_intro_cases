@@ -61,7 +61,7 @@
   - section 3: Transfer files to and from Bianca
 - wharf
 - NGI Deliver through SUPR
-- Transit server (SSH to https://www.transit.uppmax.uu.se)
+- Transit server (SSH to transit.uppmax.uu.se)
 
 ### Software
 
