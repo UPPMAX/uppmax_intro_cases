@@ -94,7 +94,7 @@ $ pwd
 - Figure out the use of the following:
 
 ```bash=
- $ cd -
+$ cd -
 
 $ cd ..
 
@@ -106,13 +106,13 @@ $ cd ~
 ``````
  
 ```{solution} Solution 
-- cd - : goes back to your last directory
+- `cd -` : goes back to your last directory
 
-- cd .. : goes a level up in the hierarchy
+- ´cd ..´ : goes a level up in the hierarchy
 
--- cd : goes to home directory
+- ´cd´ : goes to home directory
 
--- cd ~ : also goes to home directory
+- ´cd ~´ : also goes to home directory
 ```
 
  
