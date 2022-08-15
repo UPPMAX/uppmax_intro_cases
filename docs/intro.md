@@ -1,17 +1,15 @@
 # Welcome!
 
-UPPMAX application experts want to share their skills in a 4-day series of lectures. 
-We will help you move from being a Linux novice to an UPPMAX expert. 
-If you already have the fundamentals down, you are still sure to enjoy the tips and tricks in the later parts of the course. 
-Hence we've made it possible to sign up only for the days that are interesting to you.
+- UPPMAX application experts want to share their skills in a 4-day series of lectures. 
+- We will help you move from being a Linux novice to an UPPMAX expert. 
+- If you already have the fundamentals down, you are still sure to enjoy the tips and tricks in the later parts of the course. 
+- Hence we've made it possible to sign up only for the days that are interesting to you.
 
 ## Lesson material
 - First day will be on this [github website](https://uppmax.github.io/uppmax_intro/overview.html)
   - This is a test!  
 - All other days each topic has its own Module in [Studium/Canvas](https://uppsala.instructure.com/courses/67267)
-
-- Links to the modules can be found in the sidebar to  the left and below.
-
+  - Links to the modules can be found in the sidebar to  the left and below.
 
 ## Questions
 
@@ -21,26 +19,22 @@ Hence we've made it possible to sign up only for the days that are interesting t
 
 ### Questions requiring more effort to explain or answer 
 - Use the HackMD session below:
-
-[https://hackmd.io/@dianai/uppmax-intro](https://hackmd.io/VN85GrBbTb22izq5856kVg?both)
-
+  - [https://hackmd.io/@dianai/uppmax-intro](https://hackmd.io/VN85GrBbTb22izq5856kVg?both)
 - Questions that come up off-line can as well be put here!
-- We will test this very soon!
 
-### Exercises
-- Exercises may be solved in small groups in classroom or 
-- Breakout rooms for online students.
+## Exercises
+- Exercises may be solved indidividually or in small groups in 
+  - classroom or 
+  - Breakout rooms for online students.
 
+## Type along
 
-### Type along
-
-- Shellshare will be used in some cases
+- Shellshare may be used in some cases (not online at the moment)
+- If it works:
   - You can follow the teacher's typing and be able to copy-pasting if necessary
   - You don't need to install anything
   - just follow the posted link when the teacher is opening it.
-  - However, it will only be available during our session
-and limited to last, perhaps, 500 rows
-
+  - However, it is limited to last, perhaps, 500 rows
 
 
 ## Example of arrangement for the "worst case"!
@@ -58,7 +52,6 @@ and limited to last, perhaps, 500 rows
 - Linux basics
 - Using the command line
 
-
 ### Intro to UPPMAX 13-16 Tuesday
 - Organisation
 - HPC computing
@@ -66,7 +59,6 @@ and limited to last, perhaps, 500 rows
 - Bianca cluster
 - Using software and tools
 - Submitting jobs to calculation nodes (intro)
-
 
 ### Linux II 9-12 Wednesday
 - Using the command line level 2
