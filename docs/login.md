@@ -110,7 +110,7 @@ The built-in terminal without X is sufficient first days of the course!
 
 - Alternatively, use ctrl-z to put e.g. gedit to sleep and type "bg" to make last process in background.
 
-```{challenge} Login to **Rackham**, using your terminal
+``````{challenge} Login to **Rackham**, using your terminal
 - First try:
 ```bash=
 $ ssh -Y <username>@rackham.uppmax.uu.se
@@ -123,7 +123,7 @@ $ ssh <username>@rackham.uppmax.uu.se
 ```bash=
 $ xeyes &
 ```
-```
+``````
  
 ## ThinLinc (all platforms!)
 
