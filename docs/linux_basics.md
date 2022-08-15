@@ -240,7 +240,7 @@ $ rm this_is_empty
  
 ### rmdir — delete an empty directory
 
-- Need another command to delete directories
+- We eed another command to delete directories
 
 ```bash=
 $ rmdir this_is_empty
@@ -265,7 +265,7 @@ $ rmdir -r this_has_a_file
 $ man ls 
 
         shows you how to use ls and all its options
-- Type ‘/<keyword>’ to search for “<keyword>”, use ‘n’ and ‘N’ to scan through hits.
+- Type ‘/keyword’ to search for a keyword, use ‘n’ (forward) and ‘N’ (backward) to scan through hits.
 - Scroll with arrows.
 - Type ‘q’ to quit.
  
@@ -300,71 +300,77 @@ MANUAL SECTIONS
 
  
 ## Let’s get wild with Wildcards
-
-
 ![Caption](./img/wildcards_bear.png)
 
+```bash=
 $ ls many_files
 
 $ ls many_files/*.txt
 
 $ ls many_files/file_1*1.docx
+ ```
 
-    Want to clean out temporary files ending in .tmp in all the subdirectories?
+- Want to clean out temporary files ending in .tmp in all the subdirectories?
 
-$ rm */*.tmp
+```{warning}
+- NB! It could be wise to do 'ls -a */*.tmp' first to see what will be deleted...
+```
+```bash=
+ $ rm */*.tmp
+```
 
-    NB! It could be wise to do ls -a */*.tmp first to see what will be deleted...
-
- 
-
-    Exercise:  Create a new directory and move all .txt files in many_files to it.
-
+```{challenge} Exercise
+- Exercise:  Create a new directory and move all .txt files in many_files to it.
+```
  
 ## Reading files
 
-    In Linux, you can (if you wish) also display files without being able to change them
+- In Linux, you can (if you wish) also display files without being able to change them
 
+```bash=
 $ cd old_project
 
 $ ls
+```
 
-    Hmm, which of these files are useful?
+- Hmm, which of these files are useful?
 
  
-### cat - concatenate files and print on the standard output
+### cat - con<ins>cat</ins>enate files and print on the standard output
 
 ![Caption](./img/cat.png)
 
+- cat dumps the contents of files to the terminal as text
+
+```
+ $ cat the_best
+```
+
+- Yummy!
+
+´´
+ $ cat a
+ ´´´
+- ???
+
+- Concatenate files with this wizardry:
+
+```
+ $ cat a the_best > combinedfiles.txt
+´´´
  
-
-    cat dumps the contents of files to the terminal as text
-
-$ cat the_best
-
-
-Yummy!
-
-$ cat a
-
-
-???
-
-    Concatenate files with this wizardry:
-
-$ cat a the_best > combinedfiles.txt
-
- 
-### head — display the top of a file
+### head — display the top (<ins>head</ins>ing) of a file
 
 
 ![Caption](./img/head.png)
 
-$ head a
-
-    You can choose how many lines to display (default 10)
-
-$ head -n 4 a
+```
+ $ head a
+ ```
+- You can choose how many lines to display (default 10)
+```
+ $ head -n 4 a
+ ```
 
  
 ### tail — display the end of a file
@@ -372,25 +378,30 @@ $ head -n 4 a
 
 ![Caption](./img/tail.png)
 
-    Tail is the same as head, but for the other end.
+- Tail is the same as head, but for the other end.
 
-$ tail -n 5 a
+```
+ $ tail -n 5 a
+ ```
 
-    Handy to look at log files or to figure out the structure of a text file.
+- Handy to look at log files or to figure out the structure of a text file.
 
  
 ### less — read a whole file
 
-    cat doesn’t really work for long files
+- cat doesn’t really work for long files
 
-$ less a
+```
+ $ less a
+ ```
 
-    Search with ‘/keyword’ and ‘n’/’N’
-    Hit ‘q’ to quit.
-    scroll with arrows.
-    "man" uses "less"!
+- Search with ‘/keyword’ and ‘n’/’N’
+- Hit ‘q’ to quit.
+- scroll with arrows.
+- "man" uses "less"!
 
-“less is more”
+    “less is more”
+ 
 ## File permissions
 
 
