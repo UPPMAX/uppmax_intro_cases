@@ -114,12 +114,13 @@ module load bioinfo-tools samtools
 - Unless your script or program is in the active path, you run it by the full path or `./<file>` if you are in the present directory.
 
 ```{challenge} Demo: Run a Fortran program 
-- Run the program "sunray"
+- Run the program "sunray" located in: `/proj/introtouppmax/bjorn-test/sunray`
 ```
 ``````{solution}
-- For me:
+- 2 alternatives
 ```bash=
  /proj/introtouppmax/bjorn-test/sunray
+ 
  cd /proj/introtouppmax/bjorn-test/
  ./sunray
 ```
