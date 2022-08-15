@@ -1,11 +1,17 @@
 # Submitting jobs
+```{objectives}
+- This is a short introduction in how to reach the calculation nodes
+- Thursday afternoon is wedded to this topic!
+```
 
 ## Slurm, sbatch, the job queue
 - Problem: 1000 users, 500 nodes, 10k cores
-  - Need a queue:
+- Need a queue:
 
 ![Image](./img/queue1.png)
 
+- [Slurm](https://slurm.schedmd.com/) is a jobs scheduler
+- 
 - Easiest to schedule single-threaded, short jobs
 
 ![Image](./img/queue2.png)
@@ -25,8 +31,10 @@
 - 1 mandatory setting for jobs:
   - Which compute project? (-A)
 - 3 settings you really should set:
-  - Less than one node? (-p)
+  - Type of queue? (-p)
+    - core, node, (for short development jobs and tests: devcore, devel)
   - How many cores? (-n)
+    - up to 16 (20 on Rackham) for core job
   - How long at most? (-t)
 - If in doubt:
   - -p core
@@ -35,47 +43,25 @@
 
 ![Image](./img/queue1.png)
 
- 
-
 - Where should it run? (-p node or -p core)
 - Use a whole node or just part of it?
   - 1 node = 20 cores (16 on Bianca & Snowy)
   - 1 hour walltime = 20 core hours = expensive
    -Waste of resources unless you have a parallel program or need all the memory
 - Default value: core
-    
-### Most important slurm flags
-
-#### Type of queue -p
-
-#### How long is the job? -t
-
-- How long is it? (-t)
-- Always overestimate with ~50%
-- Jobs killed when timelimit reached
-- Only charged for time used
-- -t = time (hh:mm:ss)
-  - 78:00:00 or 3-6:00:00
-- Default value: 7-00:00:00
-
-## Efficient jobs
-- Use your booked cores or memory
-  - (at least 50%)
-
-- Runtime longer than 1 hour
-  - Combine shorter jobs
-- Ask UPPMAX support for help!
 
 ## Interactive jobs
--  Most work is most effective as submitted jobs, but e.g. development needs responsiveness
+- Most work is most effective as submitted jobs, but e.g. development needs responsiveness
 - Interactive jobs are high-priority but limited in -n and -t
 - Quickly give you a job and logs you in to the compute node
 - Require same Slurm parameters as other jobs
-- Try it:
+
+``````{challenge} Try interactive
 
 ```bash=
-  $ interactive -A snic2021-22-606 -p core -n 1 -t 10:00
+  interactive -A snic2022-22-739 -p core -n 1 -t 10:00
 ```
+``````
 
 - Which node are you on?
   - Logout with Ctrl-D or logout
@@ -87,7 +73,7 @@
 #!/bin/bash -l 
 # tell it is bash language and -l is for starting a session with a "clean environment, e.g. with no modules loaded and paths reset"
 
-#SBATCH -A snic2021-22-606  # Project name
+#SBATCH -A snic2022-22-739  # Project name
 
 #SBATCH -p devcore  # Asking for cores (for test jobs and as opposed to multiple nodes) 
 
