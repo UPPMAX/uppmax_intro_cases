@@ -120,14 +120,16 @@ The built-in terminal without X is sufficient first days of the course!
 - Both Rackham and Bianca offer graphical login.
 - This gives you a desktop environment, as if you were working on your own computer!
 - On web:
-  - https://rackham-gui.uppmax.uu.se (Links to an external site.)
-  - https://bianca.uppmax.uu.se (Links to an external site.)
-   -requires 2-factor authentication
+  - [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se)
+  - [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
+   -requires [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/)
 
 ![Caption](./img/Thinlinc2.jpg)
 
  - Or use the client (only for Rackham)
-  - https://www.cendio.com/thinlinc/download (Links to an external site.)
-  - Try the web version now if you don't already have the software installed!
+  - [https://www.cendio.com/thinlinc/download](https://www.cendio.com/thinlinc/download)
+
+```{challenge} Try Thinlinc from web
+  - Try the web version now if you don't already have the software installed!```
 
  
