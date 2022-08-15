@@ -1,4 +1,19 @@
 # Linux
+- The "operating system" of the UPPMAX and most of the other cluseters is Linux.
+
+```{questions}
+- What is Linux?
+- How to use the command line?
+
+```
+
+```{objectives}
+- We'll briefly get an overview of Linux
+  - How the command line works
+  - Some text editors
+  - Things to be aware 
+```
+
 ## What is Linux?
 
 ![Content](./img/pingvin.png)
@@ -208,28 +223,21 @@ ask Bash to complete what you’re writing.
 - If you do destroy your data, email UPPMAX support, we may be able to help.
 ```
 
-```{challenge} gh-pages-2: Host your own github page
-- Deploy own website reusing a template:
-  - Follow the steps from GitHub Pages <https://pages.github.com/>.
-    The documentation there is very good so there is no need for us to duplicate the screenshots
-  - Select "Project site"
-  - Select "Choose a theme" (for instance "Minimal")
-  - Click "Select theme"
-  - Adjust the README.md and commit
-  - Browse your page on `http://username.github.io/repository` (adjust "username" and "repository")
-- Make a change to the repository after the webpage has been deployed for the first time
-- Please wait few minutes and then verify that the change shows up on the website
+ ```{keypoints}
+- Linux Operating system is a UNIX-like and UNIX compatible Operating system.
+- Typical command:
+    $ program word1 word2 word3 […]
+- Example of file editors
+    - terminal
+        - nano
+        - vim
+        - emacs
+    - graphical:
+        gedit
+- Tips
+    - use Tab completion
+    - capitalization and spaces matters
+    - no undo:s for copying, moving and removing
 ```
 
-
-```{callout} Real-life examples
-- Research Software Hour (built using [Zola](https://www.getzola.org/))
-  - [Source](https://raw.githubusercontent.com/ResearchSoftwareHour/researchsoftwarehour.github.io/main/content/about.md)
-  - Result: <https://researchsoftwarehour.github.io/about/>
-- This lesson (built using [Sphinx](https://www.sphinx-doc.org/)
-    and [MyST](https://myst-parser.readthedocs.io/)
-    and [sphinx-lesson](https://coderefinery.github.io/sphinx-lesson/))
-  - [Source](https://raw.githubusercontent.com/coderefinery/documentation/main/content/gh-pages.md)
-  - Result: this page
-```
 
