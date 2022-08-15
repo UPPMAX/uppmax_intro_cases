@@ -10,6 +10,7 @@
 - 800+ programs and packages are installed.
 - To avoid chaos and collisions, they are managed by a **module system**.
 - This system keeps installed software hidden by default, and users have to explicitly tell their terminal which version of which software they need.
+- The modules are most often available across cluster (except for Miarka)
 
 
 ```{note}
@@ -21,22 +22,21 @@
 - [Software at UPPMAX](https://www.uppmax.uu.se/resources/software/)
 - [Module system](https://www.uppmax.uu.se/resources/software/module-system/)
 
-Some commands:
+### Some commands
 
+- `module avail`  — list all modules
 
-- module avail  — list all modules
+- `module avail <part of tool name>` — search for modules (full name not needed and case insensitive)
 
-- module avail <part of tool name> — search for modules (full name not needed and case insensitive)
+- `module load <module name>` — Loads the module
 
-- module load <module name> — Loads the module
+- `module unload <module name>` — Unloads the module
 
-- module unload <module name> — Unloads the module
+- `module list` — Lists loaded modules
 
-- module list — Lists loaded modules
-
-- module help <module name> — Displays a brief module-specific help
+- `module help <module name>` — Displays a brief module-specific help
  
-- module spider <part of tool name> — like "avail" but "stronger"
+- `module spider <part of tool name>` — like "avail" but "stronger"
 
 
 ## Installed software
@@ -46,7 +46,36 @@ Some commands:
 ## Installed databases
 - [Installed databases at UPPMAX](https://www.uppmax.uu.se/resources/databases/)
     
-## Hands on
+```{challenge} Hands on using a tool
+1. use matlab
+
+```
+$ matlab &
+```
+- Does not work!
+- Load module first
+```
+$ module avail matlab
+
+$ module load matlab/R2020b
+
+$ matlab &
+```
+- Matlab starts (if X11 is active)
+- `module load matlab` will start default version (often latest)
+
+2. use Samtools
+
+```
+$ module load samtools
+```
+        "These module(s) or extension(s) exist but cannot be loaded as requested: "samtools""
+```
+module load bioinfo-tools samtools
+```
+- Bioinformatic tools are hidden by default
+
+```
 
 ## Install software yourself
 - You can install in your home directory.
@@ -81,3 +110,9 @@ Docker will unfortunately not work on the clusters, since it requires root permi
 - See above for the available compilers and parallel libraries
 - [User guide for debuggers and profilers](https://www.uppmax.uu.se/support/user-guides/debuggers-and-profiling-tools/)
 
+## Run own scripts or programs
+- Unless your script or program is in the active path, you run it by the full path or `./<file>` if you are in the present directory.
+
+```{challenge} Run a Fortran program 
+- Run the program "sunray"
+```
