@@ -1,5 +1,5 @@
 # Linux
-- The "operating system" of the UPPMAX and most of the other cluseters is Linux.
+- The "operating system" of the UPPMAX and most of the other clusters is **Linux**.
 
 ```{questions}
 - What is Linux?
@@ -19,14 +19,14 @@
 ![Content](./img/pingvin.png)
 
 - Daily speaking: The Linux Operating system is a UNIX like and UNIX compatible Operating system.
-- Linux is a Kernel on which many different programs can run.
+- Linux is a "Kernel" on which many different programs can run.
 - The shell (bash, sh, ksh, csh, tcsh and many more) is one such program
     
 ![Content](./img/images.jfif)
 
  
 
-- Actually, for it to be an OS, it is supplied with GNU software and other additions giving us the name GNU/Linux.
+- Actually, for it to be an OS, it is supplied with GNU software and other additions giving us the name **GNU/Linux*.
 
  
 
