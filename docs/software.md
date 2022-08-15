@@ -5,13 +5,15 @@
     -  databases
 - Introduction quide for installing own software or packages
 - Very short introduction to developing old programs
-``
+```
 
 - 800+ programs and packages are installed.
 - To avoid chaos and collisions, they are managed by a **module system**.
 - This system keeps installed software hidden by default, and users have to explicitly tell their terminal which version of which software they need.
+
+
 ```{note}
-- NBioinformatics tools require loading the “bioinfo-tools” module first.
+- Bioinformatics tools require loading the “bioinfo-tools” module first.
 ```
 
 ## Modules
@@ -43,6 +45,8 @@ Some commands:
   
 ## Installed databases
 - [Installed databases at UPPMAX](https://www.uppmax.uu.se/resources/databases/)
+    
+## Hands on
 
 ## Install software yourself
 - You can install in your home directory.
