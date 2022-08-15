@@ -313,7 +313,7 @@ $ ls many_files/file_1*1.docx
 - Want to clean out temporary files ending in .tmp in all the subdirectories?
 
 ```{warning}
-- NB! It could be wise to do 'ls -a */*.tmp' first to see what will be deleted...
+- NB! It could be wise to do `ls -a */*.tmp` first to see what will be deleted...
 ```
 ```bash=
  $ rm */*.tmp
@@ -348,10 +348,10 @@ $ ls
 
 - Yummy!
 
-´´
+```
  $ cat a
- ´´´
-- ???
+```
+- What's this????
 
 - Concatenate files with this wizardry:
 
@@ -359,7 +359,7 @@ $ ls
  $ cat a the_best > combinedfiles.txt
 ´´´
  
-### head — display the top (<ins>head</ins>ing) of a file
+### head — display the top (<u>head</u>ing) of a file
 
 
 ![Caption](./img/head.png)
@@ -395,8 +395,8 @@ $ ls
  $ less a
  ```
 
-- Search with ‘/keyword’ and ‘n’/’N’
-- Hit ‘q’ to quit.
+- Search with `/<keyword>` and `n`/´N`
+- Hit `q´ to quit.
 - scroll with arrows.
 - "man" uses "less"!
 
