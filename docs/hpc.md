@@ -85,7 +85,8 @@
 
 - [User guide](https://www.uppmax.uu.se/support/user-guides/snowy-user-guide/).
   - There is a [local compute round](https://supr.snic.se/round/uppmaxcompute2021/) for UU users applying for Snowy in SUPR.
-  - GU (courses) applications (including GU GPU usage) are not done in SUPR, but are supposed to be routed through the service desk.   - The details can be found at the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/).
+  - GU (courses) applications (including GU GPU usage) are not done in SUPR, but are supposed to be routed through the service desk.   
+  - The details can be found at the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/).
 
 ### About Bianca?
 - Wait for it!
