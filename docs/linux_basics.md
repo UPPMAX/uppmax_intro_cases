@@ -469,19 +469,19 @@ $ ls -l
 
 - `chmod <mode> <files>`
 - <mode> can be e.g.
-    u+x (let you run a script you just wrote)
-    -w (no write permissions for anyone)
-    +rw (let group members read and edit this file)
-    =xw (let group members go into your directory and put files there, but not see which files are there)
+  -  u+x (let you run a script you just wrote)
+  -  -w (no write permissions for anyone)
+  -  +rw (let group members read and edit this file)
+  -  =xw (let group members go into your directory and put files there, but not see which files are there)
 
 - chmod takes flags as usual, e.g.
-    -R for recursive (i.e. all files and sub-directories therein)
+  -  -R for recursive (i.e. all files and sub-directories therein)
 
 - Online, you will come across e.g. `chmod 755`, what does this mean? It’s a "octal bit mask”:
   -     7 = 4 + 2 + 1 = r + w + x
   -     5 = 4 + 0 + 1 = r +   + x
 
-- What number would r+w be?
+- What number would +rw be?
 
 ```{solution}
 6
