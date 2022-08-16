@@ -254,7 +254,7 @@ $ rmdir this_has_a_file
  ```{solution}
 - Recursive commands `-r`are applied to directories and their contents
 ```bash=
-$ rmdir -r this_has_a_file
+$ rm -r this_has_a_file
 ```
   
 ## Help
