@@ -57,6 +57,6 @@
   - troubleshooting,
   - general advice,
   - possibly make jobs more efficient.
-- Email support for any query: support@uppmax.uu.se or use [support form](https://supr.snic.se/support/)
-  - “tickets” are distributed according to competence
+- Email support for any query: [support@uppmax.uu.se](mailto:support@uppmax.uu.se) or use [support form](https://supr.snic.se/support/)
+  - “Tickets” are distributed according to competence among the staff
 
