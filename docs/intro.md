@@ -10,6 +10,7 @@
   - This is a test!  
 - All other days each topic has its own Module in [Studium/Canvas](https://uppsala.instructure.com/courses/67267)
   - Links to the modules can be found in the sidebar to  the left and below.
+- Materuial can also be reached at https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2022/
 
 ## Questions
 
@@ -23,7 +24,7 @@
 - Questions that come up off-line can as well be put here!
 
 ## Exercises
-- Exercises may be solved indidividually or in small groups in 
+- Exercises may be solved individually or in small groups in 
   - classroom or 
   - Breakout rooms for online students.
 
