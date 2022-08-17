@@ -12,25 +12,25 @@
 ## We will cover these commands
 ### Navigation and file management
 
-1. pwd  &emsp; present directory
-1. ls  &emsp;list content
-1. cd  &emsp;change directory
-1. mkdir  &emsp;make directory
-1. cp  &emsp;copy
-1. scp  &emsp;securely remotely copy
-1. mv  &emsp;move
-1. rm  &emsp;remove
-1. rmdir  &emsp;remove empty directory
+1. `pwd`  &emsp; present directory
+1. `ls`  &emsp;list content
+1. `cd`  &emsp;change directory
+1. `mkdir`  &emsp;make directory
+1. `cp`  &emsp;copy
+1. `scp`  &emsp;securely remotely copy
+1. `mv`  &emsp;move
+1. `rm`  &emsp;remove
+1. `rmdir`  &emsp;remove empty directory
 
 ### Read files and change file properties
 
-10. cat  &emsp;print content on screen
-11. head  &emsp;print first part
-12. tail  &emsp;print last part
-13. less  &emsp;browse content
-14. tar  &emsp;compress or extract file
-15. chmod  &emsp;change file permissions
-16. man  &emsp;info about a command
+10. `cat`  &emsp;print content on screen
+11. `head`  &emsp;print first part
+12. `tail`  &emsp;print last part
+13. `less`  &emsp;browse content
+14. `tar`  &emsp;compress or extract file
+15. `chmod`  &emsp;change file permissions
+16. `man`  &emsp;info about a command
 
 ## File system Navigation
 ### pwd — where are you now? “Print name of current/Working Directory”
@@ -265,9 +265,9 @@ $ rm -r this_has_a_file
 $ man ls 
 
         shows you how to use ls and all its options
-- Type ‘/keyword’ to search for a keyword, use ‘n’ (forward) and ‘N’ (backward) to scan through hits.
+- Type `/<keyword>` to search for a keyword, use `n` (forward) and ´N` (backward) to scan through hits.
 - Scroll with arrows.
-- Type ‘q’ to quit.
+- Type `q` to quit.
  
 ```{challenge}
 - Spend some time now to browse the man pages for the commands you’ve just learned!
@@ -397,11 +397,11 @@ $ ls
  ```
 
 - Search with `/<keyword>` and `n`/`N`
-- Hit `q to quit.
+- Hit `q` to quit.
 - scroll with arrows.
-- "man" uses "less"!
+- `man` uses `less`!
 
-    “less is more”
+     “less is more”
  
 ## File permissions
 
