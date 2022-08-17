@@ -200,14 +200,14 @@ ask Bash to complete what you’re writing.
 ```{Warning}
 
 - There is no undo for:
-  - copy (cp),
-  - move (mv), and
-  - remove (rm).
+  - copy (`cp`),
+  - move (`mv`), and
+  - remove (`rm`).
 - **Beware of overwriting files and deleting the wrong ones.**
 ```
  
 ```{Note}
-- **Tip: make "rm" ask if you really want to erase:**
+- **Tip: make "`rm`" ask if you really want to erase:**
   - Within a session: Type in the command prompt
 
         alias rm=‘rm -i’
@@ -216,7 +216,7 @@ ask Bash to complete what you’re writing.
 
         rm –f <>
 
-  - Edit file ".bashrc" in /home directory by adding the alias line for this to start everytime.
+  - Edit file "`.bashrc`" in `home` directory by adding the alias line for this to start everytime.
 - This will also work for mv and cp!
 ```
 
