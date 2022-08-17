@@ -11,7 +11,7 @@
 ![Image](./img/queue1.png)
 - x-axis: cores, one thread per core
 - y-axis: time
-<br/>
+<br/><br/>
 - [Slurm](https://slurm.schedmd.com/) is a jobs scheduler
 - Plan your job and but in the slurm job batch (sbatch)
     `sbatch <flags> <program>` or
