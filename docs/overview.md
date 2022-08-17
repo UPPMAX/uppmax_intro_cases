@@ -67,7 +67,7 @@
 
 ```{keypoints}
 - SNIC makes available large-scale high-performance computing resources, storage capacity, and advanced user support, for Swedish research. 
-- UPPMAX rund the local resources placed at Uppsala Universtiy
+- UPPMAX runs the local resources placed at Uppsala Universtiy
 - A cluster consists of several interconnected computers that can work individually or together.
 ```
 
