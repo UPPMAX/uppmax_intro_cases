@@ -17,11 +17,11 @@
 
 ## SNIC
 - SNIC — the Swedish National Infrastructure for Computing
-- SNIC and Uppsala University fund UPPMAX. — UU’s supercomputing centre.
+- SNIC and Uppsala University fund UPPMAX — UU’s supercomputing center.
 - Mission for SNIC: to provide a quality high-performance computing environment nationally
 
 ## UPPMAX missions
-- Run the clusters placed in Uppsala.
+- Runs the clusters placed in Uppsala.
 - More details in the afternoon about Organisational orienteering!
 
     
@@ -43,7 +43,7 @@
 
 - A network of computers, each computer working as a **node**.
 
-- From small scale RaspberryPi cluster
+- From small scale RaspberryPi cluster... 
      
 ![RaspBerry](./img/IMG_5111.jpeg)
 
@@ -63,7 +63,7 @@
 
 ![RaspBerry](./img/Bild1.png)
 
-- The **calculation nodes** has to be used for intense computing. 
+- The **calculation nodes** have to be used for intense computing. 
 
 ```{keypoints}
 - SNIC makes available large-scale high-performance computing resources, storage capacity, and advanced user support, for Swedish research. 
