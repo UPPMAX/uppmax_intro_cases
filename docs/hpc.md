@@ -102,8 +102,8 @@
 |**Fat nodes**|256 GB & 1 TB| 256, 512 GB & 4 TB| 256 & 512 GB|
 |**Local disk (scratch)**|2/3 TB| 4 TB| 4 TB |
 |**Login nodes**|Yes| No (reached from Rackham)|Yes|
-
-|**Storage**|Crex, Lutra|Crex, Lutra|Castor, Cygnus|
+|**"Home" storage**|Domus|Domus|Castor|
+|**Storage**|Crex, Lutra|Crex, Lutra|Castor|
 
 ```{keypoints}
 - UPPMAX has several clusters 
