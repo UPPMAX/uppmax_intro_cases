@@ -10,7 +10,7 @@
   - This is a test!  
 - All other days each topic has its own Module in [Studium/Canvas](https://uppsala.instructure.com/courses/67267)
   - Links to the modules can be found in the sidebar to  the left and below.
-- Materuial can also be reached at https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2022/
+- Material can also be reached at <https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2022/>
 
 ## Questions
 
