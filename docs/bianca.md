@@ -53,7 +53,7 @@
 - Data can be transferred to or from a virtual project cluster through the Wharf, which is a special file area that is visible from the Internet.
 
 ### The log in steps
-1. When you log in to <bianca.uppmax.uu.se>, your SSH or ThinLinc client first meets the blue Bianca login node.
+1. When you log in to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se), your SSH or ThinLinc client first meets the blue Bianca login node.
     - `<username>-<projid>@bianca.uppmax.uu.se`
     - like: `myname-sens2016999@bianca.uppmax.uu.se`
 2. After checking your [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/), this server looks for your virtual project cluster.
