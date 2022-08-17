@@ -14,7 +14,7 @@ Here you will find *some* of the documentation for the UPPMAX resources in a eas
    * - Time
      - Topic
      - Activity
-   * - 9:15
+   * - 9:00
      - Overview of SNIC and the UPPMAX clusters
      - Lecture
    * - 
@@ -23,7 +23,7 @@ Here you will find *some* of the documentation for the UPPMAX resources in a eas
    * - 
      - Linux  
      - Lecture+code along
-   * - 13:15
+   * - 13:00
      - Using the UPPMAX systems  
      - Lecture+code along
 
