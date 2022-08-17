@@ -123,7 +123,7 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
   - [https://winscp.net/eng/download.php](https://winscp.net/eng/download.php) 
 
 ```{callout} Problems with installations?
-The built-in terminal without X is sufficient first days of the course!
+The built-in terminal without X11 is sufficient first days of the course!
 ```
 
  
@@ -134,7 +134,7 @@ The built-in terminal without X is sufficient first days of the course!
 
 - The X servers that enables graphics are needed, as mentioned above!
   - When starting a graphical program, a new window will open, but your terminal will be “locked”.
-  - Run using "&" at the end to run it as a background process e.g. "`xeyes &`" or “`gedit &`”
+  - Run using "`&`" at the end to run it as a background process e.g. "`xeyes &`" or “`gedit &`”
 
 ![Caption](./img/xeyes.png)
 
