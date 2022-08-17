@@ -20,13 +20,14 @@
 
 - Daily speaking: The Linux Operating system is a UNIX like and UNIX compatible Operating system.
 - Linux is a "Kernel" on which many different programs can run.
-- The shell (bash, sh, ksh, csh, tcsh and many more) is one such program
+- The shell (bash, sh, ksh, csh, tcsh and many more) is one such program.
     
 ![Content](./img/images.jfif)
 
  
 
-- Actually, for it to be an OS, it is supplied with GNU software and other additions giving us the name **GNU/Linux*.
+- Actually, for it to be an OS, it is supplied with GNU software and other additions giving us the name **GNU/Linux**.
+  - [Linux naming controversy]((https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy)
 
  
 
@@ -75,7 +76,7 @@
     ```
 
   - For changing info (only for advanced users!)  Does not matter for this course!:
-    - https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html (Links to an external site.)
+    - <https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html>
   - The <span style="color:blue">program</span> to run is the first word
   - All words are separated by spaces
 
@@ -143,7 +144,7 @@ ask Bash to complete what you’re writing.
 
 ### nano 
 - keyboard shortcuts shown on-screen)
-- Cheatsheet: [http://staffwww.fullcoll.edu/sedwards/nano/UsefulNanoKeyCommands.html](http://staffwww.fullcoll.edu/sedwards/nano/UsefulNanoKeyCommands.html
+- Cheatsheet: [http://staffwww.fullcoll.edu/sedwards/nano/UsefulNanoKeyCommands.html](http://staffwww.fullcoll.edu/sedwards/nano/UsefulNanoKeyCommands.html)
   - ^ = Ctrl, M = meta key)
     - (Windows M = Alt)
     - (On Mac: in the Terminal.app go to Preferences -> Settings -> Keyboard and turn on "Use option as meta key": then M = Alt
@@ -168,9 +169,9 @@ ask Bash to complete what you’re writing.
      - keeps you in terminal window.
 
 ## The graphical editors
-- When starting the graphical versions of an editor, add "&" to be able to use the command line while program is open.
-  - Ex: $ gedit &
-  - If not, you can Ctrl+z and type "bg" to send program to background.
+- When starting the graphical versions of an editor, add "`&`" to be able to use the command line while program is open.
+  - Ex: `$ gedit &`
+  - If not, you can `<Ctrl>+z` and type "`bg`" to send program to background.
 
 ```{discussion} Try out later!
    **Try them out and pick one favorite editor!**
