@@ -273,6 +273,7 @@ $ man ls
 - Spend some time now to browse the man pages for the commands you’ve just learned!
 ```
  
+<!--- 
 - Not only user commands!
 
     Use sections like
@@ -297,7 +298,7 @@ MANUAL SECTIONS
        7      Miscellanea
 
        8      System Administration tools and Deamons
-
+--->
  
 ## Let’s get wild with Wildcards
 ![Caption](./img/wildcards_bear.png)
