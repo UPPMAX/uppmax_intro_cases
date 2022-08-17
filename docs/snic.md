@@ -11,6 +11,7 @@
   - Miarka
 - PDC (KTH):
   - Dardel - General computational resource
+  - Not intel/Nvidia but Cray/AMD CPU:s and GPU:s
 - NSC, Linköping:
   - Tetralith - General computational resource
 - HPC2N, Umeå:
@@ -50,7 +51,7 @@ AND the international
 
 - Other clouds
 
-  - Umeå University (North, HPC2N)
+  - Umeå University (North, HPC2N).
 
   - Chalmers University (West, C3SE).
 
