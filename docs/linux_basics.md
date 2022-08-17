@@ -457,6 +457,7 @@ $ ls -l
 
 - Huh, rwxrwsr-x?
 - `s` in the group means `x` but with gid bit set ( g roup id of creator not launcher).
+  - The s or sticky bit is a group permission on directories which changes the default behaviour of new files are created with the same group_id  as the users group_id to new files inheriting the group_id from the parent directory.
 - `S` means `-` with gid bit set (rarely seen).
 - Among other things, this makes the default group for new files/subdirectories the g2020018 group.
 
@@ -464,16 +465,23 @@ $ ls -l
 ## Changing permissions
 **chmod** — change file mode bits
 
-- Files with `w` can be modified and destroyed by accident. Protect your input data!
+- Files with `w` can be modified and destroyed by accident. Protect your data!
 - If you want to share data or scripts with a person not in your project (e.g. support staff like me), you can!
 - If you want to keep non-members from even seeing which files you have, you can!
 
 - `chmod <mode> <files>`
+  - <mode> includes the info of the
+    - `ugoa`, i.e. user, group, others all, respectively
+      - if not set changes are applied for user and group
+    - add permissions (+), remove (-) or set equal to (=)
+      - =  causes  unmentioned bits to be removed except that a directory's unmentioned set user and  group
+       ID bits are not affected.
+    - `rwxXst`, i.e. the actual permission
 - <mode> can be e.g.
-  -  u+x (let you run a script you just wrote)
+  -  u+x (lets you  (owner) run a script you just wrote)
   -  -w (no write permissions for anyone)
-  -  +rw (let group members read and edit this file)
-  -  =xw (let group members go into your directory and put files there, but not see which files are there)
+  -  +rw (let user and group members read and edit this file, not others if not already set)
+  -  =xw (let group members go into your directory and put files there, but not see which files are there, others are not affected)
 
 - chmod takes flags as usual, e.g.
   -  -R for recursive (i.e. all files and sub-directories therein)
@@ -481,8 +489,9 @@ $ ls -l
 - Online, you will come across e.g. `chmod 755`, what does this mean? It’s a "octal bit mask”:
   -     7 = 4 + 2 + 1 = r + w + x
   -     5 = 4 + 0 + 1 = r +   + x
+- 755 then means all permissions for owner, but limiting write permissions for the group and all others
 
-- What number would +rw be?
+- What number would `rw` be?
 
 ```{solution}
 6
