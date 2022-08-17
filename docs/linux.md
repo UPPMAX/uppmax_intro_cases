@@ -146,15 +146,15 @@ ask Bash to complete what you’re writing.
 - keyboard shortcuts shown on-screen)
 - Cheatsheet: [http://staffwww.fullcoll.edu/sedwards/nano/UsefulNanoKeyCommands.html](http://staffwww.fullcoll.edu/sedwards/nano/UsefulNanoKeyCommands.html)
   - ^ = Ctrl, M = meta key)
-    - (Windows M = Alt)
-    - (On Mac: in the Terminal.app go to Preferences -> Settings -> Keyboard and turn on "Use option as meta key": then M = Alt
+    - Windows M = Alt
+    - On Mac: in the Terminal.app go to Preferences -> Settings -> Keyboard and turn on "Use option as meta key": then M = Alt
 
 ### vim 
 - fast and powerful, once you learn it
-- on UPPMAX started with command "vi"
+- on UPPMAX started with command "`vi`"
 
-  - 1. Insert mode (type like normal text editor. Press 'i' for insert mode)
-  - 2. Command mode (give commands to the editor to get things done . Press ESC for command mode)
+  - 1. Insert mode (type like normal text editor. Press '`i`' for insert mode)
+  - 2. Command mode (give commands to the editor to get things done . Press `<ESC>` for command mode)
   - Cheatsheet: [https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started)
  
 ### gvim 
@@ -163,9 +163,9 @@ ask Bash to complete what you’re writing.
 ### emacs 
 - fast and powerful, once you learn it
   - Cheatsheet: [https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
-    - (C = Ctrl)
+    - (C = `<Ctrl>`)
 - also With GUI
-   - $ emacs –nw
+   - `$ emacs –nw`
      - keeps you in terminal window.
 
 ## The graphical editors
