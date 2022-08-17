@@ -5,6 +5,7 @@
 
 ## SNIC HPC Clusters
 <https://www.snic.se/resources/compute-resources/>
+- Mostly Intel-based CPU:s and Nvidia GPU:s
 - UPPMAX:
   - Rackham - General computational resource and also focused towards Life Science
   - Bianca - SNIC SENS, resource dedicated to research on sensitive data
@@ -20,7 +21,8 @@
   - Alvis - Accelerator-based resource dedicated to research using AI techniques
 AND the international
 - LUMI, Finland 
-  - LUMI   General computational resource, aimed at larger projects in Sweden
+  - LUMI - General computational resource, aimed at larger projects in Sweden
+  - Not intel/Nvidia but Cray/AMD CPU:s and GPU:s
 
 ### Locally financed systems for local users
 - UPPMAX
