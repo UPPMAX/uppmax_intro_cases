@@ -487,7 +487,7 @@ $ ls -l
 - chmod takes flags as usual, e.g.
   -  `-R` for recursive (i.e. all files and sub-directories therein)
 
-- Online, you will come across e.g. `chmod 755`, what does this mean? It’s a "octal bit mask”:
+- Online, you will come across e.g. `chmod 755`, what does this mean? It’s an "octal bit mask”:
   -     7 = 4 + 2 + 1 = r + w + x
   -     5 = 4 + 0 + 1 = r +   + x
 - 755 then means all permissions for owner, but limiting write permissions for the group and all others
