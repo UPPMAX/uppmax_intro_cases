@@ -1,25 +1,25 @@
 # Login
 
 ```{questions}
-- How to reach UPPMAX clusters
+- How to reach UPPMAX clusters?
 - Can one use graphics?
 - Where do I arrive when I log in?
 
 ```
 
 ```{objectives}
-- We'll relate our login session to the specific "area" in the cluster
+- We'll relate our login session to the specific "area" in the cluster.
 - We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX.
-- Try yourself
+- Try yourself!
 ```
 
 ```{note}
-If you lack account, visit the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/)
+If you lack a user account, visit the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/)
 ```
 
 ## The login
 - When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.
-- This means that only light analysis and and calculations should be made here
+- This means that only light analysis and and calculations should be made here.
 - You will see this in the prompt after "@" as the clustername and a low number. For instance:
    ```bash=
       [<user>@rackham3 linux_tutorial]$
@@ -56,7 +56,7 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 ![Caption](./img/fz3_osx_main.png )
 
 ```{callout} Problems with installations?
-The built-in terminal without X is sufficient first days of the course!
+The built-in terminal without X11 is sufficient first days of the course!
 ```
 
 ## Windows users
@@ -65,7 +65,7 @@ The built-in terminal without X is sufficient first days of the course!
 - Install a ssh (secure shell) program with built-in X11 and sftp file manager
   - [MobaXterm](https://mobaxterm.mobatek.net/)
     - sftp frame makes it easy to move, upload and download files.
-  - See section below
+  - See section below.
 
 - If problem with the above installation, the putty.exe terminal is sufficient first days of the course!
 
@@ -105,7 +105,7 @@ The built-in terminal without X is sufficient first days of the course!
 - Start local terminal and a SSH session by:
 
 ```bash=
-$ ssh -X <username>@rackham.uppmax.uu.se
+$ ssh -Y <username>@rackham.uppmax.uu.se
 ```
 
 ![Caption](./img/mobax_start1.jpg)
@@ -130,15 +130,15 @@ The built-in terminal without X is sufficient first days of the course!
 ## X11-forwarding from the command line (generally)
 
 - Graphics can be sent through the SSH connection you’re using to connect
-  - Use primarily ssh -Y <...> or secondary ssh -X <...>
+  - Use primarily `ssh -Y <...>` or secondary `ssh -X <...>`
 
 - The X servers that enables graphics are needed, as mentioned above!
   - When starting a graphical program, a new window will open, but your terminal will be “locked”.
-  - Run using "&" at the end to run it as a background process e.g. "xeyes &" or “gedit &”
+  - Run using "&" at the end to run it as a background process e.g. "`xeyes &`" or “`gedit &`”
 
 ![Caption](./img/xeyes.png)
 
-- Alternatively, use ctrl-z to put e.g. gedit to sleep and type "bg" to make last process in background.
+- Alternatively, use `<ctrl>-z` to put e.g. gedit to sleep and type "`bg`" to make last process in background.
 
 ``````{challenge} Login to **Rackham**, using your terminal
 - First try:
