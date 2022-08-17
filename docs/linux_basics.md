@@ -470,21 +470,21 @@ $ ls -l
 - If you want to keep non-members from even seeing which files you have, you can!
 
 - `chmod <mode> <files>`
-  - <mode> includes the info of the
+  - \<mode\> includes the info of the
     - `ugoa`, i.e. user, group, others all, respectively
       - if not set changes are applied for user and group
     - add permissions (+), remove (-) or set equal to (=)
       - =  causes  unmentioned bits to be removed except that a directory's unmentioned set user and  group
        ID bits are not affected.
     - `rwxXst`, i.e. the actual permission
-- <mode> can be e.g.
-  -  u+x (lets you  (owner) run a script you just wrote)
-  -  -w (no write permissions for anyone)
-  -  +rw (let user and group members read and edit this file, not others if not already set)
-  -  =xw (let group members go into your directory and put files there, but not see which files are there, others are not affected)
+- \<mode\> can be e.g.
+  -  `u+x` : lets you  (owner) run a script you just wrote
+  -  `-w` : no write permissions for anyone
+  -  `+rw` : let user and group members read and edit this file, not others if not already set
+  -  `=xw` : let group members go into your directory and put files there, but not see which files are there, others are not affected
 
 - chmod takes flags as usual, e.g.
-  -  -R for recursive (i.e. all files and sub-directories therein)
+  -  `-R` for recursive (i.e. all files and sub-directories therein)
 
 - Online, you will come across e.g. `chmod 755`, what does this mean? It’s a "octal bit mask”:
   -     7 = 4 + 2 + 1 = r + w + x
