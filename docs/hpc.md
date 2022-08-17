@@ -7,7 +7,7 @@
 ## What is a cluster?
 - A network of computers, each computer working as a node.
 
-- From small scale RaspberryPi cluster
+- From small scale RaspberryPi cluster... 
      
 ![RaspBerry](./img/IMG_5111.jpeg)
 
@@ -68,7 +68,7 @@
 
 - The storage systems we have provide a total volume of about 20 PB, the equivalent of nearly 15 billion 3.5-inch floppy disks or 40,000 years of 128-bit encoded music. Read more on the storage systems page.
 
-### UPPMAX storage system names
+### UPPMAX storage system names (projects & home directories)
 - Rackham storage: Crex & Domus
 - Bianca storage: Castor & Cygnus
 - NGI production system (Miarka): Vulpes
@@ -102,6 +102,7 @@
 |**Fat nodes**|256 GB & 1 TB| 256, 512 GB & 4 TB| 256 & 512 GB|
 |**Local disk (scratch)**|2/3 TB| 4 TB| 4 TB |
 |**Login nodes**|Yes| No (reached from Rackham)|Yes|
+
 |**Storage**|Crex, Lutra|Crex, Lutra|Castor, Cygnus|
 
 ```{keypoints}
