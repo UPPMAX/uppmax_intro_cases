@@ -41,21 +41,21 @@
 
 ## Slurm parameters
 - 1 mandatory setting for jobs:
-  - Which compute project? (-A)
+  - Which compute project? (`-A`)
 - 3 settings you really should set:
-  - Type of queue? (-p)
+  - Type of queue? (`-p`)
     - core, node, (for short development jobs and tests: devcore, devel)
-  - How many cores? (-n)
+  - How many cores? (`-n`)
     - up to 16 (20 on Rackham) for core job
-  - How long at most? (-t)
+  - How long at most? (`-t`)
 - If in doubt:
-  - -p core
-  - -n 1
-  - -t 10-00:00:00
+  - -`p core`
+  - -`n 1`
+  - `-t 10-00:00:00`
 
 ![Image](./img/queue1.png)
 
-- Where should it run? (-p node or -p core)
+- Where should it run? (`-p node` or `-p core`)
 - Use a whole node or just part of it?
   - 1 node = 20 cores (16 on Bianca & Snowy)
   - 1 hour walltime = 20 core hours = expensive
@@ -64,7 +64,7 @@
 
 ## Interactive jobs
 - Most work is most effective as submitted jobs, but e.g. development needs responsiveness
-- Interactive jobs are high-priority but limited in -n and -t
+- Interactive jobs are high-priority but limited in `-n` and `-t`
 - Quickly give you a job and logs you in to the compute node
 - Require same Slurm parameters as other jobs
 
@@ -74,7 +74,7 @@
   interactive -A snic2022-22-739 -p core -n 1 -t 10:00
 ```
 - Which node are you on?
-  - Logout with Ctrl-D or logout
+  - Logout with `<Ctrl>-D` or `logout`
 ``````
 
 
