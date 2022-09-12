@@ -5,9 +5,6 @@
 - If you already have the fundamentals down, you are still sure to enjoy the tips and tricks in the later parts of the course. 
 - Hence we've made it possible to sign up only for the days that are interesting to you.
 
-- Documentation at the HPC centres UPPMAx and HPC2N
-  - [UPPMAX](https://www.uppmax.uu.se/support/user-guides/python-user-guide/): https://www.uppmax.uu.se/support/user-guides/python-user-guide/
-  - [HPC2N](https://www.hpc2n.umu.se/resources/software/user_installed/python): https://www.hpc2n.umu.se/resources/software/user_installed/python
 
 ## Lesson material
 - First day will be on this [github website](https://uppmax.github.io/uppmax_intro/overview.html) <https://uppmax.github.io/uppmax_intro/index.html>
