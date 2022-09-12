@@ -6,7 +6,7 @@
 - Hence we've made it possible to sign up only for the days that are interesting to you.
 
 ## Lesson material
-- First day will be on this [github website](https://uppmax.github.io/uppmax_intro/overview.html)
+- First day will be on this [github website](https://uppmax.github.io/uppmax_intro/overview.html) <https://uppmax.github.io/uppmax_intro/index.html>
   - This is a test!  
 - All other days each topic has its own Module in [Studium/Canvas](https://uppsala.instructure.com/courses/67267)
   - Links to the modules can be found in the sidebar to  the left and below.
@@ -29,13 +29,6 @@
   - Breakout rooms for online students.
 
 ## Type along
-
-- Shellshare may be used in some cases (not online at the moment)
-- If it works:
-  - You can follow the teacher's typing and be able to copy-pasting if necessary
-  - You don't need to install anything
-  - just follow the posted link when the teacher is opening it.
-  - However, it is limited to last, perhaps, 500 rows
 
 
 ## Example of arrangement for the "worst case"!
