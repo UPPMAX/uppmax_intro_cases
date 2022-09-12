@@ -7,27 +7,6 @@ Welcome to Introduction to UPPMAX first day lessons
 =======================================
 Here you will find *some* of the documentation for the UPPMAX resources in a easy to find place.
 
-.. list-table:: Preliminary schedule
-   :widths: 25 25 50
-   :header-rows: 1
-
-   * - Time
-     - Topic
-     - Activity
-   * - 9:00
-     - Overview of SNIC and the UPPMAX clusters
-     - Lecture
-   * - 
-     - Login 
-     - Lecture+code along
-   * - 
-     - Linux  
-     - Lecture+code along
-   * - 13:00
-     - Using the UPPMAX systems  
-     - Lecture+code along
-
-
 You can also find more information at:
 https://www.uppmax.uu.se/
 
