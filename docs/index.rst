@@ -27,7 +27,7 @@ https://www.uppmax.uu.se/
    :maxdepth: 2
    :caption: Get started
    
-   login.md
+   login2.md
    linux.md
    linux_basics.md
 
