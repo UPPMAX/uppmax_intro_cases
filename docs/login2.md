@@ -30,12 +30,12 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
 
 ```{solution} Login procedure
    If you plan to:
-   - day-to-day work where terminal shell is sufficient
+   - do day-to-day work where terminal shell is sufficient
      - Mac: Terminal, XTerm2
      - Linux: Terminal
      - Windows: Putty
        - for interaction with you local computer you may benefit from having a Windows Subsystem for Linux (WSL) 
-   - day-to-day work with some graphical applications (X forwarding)
+   - do day-to-day work with some graphical applications (X forwarding)
      - Mac: Terminal, XTerm2 + XQUARTZ
      - Linux: Terminal
      - Windows: MobaxTerm
@@ -47,7 +47,7 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
      - ThinLinc from web 
    
 ```
-
+## General understanding
 
 - When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.
 - This means that only light analysis and and calculations should be made here.
