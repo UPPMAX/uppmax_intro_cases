@@ -15,6 +15,7 @@ https://www.uppmax.uu.se/
    :caption: Intro
     
    intro.md
+   intro_onsite.md
 
 .. toctree::
    :maxdepth: 2
