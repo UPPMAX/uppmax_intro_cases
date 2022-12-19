@@ -22,8 +22,9 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
 ```{admonition} Login procedure
    **Which login procedure is best for You, depends on:**
    - Your background
-   - your OS environment,
-   - the interaction with your local computer
+   - Your OS environment,
+   - Your planned interaction with your local computer
+   - Your planned use of graphics on the cluster
 ```
 
 - When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.
@@ -32,7 +33,7 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
    ```bash=
       [<user>@rackham3 linux_tutorial]$
     ```
-- You willl ater learn how to reach the calculation nodes. Then the prompt states the node number with a single letter, like "r" for Rackham. For instance:
+- You will later learn how to reach the calculation nodes. Then the prompt states the node number with a single letter, like "r" for Rackham. For instance:
    ```bash=
       [<user>@r484 linux_tutorial]
    ```
