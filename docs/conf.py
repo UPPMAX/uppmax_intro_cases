@@ -34,9 +34,11 @@ release = '0.1'
 extensions = ["sphinx_lesson",
     "sphinx.ext.githubpages",
     "sphinx_rtd_theme_ext_color_contrast",
-    "sphinxemoji.sphinxemoji",
     'sphinx-prompt',
-    'sphinx.ext.autodoc'           
+    'sphinx.ext.autodoc',
+    'sphinxcontrib.plantuml',
+    'sphinx.ext.graphviz'
+
 ]
 
 source_suffix = ['.rst', '.md']
