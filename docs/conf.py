@@ -36,8 +36,6 @@ extensions = ["sphinx_lesson",
     "sphinx_rtd_theme_ext_color_contrast",
     "sphinxemoji.sphinxemoji",
     'sphinx-prompt',
-    'sphinxcontrib.plantuml',
-    'sphinx.ext.graphviz',
     'sphinx.ext.autodoc'           
 ]
 
