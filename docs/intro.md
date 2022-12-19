@@ -1,4 +1,4 @@
-# Welcome online!
+# Welcome on-site!
 
 **Fix this**
 - UPPMAX application experts want to share their skills in a 4-day series of lectures. 
