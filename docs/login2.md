@@ -19,8 +19,8 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
 
 ## The login
 
-```{admonition}Login procedure
-**Which login procedure is best for You, depends on:**
+```{admonition} Login procedure
+  **Which login procedure is best for You, depends on:**
   - Your background
   - your OS environment,
   - the interaction with your local computer
