@@ -1,5 +1,6 @@
 # Welcome online!
 
+**Fix this**
 - UPPMAX application experts want to share their skills in a 4-day series of lectures. 
 - We will help you move from being a Linux novice to an UPPMAX expert. 
 - If you already have the fundamentals down, you are still sure to enjoy the tips and tricks in the later parts of the course. 
