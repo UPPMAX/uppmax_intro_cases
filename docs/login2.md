@@ -28,13 +28,16 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
 ```
 
 
-```{solution} Login procedure
+```{admonition} Login procedure
    If you plan to:
-   - do day-to-day work where terminal shell is sufficient
+   - do day-to-day work where *terminal shell is sufficient*
      - Mac: Terminal, XTerm2
      - Linux: Terminal
      - Windows: Putty
-       - for interaction with you local computer you may benefit from having a Windows Subsystem for Linux (WSL) 
+   - interact with you local computer 
+     - Mac/Linux: syou can always work in a local shell
+     - Windows
+        - you may benefit from having a Windows Subsystem for Linux (WSL) 
    - do day-to-day work with some graphical applications (X forwarding)
      - Mac: Terminal, XTerm2 + XQUARTZ
      - Linux: Terminal
