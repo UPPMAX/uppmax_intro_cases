@@ -34,19 +34,21 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
      - Mac: Terminal, XTerm2
      - Linux: Terminal
      - Windows: Putty
-   - interact with you local computer 
-     - Mac/Linux: syou can always work in a local shell
+   - *interact with you local computer*
+     - Mac/Linux: you can always work in a local shell (mutiple terminal windows open
+        - FTP browser: Filezilla
      - Windows
+        - FTP browser: WinSCP
         - you may benefit from having a Windows Subsystem for Linux (WSL) 
-   - do day-to-day work with some graphical applications (X forwarding)
-     - Mac: Terminal, XTerm2 + XQUARTZ
+   - do day-to-day work with *some graphical applications (X forwarding)*
+     - Mac: Terminal, XTerm2 + XQuartz
      - Linux: Terminal
-     - Windows: MobaxTerm
-   - intergrate you cluster work with code development
+     - Windows: MobaXterm
+   - intergrate you cluster work with *code development*
      - All OS: Example Visual Studio Code
-   - use sophistival Graphical interfaces like RStudio and MATLAB etcetera
+   - use sophistic graphical interfaces like *RStudio and MATLAB* etcetera
      - ThinLinc application
-   - use Bianca
+   - use *Bianca*
      - ThinLinc from web 
    
 ```
