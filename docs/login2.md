@@ -18,6 +18,13 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
 ```
 
 ## The login
+
+**Which login procedure is best for You, depends on:**
+  - Your background
+  - your OS environment,
+  - the interaction with your local computer
+
+
 - When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.
 - This means that only light analysis and and calculations should be made here.
 - You will see this in the prompt after "@" as the clustername and a low number. For instance:
