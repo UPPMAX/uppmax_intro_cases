@@ -7,8 +7,7 @@
 
 
 ## Lesson material
-- First day will be on this [github website](https://uppmax.github.io/uppmax_intro/overview.html) <https://uppmax.github.io/uppmax_intro/index.html>
-  - This is a test!  
+- First day will be on this [github website](https://uppmax.github.io/uppmax_intro/overview.html) <https://uppmax.github.io/uppmax_intro/index.html>  
 - All other days each topic has its own Module in [Studium/Canvas](https://uppsala.instructure.com/courses/67267)
   - Links to the modules can be found in the sidebar to  the left and below.
 - Material can also be reached at <https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2022/>
@@ -17,37 +16,33 @@
 
 ### Questions very much related to the present talk during the lessons 
 - best posed directly by voice
-- Online chat or raise hand
 
 ### Questions requiring more effort to explain or answer 
 - Use the HackMD session below:
-  - [https://hackmd.io/@dianai/uppmax-intro](https://hackmd.io/VN85GrBbTb22izq5856kVg?both)
-- Questions that come up off-line can as well be put here!
+  - **fix this**
+
 
 ## Exercises
-- Exercises may be solved individually or in small groups in 
-  - classroom or 
-  - Breakout rooms for online students.
+- Exercises may be solved individually or in small groups in classroom
 
 ## Type along
-
 
 ## Example of arrangement for the "worst case"!
 - HackMD
 - ZOOM view
 - shellshare
 - your own terminal
-
+**fix this**
 ![worst](./img/worst.jpg)
 
 ## Lesson Modules
-### Linux I at 9-12 Tuesday
+### Linux I at 9-12 Monday
 - Overview
 - Logging in to UPPMAX
 - Linux basics
 - Using the command line
 
-### Intro to UPPMAX 13-16 Tuesday
+### Intro to UPPMAX 13-16 Monday
 - Organisation
 - HPC computing
 - SNIC
@@ -55,25 +50,25 @@
 - Using software and tools
 - Submitting jobs to calculation nodes (intro)
 
-### Linux II 9-12 Wednesday
+### Linux II 9-12 Tuesday
 - Using the command line level 2
 - Input, output and pipes
 - Wildcards
 - The find command
 - Links
-### Linux III 13-16 Wednesday
+### Linux III 13-16 Tuesday
 - The grep command
 - Using the command line level 3
 - Variables, parameters and $(...)
 - Filenames
-### Bash Scripts 9-12 Thursday
+### Bash Scripts 9-12 Wednesday
 - Bash scripting, why's and basics
 - Parameters
 - The IF statement
 - File tests
 - FOR and WHILE loops
 - Background processes and job control
-### Slurm at UPPMAX 13-16 Thursday
+### Slurm at UPPMAX 13-16 Wednesday
 - A workload manager
 - Queuing
 - Monitoring
@@ -94,5 +89,6 @@
 
 
 ## Icebreaker in HackMD
+**Fix this**
 - [https://hackmd.io/@dianai/uppmax-intro](https://hackmd.io/VN85GrBbTb22izq5856kVg?both)
 
