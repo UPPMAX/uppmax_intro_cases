@@ -78,12 +78,14 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
    ```
 
 ## Terminals
+
 ````{tab} Python
 ```python
 def main():
     return
 ```
 ````
+
 ````{tab} C++
 ```c++
 int main(const int argc, const char **argv) {
