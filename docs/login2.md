@@ -77,34 +77,44 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
       [<user>@r484 linux_tutorial]
    ```
 
-## Terminals
+## Terminals 
 
 `````{tabs} 
 ````{tab} Mac
 
 - Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
+```bash=
+$ ssh <username>@rackham.uppmax.uu.se
+```
+- "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
 
+![Terminal](./img/Mac_terminal.png)
 ```
 ````
 
-````{tab} C++
-```c++
-int main(const int argc, const char **argv) {
-  return 0;
+````{tab} Windows
+
+- putty.exe terminal is sufficient first days of the course!
+
+    - No graphics.
+
+    - [https://www.putty.org/](https://www.putty.org/)
+    
+
 }
 ```
 ````
 `````
 
-## MAC and LINUX users
+## Terminal with X11 server and light graphics
 
-### Terminal
+`````{tabs} 
+````{tab} Mac
 
 - Download XQuartz or other X11 server for Mac OS
   - [https://www.xquartz.org/](https://www.xquartz.org/)
-  - This is to enable graphics.
 
-- Start built-in Terminal.
+- Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
 
 ```bash=
 $ ssh -Y <username>@rackham.uppmax.uu.se
@@ -113,7 +123,36 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 
 ![Terminal](./img/Mac_terminal.png)
 
+```bash=
+$ ssh <username>@rackham.uppmax.uu.se
+```
+- "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
+-    -X      Enables X11 forwarding. 
+-    -Y      Enables trusted X11 forwarding
+
+![Terminal](./img/Mac_terminal.png)
+```
+````
+
+````{tab} Windows
+
+- Install a ssh (secure shell) program with built-in X11 and sftp file manager
+  - [MobaXterm](https://mobaxterm.mobatek.net/)
+    - sftp frame makes it easy to move, upload and download files.
+  - See section below.
+
+    
+
+}
+```
+````
+`````
+
 ### Graphical file manager
+
+
+`````{tabs} 
+````{tab} Mac
 
 - For copying of files with sftp (secure file transfer protocol) between your client computer (where you are) and the cluster **Filezilla** can be the choice.
 - [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client)
@@ -121,8 +160,21 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 
 ![Caption](./img/fz3_osx_main.png )
 
+
+````
+
+````{tab} Windows
+
+- For copying of files between your client computer (where you are) and the cluster WinSCP can also be the choice.
+  - [https://winscp.net/eng/download.php](https://winscp.net/eng/download.php) 
+
+
+
+```` 
+`````
+
 ```{callout} Problems with installations?
-The built-in terminal without X11 is sufficient first days of the course!
+Putty/Terminal  without X11 is sufficient first days of the course!
 ```
 
 ## Windows users
@@ -133,13 +185,7 @@ The built-in terminal without X11 is sufficient first days of the course!
     - sftp frame makes it easy to move, upload and download files.
   - See section below.
 
-- If problem with the above installation, the putty.exe terminal is sufficient first days of the course!
 
-    - No graphics.
-
-    - [https://www.putty.org/](https://www.putty.org/)
-
-![Caption](./img/putty.jpg)
 
 
 <!---
@@ -183,14 +229,6 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 ![Caption](./img/mobax_start.jpg)
 
 
-### Graphical file manager (Windows)
-
-- For copying of files between your client computer (where you are) and the cluster WinSCP can also be the choice.
-  - [https://winscp.net/eng/download.php](https://winscp.net/eng/download.php) 
-
-```{callout} Problems with installations?
-The built-in terminal without X11 is sufficient first days of the course!
-```
 
  
 ## X11-forwarding from the command line (generally)
