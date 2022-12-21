@@ -79,6 +79,7 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
 
 ## Terminals
 
+`````{tabs} 
 ````{tab} Python
 ```python
 def main():
@@ -93,6 +94,7 @@ int main(const int argc, const char **argv) {
 }
 ```
 ````
+`````
 
 ## MAC and LINUX users
 
