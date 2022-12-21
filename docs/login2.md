@@ -69,11 +69,11 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
 - When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.
 - This means that only light analysis and and calculations should be made here.
 - You will see this in the prompt after "@" as the clustername and a low number. For instance:
-   ```bash=
+   ```concole
       [<user>@rackham3 linux_tutorial]$
     ```
 - You will later learn how to reach the calculation nodes. Then the prompt states the node number with a single letter, like "r" for Rackham. For instance:
-   ```bash=
+   ```console
       [<user>@r484 linux_tutorial]
    ```
 
@@ -81,9 +81,12 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
 
 ```{tabs}
 
-   {tabs} UPPMAX
+   ```{tabs} UPPMAX
 
-      test
+      ```console
+        [<user>@r484 linux_tutorial]
+      ```  
+   ```
       
 ```      
 
