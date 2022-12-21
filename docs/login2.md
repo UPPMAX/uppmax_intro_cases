@@ -45,7 +45,7 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
         - you may benefit from having a Windows Subsystem for Linux (WSL(2)) 
         
         
-   - ** do day-to-day work** with *some graphical applications (X forwarding)*
+   - **do day-to-day work** with *some graphical applications (X forwarding)*
      - Mac: *Terminal, iTerm2 + XQuartz*
      - Linux: *Terminal*
      - Windows: *MobaXterm*
@@ -69,7 +69,7 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
 - When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.
 - This means that only light analysis and and calculations should be made here.
 - You will see this in the prompt after "@" as the clustername and a low number. For instance:
-   ```concole
+   ```console
       [<user>@rackham3 linux_tutorial]$
     ```
 - You will later learn how to reach the calculation nodes. Then the prompt states the node number with a single letter, like "r" for Rackham. For instance:
