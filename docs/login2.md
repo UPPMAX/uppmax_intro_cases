@@ -30,26 +30,37 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
 
 ```{admonition} Login procedure
    If you plan to:
-   - do day-to-day work where *terminal shell is sufficient*
-     - Mac: Terminal, XTerm2
+   - do **day-to-day** work where *terminal shell is sufficient*
+     - Mac: Terminal, iTerm2
      - Linux: Terminal
      - Windows: Putty
-   - *interact with you local computer*
-     - Mac/Linux: you can always work in a local shell (mutiple terminal windows open
-        - FTP browser: Filezilla
+     
+     
+   - **interact with you local computer**
+     - Mac/Linux: you can always work in a local shell (mutiple terminal windows open)
+        - *(S)FTP browser*: Filezilla
      - Windows
-        - FTP browser: WinSCP
-        - you may benefit from having a Windows Subsystem for Linux (WSL) 
-   - do day-to-day work with *some graphical applications (X forwarding)*
-     - Mac: Terminal, XTerm2 + XQuartz
-     - Linux: Terminal
-     - Windows: MobaXterm
+        - (S)FTP browser: WinSCP
+        - MobaXterm has built-in SFTP browser
+        - you may benefit from having a Windows Subsystem for Linux (WSL(2)) 
+        
+        
+   -** do day-to-day work** with *some graphical applications (X forwarding)*
+     - Mac: *Terminal, iTerm2 + XQuartz*
+     - Linux: *Terminal*
+     - Windows: *MobaXterm*
+     
+     
    - intergrate you cluster work with *code development*
      - All OS: Example Visual Studio Code
-   - use sophistic graphical interfaces like *RStudio and MATLAB* etcetera
-     - ThinLinc application
-   - use *Bianca*
-     - ThinLinc from web 
+     
+     
+   - use **sophistic graphical interfaces** like *RStudio and MATLAB* etcetera
+     - *ThinLinc application*
+     
+     
+   - use **Bianca**
+     - *ThinLinc from web*
    
 ```
 ## General understanding
