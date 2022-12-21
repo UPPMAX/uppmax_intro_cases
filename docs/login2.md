@@ -45,7 +45,7 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
         - you may benefit from having a Windows Subsystem for Linux (WSL(2)) 
         
         
-   -** do day-to-day work** with *some graphical applications (X forwarding)*
+   - ** do day-to-day work** with *some graphical applications (X forwarding)*
      - Mac: *Terminal, iTerm2 + XQuartz*
      - Linux: *Terminal*
      - Windows: *MobaXterm*
@@ -63,6 +63,7 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
      - *ThinLinc from web*
    
 ```
+
 ## General understanding
 
 - When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.
@@ -76,6 +77,15 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
       [<user>@r484 linux_tutorial]
    ```
 
+## Terminals
+
+```{tabs}
+
+   {tabs} UPPMAX
+
+      test
+      
+```      
 
 ## MAC and LINUX users
 
