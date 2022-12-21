@@ -2,23 +2,30 @@
 
 ```{questions}
 - What is UPPMAX?
-- What is SNIC?
+- What is SNIC/NAISS?
 - What is a cluster?
 
 ```
 
 ```{objectives}
-- We'll get an overview of UPPMAX and SNIC and how a computer cluster works
+- We'll get an overview of UPPMAX and SNIC/NAISS and how a computer cluster works
 ```
 
 
 **UPPMAX = UppMACS**
 - [Uppsala Multidisciplinary Center for Advanced Computational Science](http://uppmax.uu.se)
 
-## SNIC
-- SNIC — the Swedish National Infrastructure for Computing
-- SNIC and Uppsala University fund UPPMAX — UU’s supercomputing center.
-- Mission for SNIC: to provide a quality high-performance computing environment nationally
+## NAISS
+- **National Academic Infrastructure for Supercomputing in Sweden** (https://www.naiss.se/)
+- Mission: to provide a quality high-performance computing environment nationally
+
+- Starting 1 January 2023, the National Academic Infrastructure for Supercomputing in Sweden (NAISS) is the new organization for high-performance computing, storage, and date services for academic users in Sweden. 
+  - Replaces SNIC — the Swedish National Infrastructure for Computing
+  - Linköping university is the host organization for NAISS, but NAISS acts independently with a national perspective and responsibility.
+- From the users perspective, there will initially only be minimal differences between the SNIC and NAISS regimes.
+  
+- NAISS and Uppsala University fund UPPMAX — UU’s supercomputing center.
+
 
 ## UPPMAX missions
 - Runs the clusters placed in Uppsala.
@@ -66,8 +73,8 @@
 - The **calculation nodes** have to be used for intense computing. 
 
 ```{keypoints}
-- SNIC makes available large-scale high-performance computing resources, storage capacity, and advanced user support, for Swedish research. 
+- NAISS makes available large-scale high-performance computing resources, storage capacity, and advanced user support, for Swedish research. 
 - UPPMAX runs the local resources placed at Uppsala Universtiy
-- A cluster consists of several interconnected computers that can work individually or together.
+- A cluster consists of several inter-connected computers that can work individually or together.
 ```
 
