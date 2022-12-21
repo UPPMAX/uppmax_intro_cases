@@ -23,6 +23,7 @@
   - Replaces SNIC — the Swedish National Infrastructure for Computing
   - Linköping university is the host organization for NAISS, but NAISS acts independently with a national perspective and responsibility.
 - From the users perspective, there will initially only be minimal differences between the SNIC and NAISS regimes.
+  - FAQ:s — https://www.naiss.se/
   
 - NAISS and Uppsala University fund UPPMAX — UU’s supercomputing center.
 
