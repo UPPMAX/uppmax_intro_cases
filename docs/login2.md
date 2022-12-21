@@ -80,10 +80,10 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
 ## Terminals
 
 `````{tabs} 
-````{tab} Python
-```python
-def main():
-    return
+````{tab} Mac
+
+- Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
+
 ```
 ````
 
