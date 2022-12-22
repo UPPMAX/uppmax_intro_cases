@@ -132,18 +132,9 @@ $ ssh <username>@rackham.uppmax.uu.se
 ```bash=
 $ ssh -Y <username>@rackham.uppmax.uu.se
 ```
-- "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
-
-![Terminal](./img/Mac_terminal.png)
-
-```bash=
-$ ssh <username>@rackham.uppmax.uu.se
-```
-- "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
 -    -X      Enables X11 forwarding. 
 -    -Y      Enables trusted X11 forwarding
 
-![Terminal](./img/Mac_terminal.png)
 ```
 ````
 
@@ -160,7 +151,22 @@ $ ssh <username>@rackham.uppmax.uu.se
     - sftp frame makes it easy to move, upload and download files.
     - though downloading from remote host to local is usually easier.
     - tabs for several sessions
-  - See section below.
+
+![Caption](./img/mobax.jpg )
+
+- Start local terminal and a SSH session by:
+
+```bash=
+$ ssh -Y <username>@rackham.uppmax.uu.se
+```
+
+![Caption](./img/mobax_start1.jpg)
+
+- Or even better, create and save a SSH session, as shown in image below.
+  - This allows you to use MobaXterm as a file manager and  to use the built-in graphical texteditor.
+  - You can rename the session in the Bookmark settings tab.
+
+![Caption](./img/mobax_start.jpg)
 
     
 
@@ -223,27 +229,6 @@ Putty/Terminal  without X11 is sufficient first days of the course!
 - You may want to check this webpage as well!
   - https://hackmd.io/@pmitev/Linux4WinUsers (Links to an external site.)
 ```
- 
-### MobaXterm
-
-![Caption](./img/mobax.jpg )
-
-- Start local terminal and a SSH session by:
-
-```bash=
-$ ssh -Y <username>@rackham.uppmax.uu.se
-```
-
-![Caption](./img/mobax_start1.jpg)
-
-- Or even better, create and save a SSH session, as shown in image below.
-  - This allows you to use MobaXterm as a file manager and  to use the built-in graphical texteditor.
-  - You can rename the session in the Bookmark settings tab.
-
-![Caption](./img/mobax_start.jpg)
-
-
-
  
 ## X11-forwarding from the command line (generally)
 
