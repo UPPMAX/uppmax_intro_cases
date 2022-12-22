@@ -33,7 +33,7 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
    - do **day-to-day** work where *terminal shell is sufficient*
      - Mac: Terminal, iTerm2
      - Linux: Terminal
-     - Windows: Putty
+     - Windows: Putty or Windows Powershell or even command prompt (CMD)
      
      
    - **interact with you local computer**
@@ -94,12 +94,25 @@ $ ssh <username>@rackham.uppmax.uu.se
 
 ````{tab} Windows
 
-- putty.exe terminal is sufficient first days of the course!
+- the ssh (secure shell) client [**putty**](https://www.putty.org/) is sufficient first days of the course!
 
+    - You can save hosts for later.
     - No graphics.
-
-    - [https://www.putty.org/](https://www.putty.org/)
+    - 
     
+- Windows Powershell terminal can also work
+
+    - Cannot save hosts
+    - no graphics
+    - [PowerShell](https://learn.microsoft.com/en-us/powershell/)
+    
+- Windows command prompt can also work
+
+    - Cannot save hosts
+    - no graphics
+    - [Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/))
+
+- [Git bash](https://gitforwindows.org/)
 
 }
 ```
@@ -136,9 +149,17 @@ $ ssh <username>@rackham.uppmax.uu.se
 
 ````{tab} Windows
 
+- Download and install ONE of the X-servers below (to enable graphics)
+  - GWSL https://sourceforge.net/projects/vcxsrv/ (Links to an external site.)
+  - X-ming https://opticos.github.io/gwsl (Links to an external site.)z
+  - VcXsrv https://sourceforge.net/projects/xming/ (Links to an external site.)
+
+- or... 
 - Install a ssh (secure shell) program with built-in X11 and sftp file manager
-  - [MobaXterm](https://mobaxterm.mobatek.net/)
+  - [**MobaXterm**](https://mobaxterm.mobatek.net/)
     - sftp frame makes it easy to move, upload and download files.
+    - though downloading from remote host to local is usually easier.
+    - tabs for several sessions
   - See section below.
 
     
@@ -165,7 +186,7 @@ $ ssh <username>@rackham.uppmax.uu.se
 
 ````{tab} Windows
 
-- For copying of files between your client computer (where you are) and the cluster WinSCP can also be the choice.
+- For copying of files between your client computer (where you are) and the cluster **WinSCP** can also be the choice.
   - [https://winscp.net/eng/download.php](https://winscp.net/eng/download.php) 
 
 - ![Caption](./img/WinSCP.png )
@@ -178,27 +199,20 @@ $ ssh <username>@rackham.uppmax.uu.se
 Putty/Terminal  without X11 is sufficient first days of the course!
 ```
 
-## Windows users
 
-### Most straight-forward
-- Install a ssh (secure shell) program with built-in X11 and sftp file manager
-  - [MobaXterm](https://mobaxterm.mobatek.net/)
-    - sftp frame makes it easy to move, upload and download files.
-  - See section below.
+## Linux on your computer
 
+```{admonition} Local Linux environment
+   - You may sometimes benefit from having a local Linux environment.
+   - Examples:
+     - Mimic cluster environment to work with your local files and data as on the Cluster
+     - get used to Linux (!)
+   - Mac is UNIX and very Linux-like
+   - Windows requires WSL (Windows subsystem for Linux)
+```
 
-
-
-<!---
-### A bit more complicated (and not necessary)
-
-- Download and install ONE of the X-servers below (to enable graphics)
-  - GWSL https://sourceforge.net/projects/vcxsrv/ (Links to an external site.)
-  - X-ming https://opticos.github.io/gwsl (Links to an external site.)z
-  - VcXsrv https://sourceforge.net/projects/xming/ (Links to an external site.)
-
-- not necessary:
-  - Install WSL (Windows Subsystem for Linux) 
+```{solution} For windows users who wants to get started with WSL (not covered here)
+- Install WSL (Windows Subsystem for Linux) 
     - https://docs.microsoft.com/en-us/windows/wsl/install-win10 (Links to an external site.)
     - Don’t forget to update to wsl2
 - Install a distribution or a ssh (secure shell) program
@@ -206,10 +220,9 @@ Putty/Terminal  without X11 is sufficient first days of the course!
   - (recommended) a ssh program such as MobaXTerm
   - https://mobaxterm.mobatek.net/ (Links to an external site.)
     - sftp frame makes it easy to move, upload and download files.
-
 - You may want to check this webpage as well!
   - https://hackmd.io/@pmitev/Linux4WinUsers (Links to an external site.)
---->
+```
  
 ### MobaXterm
 
