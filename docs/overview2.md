@@ -1,7 +1,7 @@
 # Overview
 
 ```{objectives}
-- Let's recap and go a little deeper into the organization of SNIC/UPPMAX
+- Let's recap and go a little deeper into the organization of NAISS/UPPMAX
 
 ```
 
@@ -11,12 +11,12 @@
     
 ## Organisational orienteering
 
-- [VR/SRC](https://www.vr.se/english.html) and a consortium of universities funds [SNIC](http://www.snic.se) — the Swedish National Infrastructure for Computing
-- SNIC and Uppsala University fund [UPPMAX](http://uppmax.uu.se). — UU’s supercomputing centre.
+- [VR/SRC](https://www.vr.se/english.html) and a consortium of universities funds [NAISS](http://www.naiss.se) — the National Academic Infrastructure for Supercomputing in Sweden 
+- NAISS and Uppsala University fund [UPPMAX](http://uppmax.uu.se). — UU’s supercomputing centre.
 - Compute and Storage is a unit of [NBIS](https://nbis.se/), the national bioinformatics support infrastructure and a SciLifeLab platform, and is hosted by UPPMAX.
     
 ## UPPMAX missions
-- Mission for SNIC: to provide a quality high-performance computing environment nationally
+- Mission for NAISS: to provide a quality high-performance computing environment nationally
   - General purpose
   - Data intensive
   - Sensitive data (human sequences)
@@ -57,6 +57,6 @@
   - troubleshooting,
   - general advice,
   - possibly make jobs more efficient.
-- Email support for any query: [support@uppmax.uu.se](mailto:support@uppmax.uu.se) or use [support form](https://supr.snic.se/support/)
+- Email support for any query: [support@uppmax.uu.se](mailto:support@uppmax.uu.se) or use [support form](https://supr.naiss.se/support/)
   - “Tickets” are distributed according to competence among the staff
 
