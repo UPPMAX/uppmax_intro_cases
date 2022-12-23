@@ -37,7 +37,7 @@ https://www.uppmax.uu.se/
    
    overview2.md
    hpc.md
-   snic.md
+   naiss.md
    bianca.md
    
 .. toctree::
