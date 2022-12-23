@@ -38,16 +38,21 @@ https://www.uppmax.uu.se/
    overview2.md
    hpc.md
    naiss.md
-   bianca.md
    
 .. toctree::
    :maxdepth: 2
    :caption: Using UPPMAX
    
+   working.md
    software.md
    slurm_intro.md
 
+.. toctree::
+   :maxdepth: 2
+   :caption: NAISS SENSE
  
+   bianca.md
+
    
 
 ..
