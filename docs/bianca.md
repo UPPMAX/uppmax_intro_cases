@@ -1,4 +1,4 @@
-# SNIC SENS and Bianca
+# NAISS SENS and Bianca
 ```{objectives}
 - We'll briefly get an overview of kinds of sensitive data
 - ... and the **Bianca** system
