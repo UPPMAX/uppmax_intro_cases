@@ -1,6 +1,6 @@
-# SNIC
+# NAISS
 ```{objective}
-- Let's step up and have an overview of SNIC
+- Let's step up and have an overview of NAISS
 ```
 
 ## NAISS HPC Clusters
