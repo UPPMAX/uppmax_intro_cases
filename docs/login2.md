@@ -89,6 +89,9 @@ $ ssh <username>@rackham.uppmax.uu.se
 - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
 
 ![Terminal](./img/Mac_terminal.png)
+- iTerm2 goodies:
+  - You can save hosts for later.
+  - Drag and drop scp
 ```
 ````
 
@@ -135,21 +138,20 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 -    -X      Enables X11 forwarding. 
 -    -Y      Enables trusted X11 forwarding
 
-```
 ````
 
 ````{tab} Windows
 
 - Download and install ONE of the X-servers below (to enable graphics)
-  - GWSL https://sourceforge.net/projects/vcxsrv/ (Links to an external site.)
-  - X-ming https://opticos.github.io/gwsl (Links to an external site.)z
-  - VcXsrv https://sourceforge.net/projects/xming/ (Links to an external site.)
+  - [GWSL](https://sourceforge.net/projects/vcxsrv/) 
+  - [X-ming](https://opticos.github.io/gwsl)
+  - [VcXsrv](https://sourceforge.net/projects/xming/)
 
 - or... 
 - Install a ssh (secure shell) program with built-in X11 and sftp file manager
   - [**MobaXterm**](https://mobaxterm.mobatek.net/)
     - sftp frame makes it easy to move, upload and download files.
-    - though downloading from remote host to local is usually easier.
+    - ... though downloading from remote host to local is usually easier.
     - tabs for several sessions
 
 ![Caption](./img/mobax.jpg )
@@ -168,14 +170,11 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 
 ![Caption](./img/mobax_start.jpg)
 
-    
 
-}
-```
 ````
 `````
 
-## X11-forwarding from the command line (generally)
+```{admonition} X11-forwarding from the command line (generally)
 
 - Graphics can be sent through the SSH connection you’re using to connect
   - Use primarily `ssh -Y <...>` or secondary `ssh -X <...>`
@@ -187,6 +186,8 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 ![Caption](./img/xeyes.png)
 
 - Alternatively, use `<ctrl>-z` to put e.g. gedit to sleep and type "`bg`" to make last process in background.
+```
+
 
 ``````{challenge} Login to **Rackham**, using your terminal
 - First try:
@@ -205,6 +206,7 @@ $ xeyes &
 
 ## Graphical file manager
 
+- This is good if you want to move many files between host and local and cannot use wildcards.
 
 `````{tabs} 
 ````{tab} Mac
@@ -262,6 +264,8 @@ Putty/Terminal  without X11 is sufficient first days of the course!
 
 - intergrate you cluster work with *code development*
 - [SSH-remote from VS Code](https://code.visualstudio.com/docs/remote/remote-overview)
+- [Remote development using Visual Studio Code on Alvis cluster](https://www.c3se.chalmers.se/documentation/remote-vscode/remote_vscode/) 
+  - Similar to Rackham. Just change login details!
 
  
 ## ThinLinc (all platforms!)
@@ -283,8 +287,15 @@ Putty/Terminal  without X11 is sufficient first days of the course!
   ```
 
  ```{keypoints}
-- You reach UPPMAX clusters either using a terminal or Thinlinc
-- Graphics are included in Thinlinc and from terminal if you have enabled X11
 - When you log in from your local computer you will always arrive at a login node with limited resources. 
   - You reach the calculations nodes from within the login node (See  Submitting jobs section)
+- You reach UPPMAX clusters either using a terminal client or Thinlinc
+- Graphics are included in Thinlinc and from terminal if you have enabled X11.
+- Which client to use?
+  - Graphics and easy to use
+    - ThinLinc
+  - Best integrated systems
+    - Visual Studio Code has several extensions (remote, SCP, programming IDE:s)
+    - Windows: MobaXterm is somewhat easier to use.
+  
 ```
