@@ -2,14 +2,16 @@
 
 ```{questions}
 - How to reach UPPMAX clusters?
-- Can one use graphics?
-- Where do I arrive when I log in?
+- Where do I arrive when I log in? Login or calculation node?
+- What clients should/could I use for nmy work at UPPMAX?
+- How can I enable graphics?
 
 ```
 
 ```{objectives}
-- We'll relate our login session to the specific "area" in the cluster.
-- We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX.
+- We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX
+- See different clients
+- Enable graphics
 - Try yourself!
 ```
 
@@ -143,9 +145,10 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 ````{tab} Windows
 
 - Download and install ONE of the X-servers below (to enable graphics)
-  - [GWSL](https://sourceforge.net/projects/vcxsrv/) 
-  - [X-ming](https://opticos.github.io/gwsl)
-  - [VcXsrv](https://sourceforge.net/projects/xming/)
+  - [X-ming](https://sourceforge.net/projects/xming/)
+  - [VCXSRV](https://sourceforge.net/projects/vcxsrv/) 
+  - [GWSL](https://opticos.github.io/gwsl)
+
 
 - or... 
 - Install a ssh (secure shell) program with built-in X11 and sftp file manager
