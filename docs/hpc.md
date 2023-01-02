@@ -105,6 +105,18 @@
 |**"Home" storage**|Domus|Domus|Castor|
 |**Storage**|Crex, Lutra|Crex, Lutra|Castor|
 
+## HPC, HTC and MTC
+
+The Buzz word is HPC or High Performance Computing, but this is rather narrow focusing on fast calculation, i.e. processors and parallelism
+Many of your projetcs are more focusing on hight throughput, large memory demands and many tasks.
+Here is a list of the three most common **Computing paradigms**:
+
+- HPC: High Performance Computing — 
+- HTC: high-throughput computing — 
+- MTC: Many-task computing —
+
+
+
 ```{keypoints}
 - UPPMAX has several clusters 
      - each having its focus and limitation or possibilites
