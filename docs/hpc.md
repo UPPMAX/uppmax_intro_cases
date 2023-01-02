@@ -103,7 +103,7 @@
 |**Local disk (scratch)**|2/3 TB| 4 TB| 4 TB |
 |**Login nodes**|Yes| No (reached from Rackham)|Yes|
 |**"Home" storage**|Domus|Domus|Castor|
-|**Storage**|Crex, Lutra|Crex, Lutra|Castor|
+|**"Project" Storage**|Crex, Lutra|Crex, Lutra|Castor|
 
 ## HPC, HTC and MTC
 
@@ -126,5 +126,5 @@ Here is a list of the three most common **Computing paradigms**:
 ```{keypoints}
 - UPPMAX has several clusters 
      - each having its focus and limitation or possibilites
-     - access is determined ny type of project
+     - access is determined by type of project
 ```
