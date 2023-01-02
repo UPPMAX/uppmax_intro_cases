@@ -46,6 +46,7 @@ https://www.uppmax.uu.se/
    working.md
    software.md
    slurm_intro.md
+   courses.md
 
 .. toctree::
    :maxdepth: 2
