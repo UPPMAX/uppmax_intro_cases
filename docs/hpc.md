@@ -111,10 +111,16 @@ The Buzz word is HPC or High Performance Computing, but this is rather narrow fo
 Many of your projetcs are more focusing on hight throughput, large memory demands and many tasks.
 Here is a list of the three most common **Computing paradigms**:
 
-- HPC: High Performance Computing — 
-- HTC: high-throughput computing — 
-- MTC: Many-task computing —
-
+- **HPC**: High Performance Computing — Focus on floating point operations per second (**FLOPS**, flops or flop/s) 
+  - characterized as needing large amounts of computing power for short periods of time
+- **HTC**: High-Throughput Computing — 
+  - operations or **jobs per month or per year**. 
+  - more interested in how many jobs can be completed over a long period of time instead of how fast. 
+  - independent, sequential jobs that can be individually scheduled o
+- **MTC**: Many-task Computing — emphasis of using many computing resources over short periods of time to accomplish many computational tasks
+  - bridge the gap between HTC and HPC. 
+  - reminiscent of HTC, but including both dependent and independent tasks), where the primary metrics are measured in seconds (e.g. **FLOPS**, tasks/s, **MB/s** **I/O rates**), as opposed to operations (e.g. jobs) per month. 
+  - high-performance computations comprising multiple distinct activities, coupled via file system operations. 
 
 
 ```{keypoints}
