@@ -31,11 +31,14 @@
   - Use the HackMD session below:
   - **fix this**
 
+## Type along
+- You will be able to follow along using the built-in terminals in all OS:s.
+  - Linux/Mac Terminal
+  - Windows: Powershell or command prompt
+- For your day-to-day work you may benefit from other applications, see the [Login session](https://uppmax.github.io/uppmax_intro/login2.html)
 
 ## Exercises
 - Exercises may be solved individually or in small groups in classroom
-
-## Type along
 
 ## Example of arrangement on your screen
 - HackMD
