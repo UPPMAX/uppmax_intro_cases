@@ -16,14 +16,14 @@
 - [Uppsala Multidisciplinary Center for Advanced Computational Science](http://uppmax.uu.se)
 
 ## NAISS
-- **National Academic Infrastructure for Supercomputing in Sweden** (https://www.naiss.se/)
+- [**National Academic Infrastructure for Supercomputing in Sweden**](https://www.naiss.se/)
 - Mission: to provide a quality high-performance computing environment nationally
 
 - Starting 1 January 2023, the National Academic Infrastructure for Supercomputing in Sweden (NAISS) is the new organization for high-performance computing, storage, and date services for academic users in Sweden. 
   - Replaces SNIC — the Swedish National Infrastructure for Computing
   - Linköping university is the host organization for NAISS, but NAISS acts independently with a national perspective and responsibility.
 - From the users perspective, there will initially only be minimal differences between the SNIC and NAISS regimes.
-  - FAQ:s — https://www.naiss.se/
+  - FAQ:s — <https://www.naiss.se/>
   
 - NAISS and Uppsala University fund UPPMAX — UU’s supercomputing center.
 
