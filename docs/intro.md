@@ -1,11 +1,20 @@
 # Welcome on-site!
 
-**Fix this**
+```{admonition} Course punchline
+- Move from being a Linux novice to an UPPMAX expert. 
+```
+
+```{admonition} Course aim
 - UPPMAX application experts want to share their skills in a 4-day series of lectures. 
-- We will help you move from being a Linux novice to an UPPMAX expert. 
 - If you already have the fundamentals down, you are still sure to enjoy the tips and tricks in the later parts of the course. 
 - Hence we've made it possible to sign up only for the days that are interesting to you.
 
+```{admonition} Learning outcomes
+   - Get overview of UPPMAX and NAISS
+   - Work with your files in a LINUX environment
+   - Learn to use the UPPMAX resources in a good way
+   - Learn the basics in the Python programming language
+```
 
 ## Lesson material
 - First day will be on this [github website](https://uppmax.github.io/uppmax_intro/overview.html) <https://uppmax.github.io/uppmax_intro/index.html>  
@@ -15,11 +24,11 @@
 
 ## Questions
 
-### Questions very much related to the present talk during the lessons 
-- best posed directly by voice
+- Questions very much related to the present talk during the lessons 
+  - best posed directly by voice
 
-### Questions requiring more effort to explain or answer 
-- Use the HackMD session below:
+- Questions requiring more effort to explain or answer 
+  - Use the HackMD session below:
   - **fix this**
 
 
@@ -28,13 +37,11 @@
 
 ## Type along
 
-## Example of arrangement for the "worst case"!
+## Example of arrangement on your screen
 - HackMD
-- ZOOM view
-- shellshare
+- lesson material
 - your own terminal
-**fix this**
-![worst](./img/worst.jpg)
+
 
 ## Lesson Modules
 ### Linux I at 9-12 Monday
@@ -62,14 +69,14 @@
 - Using the command line level 3
 - Variables, parameters and $(...)
 - Filenames
-### Bash Scripts 9-12 Wednesday
+### Bash Scripts 9-12 Thursday
 - Bash scripting, why's and basics
 - Parameters
 - The IF statement
 - File tests
 - FOR and WHILE loops
 - Background processes and job control
-### Slurm at UPPMAX 13-16 Wednesday
+### Slurm at UPPMAX 13-16 Thursday
 - A workload manager
 - Queuing
 - Monitoring
