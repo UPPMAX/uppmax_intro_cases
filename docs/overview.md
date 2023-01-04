@@ -24,7 +24,7 @@
   - Linköping university is the host organization for NAISS, but NAISS acts independently with a national perspective and responsibility.
 - From the users perspective, there will initially only be minimal differences between the SNIC and NAISS regimes.
   - FAQ:s — <https://www.naiss.se/>
-  
+- Application rounds: <https://www.naiss.se//#application-rounds-for-compute-and-storage-resources>
 - NAISS and Uppsala University fund UPPMAX — UU’s supercomputing center.
 
 
