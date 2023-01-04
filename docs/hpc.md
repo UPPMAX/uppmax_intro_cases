@@ -4,6 +4,25 @@
 - Let's recap and go a little further into the UPPMAX hardware!
 ```
 
+## HPC, HTC and MTC
+
+- The Buzz word is **HPC or High Performance Computing**, but this is rather narrow focusing on fast calculation, i.e. processors and parallelism
+- Many of your projects are more focusing on high throughput, large memory demands and many tasks.
+- Here is a list of the three most common **Computing paradigms**:
+
+- **HPC**: High Performance Computing — Focus on floating point operations per second (**FLOPS**, flops or flop/s) 
+  - characterized as needing large amounts of computing power for short periods of time
+- **HTC**: High-Throughput Computing — 
+  - operations or **jobs per month or per year**. 
+  - more interested in how many jobs can be completed over a long period of time instead of how fast. 
+  - independent, sequential jobs that can be individually scheduled o
+- **MTC**: Many-task Computing — emphasis of using many computing resources over short periods of time to accomplish many computational tasks
+  - bridge the gap between HTC and HPC. 
+  - reminiscent of HTC, but including both dependent and independent tasks), where the primary metrics are measured in seconds (e.g. **FLOPS**, tasks/s, **MB/s** **I/O rates**), as opposed to operations (e.g. jobs) per month. 
+  - high-performance computations comprising multiple distinct activities, coupled via file system operations. 
+
+
+
 ## What is a cluster?
 - A network of computers, each computer working as a node.
 
@@ -98,29 +117,12 @@
 |**Purpose**|General-purpose|General-purpose|Sensitive|
 |**#  Nodes (Intel)**|486+144|228+ <br>50 Nvidia T4 GPUs|272 +  <br>4 nodes á 2 <br>NVIDIA A100 GPUs|
 |**Cores per node**|20/16|16|16/64|
-|**Memory/node**|128 GB|128 GB|128 GB
+|**Memory per node**|128 GB|128 GB|128 GB
 |**Fat nodes**|256 GB & 1 TB| 256, 512 GB & 4 TB| 256 & 512 GB|
 |**Local disk (scratch)**|2/3 TB| 4 TB| 4 TB |
 |**Login nodes**|Yes| No (reached from Rackham)|Yes (2 cores and 15 GB)|
 |**"Home" storage**|Domus|Domus|Castor|
 |**"Project" Storage**|Crex, Lutra|Crex, Lutra|Castor|
-
-## HPC, HTC and MTC
-
-The Buzz word is HPC or High Performance Computing, but this is rather narrow focusing on fast calculation, i.e. processors and parallelism
-Many of your projetcs are more focusing on hight throughput, large memory demands and many tasks.
-Here is a list of the three most common **Computing paradigms**:
-
-- **HPC**: High Performance Computing — Focus on floating point operations per second (**FLOPS**, flops or flop/s) 
-  - characterized as needing large amounts of computing power for short periods of time
-- **HTC**: High-Throughput Computing — 
-  - operations or **jobs per month or per year**. 
-  - more interested in how many jobs can be completed over a long period of time instead of how fast. 
-  - independent, sequential jobs that can be individually scheduled o
-- **MTC**: Many-task Computing — emphasis of using many computing resources over short periods of time to accomplish many computational tasks
-  - bridge the gap between HTC and HPC. 
-  - reminiscent of HTC, but including both dependent and independent tasks), where the primary metrics are measured in seconds (e.g. **FLOPS**, tasks/s, **MB/s** **I/O rates**), as opposed to operations (e.g. jobs) per month. 
-  - high-performance computations comprising multiple distinct activities, coupled via file system operations. 
 
 
 ```{keypoints}
