@@ -63,5 +63,39 @@ AND the international
 - The purpose of Swestore allocations, granted by Swedish National Allocations Committee (SNAC), is to provide large scale data storage for “live” or “working” research data, also known as active research data.
 - [https://www.snic.se/resources/swestore/](https://www.snic.se/resources/swestore/)
 
+## The projects
+No cost to researchers all over Sweden. 
+3 different levels regarding storage and core hours per month
+SNIC Small 
+2000 cpu-hs/month and 128 GB of storage. 
+PI: PhD student or higher.
+SNIC Medium and SNIC Large 
+Lower or higher than 100,000 cpu-hs/month, respectively
+PI: Assistant professor (forskarassistent) or higher. 
+
+https://uppmax.uu.se/support/getting-started/applying-for-projects/ 
+![bild](https://user-images.githubusercontent.com/70746791/210754621-274d10bf-a5f5-4684-a9ae-9a85cf80e027.png)
+
+### Compute at UPPMAX
+- Small: 2000 cpu-hrs/month and 128 GB of storage. 
+  - Can be increased to 10,000 hrs
+  - PI: PhD student or higher.
+- Medium: 10,000-200,000 cpu-hs/month
+  - PI: Assistant professor (forskarassistent) or higher. 
+- Large 100,000 cpu-hs/month
+  - PI: Assistant professor (forskarassistent) or higher. 
+### Storage at UPPMAX
+- Small: 128 GB-10 TB of storage. 
+  - Can be increased to 10,000 hrs
+  - PI: PhD student or higher.
+- Medium: 10-100 TB 
+  - PI: Assistant professor (forskarassistent) or higher. 
+- Large: More than 100 TB 
+  - PI: Assistant professor (forskarassistent) or higher. 
+
+
+### Application rounds
+<https://www.naiss.se//#application-rounds-for-compute-and-storage-resources>
+
 ## NAISS training
 <https://www.snic.se/support/snic-training/>
