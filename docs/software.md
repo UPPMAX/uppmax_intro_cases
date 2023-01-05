@@ -36,7 +36,7 @@
 
 - `module help <module name>` — Displays a brief module-specific help
  
-- `module spider <part of tool name>` — like "avail" but "stronger"
+- `module spider <part of tool name>` — like "avail" but finds otherwise hidden modules (bioinfo-tools and Easybuild moduels)
 
 
 ## Installed software
