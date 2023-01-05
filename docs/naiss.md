@@ -67,7 +67,7 @@ AND the international
 - No cost to researchers all over Sweden. 
 - 3 different levels regarding storage and core hours per month
 
-https://uppmax.uu.se/support/getting-started/applying-for-projects/ 
+<https://uppmax.uu.se/support/getting-started/applying-for-projects/>
 
 ### Compute at UPPMAX
 - Small: 2000 cpu-hrs/month and 128 GB of storage. 
