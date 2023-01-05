@@ -6,10 +6,11 @@
 - Disk usage and number of files
 - $HOME has always 32 GB and 300,000 files
 - You typically have one project per project, their size dependent on type of project
-- Compute projects both have disk space and computing time on the 
+- Compute projects both have disk space and computing time attached to the project
 
 ### Core hours
 - You  get core hours only from compute project
+- When they are used you can still get "BONUS" jobs if the resources allow.
 
 ## What kind of work will you perform?
 
@@ -50,3 +51,10 @@ stop
     - for development use the interactive sessions
     - otherwise make batch jobs!
 ```
+
+## Common problems
+
+- Conda environment clash with loaded python modules
+- Forgotten environment variables defined in your `.bashrc` may give unexeptected errors when you run other programs or new versions of a program
+- A full $HOME folder may cause unexpeced errors
+  - check with ``uquota``
