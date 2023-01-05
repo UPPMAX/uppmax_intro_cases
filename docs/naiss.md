@@ -64,17 +64,10 @@ AND the international
 - [https://www.snic.se/resources/swestore/](https://www.snic.se/resources/swestore/)
 
 ## The projects
-No cost to researchers all over Sweden. 
-3 different levels regarding storage and core hours per month
-SNIC Small 
-2000 cpu-hs/month and 128 GB of storage. 
-PI: PhD student or higher.
-SNIC Medium and SNIC Large 
-Lower or higher than 100,000 cpu-hs/month, respectively
-PI: Assistant professor (forskarassistent) or higher. 
+- No cost to researchers all over Sweden. 
+- 3 different levels regarding storage and core hours per month
 
 https://uppmax.uu.se/support/getting-started/applying-for-projects/ 
-![bild](https://user-images.githubusercontent.com/70746791/210754621-274d10bf-a5f5-4684-a9ae-9a85cf80e027.png)
 
 ### Compute at UPPMAX
 - Small: 2000 cpu-hrs/month and 128 GB of storage. 
