@@ -1,12 +1,12 @@
 # Working on UPPMAX 
 
-## $HOME dir and project dir
+## ``$HOME`` dir and project dir
 
 ### Quota
 - Disk usage and number of files
-- $HOME has always 32 GB and 300,000 files
+- ``$HOME`` has always 32 GB and 300,000 files
 - You typically have one project per project, their size dependent on type of project
-- Compute projects both have disk space and computing time attached to the project
+- Compute projects both have disk space (128 GB) and computing time attached to them
 
 ### Core hours
 - You  get core hours only from compute project
@@ -56,5 +56,5 @@ stop
 
 - Conda environment clash with loaded python modules
 - Forgotten environment variables defined in your `.bashrc` may give unexeptected errors when you run other programs or new versions of a program
-- A full $HOME folder may cause unexpeced errors
+- A full ``$HOME`` folder may cause unexpected errors
   - check with ``uquota``
