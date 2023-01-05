@@ -19,6 +19,9 @@
 - When in doubt, contact your university's [data protection officer](https://www.uppmax.uu.se/support/faq/general-miscellaneous-faq/sensitive+data+questions/).
 - Generally, there must be a [Data Processing Agreement](https://www.uppmax.uu.se/support/faq/general-miscellaneous-faq/how-to-establish-a-puba-with-uu/) between UU and the data controlling university.
 
+## Apply for project
+[Open NAISS SENS Rounds](https://supr.snic.se/round/open_type/?type=NAISS+SENS)
+
 ## Bianca
 - Bianca is a great platform for computationally intensive research on sensitive personal data. It can also be useful for:
   - national and international collaboration on sensitive personal data (without a high compute need)
