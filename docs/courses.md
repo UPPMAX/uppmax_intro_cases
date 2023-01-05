@@ -2,20 +2,32 @@
 
 
 ##    Introductory Linux courses
-### Intro to UPPMAX
-- [Intro to UPPMAX](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-winter-2022/)
+### Intro to UPPMAX (This one)
+- [Intro to UPPMAX](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-winter-2023/)
 
 ### Awk workshop
-- [Intro to Awk](https://www.uppmax.uu.se/support/courses-and-workshops/awk-workshop-winter-2022/)
-
+- [Intro to Awk](https://www.uppmax.uu.se/support/courses-and-workshops/awk-workshop/)
+- 16-17 Jan
 ##    Other UPPMAX courses
 ###  Basic Singularity
 - [Basic Singularity](https://www.uppmax.uu.se/support/courses-and-workshops/singularity-workshop-announcement/)
+- 9 March
+### Introduction to running R, Python, and Julia in HPC
+- [Introduction to running R, Python, and Julia in HPC](https://www.uppmax.uu.se/support/courses-and-workshops/r-python-julia)
+- Focus on packages
+- 8-10 Feb
 
-### Python at UPPMAX
-- [Pythonat at UPPMAX](https://www.uppmax.uu.se/support/courses-and-workshops/python-at-uppmax/)
+### Python at UPPMAX and HPC2N
+- [Using Python in an HPC environment](https://uppmax.github.io/HPC-python/index.html)
+- Also containing parallelism, Machine learning and GPU
+- March??
 
-##    Courses at other SNIC Centers
+
+### Programming formalisms
+- [Programming formalisms](https://www.uppmax.uu.se/support/courses-and-workshops/programming-formalisms/)
+- May??
+
+## Courses at other SNIC Centers
 - [SNIC training](http://snicdocs.nsc.liu.se/wiki/Training)
 
 
