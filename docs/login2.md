@@ -3,7 +3,7 @@
 ```{questions}
 - How to reach UPPMAX clusters?
 - Where do I arrive when I log in? Login or calculation node?
-- What clients should/could I use for nmy work at UPPMAX?
+- What clients should/could I use for my work at UPPMAX?
 - How can I enable graphics?
 
 ```
