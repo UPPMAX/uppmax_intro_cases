@@ -73,34 +73,21 @@
 
 - The **calculation nodes** have to be used for intense computing. 
 
-```{mermaid}
-graph LR
-  a --> b
-```
 
 ```{mermaid}
-graph TB
-
-Node1 -- interactive --> SubGraph2Flow
-Node1 -- sbatch --> SubGraph2Flow
-subgraph "Snowy"
-SubGraph2Flow(calculation nodes) 
-end
-
-thinlinc -- usr-sensXXX + 2FA----> SubGraph1Flow
-Node1 -- usr-sensXXX + 2FA----> SubGraph1Flow
-subgraph "Bianca"
-SubGraph1Flow(Bianca login) -- usr+passwd --> private(private cluster)
-private -- interactive --> calcB(calculation nodes)
-private -- sbatch --> calcB
-end
-
-subgraph "Rackham"
-Node1[Login] -- interactive --> Node2[calculation nodes]
-Node1 -- sbatch --> Node2
-end
-
+sequenceDiagram
+  participant Alice
+  participant Bob
+  Alice->John: Hello John, how are you?
+  loop Healthcheck
+      John->John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts <br/>prevail...
+  John-->Alice: Great!
+  John->Bob: How about you?
+  Bob-->John: Jolly good!
 ```
+
 
 ```{keypoints}
 - NAISS makes available large-scale high-performance computing resources, storage capacity, and advanced user support, for Swedish research. 
