@@ -73,6 +73,10 @@
 
 - The **calculation nodes** have to be used for intense computing. 
 
+```{mermaid}
+graph LR
+  a --> b
+```
 
 ```{mermaid}
 graph TB
