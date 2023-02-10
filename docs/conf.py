@@ -38,7 +38,7 @@ extensions = ["sphinx_lesson",
     'sphinx.ext.autodoc',
     'sphinxcontrib.plantuml',
     'sphinx.ext.graphviz',
-    'sphinxcontrib.mermaid'
+    "sphinxcontrib.mermaid",
 ]
 
 source_suffix = ['.rst', '.md']
