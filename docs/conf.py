@@ -73,7 +73,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
-html_logo = "img/pingvin.png"
+html_logo = "img/UU_logo_color.svg"
 
 mermaid_output_format = "png"
 
