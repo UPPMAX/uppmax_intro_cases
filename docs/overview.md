@@ -74,7 +74,7 @@
 - The **calculation nodes** have to be used for intense computing. 
 
 
-```mermaid
+```{mermaid}
         graph TB
 
         Node1 -- interactive --> SubGraph2Flow
