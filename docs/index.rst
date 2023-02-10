@@ -3,8 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Introduction to UPPMAX first day lessons
-=======================================
+Introduction to UPPMAX — first day lessons
+==========================================
+
 Here you will find *some* of the documentation for the UPPMAX resources in an easy to find place.
 
 You can also find more information at:
