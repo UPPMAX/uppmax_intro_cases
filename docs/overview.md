@@ -95,6 +95,7 @@
         Node1[Login] -- interactive --> Node2[calculation nodes]
         Node1 -- sbatch --> Node2
         end
+```
 
 ```{keypoints}
 - NAISS makes available large-scale high-performance computing resources, storage capacity, and advanced user support, for Swedish research. 
