@@ -37,7 +37,7 @@ AND the international
 
 
  
-## SNIC Science Cloud (SSC)
+## Swedish Science Cloud (SSC)
 
 - Complement, offering "advanced functionality" to users who:
 
@@ -50,7 +50,7 @@ AND the international
 
 
 - The UPPMAX cloud Dis (Swedish word for "haze")  was introduced in October 2017 and upgraded during 2020.
-  - East region in the SNIC Science Cloud <https://www.uppmax.uu.se/resources/systems/the-uppmax-cloud/>
+  - East region in the Swedish Science Cloud <https://www.uppmax.uu.se/resources/systems/the-uppmax-cloud/>
 
 - Other clouds
 
@@ -62,6 +62,7 @@ AND the international
 ### SNIC Storage: Swestore
 - The purpose of Swestore allocations, granted by Swedish National Allocations Committee (SNAC), is to provide large scale data storage for “live” or “working” research data, also known as active research data.
 - [https://www.snic.se/resources/swestore/](https://www.snic.se/resources/swestore/)
+- [https://supr.naiss.se/round/storage/](https://supr.naiss.se/round/storage/)
 
 ## The projects
 - No cost to researchers all over Sweden. 
