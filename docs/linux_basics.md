@@ -140,24 +140,24 @@ $ mkdir uppmax-intro
 - Copy files with: `cp <source> <target>`
 - Set target to "." to keep name and to point at present directory.
 
-```bash=
+```bash
 $ cp /proj/introtouppmax/labs/linux_tutorial/ .
 ```
 
 - Well, that didn’t work. What does the error say?
 - So... try
-```bash=
+```bash
 $ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 ```
        -r is for recursive, meaning including files and subdirectories!
 
 - Move to your just created linux_tutorial/
 
-```bash=
+```bash
 $ cd linux_tutorial
  ```
 - Make a copy of the file “newfile” in the same directory:
-```bash=
+```bash
 $ cp newfile copyfile
 ```
  
@@ -185,11 +185,11 @@ $ cp newfile copyfile
 - Moving files works just like copying files:
 - `mv <source> <target>`
 - Move the copy you just made to another place:
-```bash=
+```bash
 $ mv copyfile ../
 ``` 
 - Rename it.
-```bash=
+```bash
 $ mv ../copyfile ../renamedfile
 ```
  
@@ -229,7 +229,7 @@ $ tar -vxzf files.tar.gz
 `rm <target>`
 
 - Try it out:
-```bash=
+```bash
 $ rm ../renamedfile
 
 $ rm this_is_empty
@@ -242,7 +242,7 @@ $ rm this_is_empty
 
 - We eed another command to delete directories
 
-```bash=
+```bash
 $ rmdir this_is_empty
 
 $ rmdir this_has_a_file
@@ -303,7 +303,7 @@ MANUAL SECTIONS
 ## Let’s get wild with Wildcards
 ![Caption](./img/wildcards_bear.png)
 
-```bash=
+```bash
 $ ls many_files
 
 $ ls many_files/*.txt
@@ -316,7 +316,7 @@ $ ls many_files/file_1*1.docx
 ```{warning}
 - NB! It could be wise to do `ls -a */*.tmp` first to see what will be deleted...
 ```
-```bash=
+```bash
  $ rm */*.tmp
 ```
 
@@ -328,7 +328,7 @@ $ ls many_files/file_1*1.docx
 
 - In Linux, you can (if you wish) also display files without being able to change them
 
-```bash=
+```bash
 $ cd old_project
 
 $ ls
@@ -383,7 +383,7 @@ $ ls
 
 ```
  $ tail -n 5 a
- ```
+```
 
 - Handy to look at log files or to figure out the structure of a text file.
 
@@ -394,7 +394,7 @@ $ ls
 
 ```
  $ less a
- ```
+```
 
 - Search with `/<keyword>` and `n`/`N`
 - Hit `q` to quit.
@@ -410,7 +410,7 @@ $ ls
 
 ### Example
 
-```bash=
+```bash
 $ ls -l
 
   drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd 
@@ -422,7 +422,7 @@ $ ls -l
   - `l` symbolic link (more on this tomorrow)
   - Others exist, but you can ignore them for now
 
-  ```bash=
+  ```bash
   $ ls -l
  
   drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd
@@ -451,7 +451,7 @@ $ ls -l
 #### For the interested
  - Now try:
 
-  ```bash=
+  ```bash
   $ ls -l /proj/introtouppmax/
   ```
 
@@ -507,9 +507,9 @@ $ ls -l
   - Take a moment to play around with chmod and explore the effects of permissions on files and directories.
 ```
 ``````{solution}
-```bash=
+```bash
 $ chmod -wR <target>
  ```
 ``````
  
-**More about bash command line and scripts on Wednesday and  Thursday!**
+**More about bash command line and scripts on Tuesday and  Wednesday!**
