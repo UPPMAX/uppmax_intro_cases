@@ -1,8 +1,8 @@
 # Basic toolkit
 
-<!---
+
 ![Caption](./img/terminal.png)
---->
+
 
 ```{objectives}
 - Let's dig into the most important BASH commands
@@ -35,7 +35,7 @@
 ## File system Navigation
 ### pwd — where are you now? “Print name of current/Working Directory”
 
-```bash=
+```bash
 $ pwd
 
 $ pwd -P 
@@ -44,7 +44,7 @@ $ pwd -P
   - ignores how you got there
 
  
-### ls —list directory contents
+### ls — list directory contents
 
     Type ls to display the contents of the current directory.
 
@@ -74,7 +74,7 @@ $ man ls
 ### cd — Change the shell working Directory
 - To change directory, use cd <target>
 
-```bash=
+```bash
 $ cd /proj/introtouppmax
 
 $ pwd
