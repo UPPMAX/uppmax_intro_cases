@@ -24,20 +24,26 @@
 
 ### Some commands
 
-- list all available modules (also bio-informatics if `bioinfo-tools` is loaded) — `module avail` or `ml av`
+- list all available modules (also bio-informatics if `bioinfo-tools` is loaded)
+  - `module avail` or `ml av`
 
-- Search for modules (full name not needed and case insensitive) — `module avail <part of tool name>` or `ml av <part of toolname>`—
+- Search for modules (full name not needed and case insensitive) 
+  - `module avail <part of tool name>` or `ml av <part of toolname>`
 
-- Load a module — `module load <module name>` or `ml <module name>`
+- Load a module 
+  - `module load <module name>` or `ml <module name>`
 
-- Unload a module — `module unload <module name>` or `ml -<module name>`
+- Unload a module 
+  - `module unload <module name>` or `ml -<module name>`
 
-- List loaded modules — `module list` or `ml`
+- List loaded modules 
+  - `module list` or `ml`
 
-- Display a brief module-specific help — `module help <module name>` or `ml help <module name>` 
+- Display a brief module-specific help (not available for all modules)
+  - `module help <module name>` or `ml help <module name>` 
  
-- Search (like `avail`) but otherwise hidden modules (`bioinfo-tools` and Easybuild modules) —
- `module spider <part of tool name>` or `ml spider <module name>` 
+- Search (like `avail`) but otherwise hidden modules (`bioinfo-tools` and Easybuild modules) 
+  -  `module spider <part of tool name>` or `ml spider <module name>` 
 
 ## Installed software
 - You can also find (almost) all installed software at:
