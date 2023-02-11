@@ -80,7 +80,7 @@ html_theme = 'sphinx_rtd_theme'
 #html_static_path = ['_static']
 html_logo = "img/c_242915-l_3-k_svg-uu-logo"
 #html_theme_options = {
-    'logo_only': False,
-    'display_version': True,
+#    'logo_only': False,
+#    'display_version': True,
 #}
 mermaid_output_format = "png"
