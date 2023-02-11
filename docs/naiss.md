@@ -1,5 +1,5 @@
 # NAISS
-```{objective}
+```{objectives}
 - Let's step up and have an overview of NAISS
 ```
 
