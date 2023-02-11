@@ -72,6 +72,14 @@
 ![RaspBerry](./img/Bild1.png)
 
 - The **calculation nodes** have to be used for intense computing. 
+- 
+```{mermaid}
+
+    sequenceDiagram
+      participant Alice
+      participant Bob
+      Alice->John: Hello John, how are you?
+```
 
 
 ```{keypoints}
