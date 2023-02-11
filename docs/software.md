@@ -38,6 +38,15 @@
  
 - `module spider <part of tool name>` — like "avail" but finds otherwise hidden modules (bioinfo-tools and Easybuild moduels)
 
+    - See which modules exists: ``module spider`` or ``ml spider``
+    - Find module versions for a particular software: ``module spider <software>``
+    - Modules depending only on what is currently loaded: ``module avail`` or ``ml av``
+    - See which modules are currently loaded: ``module list`` or ``ml``
+    - Load a module: ``module load <module>/<version>`` or ``ml <module>/<version>``
+    - Unload a module: ``module unload <module>/<version>`` or ``ml -<module>/<version>``
+    - More information about a module: ``module show <module>/<version>`` or ``ml show <module>/<version>``
+    - Unload all modules except the 'sticky' modules: ``module purge`` or ``ml purge``
+
 
 ## Installed software
 - You can also find (almost) all installed software at:
