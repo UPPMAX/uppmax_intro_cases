@@ -68,7 +68,7 @@ graph TB
 ```{keypoints}
 - Use your disk spaces wisely
   - home folder just for general stuff and files needed by several projects
-    - always read and write projected by other by default
+    - always read and write protected for others by default
   - otherside project folder which will more easily become public for other's
     - by default available for all project members.
 - Use the computing resources wisely
