@@ -51,7 +51,7 @@ https://www.uppmax.uu.se/
 
 .. toctree::
    :maxdepth: 2
-   :caption: NAISS SENSE
+   :caption: NAISS SENS
  
    bianca.md
 
