@@ -20,7 +20,7 @@
 - Generally, there must be a [Data Processing Agreement](https://www.uppmax.uu.se/support/faq/general-miscellaneous-faq/how-to-establish-a-puba-with-uu/) between UU and the data controlling university.
 
 ## Apply for project
-[Open NAISS SENS Rounds](https://supr.snic.se/round/open_type/?type=NAISS+SENS)
+[Open NAISS SENS Rounds](https://supr.naiss.se/round/open_type/?type=NAISS+SENS)
 
 ## Bianca
 - Bianca is a great platform for computationally intensive research on sensitive personal data. It can also be useful for:
@@ -37,7 +37,7 @@
 - Bianca was designed
   - to make accidental data leaks difficult
   - to make correct data management as easy as possible
-  - to emulate the HPC cluster environment that SNIC users were familiar with
+  - to emulate the HPC cluster environment that SNIC/NAISS users were familiar with
   - to provide a maximum amount of resources
   - and to satisfy regulations.
 
@@ -93,7 +93,7 @@
 ![Image](./img/Thinlinc2.jpg)
 
  ```{keypoints}
- - If you handle sensitive data, apply for a SNIC-SENS project
+ - If you handle sensitive data, apply for a NAISS-SENS project
  - SENS projects will get accounts on Bianca
  - Bianca has no internet itself but there are solutions like:
    - wharf
