@@ -151,9 +151,9 @@ ask Bash to complete what you’re writing.
 
 ### vim 
 - fast and powerful, once you learn it
-- on UPPMAX started with command "`vi`"
+- on UPPMAX started with command ``vi``
 
-  - 1. Insert mode (type like normal text editor. Press '`i`' for insert mode)
+  - 1. Insert mode (type like normal text editor. Press ``i`` for insert mode)
   - 2. Command mode (give commands to the editor to get things done . Press `<ESC>` for command mode)
   - Cheatsheet: [https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started)
  
@@ -165,13 +165,13 @@ ask Bash to complete what you’re writing.
   - Cheatsheet: [https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
     - (C = `<Ctrl>`)
 - also With GUI
-   - `$ emacs –nw`
+   - ``emacs –nw``
      - keeps you in terminal window.
 
 ## The graphical editors
-- When starting the graphical versions of an editor, add "`&`" to be able to use the command line while program is open.
-  - Ex: `$ gedit &`
-  - If not, you can `<Ctrl>+z` and type "`bg`" to send program to background.
+- When starting the graphical versions of an editor, add ``&`` to be able to use the command line while program is open.
+  - Ex: `gedit &`
+  - If not, you can `<Ctrl>+z` and type `bg` to send program to background.
 
 ```{discussion} Try out later!
    **Try them out and pick one favorite editor!**
@@ -210,14 +210,14 @@ ask Bash to complete what you’re writing.
 - **Tip: make "`rm`" ask if you really want to erase:**
   - Within a session: Type in the command prompt
 
-        alias rm=‘rm -i’
+        alias rm=`rm -i`
 
   - Override asking with 
 
         rm –f <>
 
-  - Edit file "`.bashrc`" in `home` directory by adding the alias line for this to start everytime.
-- This will also work for mv and cp!
+  - Edit file `.bashrc` in `home` directory by adding the alias line for this to start everytime.
+- This will also work for ``mv`` and ``cp``!
 ```
 
 ```{Note}
@@ -239,7 +239,7 @@ ask Bash to complete what you’re writing.
     - use Tab completion
     - capitalization and spaces matters
     - no undo:s for copying, moving and removing
-      - Solution: `alias rm=‘rm -i’`
+      - Solution: ``alias rm=`rm -i```
 ```
 
 
