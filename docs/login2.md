@@ -33,28 +33,28 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
 ```{admonition} Login procedure
    If you plan to:
    - do **day-to-day** work where *terminal shell is sufficient*
-     - Mac: Terminal, iTerm2
-     - Linux: Terminal
-     - Windows: Putty or Windows Powershell or even command prompt (CMD)
+     - Mac: *Terminal, iTerm2*
+     - Linux: *Terminal*
+     - Windows: *Putty*, *Windows Powershell* or even *command prompt (CMD)*
      
      
    - **interact with you local computer**
      - Mac/Linux: you can always work in a local shell (mutiple terminal windows open)
-        - *(S)FTP browser*: Filezilla
+        - (S)FTP browser: *Filezilla*, *Cyberduck*
      - Windows
-        - (S)FTP browser: WinSCP
-        - MobaXterm has built-in SFTP browser
-        - you may benefit from having a Windows Subsystem for Linux (WSL(2)) 
+        - (S)FTP browser: *WinSCP*
+        - *MobaXterm* has built-in SFTP browser
+        - you may benefit from having a *Windows Subsystem for Linux, WSL(2)*
         
         
-   - **do day-to-day work** with *some graphical applications (X forwarding)*
+   - **do day-to-day work** with **some graphical applications (X forwarding)**
      - Mac: *Terminal, iTerm2 + XQuartz*
      - Linux: *Terminal*
      - Windows: *MobaXterm*
      
      
-   - intergrate you cluster work with *code development*
-     - All OS: Example Visual Studio Code
+   - intergrate you cluster work with **code development**
+     - All OS: Example *Visual Studio Code*
      
      
    - use **sophistic graphical interfaces** like *RStudio and MATLAB* etcetera
@@ -215,11 +215,12 @@ $ xeyes &
 ````{tab} Mac
 
 - For copying of files with sftp (secure file transfer protocol) between your client computer (where you are) and the cluster **Filezilla** can be the choice.
-- [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client)
+- [Filezilla](https://filezilla-project.org/download.php?type=client)
  
 
 ![Caption](./img/fz3_osx_main.png )
 
+- [Cyberduck]([https://filezilla-project.org/download.php?type=client)](https://cyberduck.io/)
 
 ````
 
@@ -265,7 +266,7 @@ Putty/Terminal  without X11 is sufficient first days of the course!
  
 ## Visual Studio Code (not covered in course)
 
-- intergrate you cluster work with *code development*
+- Intergrate you cluster work with *code development*
 - [SSH-remote from VS Code](https://code.visualstudio.com/docs/remote/remote-overview)
 - [Remote development using Visual Studio Code on Alvis cluster](https://www.c3se.chalmers.se/documentation/remote-vscode/remote_vscode/) 
   - Similar to Rackham. Just change login details!
@@ -283,11 +284,11 @@ Putty/Terminal  without X11 is sufficient first days of the course!
 ![Caption](./img/Thinlinc2.jpg)
 
  - Or use the client (only for Rackham)
-  - [https://www.cendio.com/thinlinc/download](https://www.cendio.com/thinlinc/download)
+   - [https://www.cendio.com/thinlinc/download](https://www.cendio.com/thinlinc/download)
 
 ```{challenge} Try Thinlinc from web
   - Try the web version now if you don't already have the software installed!
-  ```
+```
 
  ```{keypoints}
 - When you log in from your local computer you will always arrive at a login node with limited resources. 
