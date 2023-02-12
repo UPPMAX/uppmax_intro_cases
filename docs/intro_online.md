@@ -1,17 +1,25 @@
 # Welcome on-line!
 
+```{admonition} Course punchline
+- Move from being a Linux novice to an UPPMAX expert. 
+```
+
+```{admonition} Course aim
 - UPPMAX application experts want to share their skills in a 4-day series of lectures. 
-- We will help you move from being a Linux novice to an UPPMAX expert. 
 - If you already have the fundamentals down, you are still sure to enjoy the tips and tricks in the later parts of the course. 
 - Hence we've made it possible to sign up only for the days that are interesting to you.
 
+```{admonition} Learning outcomes
+   - Get overview of UPPMAX and NAISS
+   - Work with your files in a LINUX environment
+   - Learn to use the UPPMAX resources in a good way
+   - Learn the basics in the Python programming language
+```
 
 ## Lesson material
 - First day will be on this [github website](https://uppmax.github.io/uppmax_intro/overview.html) <https://uppmax.github.io/uppmax_intro/index.html>
-  - This is a test!  
 - All other days each topic has its own Module in [Studium/Canvas](https://uppsala.instructure.com/courses/67267)
-  - Links to the modules can be found in the sidebar to  the left and below.
-- Material can also be reached at <https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2022/>
+- Material for the different days can also be reached directly by links at <https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2022/>
 
 ## Questions
 
@@ -21,21 +29,25 @@
 ### Questions requiring more effort to explain or answer 
 - Use the HackMD session below:
   - [https://hackmd.io/@dianai/uppmax-intro](https://hackmd.io/VN85GrBbTb22izq5856kVg?both)
-- Questions that come up off-line can as well be put here!
 
 ## Exercises
 - Exercises may be solved individually or in small groups in breakout rooms for online students.
 
 ## Type along
+- You will be able to follow along using the built-in terminals in all OS:s.
+  - Linux/Mac Terminal
+  - Windows: Powershell or command prompt
+- For your day-to-day work you may benefit from other applications, see the [Login session](https://uppmax.github.io/uppmax_intro/login2.html)
 
 
-## Example of arrangement for the "worst case"!
-- ZOOM view
+## Example of arrangement for your screen(s)!
+First screen or first half of screen
+-ZOOM view
   - presentation
   - terminal from teacher
 
+Second screen or second half of screen
 - your web browser for copy-pasting
-
 - your own terminal
 
 (zoom chat + HackMD)
