@@ -42,7 +42,7 @@
 
 ## Example of arrangement for your screen(s)!
 First screen or first half of screen
--ZOOM view
+- ZOOM view
   - presentation
   - terminal from teacher
 
