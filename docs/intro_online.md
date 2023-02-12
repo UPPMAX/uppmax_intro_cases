@@ -16,7 +16,6 @@
 ## Questions
 
 ### Questions very much related to the present talk during the lessons 
-- best posed directly by voice
 - Online chat or raise hand
 
 ### Questions requiring more effort to explain or answer 
@@ -25,29 +24,30 @@
 - Questions that come up off-line can as well be put here!
 
 ## Exercises
-- Exercises may be solved individually or in small groups in 
-  - classroom or 
-  - Breakout rooms for online students.
+- Exercises may be solved individually or in small groups in breakout rooms for online students.
 
 ## Type along
 
 
 ## Example of arrangement for the "worst case"!
-- HackMD
 - ZOOM view
-- shellshare
+  - presentation
+  - terminal from teacher
+
+- your web browser for copy-pasting
+
 - your own terminal
 
-![worst](./img/worst.jpg)
+(zoom chat + HackMD)
 
 ## Lesson Modules
-### Linux I at 9-12 Tuesday
+### Linux I at 9-12 Monday
 - Overview
 - Logging in to UPPMAX
 - Linux basics
 - Using the command line
 
-### Intro to UPPMAX 13-16 Tuesday
+### Intro to UPPMAX 13-16 Monday
 - Organisation
 - HPC computing
 - SNIC
@@ -55,25 +55,25 @@
 - Using software and tools
 - Submitting jobs to calculation nodes (intro)
 
-### Linux II 9-12 Wednesday
+### Linux II 9-12 Tuesday
 - Using the command line level 2
 - Input, output and pipes
 - Wildcards
 - The find command
 - Links
-### Linux III 13-16 Wednesday
+### Linux III 13-16 Tuesday
 - The grep command
 - Using the command line level 3
 - Variables, parameters and $(...)
 - Filenames
-### Bash Scripts 9-12 Thursday
+### Bash Scripts 9-12 Wednesday
 - Bash scripting, why's and basics
 - Parameters
 - The IF statement
 - File tests
 - FOR and WHILE loops
 - Background processes and job control
-### Slurm at UPPMAX 13-16 Thursday
+### Slurm at UPPMAX 13-16 Wednesday
 - A workload manager
 - Queuing
 - Monitoring
@@ -82,13 +82,13 @@
 - when finished
 - Job testing within the interactive or "devel" mode
 - Scripting
-### Python I 9-12 Friday
+### Python I 9-12 Thursday
 - Introduction
 - Basics
 - Data types
 - Control structures
 - Writing and executing a program
-### Python II 13-16 Friday
+### Python II 13-16 Thursday
 - Creating a program
 - Functions
 
