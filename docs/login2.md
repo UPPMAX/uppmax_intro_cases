@@ -99,17 +99,13 @@ $ ssh <username>@rackham.uppmax.uu.se
 
 ````{tab} Windows
 
-- Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
+- Start terminal (see below)
 ```bash=
 $ ssh <username>@rackham.uppmax.uu.se
 ```
 - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
 
-![Terminal](./img/Mac_terminal.png)
-- iTerm2 goodies:
-  - You can save hosts for later.
-  - Drag and drop scp
-
+![Terminal](./img/putty.jpg)
 
 - the ssh (secure shell) client [**putty**](https://www.putty.org/) is sufficient first days of the course!
 
@@ -154,9 +150,9 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 ````{tab} Windows
 
 - Download and install ONE of the X-servers below (to enable graphics)
+  - [GWSL](https://opticos.github.io/gwsl) (recommended because of hardware integration)
   - [X-ming](https://sourceforge.net/projects/xming/)
   - [VCXSRV](https://sourceforge.net/projects/vcxsrv/) 
-  - [GWSL](https://opticos.github.io/gwsl)
 
 
 - or... 
