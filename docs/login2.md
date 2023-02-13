@@ -94,16 +94,27 @@ $ ssh <username>@rackham.uppmax.uu.se
 - iTerm2 goodies:
   - You can save hosts for later.
   - Drag and drop scp
-```
+
 ````
 
 ````{tab} Windows
+
+- Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
+```bash=
+$ ssh <username>@rackham.uppmax.uu.se
+```
+- "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
+
+![Terminal](./img/Mac_terminal.png)
+- iTerm2 goodies:
+  - You can save hosts for later.
+  - Drag and drop scp
+
 
 - the ssh (secure shell) client [**putty**](https://www.putty.org/) is sufficient first days of the course!
 
     - You can save hosts for later.
     - No graphics.
-    - 
     
 - Windows Powershell terminal can also work
 
@@ -119,8 +130,6 @@ $ ssh <username>@rackham.uppmax.uu.se
 
 - [Git bash](https://gitforwindows.org/)
 
-}
-```
 ````
 `````
 
