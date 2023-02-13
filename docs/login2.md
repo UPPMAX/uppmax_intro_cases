@@ -122,7 +122,7 @@ $ ssh <username>@rackham.uppmax.uu.se
 
     - Cannot save hosts
     - no graphics
-    - [Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/))
+    - [Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/)
 
 - [Git bash](https://gitforwindows.org/)
 
@@ -225,7 +225,7 @@ $ xeyes &
 
 ![Caption](./img/fz3_osx_main.png )
 
-- [Cyberduck]([https://filezilla-project.org/download.php?type=client)](https://cyberduck.io/)
+- [Cyberduck](https://cyberduck.io/)
 
 ````
 
@@ -236,6 +236,9 @@ $ xeyes &
 
 - ![Caption](./img/WinSCP.png )
 
+- [Cyberduck](https://cyberduck.io/)
+
+- [Filezilla](https://filezilla-project.org/download.php?type=client)
 
 ```` 
 `````
