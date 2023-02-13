@@ -86,7 +86,6 @@ graph TB
         end
 
         thinlinc -- usr-sensXXX + 2FA----> SubGraph1Flow
-        Node1 -- usr-sensXXX + 2FA----> SubGraph1Flow
         subgraph "Bianca"
         SubGraph1Flow(Bianca login) -- usr+passwd --> private(private cluster)
         private -- interactive --> calcB(calculation nodes)
