@@ -1,7 +1,7 @@
 # Basic toolkit
 
 
-![Caption](./img/terminal.png)
+![Caption](./img/putty2.png)
 
 
 ```{objectives}
