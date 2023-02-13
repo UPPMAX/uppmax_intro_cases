@@ -1,7 +1,7 @@
 # Basic toolkit
 
 
-![Caption](./img/putty2.png)
+![Caption](./img/terminal.png)
 
 
 ```{objectives}
@@ -470,7 +470,7 @@ $ ls -l
 - If you want to keep non-members from even seeing which files you have, you can!
 
 - `chmod <mode> <files>`
-  - `<mode\` includes the info of the
+  - `<mode>` includes the info of the
     - `ugoa`, i.e. user, group, others all, respectively
       - if not set changes are applied for user and group
     - add permissions (`+`), remove (`-`) or set equal to (`=`)
