@@ -51,7 +51,7 @@
 - If in doubt:
   - -`p core`
   - -`n 1`
-  - `-t 10-00:00:00`
+  - `-t 7-00:00:00`
 
 ![Image](./img/queue1.png)
 
@@ -71,7 +71,7 @@
 ``````{challenge} Try interactive
 
 ```bash=
-  interactive -A snic2022-22-739 -p core -n 1 -t 10:00
+  interactive -A naiss2023-22-21 -p core -n 1 -t 10:00
 ```
 - Which node are you on?
   - Logout with `<Ctrl>-D` or `logout`
@@ -86,7 +86,7 @@
 #!/bin/bash -l 
 # tell it is bash language and -l is for starting a session with a "clean environment, e.g. with no modules loaded and paths reset"
 
-#SBATCH -A snic2022-22-739  # Project name
+#SBATCH -A naiss2023-22-21  # Project name
 
 #SBATCH -p devcore  # Asking for cores (for test jobs and as opposed to multiple nodes) 
 
