@@ -27,7 +27,7 @@
 - [Programming formalisms](https://www.uppmax.uu.se/support/courses-and-workshops/programming-formalisms/)
 - May??
 
-## Courses at other SNIC Centers
+## Courses at other NAISS/SNIC Centers
 - [SNIC training](http://snicdocs.nsc.liu.se/wiki/Training)
 
 
@@ -41,7 +41,7 @@
 - [Python village](https://rosalind.info/problems/list-view/?location=python-village)
 ###        General Bioinformatics
 - [General Bioinformatics](https://rosalind.info/problems/list-view/)
-###        SNIC Science Cloud
-- [SNIC Science Cloud](https://github.com/SNICScienceCloud/technical-training)
+###        Swedish Science Cloud
+-[Swedish Science Cloud](https://github.com/SNICScienceCloud/technical-training)
 
 
