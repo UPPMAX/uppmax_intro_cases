@@ -53,7 +53,7 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
      - Windows: *MobaXterm*
      
      
-   - intergrate you cluster work with **code development**
+   - integrate you cluster work with **code development**
      - All OS: Example *Visual Studio Code*
      
      
