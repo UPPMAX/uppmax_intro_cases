@@ -4,11 +4,6 @@
 - Move from being a Linux novice to an UPPMAX expert. 
 ```
 
-```{admonition} Course aim
-- UPPMAX application experts want to share their skills in a 4-day series of lectures. 
-- If you already have the fundamentals down, you are still sure to enjoy the tips and tricks in the later parts of the course. 
-- Hence we've made it possible to sign up only for the days that are interesting to you.
-
 ```{admonition} Learning outcomes
    - Get overview of UPPMAX and NAISS
    - Work with your files in a LINUX environment
@@ -17,10 +12,8 @@
 ```
 
 ## Lesson material
-- First day will be on this [github website](https://uppmax.github.io/uppmax_intro/overview.html) <https://uppmax.github.io/uppmax_intro/index.html>  
-- All other days each topic has its own Module in [Studium/Canvas](https://uppsala.instructure.com/courses/67267)
-  - Links to the modules can be found in the sidebar to  the left and below.
-- Material can also be reached at <https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2022/>
+- First day will be on this [github website](https://uppmax.github.io/uppmax_intro/overview.html) 
+- All other days can ber reached at the [main course page](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2023/)
 
 ## Questions
 
@@ -28,8 +21,7 @@
   - best posed directly by voice
 
 - Questions requiring more effort to explain or answer 
-  - Use the HackMD session below:
-  - **fix this**
+  - Use the HackMD session: <https://hackmd.io/@dianai/uppmax-intro/both>
 
 ## Type along
 - You will be able to follow along using the built-in terminals in all OS:s.
@@ -72,14 +64,14 @@
 - Using the command line level 3
 - Variables, parameters and $(...)
 - Filenames
-### Bash Scripts 9-12 Thursday
+### Bash Scripts 9-12 Wednesday
 - Bash scripting, why's and basics
 - Parameters
 - The IF statement
 - File tests
 - FOR and WHILE loops
 - Background processes and job control
-### Slurm at UPPMAX 13-16 Thursday
+### Slurm at UPPMAX 13-16 Wednesday
 - A workload manager
 - Queuing
 - Monitoring
@@ -88,18 +80,17 @@
 - when finished
 - Job testing within the interactive or "devel" mode
 - Scripting
-### Python I 9-12 Friday
+### Python I 9-12 Thursday
 - Introduction
 - Basics
 - Data types
 - Control structures
 - Writing and executing a program
-### Python II 13-16 Friday
+### Python II 13-16 Thursday
 - Creating a program
 - Functions
 
 
 ## Icebreaker in HackMD
-**Fix this**
-- [https://hackmd.io/@dianai/uppmax-intro](https://hackmd.io/VN85GrBbTb22izq5856kVg?both)
+- <https://hackmd.io/@dianai/uppmax-intro/both>
 
