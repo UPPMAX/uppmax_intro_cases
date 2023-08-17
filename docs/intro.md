@@ -48,10 +48,11 @@
 ### Intro to UPPMAX 13-16 Monday
 - Organisation
 - HPC computing
-- SNIC
-- Bianca cluster
+- NAISS
 - Using software and tools
 - Submitting jobs to calculation nodes (intro)
+- Working on UPPMAX
+- Courses and workshops
 
 ### Linux II 9-12 Tuesday
 [Linux II pdf](https://www.uppmax.uu.se/digitalAssets/560/c_560271-l_1-k_uppmax-linux-ii.pptx.pdf)
