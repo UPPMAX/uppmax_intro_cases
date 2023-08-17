@@ -23,8 +23,8 @@
   - Replaces SNIC — the Swedish National Infrastructure for Computing
   - Linköping university is the host organization for NAISS, but NAISS acts independently with a national perspective and responsibility.
 - From the users perspective, there will initially only be minimal differences between the SNIC and NAISS regimes.
-  - FAQ:s — <https://www.naiss.se/>
-- Application rounds: <https://www.naiss.se//#application-rounds-for-compute-and-storage-resources>
+  - FAQ:s — <https://www.naiss.se/about/>
+- Application rounds: <https://supr.naiss.se/round/>
 - NAISS and Uppsala University fund UPPMAX — UU’s supercomputing center.
 
 
@@ -39,10 +39,11 @@
   - Rackham (general purpose)
     - Snowy (Long runs and GPU:s)
   - Bianca (sensitive data)
-    - Miarka (new for LifeScience)
+    - Miarka (NGI production)
+      - genomic data from the sequencing machines are pre-processed before they are delivered to the researcher.
 - Storage
-  - On-load directly connected to the clusters
-  - Off-load for large data not needed for computation analysis anymore
+  - On-load, directly connected to the clusters
+  - Off-load, for large data not needed for computation analysis anymore
 - Cloud
   - Dis (region EAST-1)
 
@@ -63,7 +64,7 @@
 
 ![Node](./img/node.png)
 
-- The user logs in to **login nodes**  via Internet through ssh or Thinlinc.
+- The user logs in to **login nodes**  via Internet through ssh or ThinLinc.
 
   - Here the file management and lighter data analysis can be performed.
 
@@ -85,7 +86,7 @@ graph TB
   SubGraph2Flow(calculation nodes) 
         end
 
-        thinlinc -- usr-sensXXX + 2FA----> SubGraph1Flow
+        ThinLinc -- usr-sensXXX + 2FA----> SubGraph1Flow
         subgraph "Bianca"
         SubGraph1Flow(Bianca login) -- usr+passwd --> private(private cluster)
         private -- interactive --> calcB(calculation nodes)
