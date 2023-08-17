@@ -54,17 +54,20 @@
 - Submitting jobs to calculation nodes (intro)
 
 ### Linux II 9-12 Tuesday
+[Linux II pdf](https://www.uppmax.uu.se/digitalAssets/560/c_560271-l_1-k_uppmax-linux-ii.pptx.pdf)
 - Using the command line level 2
 - Input, output and pipes
 - Wildcards
 - The find command
 - Links
 ### Linux III 13-16 Tuesday
+[Linux III pdf](https://www.uppmax.uu.se/digitalAssets/560/c_560271-l_1-k_uppmax-linux-iii.pptx.pdf)
 - The grep command
 - Using the command line level 3
 - Variables, parameters and $(...)
 - Filenames
 ### Bash Scripts 9-12 Wednesday
+[BASH scripts pdf](https://www.uppmax.uu.se/digitalAssets/560/c_560271-l_1-k_uppmax-bash-scripts.pptx.pdf)
 - Bash scripting, why's and basics
 - Parameters
 - The IF statement
@@ -72,23 +75,27 @@
 - FOR and WHILE loops
 - Background processes and job control
 ### Slurm at UPPMAX 13-16 Wednesday
-- A workload manager
-- Queuing
-- Monitoring
-- in queue
-- while running
-- when finished
-- Job testing within the interactive or "devel" mode
-- Scripting
+[Slurm pdf](https://www.uppmax.uu.se/digitalAssets/560/c_560271-l_1-k_uppmax-slurm-2022.pdf)
+- The workload manager
+- Quick testing and debugging as interactive jobs
+- Monitoring and modifying jobs
+- Priority
+- Efficiency
+- Script and workflow examples
+- Parallel computing and GPU
+- Snakemake and nextflow
 ### Python I 9-12 Thursday
+[Python material](https://uppmax.github.io/uppmax_intro_python/)
 - Introduction
-- Basics
+- Getting started
 - Data types
-- Control structures
-- Writing and executing a program
+- Control flow statements
 ### Python II 13-16 Thursday
-- Creating a program
+[Python material](https://uppmax.github.io/uppmax_intro_python/)
 - Functions
+- Modules
+- Command line arguments and IO
+- Object-oriented Python (bonus)
 
 
 ## Icebreaker in HackMD
