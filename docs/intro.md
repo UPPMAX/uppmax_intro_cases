@@ -13,7 +13,7 @@
 
 ## Lesson material
 - First day will be on this [github website](https://uppmax.github.io/uppmax_intro/overview.html) 
-- All other days can ber reached at the [main course page](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2023/)
+- All other days can be reached at the [main course page](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2023/)
 
 ## Questions
 
@@ -53,6 +53,8 @@
 - Submitting jobs to calculation nodes (intro)
 - Working on UPPMAX
 - Courses and workshops
+- Short intro to **Bianca and NAISS-SENS** for the interested
+
 
 ### Linux II 9-12 Tuesday
 [Linux II pdf](https://www.uppmax.uu.se/digitalAssets/560/c_560271-l_1-k_uppmax-linux-ii.pptx.pdf)
