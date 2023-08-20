@@ -18,7 +18,7 @@
 ###  Basic Singularity
 - [Basic Singularity](https://www.uppmax.uu.se/support/courses-and-workshops/singularity-workshop-announcement/)
 - Oct 6
-- 
+
 ### Introduction to running R, Python, and Julia in HPC
 - [Introduction to running R, Python, and Julia in HPC](https://www.uppmax.uu.se/support/courses-and-workshops/r-python-julia)
 - Focus on packages and using Slurm for the jobs
@@ -39,6 +39,9 @@
 ## Courses at other NAISS/SNIC Centers
 - [SNIC training](http://snicdocs.nsc.liu.se/wiki/Training)
 
+## CodeRefinery
+- [Tools workshop](https://coderefinery.github.io/2023-09-19-workshop/)
+- September 19-21 and 26-28
 
 ##    Links to extra material
 ###        Data Management Seminar
