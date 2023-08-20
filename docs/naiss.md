@@ -49,7 +49,7 @@ AND the international
      - “Big Data” e.g. Apache Hadoop/Spark
 
 
-- The UPPMAX cloud Dis (Swedish word for "haze")  was introduced in October 2017 and upgraded during 2020.
+- The UPPMAX cloud Dis (Swedish word for "haze") was introduced in October 2017 and upgraded during 2020.
   - East region in the Swedish Science Cloud <https://www.uppmax.uu.se/resources/systems/the-uppmax-cloud/>
 
 - Other clouds
