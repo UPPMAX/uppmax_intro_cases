@@ -4,6 +4,11 @@
 - ... and the **Bianca** system
 ```
 
+```{note} The Bianca workshop
+- [Bianca workshop material](https://uppmax.github.io/bianca_workshop/)
+- Next time given Sep 11
+```
+
 ## Sensitive personal data
 
 - <https://www.snic.se/allocations/snic-sens/>
