@@ -104,6 +104,7 @@ module load bioinfo-tools samtools
 
 ### Build from source
 - We have several compiler versions from GNU and INTEL
+- [Compiling from source code](https://www.uppmax.uu.se/support/user-guides/compiling-source-code/)
 - [Guide for compiling serial and parallel programs](https://www.uppmax.uu.se/support/user-guides/mpi-and-openmp-user-guide/)
     
 ### Spack
