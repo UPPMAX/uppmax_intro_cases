@@ -46,7 +46,7 @@ $ pwd -P
  
 ### ls — list directory contents
 
-Type ls to display the contents of the current directory.
+Type ``ls`` to display the contents of the current directory.
 
 ```bash
 $ ls -a
@@ -81,7 +81,7 @@ $ man ls
 
  
 ### cd — Change the shell working Directory
-- To change directory, use cd <target>
+- To change directory, use ``cd <target>``
 
 ```bash
 $ cd /proj/introtouppmax
@@ -95,10 +95,10 @@ $ cd labs
 $ pwd
 ```
 
-``````{challenge} Experiment with cd 
-- Experiment with cd. 
-- Try adding spaces or extra / in various places.
-- Use tab completion to avoid typos and typing “ls” a lot.
+``````{challenge} Experiment with ``cd`` 
+- Experiment with ``cd``. 
+- Try adding ``<spaces>`` or extra ``/`` in various places.
+- Use *tab completion* to avoid typos and typing ``ls`` a lot.
 
 - Figure out the use of the following:
 
@@ -132,7 +132,7 @@ $ cd ~
 ```{warning}
 - Make sure you’re in your home directory by `cd ~`
  ```
-- Create a new direcotry "uppmax-intro"
+- Create a new directory ``uppmax-intro``
 ```
 $ cd ~
 $ mkdir uppmax-intro
@@ -147,7 +147,7 @@ $ mkdir uppmax-intro
 ### cp — copy files and directories
 
 - Copy files with: `cp <source> <target>`
-- Set target to "." to keep name and to point at present directory.
+- Set target to ``.`` to keep name and to point at present directory.
 
 ```bash
 $ cp /proj/introtouppmax/labs/linux_tutorial/ .
@@ -158,9 +158,10 @@ $ cp /proj/introtouppmax/labs/linux_tutorial/ .
 ```bash
 $ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 ```
-       -r is for recursive, meaning including files and subdirectories!
 
-- Move to your just created linux_tutorial/
+``-r`` is for recursive, meaning including files and subdirectories!
+
+- Move to your just created ``linux_tutorial/``
 
 ```bash
 $ cd linux_tutorial
@@ -205,17 +206,26 @@ $ mv ../copyfile ../renamedfile
 ## Archiving
 **tar — archiving and compression**
 
-- We’re going to need more files.
+- We’re going to need more files. Let's uncompress the tar.gz file (tared and gzipped file)
 ```
 $ tar -vxzf files.tar.gz
 ```
 - The flags mean:
         -verbosely
         -extract
-        -zipped
-        -file
+        -g<u>z</u>ipped
+        -filename
 - order of flags won't matter!
 - You should see a list of files being extracted
+
+````{tip}
+- To compress use the flag `-c`instead of `-x`
+
+```
+$ tar -czfv <tar file> <path/to/directory/file(s)-or-directory>
+```
+
+````
  
 ## Deleting
 ### rm — delete files  or directories
