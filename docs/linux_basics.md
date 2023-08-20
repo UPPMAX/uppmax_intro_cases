@@ -240,7 +240,7 @@ $ tar -czfv <tar file> <path/to/directory/file(s)-or-directory>
 
         rm –f <>
 
-  - Edit file ".bashrc" in /home directory by adding the alias line for this to start everytime.
+  - Edit file ".bashrc" in /home directory by adding the alias line for this to start every time.
 - This will also work for mv and cp!
 ```
 
@@ -271,7 +271,7 @@ $ rmdir this_has_a_file
 - Is there a way to use rm to delete directories?
  
 ````{solution}
-- Recursive commands `-r`are applied to directories and their contents
+- Recursive commands `-r` are applied to directories and their contents
 ```bash=
 $ rm -r this_has_a_file
 ```
@@ -454,7 +454,7 @@ $ ls -l
 - Three sets of “rwx” permissions
   - rwx: r ead, w rite, ex ecute
   - User: the user account that owns the file (usually the one that created it)
-  - Group: the group that owns the file (usually the project group in /proj/xyz or  the user’s group elsewhere
+  - Group: the group that owns the file (usually the project group in /proj/xyz or the user’s group elsewhere
   - Others: everyone else on the system (literally a thousand strangers)
 
 - r – read
@@ -478,9 +478,9 @@ $ ls -l
 
 - Huh, ``rwxrwsr-x``?
 - `s` in the group means `x` but with *gid bit set* ( g roup id of creator not launcher).
-  - The s or sticky bit is a group permission on directories which changes the default behaviour of new files are created with the same group_id  as the users group_id to new files inheriting the group_id from the parent directory.
+  - The s or sticky bit is a group permission on directories which changes the default behaviour of new files are created with the same group_id as the users group_id to new files inheriting the group_id from the parent directory.
 - `S` means `-` with gid bit set (rarely seen).
-- Among other things, this makes the default group for new files/subdirectories the g2020018 group.
+- Among other things, this makes the default group for new files/subdirectories the, for instance, ``p_introtouppmax`` group.
 
  
 ## Changing permissions
@@ -500,7 +500,7 @@ $ ls -l
     - `rwxXst`, i.e. the actual permission
 - `<mode>` can be e.g.
   -  `u+x` : lets you  (owner) run a script you just wrote
-  -  `-w` : no write permissions for anyone (warning: if `w`was set for others it will be kept!!)
+  -  `-w` : no write permissions for anyone (warning: if `w` was set for others it will be kept!!)
   -  `+rw` : let user and group members read and edit this file, not others if not already set
   -  `=xw` : let group members go into your directory and put files there, but not see which files are there, others are not affected
   -  `a=xw` : set xw for everyone
@@ -534,4 +534,4 @@ $ chmod -wR <target>
  ```
 ``````
  
-**More about bash command line and scripts on Tuesday and  Wednesday!**
+**More about bash command line and scripts on Tuesday and Wednesday!**
