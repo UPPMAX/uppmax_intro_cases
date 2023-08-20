@@ -7,30 +7,34 @@
 
 ### Awk workshop
 - [Intro to Awk](https://www.uppmax.uu.se/support/courses-and-workshops/awk-workshop/)
-- 16-17 Jan
+- Aug 26 & 28 
+
 ##    Other UPPMAX courses
 ### Intro to Bianca
 - [Introduction to Bianca](https://www.uppmax.uu.se/support/courses-and-workshops/bianca-workshop-2023/)
 - [Course material](https://uppmax.github.io/bianca_workshop/)
-- 11 Sep
+- Sep 11
 
 ###  Basic Singularity
 - [Basic Singularity](https://www.uppmax.uu.se/support/courses-and-workshops/singularity-workshop-announcement/)
-- 9 March
+- Oct 6
+- 
 ### Introduction to running R, Python, and Julia in HPC
 - [Introduction to running R, Python, and Julia in HPC](https://www.uppmax.uu.se/support/courses-and-workshops/r-python-julia)
-- Focus on packages
-- 8-10 Feb
+- Focus on packages and using Slurm for the jobs
+- Oct 17-19 
+
+### Git course
+- Nov 13-17
 
 ### Python at UPPMAX and HPC2N
 - [Using Python in an HPC environment](https://uppmax.github.io/HPC-python/index.html)
 - Also containing parallelism, Machine learning and GPU
-- March??
-
+- Dec 5
 
 ### Programming formalisms
 - [Programming formalisms](https://www.uppmax.uu.se/support/courses-and-workshops/programming-formalisms/)
-- May??
+- December??
 
 ## Courses at other NAISS/SNIC Centers
 - [SNIC training](http://snicdocs.nsc.liu.se/wiki/Training)
