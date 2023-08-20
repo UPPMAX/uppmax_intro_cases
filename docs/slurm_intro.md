@@ -1,7 +1,7 @@
 # Submitting jobs
 ```{objectives}
 - This is a short introduction in how to reach the calculation nodes
-- Thursday afternoon is wedded to this topic!
+- Wednesday afternoon is wedded to this topic!
 ```
 
 ## Slurm, sbatch, the job queue
@@ -71,7 +71,7 @@
 ``````{challenge} Try interactive
 
 ```bash=
-  interactive -A naiss2023-22-21 -p core -n 1 -t 10:00
+  interactive -A naiss2023-22-793 -p core -n 1 -t 10:00
 ```
 - Which node are you on?
   - Logout with `<Ctrl>-D` or `logout`
@@ -86,7 +86,7 @@
 #!/bin/bash -l 
 # tell it is bash language and -l is for starting a session with a "clean environment, e.g. with no modules loaded and paths reset"
 
-#SBATCH -A naiss2023-22-21  # Project name
+#SBATCH -A naiss2023-22-793  # Project name
 
 #SBATCH -p devcore  # Asking for cores (for test jobs and as opposed to multiple nodes) 
 
@@ -114,10 +114,10 @@ echo Hello world!
 
 ## Other Slurm tools
 
-- Squeue — quick info about jobs in queue
-- Jobinfo — detailed info about jobs
-- Finishedjobinfo — summary of finished jobs
-- Jobstats — efficiency of booked resources
+- ``squeue`` — quick info about jobs in queue
+- ``jobinfo`` — detailed info about jobs
+- ``finishedjobinfo`` — summary of finished jobs
+- ``jobstats``— efficiency of booked resources
 
 ``````{challenge} Exercise at home
 - Copy the code just further up!
@@ -143,7 +143,7 @@ $ cat <filename>
 ```
 ``````
  
-**More on Thursday afternoon!**
+**More on Wednesday afternoon!**
 
 ```{keypoints} 
 - You are always in the login node unless you:
