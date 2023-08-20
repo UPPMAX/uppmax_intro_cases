@@ -245,7 +245,7 @@ ask Bash to complete what you’re writing.
     - use Tab completion
     - capitalization and spaces matters
     - no undo:s for copying, moving and removing
-      - Solution: ``alias rm=`rm -i```
+      - Solution: ``alias rm=`rm -i` ``
 ```
 
 
