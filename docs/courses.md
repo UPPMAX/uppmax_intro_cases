@@ -3,7 +3,7 @@
 
 ##    Introductory Linux courses
 ### Intro to UPPMAX (This one)
-- [Intro to UPPMAX](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-winter-2023/)
+- [Intro to UPPMAX](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2023/)
 
 ### Awk workshop
 - [Intro to Awk](https://www.uppmax.uu.se/support/courses-and-workshops/awk-workshop/)
