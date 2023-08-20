@@ -212,10 +212,10 @@ $ mv ../copyfile ../renamedfile
 $ tar -vxzf files.tar.gz
 ```
 - The flags mean:
-        -verbosely
-        -extract
-        -g<u>z</u>ipped
-        -filename
+        - <u>v</u>erbosely
+        - e<u>x</u>tract
+        - g<u>z</u>ipped
+        - <u>f</u>ilename
 - order of flags won't matter!
 - You should see a list of files being extracted
 
@@ -476,8 +476,8 @@ $ ls -l
   $ ls -l /proj/introtouppmax/
   ```
 
-- Huh, rwxrwsr-x?
-- `s` in the group means `x` but with gid bit set ( g roup id of creator not launcher).
+- Huh, ``rwxrwsr-x``?
+- `s` in the group means `x` but with *gid bit set* ( g roup id of creator not launcher).
   - The s or sticky bit is a group permission on directories which changes the default behaviour of new files are created with the same group_id  as the users group_id to new files inheriting the group_id from the parent directory.
 - `S` means `-` with gid bit set (rarely seen).
 - Among other things, this makes the default group for new files/subdirectories the g2020018 group.
