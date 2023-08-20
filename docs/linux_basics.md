@@ -95,7 +95,7 @@ $ cd labs
 $ pwd
 ```
 
-````{challenge} Experiment with ``cd`` 
+````{challenge} Experiment with cd
 - Experiment with ``cd``. 
 - Try adding ``<spaces>`` or extra ``/`` in various places.
 - Use *tab completion* to avoid typos and typing ``ls`` a lot.
