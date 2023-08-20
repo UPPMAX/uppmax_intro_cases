@@ -113,7 +113,7 @@ $ cd ~
 
 ```
 ``````
- 
+
 ```{solution} Solution 
 - `cd -` : goes back to your last directory
 
@@ -131,7 +131,8 @@ $ cd ~
 
 ```{warning}
 - Make sure you’re in your home directory by `cd ~`
- ```
+```
+
 - Create a new directory ``uppmax-intro``
 ```
 $ cd ~
@@ -173,8 +174,8 @@ $ cp newfile copyfile
  
 ### scp —secure copy (remote file copy program)
 
-- Linux/MacOS: To copy data to/from Rackham, you can use scp from the terminal on your local machine:
-- Upload  from present directory on local machine to your home directory on cluster.
+- Linux/MacOS: To copy data to/from Rackham, you can use ``scp`` from the terminal on your local machine:
+- Upload from present directory on local machine to your home directory on cluster.
   - Example (*not done by us today*)
  
 ```
@@ -206,7 +207,7 @@ $ mv ../copyfile ../renamedfile
 ## Archiving
 **tar — archiving and compression**
 
-- We’re going to need more files. Let's uncompress the tar.gz file (tared and gzipped file)
+- We’re going to need more files. Let's extract the tar.gz file (tared and gzipped file)
 ```
 $ tar -vxzf files.tar.gz
 ```
@@ -224,7 +225,6 @@ $ tar -vxzf files.tar.gz
 ```
 $ tar -czfv <tar file> <path/to/directory/file(s)-or-directory>
 ```
-
 ````
  
 ## Deleting
@@ -259,7 +259,7 @@ $ rm this_is_empty
  
 ### rmdir — delete an empty directory
 
-- We eed another command to delete directories
+- We need another command to delete directories
 
 ```bash
 $ rmdir this_is_empty
@@ -270,20 +270,22 @@ $ rmdir this_has_a_file
  
 - Is there a way to use rm to delete directories?
  
- ```{solution}
+ ````{solution}
 - Recursive commands `-r`are applied to directories and their contents
 ```bash=
 $ rm -r this_has_a_file
 ```
-  
+````
+
 ## Help
 ### man — manual, look up the right flags
 
-- Nobody can remember whether it’s -R or -r for recursive, or if -f lets you choose a file or forces an action.
+- Nobody can remember whether it’s ``-R`` or `-r` for recursive, or if ``-f`` lets you choose a file or forces an action.
 
+```
 $ man ls 
-
-        shows you how to use ls and all its options
+```
+- shows you how to use ls and all its options
 - Type `/<keyword>` to search for a keyword, use `n` (forward) and ´N` (backward) to scan through hits.
 - Scroll with arrows.
 - Type `q` to quit.
