@@ -92,6 +92,20 @@
  
 ![Image](./img/Thinlinc2.jpg)
 
+
+## Introduction course
+[Overview](https://uppmax.github.io/bianca_workshop/overview/)
+[Log in](https://uppmax.github.io/bianca_workshop/login_bianca/)
+[Command-line intro](https://uppmax.github.io/bianca_workshop/commandline/)
+[Module system](https://uppmax.github.io/bianca_workshop/modules1/)
+[Transfering files](https://uppmax.github.io/bianca_workshop/transfer)
+[More on NAISS-SENS](https://uppmax.github.io/bianca_workshop/naiss-sens-bianca/)
+[The compute nodes](https://uppmax.github.io/bianca_workshop/slurm-intro/)
+[Software and package installation](https://uppmax.github.io/bianca_workshop/install/)
+
+
+
+
  ```{keypoints}
  - If you handle sensitive data, apply for a NAISS-SENS project
  - SENS projects will get accounts on Bianca
