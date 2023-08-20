@@ -95,7 +95,7 @@ $ cd labs
 $ pwd
 ```
 
-``````{challenge} Experiment with ``cd`` 
+````{challenge} Experiment with ``cd`` 
 - Experiment with ``cd``. 
 - Try adding ``<spaces>`` or extra ``/`` in various places.
 - Use *tab completion* to avoid typos and typing ``ls`` a lot.
@@ -112,9 +112,9 @@ $ cd
 $ cd ~
 
 ```
-``````
+````
 
-```{solution} Solution 
+````{solution} Solution 
 - `cd -` : goes back to your last directory
 
 - `cd ..` : goes a level up in the hierarchy
@@ -122,7 +122,7 @@ $ cd ~
 - `cd` : goes to home directory
 
 - `cd ~` : also goes to home directory
-```
+````
 
  
 
@@ -270,7 +270,7 @@ $ rmdir this_has_a_file
  
 - Is there a way to use rm to delete directories?
  
- ````{solution}
+````{solution}
 - Recursive commands `-r`are applied to directories and their contents
 ```bash=
 $ rm -r this_has_a_file
@@ -527,6 +527,7 @@ $ ls -l
 - Use chmod to remove write permission from those files and directories (use the `-R` flag (not `-r`) to also do the files in the directories).
   - Take a moment to play around with chmod and explore the effects of permissions on files and directories.
 ```
+
 ``````{solution}
 ```bash
 $ chmod -wR <target>
