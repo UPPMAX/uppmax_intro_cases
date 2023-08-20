@@ -9,6 +9,11 @@
 - [Intro to Awk](https://www.uppmax.uu.se/support/courses-and-workshops/awk-workshop/)
 - 16-17 Jan
 ##    Other UPPMAX courses
+### Intro to Bianca
+- [Introduction to Bianca](https://www.uppmax.uu.se/support/courses-and-workshops/bianca-workshop-2023/)
+- [Course material](https://uppmax.github.io/bianca_workshop/)
+- 11 Sep
+
 ###  Basic Singularity
 - [Basic Singularity](https://www.uppmax.uu.se/support/courses-and-workshops/singularity-workshop-announcement/)
 - 9 March
