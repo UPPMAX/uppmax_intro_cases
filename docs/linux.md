@@ -39,7 +39,7 @@
 
  
 ### Linux comes in different distributions, dialects or, say, flavours.
-- Uppmax runs CentOS
+- UPPMAX runs CentOS and RedHat
 
  
 
@@ -149,24 +149,30 @@ ask Bash to complete what you’re writing.
     - Windows M = Alt
     - On Mac: in the Terminal.app go to Preferences -> Settings -> Keyboard and turn on "Use option as meta key": then M = Alt
 
-### vim 
+
+```{solution} Not to try today if you haven't used before!!!
+
+- If you start one of these editors you may have difficulties to exit!
+
+**vim**
 - fast and powerful, once you learn it
 - on UPPMAX started with command ``vi``
 
   - 1. Insert mode (type like normal text editor. Press ``i`` for insert mode)
   - 2. Command mode (give commands to the editor to get things done . Press `<ESC>` for command mode)
-  - Cheatsheet: [https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started)
+  - Cheat sheet: [https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started)
  
-### gvim 
-- vim with a GUI, lots of features very Fast
+**gvim**
+- ``vi``m with a GUI, lots of features very Fast
 
-### emacs 
+**emacs**
 - fast and powerful, once you learn it
-  - Cheatsheet: [https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
+  - Cheat sheet: [https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
     - (C = `<Ctrl>`)
 - also With GUI
    - ``emacs –nw``
      - keeps you in terminal window.
+```
 
 ## The graphical editors
 - When starting the graphical versions of an editor, add ``&`` to be able to use the command line while program is open.
@@ -187,7 +193,7 @@ ask Bash to complete what you’re writing.
   - Always have a space after the program name.
   - Don’t add spaces within file names.
 - Check that you are in the right place in the file system.
-- File permissions. Check that the right read,write and execute permission are set.
+- File permissions. Check that the right read, write and execute permission are set. See next session.
 ```
 
 
