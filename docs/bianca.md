@@ -39,12 +39,12 @@
  
 ## Bianca's design
 
-- Bianca was designed
-  - to make accidental data leaks difficult
-  - to make correct data management as easy as possible
-  - to emulate the HPC cluster environment that SNIC/NAISS users were familiar with
-  - to provide a maximum amount of resources
-  - and to satisfy regulations.
+- Bianca was designed to:
+  - make accidental data leaks difficult
+  - make correct data management as easy as possible
+  - emulate the HPC cluster environment that SNIC/NAISS users were familiar with
+  - provide a maximum amount of resources
+  - satisfy regulations.
 
 ### Bianca has no Internet
 ... but we have “solutions”
