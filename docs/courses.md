@@ -43,6 +43,10 @@
 - [Tools workshop](https://coderefinery.github.io/2023-09-19-workshop/)
 - September 19-21 and 26-28
 
+## ENCCS (EuroCC National Competence Centre Sweden
+[Lessons](https://enccs.se/lessons/)
+[Upcoming events](https://enccs.se/events)
+
 ##    Links to extra material
 ###        Data Management Seminar
 - [Data Management Seminar](https://www.uppmax.uu.se/support/courses-and-workshops/#tocjump_046728919125111124_0)
