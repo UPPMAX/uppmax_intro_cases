@@ -142,7 +142,13 @@ $ ls -lrt slurm-*
 $ cat <filename>
 ```
 ``````
- 
+
+## What kind of work are you doing?
+- Compute bound
+  - you use mainly CPU power (more cores can help)
+- Memory bound
+  - if the bottlenecks are allocating memory, copying/duplicating
+
 **More on Wednesday afternoon!**
 
 ```{keypoints} 
