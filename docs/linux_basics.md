@@ -40,35 +40,44 @@ $ pwd
 
 $ pwd -P 
 ```
-- -P gives you the physical path, 
+- ``-P`` gives you the physical path, 
   - ignores how you got there
 
  
 ### ls — list directory contents
 
-    Type ls to display the contents of the current directory.
+Type ls to display the contents of the current directory.
 
+```bash
 $ ls -a
+```
 
-       -a also shows hidden files and directories.
+``-a`` also shows hidden files and directories.
 
+```bash
 $ ls -l
+```
+``-l`` gives you listed and detailed information.
 
-        -l gives you listed and detailed information.
-
+```bash
 $ ls -lt
+```
 
-       -lt sorts things by time modified.
+``-lt`` sorts things by time modified.
 
+```bash
 $ ls –lrt
+```
 
-     -r gives reversed order, so in this case newest in last line.
+``-r`` gives reversed order, so in this case newest in last line.
 
+```bash
 $ man ls
+```
 
 - for complete information about a command.
 - TIP: `-$ man <command>` works for almost any command!
-  - scroll with arrows and quit with "q".
+  - scroll with arrows and quit with ``q``.
 
  
 ### cd — Change the shell working Directory
