@@ -40,12 +40,14 @@
 
 ## Lesson Modules
 ### Linux I at 9-12 Monday
+Links in the left menu
 - Overview
 - Logging in to UPPMAX
 - Linux basics
 - Using the command line
 
 ### Intro to UPPMAX 13-16 Monday
+Links in the left menu
 - Organisation
 - HPC computing
 - NAISS
