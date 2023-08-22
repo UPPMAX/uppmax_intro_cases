@@ -469,7 +469,7 @@ $ ls -l
   - Files: Run the file as a program
   - Directories: Traverse the directory (e.g. with “cd”)
 
-#### For the interested
+``````{solution} For the interested
  - Now try:
 
   ```bash
@@ -482,6 +482,7 @@ $ ls -l
 - `S` means `-` with gid bit set (rarely seen).
 - Among other things, this makes the default group for new files/subdirectories the, for instance, ``p_introtouppmax`` group.
 
+``````
  
 ## Changing permissions
 **chmod** — change file mode bits
