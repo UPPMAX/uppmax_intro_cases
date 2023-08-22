@@ -35,7 +35,7 @@
 ## File system Navigation
 ### pwd — where are you now? “Print name of current/Working Directory”
 
-```{code-block} bash
+```{code-block} console
 $ pwd
 
 $ pwd -P 
@@ -48,7 +48,7 @@ $ pwd -P
 
 Type ``ls`` to display the contents of the current directory.
 
-```{code-block}
+```{code-block} console
 $ ls -a
 ```
 
