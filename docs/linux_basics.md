@@ -35,7 +35,7 @@
 ## File system Navigation
 ### pwd — where are you now? “Print name of current/Working Directory”
 
-``` {code-block} console console
+``` {code-block} console 
 $ pwd
 
 $ pwd -P 
@@ -134,13 +134,14 @@ $ cd ~
 ```
 
 - Create a new directory ``uppmax-intro``
-```
+
+``` {code-block} console
 $ cd ~
 $ mkdir uppmax-intro
 ```
 - Go in there:
 
-```
+``` {code-block} console
  $ cd uppmax-intro/
 ```
 
@@ -178,14 +179,14 @@ $ cp newfile copyfile
 - Upload from present directory on local machine to your home directory on cluster.
   - Example (*not done by us today*)
  
-```
+``` {code-block} console
 [bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/copyofmyinput
 
 [bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/                      # (keeping filename)
 ``` 
  
 - Download
-```
+``` {code-block} console
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata copyofmydata
 
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata .                      # (keeping file name)
@@ -208,7 +209,8 @@ $ mv ../copyfile ../renamedfile
 **tar — archiving and compression**
 
 - We’re going to need more files. Let's extract the tar.gz file (tared and gzipped file)
-```
+
+``` {code-block} console
 $ tar -vxzf files.tar.gz
 ```
 - The flags mean:
@@ -216,13 +218,14 @@ $ tar -vxzf files.tar.gz
         - e<u>x</u>tract
         - g<u>z</u>ipped
         - <u>f</u>ilename
-- order of flags won't matter!
+- Order of flags may matter!
+  - ``f`` should be in the start or in the end!
 - You should see a list of files being extracted
 
 ````{tip}
 - To compress use the flag `-c`instead of `-x`
 
-```
+``` {code-block} console
 $ tar -czfv <tar file> <path/to/directory/file(s)-or-directory>
 ```
 ````
@@ -234,7 +237,7 @@ $ tar -czfv <tar file> <path/to/directory/file(s)-or-directory>
 - **Tip: make "rm" ask if you really want to erase:**
   - Within a session: Type in the command prompt
 
-        alias rm=‘rm -i’
+        alias rm='rm -i'
 
   - Override asking with 
 
@@ -282,10 +285,10 @@ $ rm -r this_has_a_file
 
 - Nobody can remember whether it’s ``-R`` or `-r` for recursive, or if ``-f`` lets you choose a file or forces an action.
 
-```
+``` {code-block} console
 $ man ls 
 ```
-- shows you how to use ls and all its options
+- shows you how to use ``ls`` and all its options
 - Type `/<keyword>` to search for a keyword, use `n` (forward) and ´N` (backward) to scan through hits.
 - Scroll with arrows.
 - Type `q` to quit.
@@ -362,35 +365,37 @@ $ ls
 
 ![Caption](./img/cat.png)
 
-- cat dumps the contents of files to the terminal as text
+- ``cat`` dumps the contents of files to the terminal as text
 
-```
+``` {code-block} console
  $ cat the_best
 ```
 
 - Yummy!
 
-```
+``` {code-block} console
  $ cat a
 ```
 - What's this????
 
-- Concatenate files with this wizardry:
+- **Concatenate** files with this wizardry:
 
-```
+``` {code-block} console
  $ cat a the_best > combinedfiles.txt
 ```
+- File ``a`` is written first and ``the_best`` is appended
  
 ### head — display the top (<u>head</u>ing) of a file
 
 
 ![Caption](./img/head.png)
 
-```
+``` {code-block} console
  $ head a
  ```
 - You can choose how many lines to display (default 10)
-```
+
+``` {code-block} console
  $ head -n 4 a
  ```
 
@@ -402,7 +407,7 @@ $ ls
 
 - Tail is the same as head, but for the other end.
 
-```
+``` {code-block} console
  $ tail -n 5 a
 ```
 
@@ -413,7 +418,7 @@ $ ls
 
 - cat doesn’t really work for long files
 
-```
+``` {code-block} console
  $ less a
 ```
 
@@ -529,7 +534,7 @@ $ ls -l
 
 ``````{solution} chmod 755 style - binary sum - "octal bit mask”
 
-- Online, you will come across e.g. `chmod 755`. What does this mean? It’s an "octal bit mask”:
+- Online, you will come across e.g. `chmod 755 <file/dir>`. What does this mean? It’s an "octal bit mask”:
 
 - Each digit corresponds to the **binary sum** for the *owner*, *group* and *others*, respectively.
  
