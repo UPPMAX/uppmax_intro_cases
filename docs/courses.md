@@ -7,7 +7,7 @@
 
 ### Awk workshop
 - [Intro to Awk](https://www.uppmax.uu.se/support/courses-and-workshops/awk-workshop/)
-- Aug 26 & 28 
+- Aug 25 & 28 
 
 ##    Other UPPMAX courses
 ### Intro to Bianca
@@ -25,6 +25,7 @@
 - Oct 17-19 
 
 ### Git course
+- [Last year's material](https://www.hpc2n.umu.se/events/courses/2022/introduction-to-git)
 - Nov 13-17
 
 ### Python at UPPMAX and HPC2N
