@@ -59,6 +59,7 @@ myst_enable_extensions = [
     "substitution",
     "tasklist",
 ]
+copybutton_exclude = '.linenos, .gp, .go'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
