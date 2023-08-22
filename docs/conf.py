@@ -39,6 +39,8 @@ extensions = ["sphinx_lesson",
     'sphinxcontrib.plantuml',
     'sphinx.ext.graphviz',
     "sphinxcontrib.mermaid",
+    'sphinx-prompt',
+    'sphinx_copybutton',
 ]
 
 source_suffix = ['.rst', '.md']
