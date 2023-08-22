@@ -35,7 +35,7 @@
 ## File system Navigation
 ### pwd — where are you now? “Print name of current/Working Directory”
 
-```{code-block} console
+``` {code-block} console console
 $ pwd
 
 $ pwd -P 
@@ -48,30 +48,30 @@ $ pwd -P
 
 Type ``ls`` to display the contents of the current directory.
 
-```{code-block} console
+``` {code-block} console
 $ ls -a
 ```
 
 ``-a`` also shows hidden files and directories.
 
-```{code-block}
+``` {code-block} console
 $ ls -l
 ```
 ``-l`` gives you listed and detailed information.
 
-```{code-block}
+``` {code-block} console
 $ ls -lt
 ```
 
 ``-lt`` sorts things by time modified.
 
-```{code-block}
+``` {code-block} console
 $ ls –lrt
 ```
 
 ``-r`` gives reversed order, so in this case newest in last line.
 
-```{code-block}
+``` {code-block} console
 $ man ls
 ```
 
@@ -83,7 +83,7 @@ $ man ls
 ### cd — Change the shell working Directory
 - To change directory, use ``cd <target>``
 
-```{code-block}
+``` {code-block} console
 $ cd /proj/introtouppmax
 
 $ pwd
@@ -102,7 +102,7 @@ $ pwd
 
 - Figure out the use of the following:
 
-```{code-block}
+``` {code-block} console
 $ cd -
 
 $ cd ..
@@ -150,13 +150,13 @@ $ mkdir uppmax-intro
 - Copy files with: `cp <source> <target>`
 - Set target to ``.`` to keep name and to point at present directory.
 
-```{code-block}
+``` {code-block} console
 $ cp /proj/introtouppmax/labs/linux_tutorial/ .
 ```
 
 - Well, that didn’t work. What does the error say?
 - So... try
-```{code-block}
+``` {code-block} console
 $ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 ```
 
@@ -164,11 +164,11 @@ $ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 
 - Move to your just created ``linux_tutorial/``
 
-```{code-block}
+``` {code-block} console
 $ cd linux_tutorial
  ```
 - Make a copy of the file “newfile” in the same directory:
-```{code-block}
+``` {code-block} console
 $ cp newfile copyfile
 ```
  
@@ -196,11 +196,11 @@ $ cp newfile copyfile
 - Moving files works just like copying files:
 - `mv <source> <target>`
 - Move the copy you just made to another place:
-```{code-block}
+``` {code-block} console
 $ mv copyfile ../
 ``` 
 - Rename it.
-```{code-block}
+``` {code-block} console
 $ mv ../copyfile ../renamedfile
 ```
  
@@ -248,7 +248,7 @@ $ tar -czfv <tar file> <path/to/directory/file(s)-or-directory>
 `rm <target>`
 
 - Try it out:
-```{code-block}
+``` {code-block} console
 $ rm ../renamedfile
 
 $ rm this_is_empty
@@ -261,7 +261,7 @@ $ rm this_is_empty
 
 - We need another command to delete directories
 
-```{code-block}
+``` {code-block} console
 $ rmdir this_is_empty
 
 $ rmdir this_has_a_file
@@ -272,7 +272,7 @@ $ rmdir this_has_a_file
  
 ````{solution}
 - Recursive commands `-r` are applied to directories and their contents
-```{code-block}
+``` {code-block} console
 $ rm -r this_has_a_file
 ```
 ````
@@ -324,7 +324,7 @@ MANUAL SECTIONS
 ## Let’s get wild with Wildcards
 ![Caption](./img/wildcards_bear.png)
 
-```{code-block}
+``` {code-block} console
 $ ls many_files
 
 $ ls many_files/*.txt
@@ -337,7 +337,7 @@ $ ls many_files/file_1*1.docx
 ```{warning}
 - NB! It could be wise to do `ls -a */*.tmp` first to see what will be deleted...
 ```
-```{code-block}
+``` {code-block} console
  $ rm */*.tmp
 ```
 
@@ -349,7 +349,7 @@ $ ls many_files/file_1*1.docx
 
 - In Linux, you can (if you wish) also display files without being able to change them
 
-```{code-block}
+``` {code-block} console
 $ cd old_project
 
 $ ls
@@ -431,7 +431,7 @@ $ ls
 
 ### Example
 
-```{code-block}
+``` {code-block} console
 $ ls -l
 
   drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd 
@@ -443,7 +443,7 @@ $ ls -l
   - `l` symbolic link (more on this tomorrow)
   - Others exist, but you can ignore them for now
 
-  ```{code-block}
+  ``` {code-block} console
   $ ls -l
  
   drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd
@@ -472,7 +472,7 @@ $ ls -l
 ``````{solution} For the interested
  - Now try:
 
-  ```{code-block}
+  ``` {code-block} console
   $ ls -l /proj/introtouppmax/
   ```
 
@@ -555,7 +555,7 @@ $ ls -l
 ```
 
 ``````{solution}
-```{code-block}
+``` {code-block} console
 $ chmod -wR <target>
  ```
 ``````
