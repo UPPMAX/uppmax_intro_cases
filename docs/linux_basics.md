@@ -529,8 +529,12 @@ $ ls -l
 ``````{solution} chmod 755 style - "octal bit mask”
 
 - Online, you will come across e.g. `chmod 755`. What does this mean? It’s an "octal bit mask”:
-  -     `7 = 4 + 2 + 1 = r + w + x`    All permissions
-  -     `5 = 4 + 0 + 1 = r +   + x`    Read and execute permission
+
+- Each digit correspond to the binary sum for the owner, group and others, respectively.
+ 
+  - ``7 = 4 + 2 + 1 = r + w + x``   All permissions
+  - ``5 = 4 + 0 + 1 = r +   + x``   Read and execute permission
+
 - 755 then means all permissions for owner, but limiting write permissions for the group and all others
 
 - What number would `rw` be?
