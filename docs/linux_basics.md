@@ -5,7 +5,7 @@
 
 
 ```{objectives}
-- Let's dig into the most important {code-block} commands
+- Let's dig into the most important BASH commands
 - We'll do a type-along session
 ```
  
@@ -102,7 +102,7 @@ $ pwd
 
 - Figure out the use of the following:
 
-```{code-block}=
+```{code-block}
 $ cd -
 
 $ cd ..
@@ -240,7 +240,7 @@ $ tar -czfv <tar file> <path/to/directory/file(s)-or-directory>
 
         rm –f <>
 
-  - Edit file ".{code-block}rc" in /home directory by adding the alias line for this to start every time.
+  - Edit file ".BASHrc" in /home directory by adding the alias line for this to start every time.
 - This will also work for mv and cp!
 ```
 
@@ -272,7 +272,7 @@ $ rmdir this_has_a_file
  
 ````{solution}
 - Recursive commands `-r` are applied to directories and their contents
-```{code-block}=
+```{code-block}
 $ rm -r this_has_a_file
 ```
 ````
@@ -560,4 +560,4 @@ $ chmod -wR <target>
  ```
 ``````
  
-**More about {code-block} command line and scripts on Tuesday and Wednesday!**
+**More about BASH command line and scripts on Tuesday and Wednesday!**
