@@ -547,7 +547,7 @@ $ ls -l
  
 ```{challenge} chmod — Hands-on
 
-- In the linux_tutorial directory, find important files and old saved data that you wouldn’t want to lose.
+- In your *locally created* ``linux_tutorial`` directory, find important files and old saved data that you wouldn’t want to lose (*imagine*).
   - Directories: important_results/, old_project/
   - File: last_years_data
 - Use chmod to remove write permission from those files and directories (use the `-R` flag (not `-r`) to also do the files in the directories).
