@@ -35,7 +35,7 @@
 ## File system Navigation
 ### pwd — where are you now? “Print name of current/Working Directory”
 
-```{code-block}
+```{code-block} bash
 $ pwd
 
 $ pwd -P 
