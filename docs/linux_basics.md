@@ -5,7 +5,7 @@
 
 
 ```{objectives}
-- Let's dig into the most important BASH commands
+- Let's dig into the most important {code-block} commands
 - We'll do a type-along session
 ```
  
@@ -35,7 +35,7 @@
 ## File system Navigation
 ### pwd — where are you now? “Print name of current/Working Directory”
 
-```bash
+```{code-block}
 $ pwd
 
 $ pwd -P 
@@ -48,30 +48,30 @@ $ pwd -P
 
 Type ``ls`` to display the contents of the current directory.
 
-```bash
+```{code-block}
 $ ls -a
 ```
 
 ``-a`` also shows hidden files and directories.
 
-```bash
+```{code-block}
 $ ls -l
 ```
 ``-l`` gives you listed and detailed information.
 
-```bash
+```{code-block}
 $ ls -lt
 ```
 
 ``-lt`` sorts things by time modified.
 
-```bash
+```{code-block}
 $ ls –lrt
 ```
 
 ``-r`` gives reversed order, so in this case newest in last line.
 
-```bash
+```{code-block}
 $ man ls
 ```
 
@@ -83,7 +83,7 @@ $ man ls
 ### cd — Change the shell working Directory
 - To change directory, use ``cd <target>``
 
-```bash
+```{code-block}
 $ cd /proj/introtouppmax
 
 $ pwd
@@ -102,7 +102,7 @@ $ pwd
 
 - Figure out the use of the following:
 
-```bash=
+```{code-block}=
 $ cd -
 
 $ cd ..
@@ -150,13 +150,13 @@ $ mkdir uppmax-intro
 - Copy files with: `cp <source> <target>`
 - Set target to ``.`` to keep name and to point at present directory.
 
-```bash
+```{code-block}
 $ cp /proj/introtouppmax/labs/linux_tutorial/ .
 ```
 
 - Well, that didn’t work. What does the error say?
 - So... try
-```bash
+```{code-block}
 $ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 ```
 
@@ -164,11 +164,11 @@ $ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 
 - Move to your just created ``linux_tutorial/``
 
-```bash
+```{code-block}
 $ cd linux_tutorial
  ```
 - Make a copy of the file “newfile” in the same directory:
-```bash
+```{code-block}
 $ cp newfile copyfile
 ```
  
@@ -196,11 +196,11 @@ $ cp newfile copyfile
 - Moving files works just like copying files:
 - `mv <source> <target>`
 - Move the copy you just made to another place:
-```bash
+```{code-block}
 $ mv copyfile ../
 ``` 
 - Rename it.
-```bash
+```{code-block}
 $ mv ../copyfile ../renamedfile
 ```
  
@@ -240,7 +240,7 @@ $ tar -czfv <tar file> <path/to/directory/file(s)-or-directory>
 
         rm –f <>
 
-  - Edit file ".bashrc" in /home directory by adding the alias line for this to start every time.
+  - Edit file ".{code-block}rc" in /home directory by adding the alias line for this to start every time.
 - This will also work for mv and cp!
 ```
 
@@ -248,7 +248,7 @@ $ tar -czfv <tar file> <path/to/directory/file(s)-or-directory>
 `rm <target>`
 
 - Try it out:
-```bash
+```{code-block}
 $ rm ../renamedfile
 
 $ rm this_is_empty
@@ -261,7 +261,7 @@ $ rm this_is_empty
 
 - We need another command to delete directories
 
-```bash
+```{code-block}
 $ rmdir this_is_empty
 
 $ rmdir this_has_a_file
@@ -272,7 +272,7 @@ $ rmdir this_has_a_file
  
 ````{solution}
 - Recursive commands `-r` are applied to directories and their contents
-```bash=
+```{code-block}=
 $ rm -r this_has_a_file
 ```
 ````
@@ -324,7 +324,7 @@ MANUAL SECTIONS
 ## Let’s get wild with Wildcards
 ![Caption](./img/wildcards_bear.png)
 
-```bash
+```{code-block}
 $ ls many_files
 
 $ ls many_files/*.txt
@@ -337,7 +337,7 @@ $ ls many_files/file_1*1.docx
 ```{warning}
 - NB! It could be wise to do `ls -a */*.tmp` first to see what will be deleted...
 ```
-```bash
+```{code-block}
  $ rm */*.tmp
 ```
 
@@ -349,7 +349,7 @@ $ ls many_files/file_1*1.docx
 
 - In Linux, you can (if you wish) also display files without being able to change them
 
-```bash
+```{code-block}
 $ cd old_project
 
 $ ls
@@ -431,7 +431,7 @@ $ ls
 
 ### Example
 
-```bash
+```{code-block}
 $ ls -l
 
   drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd 
@@ -443,7 +443,7 @@ $ ls -l
   - `l` symbolic link (more on this tomorrow)
   - Others exist, but you can ignore them for now
 
-  ```bash
+  ```{code-block}
   $ ls -l
  
   drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd
@@ -472,7 +472,7 @@ $ ls -l
 ``````{solution} For the interested
  - Now try:
 
-  ```bash
+  ```{code-block}
   $ ls -l /proj/introtouppmax/
   ```
 
@@ -555,9 +555,9 @@ $ ls -l
 ```
 
 ``````{solution}
-```bash
+```{code-block}
 $ chmod -wR <target>
  ```
 ``````
  
-**More about bash command line and scripts on Tuesday and Wednesday!**
+**More about {code-block} command line and scripts on Tuesday and Wednesday!**
