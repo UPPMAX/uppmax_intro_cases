@@ -85,7 +85,7 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
 ````{tab} Mac
 
 - Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
-```bash=
+```console
 $ ssh <username>@rackham.uppmax.uu.se
 ```
 - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
@@ -100,7 +100,7 @@ $ ssh <username>@rackham.uppmax.uu.se
 ````{tab} Windows
 
 - Start terminal (see below)
-```bash=
+```console
 $ ssh <username>@rackham.uppmax.uu.se
 ```
 - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
@@ -139,11 +139,11 @@ $ ssh <username>@rackham.uppmax.uu.se
 
 - Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
 
-```bash=
+```console
 $ ssh -Y <username>@rackham.uppmax.uu.se
 ```
--    -X      Enables X11 forwarding. 
--    -Y      Enables trusted X11 forwarding
+- ``-X``      Enables X11 forwarding. 
+- ``-Y``      Enables trusted X11 forwarding
 
 ````
 
@@ -166,7 +166,7 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 
 - Start local terminal and a SSH session by:
 
-```bash=
+```console
 $ ssh -Y <username>@rackham.uppmax.uu.se
 ```
 
@@ -199,15 +199,15 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 
 ``````{challenge} Login to **Rackham**, using your terminal
 - First try:
-```bash=
+```console
 $ ssh -Y <username>@rackham.uppmax.uu.se
 ```
 - If you receive errors or warnings, instead try:
-```bash=
+```console
 $ ssh <username>@rackham.uppmax.uu.se
 ```
 - If you do have X11 installed:
-```bash=
+```console
 $ xeyes &
 ```
 ``````
