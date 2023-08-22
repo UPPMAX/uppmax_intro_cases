@@ -85,7 +85,7 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
 ````{tab} Mac
 
 - Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
-```console
+```{code-block} console
 $ ssh <username>@rackham.uppmax.uu.se
 ```
 - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
