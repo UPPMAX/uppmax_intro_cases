@@ -454,7 +454,7 @@ $ ls -l
 - Three sets of “rwx” permissions
   - rwx: r ead, w rite, ex ecute
   - User: the user account that owns the file (usually the one that created it)
-  - Group: the group that owns the file (usually the project group in /proj/xyz or the user’s group elsewhere
+  - Group: the group that owns the file (usually the *project group* in /proj/xyz or the user’s group elsewhere)
   - Others: everyone else on the system (literally a thousand strangers)
 
 - r – read
@@ -487,21 +487,38 @@ $ ls -l
 ## Changing permissions
 **chmod** — change file mode bits
 
+**If you own, i.e. created, the file or directory, you can modify the content**
+
+```{admonition} Common issues
 - Files with `w` can be modified and destroyed by accident. Protect your data!
 - If you want to share data or scripts with a person not in your project (e.g. support staff like me), you can!
 - If you want to keep non-members from even seeing which files you have, you can!
+```
 
-- `chmod <mode> <files>`
-  - `<mode>` includes the info of the
-    - `ugoa`, i.e. user, group, others all, respectively
-      - if not set changes are applied for user and group
-    - add permissions (`+`), remove (`-`) or set equal to (`=`)
-      - `=`  causes  unmentioned bits to be removed except that a directory's unmentioned set user and  group
-       ID bits are not affected.
-    - `rwxXst`, i.e. the actual permission
-- `<mode>` can be e.g.
-  -  `u+x` : lets you  (owner) run a script you just wrote
-  -  `-w` : no write permissions for anyone (warning: if `w` was set for others it will be kept!!)
+### Syntax
+
+`chmod <mode> <files>`
+
+- `<mode>` is of the form: For whom, Modify, What permission(s)
+- For whom?
+    - `u`: user/owner
+    - `g`: group, often the members to a certain project
+    - `o`: others
+    - `a`: all
+    - if not set changes are applied for user AND group
+- Modify?
+    - `+`: add permissions,
+    - `-`: remove
+    - `=`: set equal to
+      - `=` usually causes unmentioned bits to be removed except that a directory's unmentioned set user and group ID bits are not affected.
+- What permissions?
+    - `r`, `w`, `x`, i.e. the actual permission
+
+#### Examples
+
+- `<mode>` can be e.g.:
+  -  `u+x` : lets You (owner) run a script you just wrote
+  -  `-w` : no write permissions for **owner+group** (warning: if `w` was set for others it will be kept!!)
   -  `+rw` : let user and group members read and edit this file, not others if not already set
   -  `=xw` : let group members go into your directory and put files there, but not see which files are there, others are not affected
   -  `a=xw` : set xw for everyone
@@ -509,9 +526,11 @@ $ ls -l
 - chmod takes flags as usual, e.g.
   -  `-R` for recursive (i.e. all files and sub-directories therein)
 
-- Online, you will come across e.g. `chmod 755`, what does this mean? It’s an "octal bit mask”:
-  -     7 = 4 + 2 + 1 = r + w + x
-  -     5 = 4 + 0 + 1 = r +   + x
+``````{solution} chmod 755 style - "octal bit mask”
+
+- Online, you will come across e.g. `chmod 755`. What does this mean? It’s an "octal bit mask”:
+  -     `7 = 4 + 2 + 1 = r + w + x`    All permissions
+  -     `5 = 4 + 0 + 1 = r +   + x`    Read and execute permission
 - 755 then means all permissions for owner, but limiting write permissions for the group and all others
 
 - What number would `rw` be?
@@ -519,6 +538,7 @@ $ ls -l
 ```{solution}
 6
  ```
+``````
  
 ```{challenge} chmod — Hands-on
 
