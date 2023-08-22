@@ -216,7 +216,7 @@ ask Bash to complete what you’re writing.
 - **Tip: make "`rm`" ask if you really want to erase:**
   - Within a session: Type in the command prompt
 
-        alias rm=`rm -i`
+        alias rm='rm -i'
 
   - Override asking with 
 
@@ -245,7 +245,7 @@ ask Bash to complete what you’re writing.
     - use Tab completion
     - capitalization and spaces matters
     - no undo:s for copying, moving and removing
-      - Solution: ``alias rm=`rm -i` ``
+      - Solution: ``alias rm='rm -i' ``
 ```
 
 
