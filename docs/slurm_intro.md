@@ -71,8 +71,7 @@
 ``````{challenge} Try interactive
 
 ```  {code-block} console
-
-  interactive -A naiss2023-22-793 -p core -n 1 -t 10:00
+$ interactive -A naiss2023-22-793 -p core -n 1 -t 10:00
 ```
 - Which node are you on?
   - Logout with `<Ctrl>-D` or `logout`
