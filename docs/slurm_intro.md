@@ -42,6 +42,8 @@
 ## Slurm parameters
 - 1 mandatory setting for jobs:
   - Which compute project? (`-A`)
+  - For example, if your project is named ``NAISS 2017/1-334`` you specify ``-A naiss2017-1-234``
+
 - 3 settings you really should set:
   - Type of queue? (`-p`)
     - core, node, (for short development jobs and tests: devcore, devel)
@@ -59,8 +61,14 @@
 - Use a whole node or just part of it?
   - 1 node = 20 cores (16 on Bianca & Snowy)
   - 1 hour walltime = 20 core hours = expensive
-   -Waste of resources unless you have a parallel program or need all the memory, e.g. 128 GB per node
+   - Waste of resources unless you have a parallel program or need all the memory, e.g. 128 GB per node
 - Default value: core
+
+### Walltime at the different clusters
+
+- Rackham: 10 days
+- Snowy: 30 days
+- Bianca: 10 days
 
 ## Interactive jobs
 - Most work is most effective as submitted jobs, but e.g. development needs responsiveness
