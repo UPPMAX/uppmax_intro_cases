@@ -55,12 +55,12 @@
 ``````{challenge} Hands on using a tool
 1. use matlab
 
-```
+```  {code-block} console
 $ matlab &
 ```
 - Does not work!
 - Load module first
-```
+```  {code-block} console
 $ module avail matlab
 
 $ module load matlab/R2020b
@@ -72,11 +72,12 @@ $ matlab &
 
 2. use Samtools
 
-```
+``` {code-block} console
 $ module load samtools
-```
+
         "These module(s) or extension(s) exist but cannot be loaded as requested: "samtools""
 ```
+```  {code-block} console
 module load bioinfo-tools samtools
 ```
 - Bioinformatic tools are hidden by default
@@ -125,7 +126,7 @@ module load bioinfo-tools samtools
 ```
 ``````{solution}
 - 2 alternatives
-```bash=
+```  {code-block} console
  /proj/introtouppmax/labs/sunray
  
  cd /proj/introtouppmax/labs/
