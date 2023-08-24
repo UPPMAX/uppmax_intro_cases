@@ -70,7 +70,8 @@
 
 ``````{challenge} Try interactive
 
-```bash=
+```  {code-block} console
+
   interactive -A naiss2023-22-793 -p core -n 1 -t 10:00
 ```
 - Which node are you on?
@@ -124,21 +125,25 @@ echo Hello world!
 - Put it into a file named “jobtemplate.sh”
 - Make the file executable (chmod)
 - Submit the job:
-```
+```  {code-block} console
+
 $ sbatch jobtemplate.sh
 ```
 - Note the job id!
 - Check the queue:
-```
+
+```  {code-block} console
 $ squeue -u <username>
 $ jobinfo -u <username>
 ```
 - When it’s done (rather fast), look for the output file (slurm-<jobid>.out):
-```
+
+```  {code-block} console
 $ ls -lrt slurm-*
 ```
 - Check the output file to see if it ran correctly
-```
+
+```  {code-block} console
 $ cat <filename>
 ```
 ``````
