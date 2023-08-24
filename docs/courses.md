@@ -45,8 +45,8 @@
 - September 19-21 and 26-28
 
 ## ENCCS (EuroCC National Competence Centre Sweden
-[Lessons](https://enccs.se/lessons/)
-[Upcoming events](https://enccs.se/events)
+- [Lessons](https://enccs.se/lessons/)
+- [Upcoming events](https://enccs.se/events)
 
 ##    Links to extra material
 ###        Data Management Seminar
@@ -59,6 +59,6 @@
 ###        General Bioinformatics
 - [General Bioinformatics](https://rosalind.info/problems/list-view/)
 ###        Swedish Science Cloud
--[Swedish Science Cloud](https://github.com/SNICScienceCloud/technical-training)
+- [Swedish Science Cloud](https://github.com/SNICScienceCloud/technical-training)
 
 
