@@ -8,10 +8,30 @@
 - You typically have one project per project, their size dependent on type of project
 - Compute projects both have disk space (128 GB) and computing time attached to them
 
+- Check you quota with
+
+```{code-block} console
+$ uquota
+```
+
+
 ### Core hours
 - You  get core hours only from compute project
 - When they are used you can still get "BONUS" jobs if the resources allow.
 
+- You can find your current projects (and other projects that you have run jobs in) with the program projinfo.
+
+- ```{code-block} console
+$ projinfo <username>
+```
+
+
+or
+- ```{code-block} console
+$ projinfo <projname>
+```
+- For example, if your project is named NAISS 2017/1-334 you specify -A naiss2017-1-234
+  
 ## What kind of work will you perform?
 
 ```{uml}
