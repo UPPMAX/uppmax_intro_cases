@@ -64,6 +64,7 @@ $ matlab &
 $ module avail matlab
 ```
 - `module load matlab` will start <u>D</u>efault version (often latest) demarked with a D in the list
+- Let's load a specific version, often good for reproducibility.
 
 ```  {code-block} console
 $ module load matlab/R2020b
