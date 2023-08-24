@@ -25,9 +25,9 @@ $ projinfo <username>
 
 or
 ```{code-block} console
-$ projinfo <projname>
+$ projinfo <project name>
 ```
-- For example, if your project is named NAISS 2017/1-334 you specify -A naiss2017-1-234
+- For example, if your project is named NAISS 2017/1-334 you specify ``naiss2017-1-234``
   
 ## What kind of work will you perform?
 
