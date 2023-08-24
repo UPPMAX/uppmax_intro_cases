@@ -62,13 +62,15 @@ $ matlab &
 - Load module first
 ```  {code-block} console
 $ module avail matlab
+```
+- `module load matlab` will start <u>D</u>efault version (often latest) demarked with a D in the list
 
+```  {code-block} console
 $ module load matlab/R2020b
 
 $ matlab &
 ```
 - Matlab starts (if X11 is active)
-- `module load matlab` will start default version (often latest)
 
 2. use Samtools
 
@@ -78,7 +80,7 @@ $ module load samtools
         "These module(s) or extension(s) exist but cannot be loaded as requested: "samtools""
 ```
 ```  {code-block} console
-module load bioinfo-tools samtools
+$ module load bioinfo-tools samtools
 ```
 - Bioinformatic tools are hidden by default
 
