@@ -17,27 +17,32 @@
 ```
 
 ## Lesson material
-- First day will be on this [github website](https://uppmax.github.io/uppmax_intro/overview.html) <https://uppmax.github.io/uppmax_intro/index.html>
-- All other days each topic has its own Module in [Studium/Canvas](https://uppsala.instructure.com/courses/67267)
-- Material for the different days can also be reached directly by links at <https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2022/>
+- First day will be on this [github website](intro.md) 
+- All other days each topic can be reached from the [course main page](https://www.uppmax.uu.se/support/courses-and-workshops/uppmax-introductory-course) 
+
+## New documentation page
+- We will refer a lot to our [new documentation website](http://docs.uppmax.uu.se/)
 
 ## Questions
 
 ### Questions very much related to the present talk during the lessons 
-- Online chat or raise hand
+- Online chat or raised hand
 
 ### Questions requiring more effort to explain or answer 
 - Use the HackMD session below:
-  - [https://hackmd.io/@dianai/uppmax-intro](https://hackmd.io/VN85GrBbTb22izq5856kVg?both)
+
+```{todo}
+Use new address
+```  
 
 ## Exercises
-- Exercises may be solved individually or in small groups in breakout rooms for online students.
+- Exercises may be solved individually or in small groups in breakout rooms.
 
 ## Type along
 - You will be able to follow along using the built-in terminals in all OS:s.
   - Linux/Mac Terminal
   - Windows: Powershell or command prompt
-- For your day-to-day work you may benefit from other applications, see the [Login session](https://uppmax.github.io/uppmax_intro/login2.html)
+- For your day-to-day work you may benefit from other applications, see the [Login session](https://uppmax.github.io/uppmax_intro/login2.html) :warning:
 
 
 ## Example of arrangement for your screen(s)!
@@ -53,6 +58,10 @@ Second screen or second half of screen
 (zoom chat + HackMD)
 
 ## Lesson Modules
+```{todo}
+fix
+```
+
 ### Linux I at 9-12 Monday
 - Overview
 - Logging in to UPPMAX
@@ -63,9 +72,9 @@ Second screen or second half of screen
 - Organisation
 - HPC computing
 - SNIC
-- Bianca cluster
 - Using software and tools
 - Submitting jobs to calculation nodes (intro)
+- Bianca cluster
 
 ### Linux II 9-12 Tuesday
 - Using the command line level 2
