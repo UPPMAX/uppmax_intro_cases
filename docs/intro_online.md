@@ -35,6 +35,19 @@
 Use new address
 ```  
 
+```{important}
+
+- **Menti:**
+- <https://www.menti.com/al15tk57h9md>
+- <https://www.menti.com> with code valid the week: `69 32 18 8`
+```
+   
+```{discussion} Icebreaker
+
+   - Which city do you work in?
+
+```
+
 ## Exercises
 - Exercises may be solved individually or in small groups in breakout rooms.
 
@@ -42,7 +55,7 @@ Use new address
 - You will be able to follow along using the built-in terminals in all OS:s.
   - Linux/Mac Terminal
   - Windows: Powershell or command prompt
-- For your day-to-day work you may benefit from other applications, see the [Login session](https://uppmax.github.io/uppmax_intro/login2.html) |:warning:|
+- For your day-to-day work you may benefit from other applications, see the [Login session](https://uppmax.github.io/uppmax_intro/login2.html)
 
 
 ## Example of arrangement for your screen(s)!
@@ -112,6 +125,25 @@ fix
 ### Python II 13-16 Thursday
 - Creating a program
 - Functions
+
+## Today
+
+### The New documentation
+
+- New look later in spring for the official UPPMAX webpage, now at www.uppmax.uu.se
+- We like the documentation/tutorials in another style: http://docs.uppax.uu.se
+  - boxes, graphs, programming code style
+- Let's look at the documentation!
+   - Getting started
+   - Cluster user guide
+   - Software
+   - Databases
+
+### Style of todays lectures
+ - Information sessions
+ - case sessions with usage of the new documentation
+ - 
+
 
 
 ## Icebreaker in HackMD
