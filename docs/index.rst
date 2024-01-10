@@ -14,7 +14,6 @@ We will present and refer a lot to our new documentation at http://docs.uppmax.u
    :maxdepth: 2
    :caption: Intro
     
-   intro.md
    intro_online.md
 
 .. toctree::
