@@ -8,8 +8,7 @@ Introduction to UPPMAX — first day lessons
 
 Here you will find *some* of the documentation for the UPPMAX resources in an easy to find place.
 
-You can also find more information at:
-https://www.uppmax.uu.se/
+We will present and refer a lot to our new documentation at <http://docs.uppmax.uu.se/>
 
 .. toctree::
    :maxdepth: 2
