@@ -31,7 +31,7 @@
 ### Questions requiring more effort to explain or answer 
 - Use the HackMD session below:
 
-```{todo}
+```{admonition} To do
 Use new address
 ```  
 
@@ -42,7 +42,7 @@ Use new address
 - You will be able to follow along using the built-in terminals in all OS:s.
   - Linux/Mac Terminal
   - Windows: Powershell or command prompt
-- For your day-to-day work you may benefit from other applications, see the [Login session](https://uppmax.github.io/uppmax_intro/login2.html) :warning:
+- For your day-to-day work you may benefit from other applications, see the [Login session](https://uppmax.github.io/uppmax_intro/login2.html) |:warning:|
 
 
 ## Example of arrangement for your screen(s)!
@@ -58,7 +58,7 @@ Second screen or second half of screen
 (zoom chat + HackMD)
 
 ## Lesson Modules
-```{todo}
+```{admonition} To do
 fix
 ```
 
