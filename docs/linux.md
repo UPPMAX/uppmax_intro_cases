@@ -189,7 +189,9 @@ ask Bash to complete what you’re writing.
 ```
 
 ```[tip}
-
+- ``ctrl-C`` interupts a program or a command that is "stuck"
+- ``ctrl-Z`` pauses a program, can be continues in background (``bg``) or  foreground (``fg``)
+- ``ctrl-D`` quits some programs
 ```
 
 ## Typical sources of error
