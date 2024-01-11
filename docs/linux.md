@@ -150,9 +150,12 @@ ask Bash to complete what you’re writing.
     - On Mac: in the Terminal.app go to Preferences -> Settings -> Keyboard and turn on "Use option as meta key": then M = Alt
 
 
-```{solution} Not to try today if you haven't used before!!!
+````{solution} Not to try today if you haven't used before!!!
 
+```{warning} 
+- we suggest that you learn this tools before trying to work with them on UPPMAX
 - If you start one of these editors you may have difficulties to exit!
+```
 
 **vim**
 - fast and powerful, once you learn it
@@ -172,15 +175,21 @@ ask Bash to complete what you’re writing.
 - also With GUI
    - ``emacs –nw``
      - keeps you in terminal window.
-```
+````
 
 ## The graphical editors
 - When starting the graphical versions of an editor, add ``&`` to be able to use the command line while program is open.
   - Ex: `gedit &`
   - If not, you can `<Ctrl>+z` and type `bg` to send program to background.
 
-```{discussion} Try out later!
-   **Try them out and pick one favorite editor!**
+```{exercise} Try gedit
+   - start gedit with ``gedit &``
+   - write something
+   - save
+```
+
+```[tip}
+
 ```
 
 ## Typical sources of error
