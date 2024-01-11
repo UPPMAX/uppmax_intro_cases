@@ -27,8 +27,7 @@ We will present and refer a lot to our new documentation at http://docs.uppmax.u
    :caption: Get started
    
    login2.md
-   linux.md
-   linux_basics.md
+   linux_cases.md
 
 .. toctree::
    :maxdepth: 2
