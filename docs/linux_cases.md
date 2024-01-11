@@ -126,3 +126,4 @@ $ chmod -wR <target>
 ``````
  
 **More about BASH command line and scripts on Tuesday and Wednesday!**
+https://www.uppmax.uu.se/support/courses-and-workshops/uppmax-introductory-course/
