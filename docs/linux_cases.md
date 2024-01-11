@@ -122,8 +122,24 @@ http://docs.uppmax.uu.se/getting_started/linux_basics/
 ``````{solution}
 ``` {code-block} console
 $ chmod -wR <target>
- ```
+```
 ``````
+
+``````{solution} For the interested
+
+- Now try:
+
+```console
+$ ls -l /proj/introtouppmax/
+```
+
+- Huh, ``rwxrwsr-x``?
+- `s` in the group means `x` but with *gid bit set* ( g roup id of creator not launcher).
+- The s or sticky bit is a group permission on directories which changes the default behaviour of new files are created with the same group_id as the users group_id to new files inheriting the group_id from the parent directory.
+- `S` means `-` with gid bit set (rarely seen).
+- Among other things, this makes the default group for new files/subdirectories the, for instance, ``p_introtouppmax`` group.
+``````
+
  
 **More about BASH command line and scripts on Tuesday and Wednesday!**
 https://www.uppmax.uu.se/support/courses-and-workshops/uppmax-introductory-course/
