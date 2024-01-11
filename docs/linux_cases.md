@@ -109,38 +109,6 @@ http://docs.uppmax.uu.se/getting_started/linux_basics/
 15. `chmod`  &emsp;change file permissions
 16. `man`  &emsp;info about a command
 
-
-
-#### Examples
-
-- `<mode>` can be e.g.:
-  -  `u+x` : lets You (owner) run a script you just wrote
-  -  `-w` : no write permissions for **owner+group**
-    - warning: if `w` was already set for *others* it will be kept!!
-  -  `+rw` : let user and group members read and edit this file, not others if not already set
-  -  `=xw` : let group members go into your directory and put files there, but not see which files are there, others are not affected
-  -  `a=xw` : set xw for everyone
-
-- chmod takes flags as usual, e.g.
-  -  `-R` for recursive (i.e. all files and sub-directories therein)
-
-``````{solution} chmod 755 style - binary sum - "octal bit mask”
-
-- Online, you will come across e.g. `chmod 755 <file/dir>`. What does this mean? It’s an "octal bit mask”:
-
-- Each digit corresponds to the **binary sum** for the *owner*, *group* and *others*, respectively.
- 
-  - ``7 = 4 + 2 + 1 = r + w + x``   All permissions
-  - ``5 = 4 + 0 + 1 = r +   + x``   Read and execute permission
-
-- 755 then means all permissions for owner, but limiting write permissions for the group and all others
-
-- What number would `rw` be?
-
-```{solution}
-6
- ```
-``````
  
 ```{challenge} chmod — Hands-on
 
