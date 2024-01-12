@@ -8,6 +8,7 @@
 - UPPMAX application experts want to share their skills in a 4-day series of lectures. 
 - If you already have the fundamentals down, you are still sure to enjoy the tips and tricks in the later parts of the course. 
 - Hence we've made it possible to sign up only for the days that are interesting to you.
+```
 
 ```{admonition} Learning outcomes
    - Get overview of UPPMAX and NAISS
@@ -29,18 +30,16 @@
 - Online chat or raised hand
 
 ### Questions requiring more effort to explain or answer 
-- Use the HackMD session below:
+- Use the [HackMD session](https://hackmd.io/@UPPMAX/Intro-Course-QaA)
 
-```{admonition} To do
-Use new address
-```  
+### Interactive questions/discussion
 
-```{important}
+```{important} 
 
-- **Menti:**
-- <https://www.menti.com/al15tk57h9md>
-- <https://www.menti.com> with code valid the week: `69 32 18 8`
+**Menti**
+
 ```
+
    
 ```{discussion} Icebreaker
 
