@@ -1,6 +1,6 @@
-# Submitting jobs
+# Using the compute nodes
 ```{objectives}
-- This is a short introduction in how to reach the calculation nodes
+- This is a short introduction in how to reach the compute nodes
 - Wednesday afternoon is wedded to this topic!
 ```
 
