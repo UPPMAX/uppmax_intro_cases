@@ -1,48 +1,54 @@
 # Courses and workshops
 
 
-##    Introductory Linux courses
+```{instructor-note}
+- Approx timing: 14.40-14:50
+- Theory
+```
+
+##  Introductory Linux courses
 ### Intro to UPPMAX (This one)
-- [Intro to UPPMAX](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2023/)
+- [Intro to UPPMAX](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course)
 
 ### Awk workshop
 - [Intro to Awk](https://www.uppmax.uu.se/support/courses-and-workshops/awk-workshop/)
-- Aug 25 & 28 
+- Jan 22-23 
 
-##    Other UPPMAX courses
+##  Other UPPMAX courses
 ### Intro to Bianca
 - [Introduction to Bianca](https://www.uppmax.uu.se/support/courses-and-workshops/bianca-workshop-2023/)
 - [Course material](https://uppmax.github.io/bianca_workshop/)
-- Sep 11
+- Once in spring and once in fall
 
 ###  Basic Singularity
 - [Basic Singularity](https://www.uppmax.uu.se/support/courses-and-workshops/singularity-workshop-announcement/)
-- Oct 6
+- Feb 13
 
 ### Introduction to running R, Python, and Julia in HPC
 - [Introduction to running R, Python, and Julia in HPC](https://www.uppmax.uu.se/support/courses-and-workshops/r-python-julia)
-- Focus on packages and using Slurm for the jobs
-- Oct 17-19 
+- **Focus on packages and using Slurm for the jobs**
+- March 12-14
 
 ### Git course
-- [Last year's material](https://www.hpc2n.umu.se/events/courses/2022/introduction-to-git)
+- [Last year's material](https://www.hpc2n.umu.se/node/982)
 - Nov 13-17
 
 ### Python at UPPMAX and HPC2N
 - [Using Python in an HPC environment](https://uppmax.github.io/HPC-python/index.html)
 - Also containing parallelism, Machine learning and GPU
-- Dec 5
+- May/June (Date not set)
 
 ### Programming formalisms
 - [Programming formalisms](https://www.uppmax.uu.se/support/courses-and-workshops/programming-formalisms/)
-- December??
+- A bit more focus on parallelism and GPUs and ML
+- May/June (date not set)
 
 ## Courses at other NAISS/SNIC Centers
 - [SNIC training](http://snicdocs.nsc.liu.se/wiki/Training)
 
 ## CodeRefinery
 - [Tools workshop](https://coderefinery.github.io/2023-09-19-workshop/)
-- September 19-21 and 26-28
+- March 12-14, 19-22?
 
 ## ENCCS (EuroCC National Competence Centre Sweden
 - [Lessons](https://enccs.se/lessons/)
