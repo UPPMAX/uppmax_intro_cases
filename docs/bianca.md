@@ -6,7 +6,12 @@
 
 ```{Admonition} The Bianca workshop
 - [Bianca workshop material](https://uppmax.github.io/bianca_workshop/)
-- Next time given Sep 11
+- Next time given later this spring
+```
+
+```{instructor-note}
+- Approx timing: 15.05-15.30
+- Theory
 ```
 
 ```{seealso}
