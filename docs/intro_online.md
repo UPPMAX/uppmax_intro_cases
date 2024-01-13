@@ -102,20 +102,26 @@
 - First time in this manner so timings are preliminary.
 
 **Schedule**
-- Intro
-- Overview
-- Log in
-- Linux intro
-- Linux basic commands
-- Overview - part 2
-- HPC
-- NAISS and projects
-- Software and tools
-- Using compute nodes
-- Working on UPPMAX
-- Courses and workshops
-- NAISS-SENS and Bianca
-- Summary
+- 9.00 Intro
+- 9.15 Overview
+- 9.30 Log in
+- 9.55 15 min coffee break
+- 10.10 Linux intro
+- 10.40 Linux basic commands
+- (11.00 10 min break)
+- 11.30 Overview - part 2
+- 11.40 HPC
+- 11.50 NAISS and projects
+- 12.00 **LUNCH**
+- 13.00 Software and tools
+- 13.30 Using compute nodes
+- (14.00 10 min break)
+- 14.20 Working on UPPMAX
+- 14.40 Courses and workshops
+- 14.55 15 min coffee break
+- 15.10 NAISS-SENS and Bianca
+- 15.30 Summary
+- 15.40 Q/A
 
 ### The New documentation
 
