@@ -19,7 +19,7 @@
 
 ## Modules
 
-- [](http://docs.uppmax.uu.se/cluster_guides/modules/){:target="_blank"}
+- [Modules](http://docs.uppmax.uu.se/cluster_guides/modules/){:target="_blank"}
 
 
 ## Installed software
@@ -63,7 +63,6 @@ $ module load bioinfo-tools samtools
 ## Installed databases
 - [Installed databases at UPPMAX](http://docs.uppmax.uu.se/databases/overview/)
     
-
 
 ## Run own scripts or programs
 - Unless your script or program is in the active path, you run it by the full path or `./<file>` if you are in the present directory.
