@@ -19,7 +19,7 @@
 
 ## Modules
 
-- http://docs.uppmax.uu.se/cluster_guides/modules/
+- [](http://docs.uppmax.uu.se/cluster_guides/modules/){:target="_blank"}
 
 
 ## Installed software
@@ -61,44 +61,9 @@ $ module load bioinfo-tools samtools
 ``````
   
 ## Installed databases
-- [Installed databases at UPPMAX](https://www.uppmax.uu.se/resources/databases/)
+- [Installed databases at UPPMAX](http://docs.uppmax.uu.se/databases/overview/)
     
 
-## Install software yourself
-- You can install in your home directory.
-  - This is handy for personal needs, low numbers of files (i.e. not Conda).
-- Usually better to install in project directory.
-  - This way the project contains both data and software — good for reproducibility, collaboration, and everyone's general sanity.
- 
-- http://docs.uppmax.uu.se/cluster_guides/install/
-
-### Python packages
-- [Python packages](https://uppmax.uu.se/support/user-guides/python-user-guide/)
-
-#### Conda
-- [Conda user guide](https://www.uppmax.uu.se/support/user-guides/conda-user-guide/)
-
-### "Containers"
-#### Singularity
-- [Singularity user guide](https://www.uppmax.uu.se/support/user-guides/singularity-user-guide/)
-
-#### Docker
-- Docker will unfortunately not work on the clusters, since it requires root permission.
-
-### Build from source
-- We have several compiler versions from GNU and INTEL
-- [Compiling from source code](https://www.uppmax.uu.se/support/user-guides/compiling-source-code/)
-- [Guide for compiling serial and parallel programs](https://www.uppmax.uu.se/support/user-guides/mpi-and-openmp-user-guide/)
-    
-### Spack
-- The UPPMAX staff has already other ways to install most software applications. 
-- Please use Spack only if other ways to install your tool is not possible or very difficult, e.g. requiring very many dependencies and it is not available through, e.g. Easybuild.
-- [Spack user guide at UPPMAX](https://www.uppmax.uu.se/support/user-guides/spack-on-uppmax/)
-
-### Own development...
-- You may have your own code that you want to run on UPPMAX.
-- See the [guide for compiling serial and parallel programs](https://www.uppmax.uu.se/support/user-guides/mpi-and-openmp-user-guide/)
-- [User guide for debuggers and profilers](https://www.uppmax.uu.se/support/user-guides/debuggers-and-profiling-tools/)
 
 ## Run own scripts or programs
 - Unless your script or program is in the active path, you run it by the full path or `./<file>` if you are in the present directory.
