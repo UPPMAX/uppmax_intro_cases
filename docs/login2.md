@@ -15,6 +15,11 @@
 - Try yourself!
 ```
 
+```{instructor-note}
+- Approx timing: 9:25-10.00
+- Demos/type-alongs
+```
+
 ```{note}
 If you lack a user account, visit the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/)
 ```
