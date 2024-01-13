@@ -4,10 +4,6 @@
 - Let's recap and go a little deeper into the organization of NAISS/UPPMAX
 
 ```
-
-**UPPMAX = UppMACS**
-- [Uppsala Multidisciplinary Center for Advanced Computational Science](http://uppmax.uu.se)
-
     
 ## Organisational orienteering
 
@@ -17,24 +13,12 @@
     
 ## UPPMAX missions
 - Mission for NAISS: to provide a quality high-performance computing environment nationally
-  - General purpose
-  - Data intensive
-  - Sensitive data (human sequences)
+  - General purpose: Rackham
+  - Data intensive. Rackham/Bianca
+  - Sensitive data (human sequences): Bianca
 - Mission for UU: to provide relevant services to Uppsala University
+  - For UU researchers and education: Snowy cluster
 - Mission for NBIS/SciLifeLab: to provide the best possible environment for data-driven life science, especially bioinformatics
-
-## UPPMAX systems
-
-- Clusters
-  - Rackham (general purpose)
-    - Snowy
-  - Bianca (sensitive)
-    - Miarka (Scilifelab production)
-- Storage
-  - On-load directly connected to the clusters
-  - Off-load for large data not needed for computation analysis anymore
-- Cloud
-  - Dis (region EAST-1)
 
 ## UPPMAX support staff
 
