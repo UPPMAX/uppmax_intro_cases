@@ -80,15 +80,15 @@
 
 - We have a number of compute clusters:
 
-  -  [Rackham](https://www.uppmax.uu.se/resources/systems/the-rackham-cluster/)
+  -  [Rackham](http://docs.uppmax.uu.se/cluster_guides/rackham_portal/)
 , reserved for SNIC projects
-  -  [Snowy](https://www.uppmax.uu.se/resources/systems/the-snowy-cluster/), GPU, long jobs reserved for UPPMAX projects and Education
-  -  [Bianca](https://www.uppmax.uu.se/resources/systems/the-bianca-cluster/)
+  -  [Snowy](http://docs.uppmax.uu.se/cluster_guides/snowy_portal/), GPU, long jobs reserved for UPPMAX projects and Education
+  -  [Bianca](http://docs.uppmax.uu.se/cluster_guides/bianca_portal/)
 , a part of SNIC-SENS
   -  [Miarka](https://www.uppmax.uu.se/resources/systems/miarka-cluster/), reserved for Scilifelab production
   -  [UPPMAX cloud](https://www.uppmax.uu.se/resources/systems/the-uppmax-cloud/), a part of SNIC Science Cloud
 
-- [User guides](https://www.uppmax.uu.se/support/user-guides/)
+- [User guides](http://docs.uppmax.uu.se/)
 
 - The storage systems we have provide a total volume of about 25 PB, the equivalent of  50,000 years of 128-bit encoded music. Read more on the [storage systems page](https://www.uppmax.uu.se/resources/systems/storage-systems/).
 
@@ -107,53 +107,13 @@
  
 ### A little bit more about Snowy
 
-- [User guide](https://www.uppmax.uu.se/support/user-guides/snowy-user-guide/).
-  - There is a [local compute round](https://supr.snic.se/round/uppmaxcompute2021/) for UU users applying for Snowy in SUPR.
+- [User guide](http://docs.uppmax.uu.se/cluster_guides/snowy_portal/).
+  - There is a [local compute round](https://supr.naiss.se/round/uppmaxcompute2023/) for UU users applying for Snowy in SUPR.
   - GU (courses) applications (including GU GPU usage) are not done in SUPR, but are supposed to be routed through the service desk.   
   - The details can be found at the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/).
 
 ### About Bianca?
 - Wait for it!
-
-## Summary about the three "common" UPPMAX clusters
-
-| |Rackham|Snowy|Bianca|
-|-------|-----|------|---|
-|**Purpose**|General-purpose|General-purpose|Sensitive|
-|**#  Nodes (Intel)**|486+144|228+ <br>50 Nvidia T4 GPUs|288 +  <br>10 nodes á 2 <br>NVIDIA A100 GPUs|
-|**Cores per node**|20/16|16|16/64|
-|**Memory per node**|128 GB|128 GB|128 GB
-|**Fat nodes**|256 GB & 1 TB| 256, 512 GB & 4 TB| 256 & 512 GB|
-|**Local disk (scratch)**|2/3 TB| 4 TB| 4 TB |
-|**Login nodes**|Yes| No (reached from Rackham)|Yes (2 cores and 15 GB)|
-|**"Home" storage**|Domus|Domus|Castor|
-|**"Project" Storage**|Crex, Lutra|Crex, Lutra|Castor|
-
-## Overview of the UPPMAX systems
-
-```{mermaid}
-
-graph TB
-
-  Node1 -- interactive --> SubGraph2Flow
-  Node1 -- sbatch --> SubGraph2Flow
-  subgraph "Snowy"
-  SubGraph2Flow(calculation nodes) 
-        end
-
-        thinlinc -- usr-sensXXX + 2FA----> SubGraph1Flow
-        Node1 -- usr-sensXXX + 2FA----> SubGraph1Flow
-        subgraph "Bianca"
-        SubGraph1Flow(Bianca login) -- usr+passwd --> private(private cluster)
-        private -- interactive --> calcB(calculation nodes)
-        private -- sbatch --> calcB
-        end
-
-        subgraph "Rackham"
-        Node1[Login] -- interactive --> Node2[calculation nodes]
-        Node1 -- sbatch --> Node2
-        end
-```
 
 
 ```{keypoints}
