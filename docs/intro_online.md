@@ -123,7 +123,7 @@
 
 ### The New documentation
 
-- New look later in spring for the official UPPMAX webpage, now at www.uppmax.uu.se
+- New look later in spring for the official UPPMAX webpage, now at <www.uppmax.uu.se>
 - We like the documentation/tutorials in another style: <http://docs.uppmax.uu.se>
   - boxes, graphs, programming code style
 - Let's look at the documentation!
