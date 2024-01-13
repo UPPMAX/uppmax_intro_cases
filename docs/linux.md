@@ -126,8 +126,7 @@
 <br/><br/><br/><br/><br/>
 </section>
 
-- Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
-ask Bash to complete what you’re writing.
+- Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to ask Bash to complete what you’re writing.
 
 - Get in the habit of this — it will save you many hours!
 
