@@ -16,7 +16,7 @@
 ```
 
 ```{instructor-note}
-- Approx timing: 9:25-10.00
+- Approx timing: 9:30-9:55
 - Demos/type-alongs
 ```
 
