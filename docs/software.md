@@ -19,7 +19,7 @@
 
 ## Modules
 
-- [Modules](http://docs.uppmax.uu.se/cluster_guides/modules/){:target="_blank"}
+- [Modules](http://docs.uppmax.uu.se/cluster_guides/modules/)
 
 
 ## Installed software
