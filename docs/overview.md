@@ -11,6 +11,10 @@
 - We'll get an overview of UPPMAX and SNIC/NAISS and how a computer cluster works
 ```
 
+```{instructor-note}
+- Approx timing: 9:15-9:25
+- Theory
+```
 
 **UPPMAX = UppMACS**
 - [Uppsala Multidisciplinary Center for Advanced Computational Science](http://uppmax.uu.se)
