@@ -4,6 +4,11 @@
 - Let's recap and go a little further into the UPPMAX hardware!
 ```
 
+```{seealso}
+[Uppmax clusters](http://docs.uppmax.uu.se/cluster_guides/uppmax_cluster/)
+
+```
+
 ## HPC, HTC and MTC
 
 - The Buzz word is **HPC or High Performance Computing**, but this is rather narrow focusing on fast calculation, i.e. processors and parallelism
