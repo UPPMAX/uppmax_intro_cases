@@ -118,8 +118,8 @@
 - (14.00 10 min break)
 - 14.20 Working on UPPMAX
 - 14.40 Courses and workshops
-- 14.55 15 min coffee break
-- 15.10 NAISS-SENS and Bianca
+- 14.50 15 min coffee break
+- 15.05 NAISS-SENS and Bianca
 - 15.30 Summary
 - 15.40 Q/A
 
