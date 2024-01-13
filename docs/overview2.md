@@ -2,7 +2,11 @@
 
 ```{objectives}
 - Let's recap and go a little deeper into the organization of NAISS/UPPMAX
+```
 
+```{instructor-note}
+- Approx timing: 11.50-11:55
+- Theory
 ```
     
 ## Organisational orienteering
