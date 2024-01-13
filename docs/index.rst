@@ -51,6 +51,12 @@ We will present and refer a lot to our new documentation at http://docs.uppmax.u
    :caption: NAISS SENS
  
    bianca.md
+ 
+.. toctree::
+   :maxdepth: 2
+   :caption: Summary
+ 
+   summary.md
 
    
 
