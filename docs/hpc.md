@@ -6,7 +6,11 @@
 
 ```{seealso}
 [Uppmax clusters](http://docs.uppmax.uu.se/cluster_guides/uppmax_cluster/)
+```
 
+```{instructor-note}
+- Approx timing: 11.40-11:50
+- Theory
 ```
 
 ## HPC, HTC and MTC
