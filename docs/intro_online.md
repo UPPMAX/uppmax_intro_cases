@@ -32,46 +32,17 @@
 ### Questions requiring more effort to explain or answer 
 - Use the [HackMD session](https://hackmd.io/@UPPMAX/Intro-Course-QaA)
 
-### Interactive questions/discussion
-
-```{important} 
-
-**Menti**
-
-```
-
-   
-```{discussion} Icebreaker
-
-   - Which city do you work in?
-
-```
 
 ## Exercises
 - Exercises may be solved individually or in small groups in breakout rooms.
 
 ## Type along
-- You will be able to follow along using the built-in terminals in all OS:s.
+- You will be able to follow along using the built-in terminals in all OSs.
   - Linux/Mac Terminal
   - Windows: Powershell or command prompt
 - For your day-to-day work you may benefit from other applications, see the [Login session](https://uppmax.github.io/uppmax_intro/login2.html)
 
 
-## Example of arrangement for your screen(s)!
-First screen or first half of screen
-- ZOOM view
-  - presentation
-  - terminal from teacher
-
-Second screen or second half of screen
-- your web browser for copy-pasting
-- your own terminal
-
-(zoom chat + HackMD)
-
-## Lesson Modules
-```{admonition} To do
-fix
 ```
 
 ### Linux I at 9-12 Monday
@@ -130,7 +101,7 @@ fix
 ### The New documentation
 
 - New look later in spring for the official UPPMAX webpage, now at www.uppmax.uu.se
-- We like the documentation/tutorials in another style: http://docs.uppax.uu.se
+- We like the documentation/tutorials in another style: <http://docs.uppmax.uu.se>
   - boxes, graphs, programming code style
 - Let's look at the documentation!
    - Getting started
@@ -140,7 +111,7 @@ fix
 
 ### Style of todays lectures
  - Information sessions
- - case sessions with usage of the new documentation
+ - Case sessions with usage of the new documentation
  - 
 
 
