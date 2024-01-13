@@ -12,7 +12,7 @@
 ```
 
 ```{instructor-note}
-- Approx timing: 9:15-9:25
+- Approx timing: 9:15-9:30
 - Theory
 ```
 
