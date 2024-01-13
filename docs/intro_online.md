@@ -98,6 +98,25 @@
 
 ## Today
 
+## Preliminary schedule
+- First time in this manner so timings are preliminary.
+
+**Schedule**
+- Intro
+- Overview
+- Log in
+- Linux intro
+- Linux basic commands
+- Overview - part 2
+- HPC
+- NAISS and projects
+- Software and tools
+- Using compute nodes
+- Working on UPPMAX
+- Courses and workshops
+- NAISS-SENS and Bianca
+- Summary
+
 ### The New documentation
 
 - New look later in spring for the official UPPMAX webpage, now at www.uppmax.uu.se
@@ -112,10 +131,7 @@
 ### Style of todays lectures
  - Information sessions
  - Case sessions with usage of the new documentation
- - 
-
-
 
 ## Icebreaker in HackMD
-- [https://hackmd.io/@dianai/uppmax-intro](https://hackmd.io/VN85GrBbTb22izq5856kVg?both)
+- [https://hackmd.io/@UPPMAX/Intro-Course-QaA](https://hackmd.io/@UPPMAX/Intro-Course-QaA)
 
