@@ -15,8 +15,9 @@
   - Things to be aware of
 ```
 
-http://docs.uppmax.uu.se/getting_started/linux/
-
+```{admonition} See the documentation
+- <http://docs.uppmax.uu.se/getting_started/linux/>
+```
 
 ```{tip}
 - TAB complete:
@@ -84,7 +85,7 @@ http://docs.uppmax.uu.se/getting_started/linux/
 - Let's dig into the most important BASH commands
 - We'll do a type-along session
 ```
-http://docs.uppmax.uu.se/getting_started/linux_basics/
+
 
 ## We will cover these commands
 ### Navigation and file management
@@ -109,6 +110,10 @@ http://docs.uppmax.uu.se/getting_started/linux_basics/
 15. `chmod`  &emsp;change file permissions
 16. `man`  &emsp;info about a command
 
+
+```{admonition} See the documentation
+- <http://docs.uppmax.uu.se/getting_started/linux_basics/>
+```
  
 ```{challenge} chmod — Hands-on
 
