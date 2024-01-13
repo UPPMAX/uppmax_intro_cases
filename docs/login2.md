@@ -43,12 +43,12 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
    - Your planned use of graphics on the cluster
 ```
 
-We will use Rackham for the course
+- We will use Rackham for the course
 
-http://docs.uppmax.uu.se/getting_started/get_inside_sunet/
-
-http://docs.uppmax.uu.se/getting_started/login_rackham/
-
+```{admonition} See the documentation
+- [Get inside SUNET](http://docs.uppmax.uu.se/getting_started/get_inside_sunet/)
+- [Log in to Rackham](http://docs.uppmax.uu.se/getting_started/login_rackham/)
+```
 
 ## Exercises
 
@@ -57,19 +57,26 @@ http://docs.uppmax.uu.se/getting_started/login_rackham/
 ```
 
 ```{challenge} Log in with a ternminal but enable graphics
-  - Use any tool that you have installed http://docs.uppmax.uu.se/getting_started/login_rackham/#terminal-with-x11-server-and-light-graphics
+- Use any tool that you have installed <http://docs.uppmax.uu.se/getting_started/login_rackham/#terminal-with-x11-server-and-light-graphics>
+```
+```{solution}
+- First try:
+```console
+$ ssh -Y <username>@rackham.uppmax.uu.se
+```
+- If you receive errors or warnings, instead try:
+```console
+$ ssh <username>@rackham.uppmax.uu.se
+```
+- If you do have X11 installed:
+```console
+$ xeyes &
 ```
 
 ```{challenge} Try Thinlinc from web
-  - Try the web version now if you don't already have the software installed!
-http://docs.uppmax.uu.se/getting_started/login_rackham/#thinlinc-all-platforms
+- Try the web version now if you don't already have the software installed!
+- <http://docs.uppmax.uu.se/getting_started/login_rackham/#thinlinc-all-platforms>
 ```
-
-```{challenge} Log in with a ternminal but enable graphics
-  - Make sure you have XQuartz or other X11 server for Mac OS
-  - [https://www.xquartz.org/](https://www.xquartz.org/)
-```
-
 
 ```{admonition} Login procedure
    If you plan to:
@@ -106,24 +113,6 @@ http://docs.uppmax.uu.se/getting_started/login_rackham/#thinlinc-all-platforms
      - *ThinLinc from web*
    
 ```
-
-
-
-``````{challenge} Login to **Rackham**, using your terminal
-- First try:
-```console
-$ ssh -Y <username>@rackham.uppmax.uu.se
-```
-- If you receive errors or warnings, instead try:
-```console
-$ ssh <username>@rackham.uppmax.uu.se
-```
-- If you do have X11 installed:
-```console
-$ xeyes &
-```
-``````
-
 
 
  ```{keypoints}
