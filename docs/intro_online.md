@@ -42,9 +42,7 @@
   - Windows: Powershell or command prompt
 - For your day-to-day work you may benefit from other applications, see the [Login session](https://uppmax.github.io/uppmax_intro/login2.html)
 
-
-```
-
+## The topics
 ### Linux I at 9-12 Monday
 - Overview
 - Logging in to UPPMAX
