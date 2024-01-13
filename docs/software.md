@@ -4,7 +4,12 @@
     -  software tools on UPPMAX
     -  databases
 - Introduction guide for installing own software or packages
-- Very short introduction to developing old programs
+- Very short introduction to developing own programs
+```
+
+```{instructor-note}
+- Approx timing: 13:00-13:30
+- Theory and type-along
 ```
 
 - 800+ programs and packages are installed.
