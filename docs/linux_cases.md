@@ -5,7 +5,6 @@
 ```{questions}
 - What is Linux?
 - How to use the command line?
-
 ```
 
 ```{objectives}
@@ -13,6 +12,11 @@
   - How the command line works
   - Some text editors
   - Things to be aware of
+```
+
+```{instructor-note}
+- Approx timing: 10:10-10:55
+- Theory and type-along
 ```
 
 ```{admonition} See the documentation
@@ -86,6 +90,10 @@
 - We'll do a type-along session
 ```
 
+```{instructor-note}
+- Approx timing: 11:05-11.50
+- Type-alongs
+```
 
 ## We will cover these commands
 ### Navigation and file management
