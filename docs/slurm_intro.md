@@ -4,6 +4,11 @@
 - Wednesday afternoon is wedded to this topic!
 ```
 
+```{instructor-note}
+- Approx timing: 13.00-14.20 (10 mn break)
+- Theory
+```
+
 ## Slurm, sbatch, the job queue
 - Problem: 1000 users, 500 nodes, 10k cores
 - Need a queue:
