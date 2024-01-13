@@ -3,7 +3,7 @@
 - We'll briefly get overviews over 
     -  software tools on UPPMAX
     -  databases
-- Introduction quide for installing own software or packages
+- Introduction guide for installing own software or packages
 - Very short introduction to developing old programs
 ```
 
