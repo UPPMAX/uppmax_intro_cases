@@ -91,7 +91,7 @@
 ```
 
 ```{instructor-note}
-- Approx timing: 11:05-11.50
+- Approx timing: 10:40-11.30
 - Type-alongs
 ```
 
