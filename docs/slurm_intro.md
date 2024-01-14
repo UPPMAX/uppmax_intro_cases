@@ -523,10 +523,10 @@ Do you need more memory than 128 GB or GPU:s?
         ```
 ## Links
 
-- [Slurm documentation](https://slurm.schedmd.com/){:target="_blank"}
-- [Slurm user guide](https://www.uppmax.uu.se/support/user-guides/slurm-user-guide/){:target="_blank"}
-- [Discovering job resource usage with `jobstats`](https://www.uppmax.uu.se/support/user-guides/jobstats-user-guide/){:target="_blank"} 
-- [Plotting your core hour usage](https://www.uppmax.uu.se/support/user-guides/plotting-your-core-hour-usage/){:target="_blank"} 
+- [Slurm documentation](https://slurm.schedmd.com/){: target="_blank"}
+- [Slurm user guide](https://www.uppmax.uu.se/support/user-guides/slurm-user-guide/){: target="_blank"}
+- [Discovering job resource usage with `jobstats`](https://www.uppmax.uu.se/support/user-guides/jobstats-user-guide/){: target="_blank"} 
+- [Plotting your core hour usage](https://www.uppmax.uu.se/support/user-guides/plotting-your-core-hour-usage/){: target="_blank"} 
 
 
 ```{abstract "Keypoints"
