@@ -57,7 +57,11 @@ $ ls -a
 ``` {code-block} console
 $ ls -l
 ```
-``-l`` gives you listed and detailed information.
+``-l`` gives you listed and detailed information in alpha-numerical order
+
+```{tip}
+- the short-hand command ``ll`` will make a list as above, but highlight different file types with different colors
+```
 
 ``` {code-block} console
 $ ls -lt
@@ -78,7 +82,7 @@ $ man ls
 - for complete information about a command.
 - TIP: `-$ man <command>` works for almost any command!
   - scroll with arrows and quit with ``q``.
-
+ 
  
 ### cd — Change the shell working Directory
 - To change directory, use ``cd <target>``
