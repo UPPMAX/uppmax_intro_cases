@@ -229,11 +229,11 @@ that uses 2 cores and has a maximum duration of 8 hours.
 
 ### Try interactive and run RStudio
 
-We recommend using at least two cores for RStudio, and to get those resources, you must start an interactive job.
+- We recommend using at least two cores for RStudio, and to get those resources, you must start an interactive job.
 
-``````{example}
+```{example}
 
-**"Type-along"**
+**Type-along**
 
 - Use **ThinLinc**
 
@@ -287,7 +287,7 @@ We recommend using at least two cores for RStudio, and to get those resources, y
 
 - **Quit RStudio**!
 - **Log out** from interactive session with `<Ctrl>-D` or `logout` or `exit`
-``````
+```
  
 ## Job scripts (batch)
 
@@ -529,75 +529,6 @@ Do you need more memory than 128 GB or GPU:s?
 - [Plotting your core hour usage](https://www.uppmax.uu.se/support/user-guides/plotting-your-core-hour-usage/){: target="_blank"} 
 
 
-```{abstract "Keypoints"
-    - You are always in the login node unless you:
-        - start an interactive session to do development or hands-on work
-        - start a batch job to run jobs not needing any manual input
-    - Slurm is a job scheduler
-        - add flags to describe your job.
-    - There is a job wall time limit of ten days (240 hours).
- 
-
-
-
-
-## Interactive jobs
-- Most work is most effective as submitted jobs, but e.g. development needs responsiveness
-- Interactive jobs are high-priority but limited in `-n` and `-t`
-- Quickly give you a job and logs you in to the compute node
-- Require same Slurm parameters as other jobs
-
-``````{challenge} Try interactive
-
-```  {code-block} console
-$ interactive -A naiss2023-22-793 -p core -n 1 -t 10:00
-```
-- Which node are you on?
-  - Logout with `<Ctrl>-D` or `logout`
-``````
-
-
-
- 
-### A simple job script template
-
-```bash=
-#!/bin/bash -l 
-# tell it is bash language and -l is for starting a session with a "clean environment, e.g. with no modules loaded and paths reset"
-
-#SBATCH -A naiss2023-22-793  # Project name
-
-#SBATCH -p devcore  # Asking for cores (for test jobs and as opposed to multiple nodes) 
-
-#SBATCH -n 1  # Number of cores
-
-#SBATCH -t 00:10:00  # Ten minutes
-
-#SBATCH -J Template_script  # Name of the job
-
-# go to some directory
-
-cd /proj/introtouppmax/labs
-pwd -P
-
-# load software modules
-
-module load bioinfo-tools
-module list
-
-# do something
-
-echo Hello world!  
-
-```
-
-## Other Slurm tools
-
-- ``squeue`` — quick info about jobs in queue
-- ``jobinfo`` — detailed info about jobs
-- ``finishedjobinfo`` — summary of finished jobs
-- ``jobstats``— efficiency of booked resources
-
 ``````{challenge} Exercise at home
 - Copy the code just further up!
 - Put it into a file named “jobtemplate.sh”
@@ -631,8 +562,7 @@ $ cat <filename>
 
 ```{keypoints} 
 - You are always in the login node unless you:
-  - start an interactive session
-  - start a batch job
+     - start an interactive session to do development or hands-on work
+     - start a batch job to run jobs not needing any manual input
 - Slurm is a job scheduler
-  - add flags to describe your job.
- ```
+     - add flags to describe your job.
