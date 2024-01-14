@@ -11,12 +11,25 @@
 - Linux introduction
   - Understanding
   - Basic commands
-- NAISS
+- UPPMAX & support
 - UPPMAX clusters
-- Software modules
+  - Rackham - general
+  - Snowy - local compute, and courses
+  - Bianca - sensitive data
+- NAISS
+  - projects
+- Software and tools
+  - software modules
+  - installing 
 - Using the compute nodes
+  - queues
+  - interactive
+  - batch 
 - Working on UPPMAX
+  - some tips 
 - NAISS Sens and Bianca
+  - No direct internet connection
+  - Wharf
 
 ## The new documentation
 
@@ -28,3 +41,8 @@
 - Do you spot an error?
 - Make an issue at <https://github.com/UPPMAX/UPPMAX-documentation>
 ```
+
+
+## Q/A
+
+- Do we need break-out rooms?
