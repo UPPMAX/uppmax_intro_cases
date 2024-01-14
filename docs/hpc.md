@@ -10,7 +10,7 @@
 
 ```{instructor-note}
 - Approx timing: 11.35-11:40
-- Theory
+- Information
 ```
 
 ## HPC, HTC and MTC
