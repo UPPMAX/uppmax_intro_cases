@@ -14,6 +14,10 @@
 - A SLURM introduction can otherwise be found here: <http://docs.uppmax.uu.se/cluster_guides/slurm/>
 ```
 
+```{note}
+- project number: naiss2024-22-49
+```
+
 ## The compute nodes
 
 When you are logged in, you are on a login node.
@@ -24,7 +28,7 @@ Type        |Purpose
 Login node  |Start jobs for worker nodes, do easy things.
 Compute nodes |Do hard calculations, either from scripts of an interactive session.
 
-Bianca contains hundreds of nodes, each of which is isolated from each other and the Internet.
+
 
 ```{mermaid}
 
@@ -219,10 +223,10 @@ interactive -A [project name] -p core -n [number_of_cores] -t [session_duration]
 For example:
 
 ```bash
-interactive -A sens2023598 -p core -n 2 -t 8:0:0
+interactive -A naiss2024-22-49 -p core -n 2 -t 8:0:0
 ```
 
-This starts an interactive session using project `sens2023598` 
+This starts an interactive session using project `naiss2024-22-49` 
 that uses 2 cores and has a maximum duration of 8 hours.
 
 
@@ -245,11 +249,11 @@ that uses 2 cores and has a maximum duration of 8 hours.
             
     - find your session, ssh to it, like:
         
-    ``$ ssh sens2023598-b9``
+    ``$ sshnaiss2024-22-49-b9``
 
 - If you have no ongoing session:
 
-``$ interactive -A sens2023598 -p devcore -n 2 -t 60:00`` 
+``$ interactive -Anaiss2024-22-49 -p devcore -n 2 -t 60:00`` 
 
 - Once the interactive job has begun you need to load needed modules, even if you had loaded them before in the login node
 - You can check which node you are on?
@@ -264,10 +268,10 @@ that uses 2 cores and has a maximum duration of 8 hours.
    - How many in this case??
         
 - If the name before ``.bianca.uppmax.uu.se`` is ending with bXX you are on a compute node!
-- The login node has ``sens2023598-bianca``
+- The login node has ``naiss2024-22-49-bianca``
 - You can also probably see this information in your prompt, like:
     
-    ``[bjornc@sens2023598-b9 ~]$`` 
+    ``[bjornc@naiss2024-22-49-b9 ~]$`` 
   
 - Load an RStudio module and an R_packages module (if not loading R you will have to stick with R/3.6.0) and run "rstudio" from there. 
 
@@ -320,7 +324,7 @@ that uses 2 cores and has a maximum duration of 8 hours.
 ```bash
 #!/bin/bash
 
-#SBATCH -A sens2023598  # Project ID
+#SBATCH -Anaiss2024-22-49  # Project ID
 
 #SBATCH -p devcore  # Asking for cores (for test jobs and as opposed to multiple nodes) 
 
@@ -332,7 +336,7 @@ that uses 2 cores and has a maximum duration of 8 hours.
 
 # go to some directory
 
-cd /proj/sens2023598/
+cd /proj/naiss2024-22-49/
 pwd -P
 
 # load software modules
@@ -416,22 +420,6 @@ Do you need more memory than 128 GB or GPU:s?
 
 ## Exercises
 
-???+ question "You are developing code on Bianca."
-
-    - You write the code line-by-line and schedule a test run after each addition. 
-    - However, after each new line, it takes a couple of minutes before you know your code worked yes/no. 
-    - How could you develop your code quicker?"
-
-    ??? tip "Answer"
-    
-        - This is the typical use-case to use an interactive node.
-        - One could also consider to develop code on a local computer instead (which uses nonsensitive/simulated/fake testing data) and upload the final code instead.
-    
-??? question "Start an interactive session"
-
-    The goal of this exercise is to make sure you know how to start an 
-    interactive session. 
-
 ???- question "Why not always use an interactive session?"
 
      - Because it is an inefficient use of your core hours.
@@ -458,75 +446,12 @@ Do you need more memory than 128 GB or GPU:s?
 
 
 
-???+ question "Submit a Slurm job"
-
-    - Make a batch job to run the [demo](https://uppmax.github.io/bianca_workshop/modules1/#bigger-exercises) "Hands on: Processing a BAM file to a VCF using GATK, and annotating the variants with snpEff". Ask for 2 cores for 1h.
-        - You can copy the my_bio_workflow.sh file in ``/proj/sens2023598/workshop/slurm`` to your home folder and make the necessary changes.
-    
-    ??? tip "Answer"
-        - edit a file using you preferred editor, named `my_bio_worksflow.sh`, for example, with the content
-        - alternatively copy the ``/proj/sens2023598/workshop/slurm/my_bio_workflow.sh`` file and modify it
-          ``cd ~`` 
-          ``cp /proj/sens2023598/workshop/slurm/my_bio_workflow.sh .``
-          - edit ``my_bio_workflow.sh`` and add the SBATCH commands
-        
-        ```bash
-        #!/bin/bash
-        #SBATCH -A sens2023598
-        #SBATCH -J workflow
-        #SBATCH -t 01:00:00
-        #SBATCH -p core
-        #SBATCH -n 2
-
-
-        cd ~
-        mkdir -p myworkflow
-        cd myworkflow
-
-        module load bioinfo-tools
-
-        # load samtools
-        module load samtools/1.17
-
-        # copy and example BAM file
-        cp -a /proj/sens2023598/workshop/data/ERR1252289.subset.bam .
-
-        # index the BAM file
-        samtools index ERR1252289.subset.bam
-
-        # load the GATK module
-        module load GATK/4.3.0.0
-
-        # make symbolic links to the hg38 genomes
-        ln -s /sw/data/iGenomes/Homo_sapiens/UCSC/hg38/Sequence/WholeGenomeFasta/genome.* .
-
-        # create a VCF containing inferred variants
-        gatk HaplotypeCaller --reference genome.fa --input ERR1252289.subset.bam --intervals chr1:100300000-100800000 --output ERR1252289.subset.vcf
-
-        # use snpEFF to annotate variants
-        module load snpEff/5.1
-        java -jar $SNPEFF_ROOT/snpEff.jar eff hg38 ERR1252289.subset.vcf > ERR1252289.subset.snpEff.vcf
-
-        # compress the annotated VCF and index it
-        bgzip ERR1252289.subset.snpEff.vcf
-        tabix -p vcf ERR1252289.subset.snpEff.vcf.gz
-        ```
-
-        - make the job script executable
-        ```bash
-        $ chmod a+x my_bio_workflow.sh
-        ```
-        
-        - submit the job
-        ```bash
-        $ sbatch my_bio_workflow.sh
-        ```
 ## Links
 
-- [Slurm documentation](https://slurm.schedmd.com/){: target="_blank"}
-- [Slurm user guide](https://www.uppmax.uu.se/support/user-guides/slurm-user-guide/){: target="_blank"}
-- [Discovering job resource usage with `jobstats`](https://www.uppmax.uu.se/support/user-guides/jobstats-user-guide/){: target="_blank"} 
-- [Plotting your core hour usage](https://www.uppmax.uu.se/support/user-guides/plotting-your-core-hour-usage/){: target="_blank"} 
+- [Slurm documentation](https://slurm.schedmd.com/)
+- [Slurm user guide](https://www.uppmax.uu.se/support/user-guides/slurm-user-guide/)
+- [Discovering job resource usage with `jobstats`](https://www.uppmax.uu.se/support/user-guides/jobstats-user-guide/)
+- [Plotting your core hour usage](https://www.uppmax.uu.se/support/user-guides/plotting-your-core-hour-usage/)
 
 
 ``````{challenge} Exercise at home
