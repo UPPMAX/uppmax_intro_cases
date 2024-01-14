@@ -140,6 +140,10 @@ alias less='less -R'
 
 ````
 
+```{discussion}
+- Any input from other teachers!
+``` 
+
 ```{keypoints}
 - Use your disk spaces wisely
   - home folder just for general stuff and files needed by several projects
