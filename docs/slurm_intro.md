@@ -9,7 +9,7 @@
 - Theory
 ```
 
-```{info}
+```{note}
 - For now, **this course**, we use the **material on this present page**.
 - A SLURM introduction can otherwise be found here: <http://docs.uppmax.uu.se/cluster_guides/slurm/>
 ```
@@ -76,10 +76,10 @@ Bianca contains hundreds of nodes, each of which is isolated from each other and
 
 
 ```{admonition} "Some keywords"
-    - A program may run _serially_ and then needs only ONE _compute thread_, which will occupy 1 core, which is a physical unit of the CPU on the node.
-        - You should most often just book 1 core. If you require more than 7 GB you can allocate more cores and you will get multiples of 7 GB.
-    - A program may run in _parallel_ and then needs either several _threads_ or several _tasks_, both occupying several cores. 
-        - If you need all 128 GB RAM (actually 112) or all 16 cores for your job, book a complete node.
+- A program may run _serially_ and then needs only ONE _compute thread_, which will occupy 1 core, which is a physical unit of the CPU on the node.
+    - You should most often just book 1 core. If you require more than 7 GB you can allocate more cores and you will get multiples of 7 GB.
+- A program may run in _parallel_ and then needs either several _threads_ or several _tasks_, both occupying several cores. 
+    - If you need all 128 GB RAM (actually 112) or all 16 cores for your job, book a complete node.
 ```
 
 ### Slurm parameters
@@ -173,12 +173,12 @@ flowchart TD
 ```
 
 ### What kind of compute work are you doing?
-- Compute bound
+- **Compute bound**
     - you use mainly CPU power
     - does the software support threads or MPI?
        - **Threads/openMP** are rather often supported. **Use several cores!**
        - **MPI** (Message Passing Interface) allows for inter-node jobs but are seldom supported for bioinformatics software. **You could use several nodes!**
-- Memory bound
+- **Memory bound**
     - if the bottlenecks are allocating memory, copying/duplicating
     - use more cores up to 1 node, perhaps using a "fat" node.
 
@@ -231,7 +231,7 @@ that uses 2 cores and has a maximum duration of 8 hours.
 
 We recommend using at least two cores for RStudio, and to get those resources, you must start an interactive job.
 
-```{example}
+``````{example}
 
 **"Type-along"**
 
@@ -287,7 +287,7 @@ We recommend using at least two cores for RStudio, and to get those resources, y
 
 - **Quit RStudio**!
 - **Log out** from interactive session with `<Ctrl>-D` or `logout` or `exit`
-``` 
+``````
  
 ## Job scripts (batch)
 
@@ -305,11 +305,13 @@ We recommend using at least two cores for RStudio, and to get those resources, y
 
 ### Try batch job
 
-```{example} "Type-along"
+```{example}
 
-    - Write a bash script called ``jobscript.sh`` 
-         - You can be in your `~` folder    
-    - To make it faster Copy-paste the code below.
+**Type'along**
+
+- Write a bash script called ``jobscript.sh`` 
+    - You can be in your `~` folder    
+- To make it more efficient Copy-paste the code below.
 ```
 
 
@@ -349,25 +351,28 @@ echo Hello world!
     ``$ sbatch jobscript.sh``
 
   
-```{tip "Do you need more resources?"
+```{tip}
 
-    Do you need more memory than 128 GB or GPU:s?
+**Do you need more resources?**
+
+Do you need more memory than 128 GB or GPU:s?
     
-    - ``-C mem256GB`` allocate a fat node with 256 GB RAM
-    - ``-C mem512GB`` allocate a fat node with 512 GB RAM
-    - ``-C gpu``
-    - ``-p node`` must be used when allocating these nodes
-    - GPU example asking for a node, using one GPU and 3 CPU cores. TIP: ask always for more than one hour!
-        - ``interactive -A <proj> -n 3 -C gpu --gres=gpu:1 -t 01:10:00``
+- ``-C mem256GB`` allocate a fat node with 256 GB RAM
+- ``-C mem512GB`` allocate a fat node with 512 GB RAM
+- ``-C gpu``
+- ``-p node`` must be used when allocating these nodes
+- GPU example asking for a node, using one GPU and 3 CPU cores. TIP: ask always for more than one hour!
+     - ``interactive -A <proj> -n 3 -C gpu --gres=gpu:1 -t 01:10:00``
 ```
 
-```{note "Some Limits"
+```{note}
+**Some Limits**
 
-    - There is a job wall time limit of ten days (**240 hours**).
-    - We restrict each user to at most 5000 running and waiting jobs in total.
-    - Each project has a 30 days running allocation of CPU hours. 
-        - We do not forbid running jobs after the allocation is over-drafted
-        - Instead allow to submit jobs with a very low queue priority, so that you may be able to run your jobs anyway, if a sufficient number of nodes happens to be free on the system.
+- There is a job wall time limit of ten days (**240 hours**).
+- We restrict each user to at most 5000 running and waiting jobs in total.
+- Each project has a 30 days running allocation of CPU hours. 
+    - We do not forbid running jobs after the allocation is over-drafted
+    - Instead allow to submit jobs with a very low queue priority, so that you may be able to run your jobs anyway, if a sufficient number of nodes happens to be free on the system.
 ```
 
 ## Other Slurm tools
@@ -383,30 +388,30 @@ echo Hello world!
 
 ```{admonition} "Slurm Cheat Sheet"
 
-    - ``-A``    project number
-    - ``-t``    wall time
-    - ``-n``    number of cores
-    - ``-N``    number of nodes (can only be used if your code is parallelized with MPI)
-    - ``-p``    partition
-        - ``core`` is default and works for jobs narrower than 16 cores
-        - ``node`` can be used if you need the whole node and its memory
-            - must be used when allocating the fat nodes, see below
-    - ``-C mem256GB`` allocate a fat node with 256 GB RAM
-    - ``-C mem512GB`` allocate a fat node with 512 GB RAM
-    - ``-C gpu``
+- ``-A``    project number
+- ``-t``    wall time
+- ``-n``    number of cores
+- ``-N``    number of nodes (can only be used if your code is parallelized with MPI)
+- ``-p``    partition
+    - ``core`` is default and works for jobs narrower than 16 cores
+    - ``node`` can be used if you need the whole node and its memory
+        - must be used when allocating the fat nodes, see below
+- ``-C mem256GB`` allocate a fat node with 256 GB RAM
+- ``-C mem512GB`` allocate a fat node with 512 GB RAM
+- ``-C gpu``
 
-    **Batch jobs**
+**Batch jobs**
     
-    - Two alternatives
-        - ``sbatch <jobscript with all #SBATCH options>``
-        - ``sbatch <options that will be prioritized over the options within the jobs script> <jobscript>``
-           - can for instance be used if you just want to test with, for instance, fewer cores and shorter time
-           - Example: ``sbatch -t  60:00 -p devcore -n 2 job.sh``
+- Two alternatives
+    - ``sbatch <jobscript with all #SBATCH options>``
+    - ``sbatch <options that will be prioritized over the options within the jobs script> <jobscript>``
+        - can for instance be used if you just want to test with, for instance, fewer cores and shorter time
+        - Example: ``sbatch -t  60:00 -p devcore -n 2 job.sh``
           
-    **Interactive**
+**Interactive**
     
-    - ``interactive -A <project> <other options if not using default settings>`` 
-    - load your modules when session starts
+- ``interactive -A <project> <other options if not using default settings>`` 
+- load your modules when session starts
 ```
 
 ## Exercises
