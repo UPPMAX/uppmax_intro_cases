@@ -96,7 +96,7 @@
 
 ## Today
 
-## Preliminary schedule
+### Preliminary schedule
 - First time in this manner so timings are preliminary.
 
 **Schedule**
@@ -108,16 +108,18 @@
 - 10.40 Linux basic commands
 - (c. 11.00 10 min break)
 - 11.30 Overview - part 2
-- 11.40 HPC
-- 11.50 NAISS and projects
+- 11.35 HPC
+- 11.40 NAISS and projects
+- 11.50 Q/A if time allows
 - 12.00 **LUNCH**
 - 13.00 Software and tools
 - 13.30 Using compute nodes
 - (c. 14.00 10 min break)
 - 14.30 Working on UPPMAX
-- 14.45 Courses and workshops
+- 14.45 NAISS-SENS and Bianca
 - 14.55 15 min coffee break
-- 15.10 NAISS-SENS and Bianca
+- 15.10 NAISS-SENS and Bianca p2
+- 15.30 Courses and workshops
 - 15.35 Summary
 - 15.40 Q/A
 
