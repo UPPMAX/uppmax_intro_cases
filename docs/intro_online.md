@@ -116,9 +116,11 @@
 - 13.30 Using compute nodes
 - (c. 14.00 10 min break)
 - 14.30 Working on UPPMAX
-- 14.45 NAISS-SENS and Bianca
+    - Room for sharing tips
+    - Then run to coffee break
+- (14.45 NAISS-SENS and Bianca (Do we have any users here?))
 - 14.55 15 min coffee break
-- 15.10 NAISS-SENS and Bianca p2
+- 15.10 NAISS-SENS and Bianca p2 
 - 15.30 Courses and workshops
 - 15.35 Summary
 - 15.40 Q/A
