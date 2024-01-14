@@ -6,7 +6,10 @@
 
 ```{instructor-note}
 - Approx timing: 14.30-14:45
+   - May be expanded if good discussions and interactions
+   - Helpers and users can share their solutions
 - Information
+- discussion
 ```
 
 ## ``$HOME`` dir and project dir
