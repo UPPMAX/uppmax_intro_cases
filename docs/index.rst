@@ -58,6 +58,12 @@ We will present and refer a lot to our new documentation at http://docs.uppmax.u
  
    summary.md
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Extras
+ 
+   exercises.md
+
    
 
 ..
