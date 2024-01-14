@@ -249,11 +249,11 @@ that uses 2 cores and has a maximum duration of 8 hours.
             
     - find your session, ssh to it, like:
         
-    ``$ sshnaiss2024-22-49-b9``
+    ``$ ssh r483``
 
 - If you have no ongoing session:
 
-``$ interactive -Anaiss2024-22-49 -p devcore -n 2 -t 60:00`` 
+``$ interactive -A naiss2024-22-49 -p devcore -n 2 -t 60:00`` 
 
 - Once the interactive job has begun you need to load needed modules, even if you had loaded them before in the login node
 - You can check which node you are on?
@@ -267,11 +267,8 @@ that uses 2 cores and has a maximum duration of 8 hours.
    - This will give several output lines resembling the number of cores you allocated.
    - How many in this case??
         
-- If the name before ``.bianca.uppmax.uu.se`` is ending with bXX you are on a compute node!
-- The login node has ``naiss2024-22-49-bianca``
-- You can also probably see this information in your prompt, like:
     
-    ``[bjornc@naiss2024-22-49-b9 ~]$`` 
+    ``[bjornc@r483 ~]$`` 
   
 - Load an RStudio module and an R_packages module (if not loading R you will have to stick with R/3.6.0) and run "rstudio" from there. 
 
@@ -324,7 +321,7 @@ that uses 2 cores and has a maximum duration of 8 hours.
 ```bash
 #!/bin/bash
 
-#SBATCH -Anaiss2024-22-49  # Project ID
+#SBATCH -A naiss2024-22-49  # Project ID
 
 #SBATCH -p devcore  # Asking for cores (for test jobs and as opposed to multiple nodes) 
 
