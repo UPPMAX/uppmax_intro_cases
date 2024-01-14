@@ -4,8 +4,8 @@
 ```
 
 ```{instructor-note}
-- Approx timing: 11.50-12:00
-- Theory
+- Approx timing: 11.40-11:50
+- Information
 ```
 
 ```{admonition} See the documentation
