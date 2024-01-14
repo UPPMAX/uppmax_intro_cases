@@ -138,6 +138,7 @@ Bianca contains hundreds of nodes, each of which is isolated from each other and
         - short and narrow jobs will start fast
         - test and development jobs can get use of specific development nodes if they are shorter than 1 hour and uses up to two nodes.
         - waste of resources unless you have a parallel program or need all the memory, e.g. 128 GB per node
+```
 
 ### Core-hours
 
@@ -191,6 +192,8 @@ flowchart TD
         - ``core`` is default and works for jobs narrower than 16 cores
         - ``node`` can be used if you need the whole node and its memory
 
+```
+
 ### Walltime at the different clusters
 
 - Rackham: 10 days
@@ -229,6 +232,7 @@ that uses 2 cores and has a maximum duration of 8 hours.
 ```{note} "Copied to [intermediate/rstudio.md](intermediate/rstudio.md)"
 
     One may consider linking to that page :-)
+```
 
 We recommend using at least two cores for RStudio, and to get those resources, you must should start an interactive job.
 
@@ -283,7 +287,7 @@ We recommend using at least two cores for RStudio, and to get those resources, y
 
     - **Quit RStudio**!
     - **Log out** from interactive session with `<Ctrl>-D` or `logout` or `exit`
- 
+``` 
  
 ## Job scripts (batch)
 
@@ -306,10 +310,7 @@ We recommend using at least two cores for RStudio, and to get those resources, y
     - Write a bash script called ``jobscript.sh`` 
          - You can be in your `~` folder    
     - To make it faster Copy-paste the code below.
-
-```{tip}
-   
-    ![copy-paste](./img/copy_paste.PNG)
+```
 
 
 #### A simple job script template
@@ -358,6 +359,7 @@ echo Hello world!
     - ``-p node`` must be used when allocating these nodes
     - GPU example asking for a node, using one GPU and 3 CPU cores. TIP: ask always for more than one hour!
         - ``interactive -A <proj> -n 3 -C gpu --gres=gpu:1 -t 01:10:00``
+```
 
 ```{note "Some Limits"
 
@@ -366,7 +368,7 @@ echo Hello world!
     - Each project has a 30 days running allocation of CPU hours. 
         - We do not forbid running jobs after the allocation is over-drafted
         - Instead allow to submit jobs with a very low queue priority, so that you may be able to run your jobs anyway, if a sufficient number of nodes happens to be free on the system.
-
+```
 
 ## Other Slurm tools
 
@@ -377,10 +379,6 @@ echo Hello world!
     - use ``eog`` to watch the ``png`` output files
 - `bianca_combined_jobinfo`
 
-
-```{admonition} "See also"
-
-    - [Intermediate workshop material on slurm](https://uppmax.github.io/bianca_workshop/extra/slurm/)
 
 
 ```{admonition} "Slurm Cheat Sheet"
@@ -409,6 +407,7 @@ echo Hello world!
     
     - ``interactive -A <project> <other options if not using default settings>`` 
     - load your modules when session starts
+```
 
 ## Exercises
 
