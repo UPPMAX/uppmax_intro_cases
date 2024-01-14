@@ -1,5 +1,14 @@
 # Working on UPPMAX 
 
+```{objectives}
+- Let's get some tips and best practices
+```
+
+```{instructor-note}
+- Approx timing: 11.35-11:40
+- Information
+```
+
 ## ``$HOME`` dir and project dir
 
 ### Quota
