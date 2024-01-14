@@ -15,7 +15,7 @@
 ```
 
 ```{note}
-- project number: naiss2024-22-49
+- project number: ``naiss2024-22-49``
 ```
 
 ## The compute nodes
