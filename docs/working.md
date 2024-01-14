@@ -86,12 +86,12 @@ graph TB
 
 ## Common problems
 
-- Conda environment clash with loaded python modules
+- Conda environment clashes with loaded python modules
 - Forgotten environment variables defined in your `.bashrc` may give unexeptected errors when you run other programs or new versions of a program
 - A full ``$HOME`` folder may cause unexpected errors
   - check with ``uquota``
  
-```{tip}
+````{tip}
 
 **.bashrc**
 
@@ -102,15 +102,17 @@ graph TB
   - aliases
   - source files (if needed)
     - these can set some environment variables
-Example:
+
+- Example from Björn C
 
 ```bash
 alias lt='ls -lrt'
-alias sq='squeue -u bjornc2'
+alias sq='squeue -u $USER'
 alias sc='scancel'
 alias rm='rm -i'
 alias less='less -R'
 ```
+
 - When done, start a new bash session in a new terminal or type ``bash`` in the present one.
 
 
@@ -127,7 +129,7 @@ alias less='less -R'
 - Check ``uquota`` !
 - Very often a full disk space is the reason
 
-```
+````
 
 ```{keypoints}
 - Use your disk spaces wisely
