@@ -75,7 +75,7 @@ Bianca contains hundreds of nodes, each of which is isolated from each other and
     - ... and more
 
 
-```{info} "Some keywords"
+```{admonition} "Some keywords"
     - A program may run _serially_ and then needs only ONE _compute thread_, which will occupy 1 core, which is a physical unit of the CPU on the node.
         - You should most often just book 1 core. If you require more than 7 GB you can allocate more cores and you will get multiples of 7 GB.
     - A program may run in _parallel_ and then needs either several _threads_ or several _tasks_, both occupying several cores. 
@@ -184,13 +184,13 @@ flowchart TD
 
 ```{admonition} "Slurm Cheat Sheet"
 
-    - ``-A``    project number
-    - ``-t``    wall time
-    - ``-n``    number of cores
-    - ``-N``    number of nodes (can only be used if your code is parallelized with MPI)
-    - ``-p``    partition
-        - ``core`` is default and works for jobs narrower than 16 cores
-        - ``node`` can be used if you need the whole node and its memory
+- ``-A``    project number
+- ``-t``    wall time
+- ``-n``    number of cores
+- ``-N``    number of nodes (can only be used if your code is parallelized with MPI)
+- ``-p``    partition
+    - ``core`` is default and works for jobs narrower than 16 cores
+    - ``node`` can be used if you need the whole node and its memory
 
 ```
 
@@ -229,64 +229,64 @@ that uses 2 cores and has a maximum duration of 8 hours.
 
 ### Try interactive and run RStudio
 
-```{note} "Copied to [intermediate/rstudio.md](intermediate/rstudio.md)"
+We recommend using at least two cores for RStudio, and to get those resources, you must start an interactive job.
 
-    One may consider linking to that page :-)
-```
+```{example}
 
-We recommend using at least two cores for RStudio, and to get those resources, you must should start an interactive job.
+**"Type-along"**
 
-```{example} "Type-along"
-    Use **ThinLinc**
+- Use **ThinLinc**
 
-    - Start **interactive session** on compute node (2 cores)
-    - If you already have an interactive session going on use that.
-        - If you don't find it, do
+- Start **interactive session** on compute node (2 cores)
+- If you already have an interactive session going on use that.
+    - If you don't find it, do
         
-            ``$ squeue``
+    ``$ squeue``
             
-        - find your session, ssh to it, like:
+    - find your session, ssh to it, like:
         
-            ``$ ssh sens2023598-b9``
+    ``$ ssh sens2023598-b9``
 
-    - ``$ interactive -A sens2023598 -p devcore -n 2 -t 60:00`` 
+- If you have no ongoing session:
 
+``$ interactive -A sens2023598 -p devcore -n 2 -t 60:00`` 
 
-    - Once the interactive job has begun you need to load needed modules, even if you had loaded them before in the login node
-    - You can check which node you are on?
+- Once the interactive job has begun you need to load needed modules, even if you had loaded them before in the login node
+- You can check which node you are on?
 
-        `$ hostname`
+  `$ hostname`
     
-    - Also try: 
+- Also try: 
 
-        `$ srun hostname`
+   `$ srun hostname`
 
-        - This will give several output lines resembling the number of cores you allocated.
-        - How many in this case??
+   - This will give several output lines resembling the number of cores you allocated.
+   - How many in this case??
         
-    - If the name before ``.bianca.uppmax.uu.se`` is ending with bXX you are on a compute node!
-    - The login node has ``sens2023598-bianca``
-    - You can also probably see this information in your prompt, like:
-        ``[bjornc@sens2023598-b9 ~]$`` 
+- If the name before ``.bianca.uppmax.uu.se`` is ending with bXX you are on a compute node!
+- The login node has ``sens2023598-bianca``
+- You can also probably see this information in your prompt, like:
+    
+    ``[bjornc@sens2023598-b9 ~]$`` 
   
-    - Load an RStudio module and an R_packages module (if not loading R you will have to stick with R/3.6.0) and run "rstudio" from there. 
+- Load an RStudio module and an R_packages module (if not loading R you will have to stick with R/3.6.0) and run "rstudio" from there. 
 
-        `$ ml R_packages/4.2.1`
+     `$ ml R_packages/4.2.1`
   
-        `$ ml RStudio/2022.07.1-554`
+     `$ ml RStudio/2022.07.1-554`
 
 
-    - **Start rstudio**, keeping terminal active (`&`)
+- **Start rstudio**, keeping terminal active (`&`)
 
-      `$ rstudio &`
+    `$ rstudio &`
 
-    - Slow to start?
-    - Depends on:
-        - number of packages 
-        - if you save a lot of data in your RStudio workspace, to be read during start up.
+- Slow to start?
+- Depends on:
+    - number of packages 
+    - if you save a lot of data in your RStudio workspace, to be read during start up.
 
-    - **Quit RStudio**!
-    - **Log out** from interactive session with `<Ctrl>-D` or `logout` or `exit`
+- **Quit RStudio**!
+- **Log out** from interactive session with `<Ctrl>-D` or `logout` or `exit`
 ``` 
  
 ## Job scripts (batch)
