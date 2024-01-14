@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login &mdash; UPPMAX intro course — part 1 0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="_static/togglebutton.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_lesson.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_rtd_theme_ext_color_contrast.css" type="text/css" />
+      <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+      <link rel="stylesheet" href="_static/tabs.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+        <script src="_static/minipres.js"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="_static/togglebutton.js"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> UPPMAX intro course — part 1
+            <img src="_static/c_242915-l_3-k_svg-uu-logo.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Intro</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="intro_online.html">Welcome on-line!</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Get started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="login2.html">Login</a></li>
+<li class="toctree-l1"><a class="reference internal" href="linux_cases.html">Linux and basic toolkit</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">More about UPPMAX</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview2.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hpc.html">High Performance Computing — HPC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="naiss.html">NAISS and projects</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Using UPPMAX</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="software.html">Software and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="slurm_intro.html">Using the compute nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="working.html">Working on UPPMAX</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">NAISS SENS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="bianca.html">NAISS SENS and Bianca</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Courses and workshops</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="courses.html">Courses and workshops</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Summary</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">Summary</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">UPPMAX intro course — part 1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Login</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/login.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section class="tex2jax_ignore mathjax_ignore" id="login">
+<h1>Login<a class="headerlink" href="#login" title="Permalink to this heading"></a></h1>
+<div class="admonition-questions questions admonition" id="questions-0">
+<p class="admonition-title">Questions</p>
+<ul class="simple">
+<li><p>How to reach UPPMAX clusters?</p></li>
+<li><p>Can one use graphics?</p></li>
+<li><p>Where do I arrive when I log in?</p></li>
+</ul>
+</div>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>We’ll relate our login session to the specific “area” in the cluster.</p></li>
+<li><p>We’ll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX.</p></li>
+<li><p>Try yourself!</p></li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you lack a user account, visit the <a class="reference external" href="https://www.uppmax.uu.se/support/getting-started/course-projects/">Getting started page</a></p>
+</div>
+<section id="the-login">
+<h2>The login<a class="headerlink" href="#the-login" title="Permalink to this heading"></a></h2>
+<ul>
+<li><p>When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.</p></li>
+<li><p>This means that only light analysis and and calculations should be made here.</p></li>
+<li><p>You will see this in the prompt after “&#64;” as the clustername and a low number. For instance:</p>
+<div class="highlight-bash= notranslate"><div class="highlight"><pre><span></span>   [&lt;user&gt;@rackham3 linux_tutorial]$
+</pre></div>
+</div>
+</li>
+<li><p>You willl ater learn how to reach the calculation nodes. Then the prompt states the node number with a single letter, like “r” for Rackham. For instance:</p>
+<div class="highlight-bash= notranslate"><div class="highlight"><pre><span></span>   [&lt;user&gt;@r484 linux_tutorial]
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="mac-and-linux-users">
+<h2>MAC and LINUX users<a class="headerlink" href="#mac-and-linux-users" title="Permalink to this heading"></a></h2>
+<section id="terminal">
+<h3>Terminal<a class="headerlink" href="#terminal" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Download XQuartz or other X11 server for Mac OS</p>
+<ul>
+<li><p><a class="reference external" href="https://www.xquartz.org/">https://www.xquartz.org/</a></p></li>
+<li><p>This is to enable graphics.</p></li>
+</ul>
+</li>
+<li><p>Start built-in Terminal.</p></li>
+</ul>
+<div class="highlight-bash= notranslate"><div class="highlight"><pre><span></span>$ ssh -Y &lt;username&gt;@rackham.uppmax.uu.se
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>“&lt; &gt;” prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.</p></li>
+</ul>
+<p><img alt="Terminal" src="_images/Mac_terminal.png" /></p>
+</section>
+<section id="graphical-file-manager">
+<h3>Graphical file manager<a class="headerlink" href="#graphical-file-manager" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>For copying of files with sftp (secure file transfer protocol) between your client computer (where you are) and the cluster <strong>Filezilla</strong> can be the choice.</p></li>
+<li><p><a class="reference external" href="https://filezilla-project.org/download.php?type=client">https://filezilla-project.org/download.php?type=client</a></p></li>
+</ul>
+<p><img alt="Caption" src="_images/fz3_osx_main.png" /></p>
+<div class="admonition-problems-with-installations callout admonition" id="callout-0">
+<p class="admonition-title">Problems with installations?</p>
+<p>The built-in terminal without X11 is sufficient first days of the course!</p>
+</div>
+</section>
+</section>
+<section id="windows-users">
+<h2>Windows users<a class="headerlink" href="#windows-users" title="Permalink to this heading"></a></h2>
+<section id="most-straight-forward">
+<h3>Most straight-forward<a class="headerlink" href="#most-straight-forward" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Install a ssh (secure shell) program with built-in X11 and sftp file manager</p>
+<ul>
+<li><p><a class="reference external" href="https://mobaxterm.mobatek.net/">MobaXterm</a></p>
+<ul>
+<li><p>sftp frame makes it easy to move, upload and download files.</p></li>
+</ul>
+</li>
+<li><p>See section below.</p></li>
+</ul>
+</li>
+<li><p>If problem with the above installation, the putty.exe terminal is sufficient first days of the course!</p>
+<ul>
+<li><p>No graphics.</p></li>
+<li><p><a class="reference external" href="https://www.putty.org/">https://www.putty.org/</a></p></li>
+</ul>
+</li>
+</ul>
+<p><img alt="Caption" src="_images/putty.jpg" /></p>
+<!---
+### A bit more complicated (and not necessary)
+
+- Download and install ONE of the X-servers below (to enable graphics)
+  - GWSL https://sourceforge.net/projects/vcxsrv/ (Links to an external site.)
+  - X-ming https://opticos.github.io/gwsl (Links to an external site.)z
+  - VcXsrv https://sourceforge.net/projects/xming/ (Links to an external site.)
+
+- not necessary:
+  - Install WSL (Windows Subsystem for Linux) 
+    - https://docs.microsoft.com/en-us/windows/wsl/install-win10 (Links to an external site.)
+    - Don’t forget to update to wsl2
+- Install a distribution or a ssh (secure shell) program
+  - Distribution such as ubuntu or
+  - (recommended) a ssh program such as MobaXTerm
+  - https://mobaxterm.mobatek.net/ (Links to an external site.)
+    - sftp frame makes it easy to move, upload and download files.
+
+- You may want to check this webpage as well!
+  - https://hackmd.io/@pmitev/Linux4WinUsers (Links to an external site.)
+--->
+</section>
+<section id="mobaxterm">
+<h3>MobaXterm<a class="headerlink" href="#mobaxterm" title="Permalink to this heading"></a></h3>
+<p><img alt="Caption" src="_images/mobax.jpg" /></p>
+<ul class="simple">
+<li><p>Start local terminal and a SSH session by:</p></li>
+</ul>
+<div class="highlight-bash= notranslate"><div class="highlight"><pre><span></span>$ ssh -Y &lt;username&gt;@rackham.uppmax.uu.se
+</pre></div>
+</div>
+<p><img alt="Caption" src="_images/mobax_start1.jpg" /></p>
+<ul class="simple">
+<li><p>Or even better, create and save a SSH session, as shown in image below.</p>
+<ul>
+<li><p>This allows you to use MobaXterm as a file manager and  to use the built-in graphical texteditor.</p></li>
+<li><p>You can rename the session in the Bookmark settings tab.</p></li>
+</ul>
+</li>
+</ul>
+<p><img alt="Caption" src="_images/mobax_start.jpg" /></p>
+</section>
+<section id="graphical-file-manager-windows">
+<h3>Graphical file manager (Windows)<a class="headerlink" href="#graphical-file-manager-windows" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>For copying of files between your client computer (where you are) and the cluster WinSCP can also be the choice.</p>
+<ul>
+<li><p><a class="reference external" href="https://winscp.net/eng/download.php">https://winscp.net/eng/download.php</a></p></li>
+</ul>
+</li>
+</ul>
+<div class="admonition-problems-with-installations callout admonition" id="callout-1">
+<p class="admonition-title">Problems with installations?</p>
+<p>The built-in terminal without X11 is sufficient first days of the course!</p>
+</div>
+</section>
+</section>
+<section id="x11-forwarding-from-the-command-line-generally">
+<h2>X11-forwarding from the command line (generally)<a class="headerlink" href="#x11-forwarding-from-the-command-line-generally" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Graphics can be sent through the SSH connection you’re using to connect</p>
+<ul>
+<li><p>Use primarily <code class="docutils literal notranslate"><span class="pre">ssh</span> <span class="pre">-Y</span> <span class="pre">&lt;...&gt;</span></code> or secondary <code class="docutils literal notranslate"><span class="pre">ssh</span> <span class="pre">-X</span> <span class="pre">&lt;...&gt;</span></code></p></li>
+</ul>
+</li>
+<li><p>The X servers that enables graphics are needed, as mentioned above!</p>
+<ul>
+<li><p>When starting a graphical program, a new window will open, but your terminal will be “locked”.</p></li>
+<li><p>Run using “<code class="docutils literal notranslate"><span class="pre">&amp;</span></code>” at the end to run it as a background process e.g. “<code class="docutils literal notranslate"><span class="pre">xeyes</span> <span class="pre">&amp;</span></code>” or “<code class="docutils literal notranslate"><span class="pre">gedit</span> <span class="pre">&amp;</span></code>”</p></li>
+</ul>
+</li>
+</ul>
+<p><img alt="Caption" src="_images/xeyes.png" /></p>
+<ul class="simple">
+<li><p>Alternatively, use <code class="docutils literal notranslate"><span class="pre">&lt;ctrl&gt;-z</span></code> to put e.g. gedit to sleep and type “<code class="docutils literal notranslate"><span class="pre">bg</span></code>” to make last process in background.</p></li>
+</ul>
+<div class="admonition-login-to-rackham-using-your-terminal exercise important admonition" id="exercise-0">
+<p class="admonition-title">Login to <strong>Rackham</strong>, using your terminal</p>
+<ul class="simple">
+<li><p>First try:</p></li>
+</ul>
+<div class="highlight-bash= notranslate"><div class="highlight"><pre><span></span>$ ssh -Y &lt;username&gt;@rackham.uppmax.uu.se
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>If you receive errors or warnings, instead try:</p></li>
+</ul>
+<div class="highlight-bash= notranslate"><div class="highlight"><pre><span></span>$ ssh &lt;username&gt;@rackham.uppmax.uu.se
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>If you do have X11 installed:</p></li>
+</ul>
+<div class="highlight-bash= notranslate"><div class="highlight"><pre><span></span>$ xeyes &amp;
+</pre></div>
+</div>
+</div>
+</section>
+<section id="thinlinc-all-platforms">
+<h2>ThinLinc (all platforms!)<a class="headerlink" href="#thinlinc-all-platforms" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Both Rackham and Bianca offer graphical login.</p></li>
+<li><p>This gives you a desktop environment, as if you were working on your own computer!</p></li>
+<li><p>On web:</p>
+<ul>
+<li><p><a class="reference external" href="https://rackham-gui.uppmax.uu.se">https://rackham-gui.uppmax.uu.se</a></p></li>
+<li><p><a class="reference external" href="https://bianca.uppmax.uu.se">https://bianca.uppmax.uu.se</a></p>
+<ul>
+<li><p>requires <a class="reference external" href="https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/">2-factor authentication</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Caption" src="_images/Thinlinc2.jpg" /></p>
+<ul class="simple">
+<li><p>Or use the client (only for Rackham)</p></li>
+<li><p><a class="reference external" href="https://www.cendio.com/thinlinc/download">https://www.cendio.com/thinlinc/download</a></p></li>
+</ul>
+<div class="admonition-try-thinlinc-from-web exercise important admonition" id="exercise-1">
+<p class="admonition-title">Try Thinlinc from web</p>
+<ul class="simple">
+<li><p>Try the web version now if you don’t already have the software installed!</p></li>
+</ul>
+</div>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>You reach UPPMAX clusters either using a terminal or Thinlinc</p></li>
+<li><p>Graphics are included in Thinlinc and from terminal if you have enabled X11</p></li>
+<li><p>When you log in from your local computer you will always arrive at a login node with limited resources.</p></li>
+<li><p>You reach the calculations nodes from within the login node (See  Submitting jobs section)</p></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright UPPMAX.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linux and basic toolkit &mdash; UPPMAX intro course — part 1 0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="_static/togglebutton.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_lesson.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_rtd_theme_ext_color_contrast.css" type="text/css" />
+      <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+      <link rel="stylesheet" href="_static/tabs.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+        <script src="_static/minipres.js"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="_static/togglebutton.js"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Overview" href="overview2.html" />
+    <link rel="prev" title="Login" href="login2.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> UPPMAX intro course — part 1
+            <img src="_static/c_242915-l_3-k_svg-uu-logo.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Intro</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="intro_online.html">Welcome on-line!</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Get started</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="login2.html">Login</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Linux and basic toolkit</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#basic-toolkit">Basic toolkit</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#we-will-cover-these-commands">We will cover these commands</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#navigation-and-file-management">Navigation and file management</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#read-files-and-change-file-properties">Read files and change file properties</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">More about UPPMAX</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview2.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hpc.html">High Performance Computing — HPC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="naiss.html">NAISS and projects</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Using UPPMAX</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="software.html">Software and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="slurm_intro.html">Using the compute nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="working.html">Working on UPPMAX</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">NAISS SENS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="bianca.html">NAISS SENS and Bianca</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Courses and workshops</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="courses.html">Courses and workshops</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Summary</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">Summary</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">UPPMAX intro course — part 1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Linux and basic toolkit</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/linux_cases.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section class="tex2jax_ignore mathjax_ignore" id="linux-and-basic-toolkit">
+<h1>Linux and basic toolkit<a class="headerlink" href="#linux-and-basic-toolkit" title="Permalink to this heading"></a></h1>
+<ul class="simple">
+<li><p>The “operating system” of the UPPMAX and most of the other clusters is <strong>Linux</strong>.</p></li>
+</ul>
+<div class="admonition-questions questions admonition" id="questions-0">
+<p class="admonition-title">Questions</p>
+<ul class="simple">
+<li><p>What is Linux?</p></li>
+<li><p>How to use the command line?</p></li>
+</ul>
+</div>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>We’ll briefly get an overview of Linux</p>
+<ul>
+<li><p>How the command line works</p></li>
+<li><p>Some text editors</p></li>
+<li><p>Things to be aware of</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Approx timing: 10:10-10:40</p></li>
+<li><p>Theory and type-along</p></li>
+</ul>
+</div>
+<div class="admonition-see-the-documentation admonition">
+<p class="admonition-title">See the documentation</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://docs.uppmax.uu.se/getting_started/linux/">http://docs.uppmax.uu.se/getting_started/linux/</a></p></li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<ul class="simple">
+<li><p>TAB complete:</p>
+<ul>
+<li><p>Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to ask Bash to complete what you’re writing.</p></li>
+<li><p>Get in the habit of this — it will save you many hours!</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>These commands are useful in the command line when something is stuck or a program is limiting you to do further work.</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ctrl-C</span></code> interupts a program or a command that is “stuck”</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ctrl-Z</span></code> pauses a program, can be continues in background (<code class="docutils literal notranslate"><span class="pre">bg</span></code>) or  foreground (<code class="docutils literal notranslate"><span class="pre">fg</span></code>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ctrl-D</span></code> quits some programs</p></li>
+</ul>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<ul class="simple">
+<li><p>There is no undo for:</p>
+<ul>
+<li><p>copy (<code class="docutils literal notranslate"><span class="pre">cp</span></code>),</p></li>
+<li><p>move (<code class="docutils literal notranslate"><span class="pre">mv</span></code>), and</p></li>
+<li><p>remove (<code class="docutils literal notranslate"><span class="pre">rm</span></code>).</p></li>
+</ul>
+</li>
+<li><p><strong>Beware of overwriting files and deleting the wrong ones.</strong></p></li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><p><strong>Tip: make “<code class="docutils literal notranslate"><span class="pre">rm</span></code>” ask if you really want to erase:</strong></p>
+<ul>
+<li><p>Within a session: Type in the command prompt</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>alias rm=&#39;rm -i&#39;
+</pre></div>
+</div>
+</li>
+<li><p>Override asking with</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>rm –f &lt;&gt;
+</pre></div>
+</div>
+</li>
+<li><p>Edit file <code class="docutils literal notranslate"><span class="pre">.bashrc</span></code> in <code class="docutils literal notranslate"><span class="pre">home</span></code> directory by adding the alias line for this to start everytime.</p></li>
+</ul>
+</li>
+<li><p>This will also work for <code class="docutils literal notranslate"><span class="pre">mv</span></code> and <code class="docutils literal notranslate"><span class="pre">cp</span></code>!</p></li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>If you do destroy your data, email UPPMAX support, we may be able to help.</p></li>
+</ul>
+</div>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Linux Operating system is a UNIX-like and UNIX compatible Operating system.</p></li>
+<li><p>Typical command:
+$ program word1 word2 word3 […]</p></li>
+<li><p>Example of file editors</p>
+<ul>
+<li><p>terminal</p>
+<ul>
+<li><p>nano</p></li>
+<li><p>vim</p></li>
+<li><p>emacs</p></li>
+</ul>
+</li>
+<li><p>graphical:</p>
+<ul>
+<li><p>gedit</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Tips</p>
+<ul>
+<li><p>use Tab completion</p></li>
+<li><p>capitalization and spaces matters</p></li>
+<li><p>no undo:s for copying, moving and removing</p>
+<ul>
+<li><p>Solution: <code class="docutils literal notranslate"><span class="pre">alias</span> <span class="pre">rm='rm</span> <span class="pre">-i'</span> </code></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<section id="basic-toolkit">
+<h2>Basic toolkit<a class="headerlink" href="#basic-toolkit" title="Permalink to this heading"></a></h2>
+<div class="admonition-objectives objectives admonition" id="objectives-1">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Let’s dig into the most important BASH commands</p></li>
+<li><p>We’ll do a type-along session</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-1">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Approx timing: 10:40-11.30</p></li>
+<li><p>Type-alongs</p></li>
+</ul>
+</div>
+</section>
+<section id="we-will-cover-these-commands">
+<h2>We will cover these commands<a class="headerlink" href="#we-will-cover-these-commands" title="Permalink to this heading"></a></h2>
+<section id="navigation-and-file-management">
+<h3>Navigation and file management<a class="headerlink" href="#navigation-and-file-management" title="Permalink to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">pwd</span></code>    present directory</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ls</span></code>   list content</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span></code>   change directory</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mkdir</span></code>   make directory</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cp</span></code>   copy</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">scp</span></code>   securely remotely copy</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mv</span></code>   move</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rm</span></code>   remove</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rmdir</span></code>   remove empty directory</p></li>
+</ol>
+</section>
+<section id="read-files-and-change-file-properties">
+<h3>Read files and change file properties<a class="headerlink" href="#read-files-and-change-file-properties" title="Permalink to this heading"></a></h3>
+<ol class="arabic simple" start="10">
+<li><p><code class="docutils literal notranslate"><span class="pre">cat</span></code>   print content on screen</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">head</span></code>   print first part</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">tail</span></code>   print last part</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">less</span></code>   browse content</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">tar</span></code>   compress or extract file</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">chmod</span></code>   change file permissions</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">man</span></code>   info about a command</p></li>
+</ol>
+<div class="admonition-see-the-documentation admonition">
+<p class="admonition-title">See the documentation</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://docs.uppmax.uu.se/getting_started/linux_basics/">http://docs.uppmax.uu.se/getting_started/linux_basics/</a></p></li>
+</ul>
+</div>
+<div class="admonition-chmod-hands-on exercise important admonition" id="exercise-0">
+<p class="admonition-title">chmod — Hands-on</p>
+<ul class="simple">
+<li><p>In your <em>locally created</em> <code class="docutils literal notranslate"><span class="pre">linux_tutorial</span></code> directory, find important files and old saved data that you wouldn’t want to lose (<em>imagine</em>).</p>
+<ul>
+<li><p>Directories: important_results/, old_project/</p></li>
+<li><p>File: last_years_data</p></li>
+</ul>
+</li>
+<li><p>Use chmod to remove write permission from those files and directories (use the <code class="docutils literal notranslate"><span class="pre">-R</span></code> flag (not <code class="docutils literal notranslate"><span class="pre">-r</span></code>) to also do the files in the directories).</p>
+<ul>
+<li><p>Take a moment to play around with chmod and explore the effects of permissions on files and directories.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="admonition-solution solution important dropdown admonition" id="solution-0">
+<p class="admonition-title">Solution</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>chmod<span class="w"> </span>-wR<span class="w"> </span>&lt;target&gt;
+</pre></div>
+</div>
+</div>
+<div class="admonition-for-the-interested solution important dropdown admonition" id="solution-1">
+<p class="admonition-title">For the interested</p>
+<ul class="simple">
+<li><p>Now try:</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>ls<span class="w"> </span>-l<span class="w"> </span>/proj/introtouppmax/
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Huh, <code class="docutils literal notranslate"><span class="pre">rwxrwsr-x</span></code>?</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">s</span></code> in the group means <code class="docutils literal notranslate"><span class="pre">x</span></code> but with <em>gid bit set</em> ( g roup id of creator not launcher).</p></li>
+<li><p>The s or sticky bit is a group permission on directories which changes the default behaviour of new files are created with the same group_id as the users group_id to new files inheriting the group_id from the parent directory.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">S</span></code> means <code class="docutils literal notranslate"><span class="pre">-</span></code> with gid bit set (rarely seen).</p></li>
+<li><p>Among other things, this makes the default group for new files/subdirectories the, for instance, <code class="docutils literal notranslate"><span class="pre">p_introtouppmax</span></code> group.</p></li>
+</ul>
+</div>
+<p><strong>More about BASH command line and scripts on Tuesday and Wednesday!</strong></p>
+<ul class="simple">
+<li><p>https://www.uppmax.uu.se/support/courses-and-workshops/uppmax-introductory-course/</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="login2.html" class="btn btn-neutral float-left" title="Login" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="overview2.html" class="btn btn-neutral float-right" title="Overview" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright UPPMAX.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

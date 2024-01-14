@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome on-line! &mdash; UPPMAX intro course — part 1 0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="_static/togglebutton.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_lesson.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_rtd_theme_ext_color_contrast.css" type="text/css" />
+      <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+      <link rel="stylesheet" href="_static/tabs.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+        <script src="_static/minipres.js"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="_static/togglebutton.js"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Overview" href="overview.html" />
+    <link rel="prev" title="Introduction to UPPMAX — first day lessons" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> UPPMAX intro course — part 1
+            <img src="_static/c_242915-l_3-k_svg-uu-logo.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Intro</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Welcome on-line!</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#lesson-material">Lesson material</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#new-documentation-page">New documentation page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#questions">Questions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#questions-very-much-related-to-the-present-talk-during-the-lessons">Questions very much related to the present talk during the lessons</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#questions-requiring-more-effort-to-explain-or-answer">Questions requiring more effort to explain or answer</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#exercises">Exercises</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#type-along">Type along</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#the-topics">The topics</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#linux-i-at-9-12-monday">Linux I at 9-12 Monday</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#intro-to-uppmax-13-16-monday">Intro to UPPMAX 13-16 Monday</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#linux-ii-9-12-tuesday">Linux II 9-12 Tuesday</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#linux-iii-13-16-tuesday">Linux III 13-16 Tuesday</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bash-scripts-9-12-wednesday">Bash Scripts 9-12 Wednesday</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#slurm-at-uppmax-13-16-wednesday">Slurm at UPPMAX 13-16 Wednesday</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#python-i-9-12-thursday">Python I 9-12 Thursday</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#python-ii-13-16-thursday">Python II 13-16 Thursday</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#today">Today</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#preliminary-schedule">Preliminary schedule</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#the-new-documentation">The New documentation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#style-of-todays-lectures">Style of todays lectures</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#icebreaker-in-hackmd">Icebreaker in HackMD</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Get started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="login2.html">Login</a></li>
+<li class="toctree-l1"><a class="reference internal" href="linux_cases.html">Linux and basic toolkit</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">More about UPPMAX</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview2.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hpc.html">High Performance Computing — HPC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="naiss.html">NAISS and projects</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Using UPPMAX</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="software.html">Software and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="slurm_intro.html">Using the compute nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="working.html">Working on UPPMAX</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">NAISS SENS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="bianca.html">NAISS SENS and Bianca</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Courses and workshops</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="courses.html">Courses and workshops</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Summary</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">Summary</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">UPPMAX intro course — part 1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Welcome on-line!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/intro_online.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section class="tex2jax_ignore mathjax_ignore" id="welcome-on-line">
+<h1>Welcome on-line!<a class="headerlink" href="#welcome-on-line" title="Permalink to this heading"></a></h1>
+<div class="admonition-course-punchline admonition">
+<p class="admonition-title">Course punchline</p>
+<ul class="simple">
+<li><p>Move from being a Linux novice to an UPPMAX expert.</p></li>
+</ul>
+</div>
+<div class="admonition-course-aim admonition">
+<p class="admonition-title">Course aim</p>
+<ul class="simple">
+<li><p>UPPMAX application experts want to share their skills in a 4-day series of lectures.</p></li>
+<li><p>If you already have the fundamentals down, you are still sure to enjoy the tips and tricks in the later parts of the course.</p></li>
+<li><p>Hence we’ve made it possible to sign up only for the days that are interesting to you.</p></li>
+</ul>
+</div>
+<div class="admonition-learning-outcomes admonition">
+<p class="admonition-title">Learning outcomes</p>
+<ul class="simple">
+<li><p>Get overview of UPPMAX and NAISS</p></li>
+<li><p>Work with your files in a LINUX environment</p></li>
+<li><p>Learn to use the UPPMAX resources in a good way</p></li>
+<li><p>Learn the basics in the Python programming language</p></li>
+</ul>
+</div>
+<section id="lesson-material">
+<h2>Lesson material<a class="headerlink" href="#lesson-material" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>First day will be on this <a class="reference internal" href="intro.html"><span class="std std-doc">github website</span></a></p></li>
+<li><p>All other days each topic can be reached from the <a class="reference external" href="https://www.uppmax.uu.se/support/courses-and-workshops/uppmax-introductory-course">course main page</a></p></li>
+</ul>
+</section>
+<section id="new-documentation-page">
+<h2>New documentation page<a class="headerlink" href="#new-documentation-page" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>We will refer a lot to our <a class="reference external" href="http://docs.uppmax.uu.se/">new documentation website</a></p></li>
+</ul>
+</section>
+<section id="questions">
+<h2>Questions<a class="headerlink" href="#questions" title="Permalink to this heading"></a></h2>
+<section id="questions-very-much-related-to-the-present-talk-during-the-lessons">
+<h3>Questions very much related to the present talk during the lessons<a class="headerlink" href="#questions-very-much-related-to-the-present-talk-during-the-lessons" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Online chat or raised hand</p></li>
+</ul>
+</section>
+<section id="questions-requiring-more-effort-to-explain-or-answer">
+<h3>Questions requiring more effort to explain or answer<a class="headerlink" href="#questions-requiring-more-effort-to-explain-or-answer" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Use the <a class="reference external" href="https://hackmd.io/&#64;UPPMAX/Intro-Course-QaA">HackMD session</a></p></li>
+</ul>
+</section>
+</section>
+<section id="exercises">
+<h2>Exercises<a class="headerlink" href="#exercises" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Exercises may be solved individually or in small groups in breakout rooms.</p></li>
+</ul>
+</section>
+<section id="type-along">
+<h2>Type along<a class="headerlink" href="#type-along" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>You will be able to follow along using the built-in terminals in all OSs.</p>
+<ul>
+<li><p>Linux/Mac Terminal</p></li>
+<li><p>Windows: Powershell or command prompt</p></li>
+</ul>
+</li>
+<li><p>For your day-to-day work you may benefit from other applications, see the <a class="reference external" href="https://uppmax.github.io/uppmax_intro/login2.html">Login session</a></p></li>
+</ul>
+</section>
+<section id="the-topics">
+<h2>The topics<a class="headerlink" href="#the-topics" title="Permalink to this heading"></a></h2>
+<section id="linux-i-at-9-12-monday">
+<h3>Linux I at 9-12 Monday<a class="headerlink" href="#linux-i-at-9-12-monday" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Overview</p></li>
+<li><p>Logging in to UPPMAX</p></li>
+<li><p>Linux basics</p></li>
+<li><p>Using the command line</p></li>
+</ul>
+</section>
+<section id="intro-to-uppmax-13-16-monday">
+<h3>Intro to UPPMAX 13-16 Monday<a class="headerlink" href="#intro-to-uppmax-13-16-monday" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Organisation</p></li>
+<li><p>HPC computing</p></li>
+<li><p>SNIC</p></li>
+<li><p>Using software and tools</p></li>
+<li><p>Submitting jobs to calculation nodes (intro)</p></li>
+<li><p>Bianca cluster</p></li>
+</ul>
+</section>
+<section id="linux-ii-9-12-tuesday">
+<h3>Linux II 9-12 Tuesday<a class="headerlink" href="#linux-ii-9-12-tuesday" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Using the command line level 2</p></li>
+<li><p>Input, output and pipes</p></li>
+<li><p>Wildcards</p></li>
+<li><p>The find command</p></li>
+<li><p>Links</p></li>
+</ul>
+</section>
+<section id="linux-iii-13-16-tuesday">
+<h3>Linux III 13-16 Tuesday<a class="headerlink" href="#linux-iii-13-16-tuesday" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>The grep command</p></li>
+<li><p>Using the command line level 3</p></li>
+<li><p>Variables, parameters and $(…)</p></li>
+<li><p>Filenames</p></li>
+</ul>
+</section>
+<section id="bash-scripts-9-12-wednesday">
+<h3>Bash Scripts 9-12 Wednesday<a class="headerlink" href="#bash-scripts-9-12-wednesday" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Bash scripting, why’s and basics</p></li>
+<li><p>Parameters</p></li>
+<li><p>The IF statement</p></li>
+<li><p>File tests</p></li>
+<li><p>FOR and WHILE loops</p></li>
+<li><p>Background processes and job control</p></li>
+</ul>
+</section>
+<section id="slurm-at-uppmax-13-16-wednesday">
+<h3>Slurm at UPPMAX 13-16 Wednesday<a class="headerlink" href="#slurm-at-uppmax-13-16-wednesday" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>A workload manager</p></li>
+<li><p>Queuing</p></li>
+<li><p>Monitoring</p></li>
+<li><p>in queue</p></li>
+<li><p>while running</p></li>
+<li><p>when finished</p></li>
+<li><p>Job testing within the interactive or “devel” mode</p></li>
+<li><p>Scripting</p></li>
+</ul>
+</section>
+<section id="python-i-9-12-thursday">
+<h3>Python I 9-12 Thursday<a class="headerlink" href="#python-i-9-12-thursday" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Introduction</p></li>
+<li><p>Basics</p></li>
+<li><p>Data types</p></li>
+<li><p>Control structures</p></li>
+<li><p>Writing and executing a program</p></li>
+</ul>
+</section>
+<section id="python-ii-13-16-thursday">
+<h3>Python II 13-16 Thursday<a class="headerlink" href="#python-ii-13-16-thursday" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Creating a program</p></li>
+<li><p>Functions</p></li>
+</ul>
+</section>
+</section>
+<section id="today">
+<h2>Today<a class="headerlink" href="#today" title="Permalink to this heading"></a></h2>
+<section id="preliminary-schedule">
+<h3>Preliminary schedule<a class="headerlink" href="#preliminary-schedule" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>First time in this manner so timings are preliminary.</p></li>
+</ul>
+<p><strong>Schedule</strong></p>
+<ul class="simple">
+<li><p>9.00 Intro</p></li>
+<li><p>9.15 Overview</p></li>
+<li><p>9.30 Log in</p></li>
+<li><p>9.55 15 min coffee break</p></li>
+<li><p>10.10 Linux intro</p></li>
+<li><p>10.40 Linux basic commands</p></li>
+<li><p>(c. 11.00 10 min break)</p></li>
+<li><p>11.30 Overview - part 2</p></li>
+<li><p>11.35 HPC</p></li>
+<li><p>11.40 NAISS and projects</p></li>
+<li><p>11.50 Q/A if time allows</p></li>
+<li><p>12.00 <strong>LUNCH</strong></p></li>
+<li><p>13.00 Software and tools</p></li>
+<li><p>13.30 Using compute nodes</p></li>
+<li><p>(c. 14.00 10 min break)</p></li>
+<li><p>14.30 Working on UPPMAX</p>
+<ul>
+<li><p>Room for sharing tips</p></li>
+<li><p>Then run to coffee break</p></li>
+</ul>
+</li>
+<li><p>(14.45 NAISS-SENS and Bianca (Do we have any users here?))</p></li>
+<li><p>14.55 15 min coffee break</p></li>
+<li><p>15.10 NAISS-SENS and Bianca p2</p></li>
+<li><p>15.30 Courses and workshops</p></li>
+<li><p>15.35 Summary</p></li>
+<li><p>15.40 Q/A</p></li>
+</ul>
+</section>
+<section id="the-new-documentation">
+<h3>The New documentation<a class="headerlink" href="#the-new-documentation" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>New look later in spring for the official UPPMAX webpage, now at &lt;www.uppmax.uu.se&gt;</p></li>
+<li><p>We like the documentation/tutorials in another style: <a class="reference external" href="http://docs.uppmax.uu.se">http://docs.uppmax.uu.se</a></p>
+<ul>
+<li><p>boxes, graphs, programming code style</p></li>
+</ul>
+</li>
+<li><p>Let’s look at the documentation!</p>
+<ul>
+<li><p>Getting started</p></li>
+<li><p>Cluster user guide</p></li>
+<li><p>Software</p></li>
+<li><p>Databases</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="style-of-todays-lectures">
+<h3>Style of todays lectures<a class="headerlink" href="#style-of-todays-lectures" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Information sessions</p></li>
+<li><p>Case sessions with usage of the new documentation</p></li>
+</ul>
+</section>
+</section>
+<section id="icebreaker-in-hackmd">
+<h2>Icebreaker in HackMD<a class="headerlink" href="#icebreaker-in-hackmd" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://hackmd.io/&#64;UPPMAX/Intro-Course-QaA">https://hackmd.io/&#64;UPPMAX/Intro-Course-QaA</a></p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Introduction to UPPMAX — first day lessons" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="overview.html" class="btn btn-neutral float-right" title="Overview" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright UPPMAX.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

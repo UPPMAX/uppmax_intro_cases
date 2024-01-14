@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basic toolkit &mdash; UPPMAX intro course — part 1 0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="_static/togglebutton.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_lesson.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_rtd_theme_ext_color_contrast.css" type="text/css" />
+      <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+      <link rel="stylesheet" href="_static/tabs.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+        <script src="_static/minipres.js"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="_static/togglebutton.js"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> UPPMAX intro course — part 1
+            <img src="_static/c_242915-l_3-k_svg-uu-logo.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Intro</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="intro_online.html">Welcome on-line!</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Get started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="login2.html">Login</a></li>
+<li class="toctree-l1"><a class="reference internal" href="linux_cases.html">Linux and basic toolkit</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">More about UPPMAX</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview2.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hpc.html">High Performance Computing — HPC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="naiss.html">NAISS and projects</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Using UPPMAX</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="software.html">Software and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="slurm_intro.html">Using the compute nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="working.html">Working on UPPMAX</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">NAISS SENS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="bianca.html">NAISS SENS and Bianca</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Courses and workshops</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="courses.html">Courses and workshops</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Summary</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">Summary</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">UPPMAX intro course — part 1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Basic toolkit</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/linux_basics.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section class="tex2jax_ignore mathjax_ignore" id="basic-toolkit">
+<h1>Basic toolkit<a class="headerlink" href="#basic-toolkit" title="Permalink to this heading"></a></h1>
+<p><img alt="Caption" src="_images/terminal.png" /></p>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Let’s dig into the most important BASH commands</p></li>
+<li><p>We’ll do a type-along session</p></li>
+</ul>
+</div>
+<section id="we-will-cover-these-commands">
+<h2>We will cover these commands<a class="headerlink" href="#we-will-cover-these-commands" title="Permalink to this heading"></a></h2>
+<section id="navigation-and-file-management">
+<h3>Navigation and file management<a class="headerlink" href="#navigation-and-file-management" title="Permalink to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">pwd</span></code>    present directory</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ls</span></code>   list content</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span></code>   change directory</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mkdir</span></code>   make directory</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cp</span></code>   copy</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">scp</span></code>   securely remotely copy</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mv</span></code>   move</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rm</span></code>   remove</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rmdir</span></code>   remove empty directory</p></li>
+</ol>
+</section>
+<section id="read-files-and-change-file-properties">
+<h3>Read files and change file properties<a class="headerlink" href="#read-files-and-change-file-properties" title="Permalink to this heading"></a></h3>
+<ol class="arabic simple" start="10">
+<li><p><code class="docutils literal notranslate"><span class="pre">cat</span></code>   print content on screen</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">head</span></code>   print first part</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">tail</span></code>   print last part</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">less</span></code>   browse content</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">tar</span></code>   compress or extract file</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">chmod</span></code>   change file permissions</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">man</span></code>   info about a command</p></li>
+</ol>
+</section>
+</section>
+<section id="file-system-navigation">
+<h2>File system Navigation<a class="headerlink" href="#file-system-navigation" title="Permalink to this heading"></a></h2>
+<section id="pwd-where-are-you-now-print-name-of-current-working-directory">
+<h3>pwd — where are you now? “Print name of current/Working Directory”<a class="headerlink" href="#pwd-where-are-you-now-print-name-of-current-working-directory" title="Permalink to this heading"></a></h3>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span><span class="nb">pwd</span>
+
+<span class="gp">$ </span><span class="nb">pwd</span><span class="w"> </span>-P<span class="w"> </span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">-P</span></code> gives you the physical path,</p>
+<ul>
+<li><p>ignores how you got there</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="ls-list-directory-contents">
+<h3>ls — list directory contents<a class="headerlink" href="#ls-list-directory-contents" title="Permalink to this heading"></a></h3>
+<p>Type <code class="docutils literal notranslate"><span class="pre">ls</span></code> to display the contents of the current directory.</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>ls<span class="w"> </span>-a
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">-a</span></code> also shows hidden files and directories.</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>ls<span class="w"> </span>-l
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">-l</span></code> gives you listed and detailed information in alpha-numerical order</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<ul class="simple">
+<li><p>the short-hand command <code class="docutils literal notranslate"><span class="pre">ll</span></code> will make a list as above, but highlight different file types with different colors</p></li>
+</ul>
+</div>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>ls<span class="w"> </span>-lt
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">-lt</span></code> sorts things by time modified.</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>ls<span class="w"> </span>–lrt
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">-r</span></code> gives reversed order, so in this case newest in last line.</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>man<span class="w"> </span>ls
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>for complete information about a command.</p></li>
+<li><p>TIP: <code class="docutils literal notranslate"><span class="pre">-$</span> <span class="pre">man</span> <span class="pre">&lt;command&gt;</span></code> works for almost any command!</p>
+<ul>
+<li><p>scroll with arrows and quit with <code class="docutils literal notranslate"><span class="pre">q</span></code>.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="cd-change-the-shell-working-directory">
+<h3>cd — Change the shell working Directory<a class="headerlink" href="#cd-change-the-shell-working-directory" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>To change directory, use <code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">&lt;target&gt;</span></code></p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span><span class="nb">cd</span><span class="w"> </span>/proj/introtouppmax
+
+<span class="gp">$ </span><span class="nb">pwd</span>
+
+<span class="gp">$ </span>ls
+
+<span class="gp">$ </span><span class="nb">cd</span><span class="w"> </span>labs
+
+<span class="gp">$ </span><span class="nb">pwd</span>
+</pre></div>
+</div>
+<div class="admonition-experiment-with-cd exercise important admonition" id="exercise-0">
+<p class="admonition-title">Experiment with cd</p>
+<ul class="simple">
+<li><p>Experiment with <code class="docutils literal notranslate"><span class="pre">cd</span></code>.</p></li>
+<li><p>Try adding <code class="docutils literal notranslate"><span class="pre">&lt;spaces&gt;</span></code> or extra <code class="docutils literal notranslate"><span class="pre">/</span></code> in various places.</p></li>
+<li><p>Use <em>tab completion</em> to avoid typos and typing <code class="docutils literal notranslate"><span class="pre">ls</span></code> a lot.</p></li>
+<li><p>Figure out the use of the following:</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span><span class="nb">cd</span><span class="w"> </span>-
+
+<span class="gp">$ </span><span class="nb">cd</span><span class="w"> </span>..
+
+<span class="gp">$ </span><span class="nb">cd</span>
+
+<span class="gp">$ </span><span class="nb">cd</span><span class="w"> </span>~
+</pre></div>
+</div>
+</div>
+<div class="admonition-solution solution important dropdown admonition" id="solution-0">
+<p class="admonition-title">Solution</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">-</span></code> : goes back to your last directory</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">..</span></code> : goes a level up in the hierarchy</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span></code> : goes to home directory</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">~</span></code> : also goes to home directory</p></li>
+</ul>
+</div>
+</section>
+</section>
+<section id="copy-create-move">
+<h2>Copy, Create, Move<a class="headerlink" href="#copy-create-move" title="Permalink to this heading"></a></h2>
+<section id="mkdir-make-directories">
+<h3>mkdir — make directories<a class="headerlink" href="#mkdir-make-directories" title="Permalink to this heading"></a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<ul class="simple">
+<li><p>Make sure you’re in your home directory by <code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">~</span></code></p></li>
+</ul>
+</div>
+<ul class="simple">
+<li><p>Create a new directory <code class="docutils literal notranslate"><span class="pre">uppmax-intro</span></code></p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span><span class="nb">cd</span><span class="w"> </span>~
+<span class="gp">$ </span>mkdir<span class="w"> </span>uppmax-intro
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Go in there:</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp"> $ </span><span class="nb">cd</span><span class="w"> </span>uppmax-intro/
+</pre></div>
+</div>
+</section>
+<section id="cp-copy-files-and-directories">
+<h3>cp — copy files and directories<a class="headerlink" href="#cp-copy-files-and-directories" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Copy files with: <code class="docutils literal notranslate"><span class="pre">cp</span> <span class="pre">&lt;source&gt;</span> <span class="pre">&lt;target&gt;</span></code></p></li>
+<li><p>Set target to <code class="docutils literal notranslate"><span class="pre">.</span></code> to keep name and to point at present directory.</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>cp<span class="w"> </span>/proj/introtouppmax/labs/linux_tutorial/<span class="w"> </span>.
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Well, that didn’t work. What does the error say?</p></li>
+<li><p>So… try</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>cp<span class="w"> </span>-r<span class="w"> </span>/proj/introtouppmax/labs/linux_tutorial/<span class="w"> </span>.
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">-r</span></code> is for recursive, meaning including files and subdirectories!</p>
+<ul class="simple">
+<li><p>Move to your just created <code class="docutils literal notranslate"><span class="pre">linux_tutorial/</span></code></p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span><span class="nb">cd</span><span class="w"> </span>linux_tutorial
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Make a copy of the file “newfile” in the same directory:</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>cp<span class="w"> </span>newfile<span class="w"> </span>copyfile
+</pre></div>
+</div>
+</section>
+<section id="scp-secure-copy-remote-file-copy-program">
+<h3>scp —secure copy (remote file copy program)<a class="headerlink" href="#scp-secure-copy-remote-file-copy-program" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Linux/MacOS: To copy data to/from Rackham, you can use <code class="docutils literal notranslate"><span class="pre">scp</span></code> from the terminal on your local machine:</p></li>
+<li><p>Upload from present directory on local machine to your home directory on cluster.</p>
+<ul>
+<li><p>Example (<em>not done by us today</em>)</p></li>
+</ul>
+</li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">[bob@macbook]$ </span>scp<span class="w"> </span>myinput<span class="w"> </span>bob@rackham.uppmax.uu.se:~/copyofmyinput
+
+<span class="gp">[bob@macbook]$ </span>scp<span class="w"> </span>myinput<span class="w"> </span>bob@rackham.uppmax.uu.se:~/<span class="w">                      </span><span class="c1"># (keeping filename)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Download</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">[bob@macbook]$ </span>scp<span class="w"> </span>bob@rackham.uppmax.uu.se:~/mydata<span class="w"> </span>copyofmydata
+
+<span class="gp">[bob@macbook]$ </span>scp<span class="w"> </span>bob@rackham.uppmax.uu.se:~/mydata<span class="w"> </span>.<span class="w">                      </span><span class="c1"># (keeping file name)</span>
+</pre></div>
+</div>
+</section>
+<section id="mv-move-rename-file">
+<h3>mv — move/rename file<a class="headerlink" href="#mv-move-rename-file" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Moving files works just like copying files:</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mv</span> <span class="pre">&lt;source&gt;</span> <span class="pre">&lt;target&gt;</span></code></p></li>
+<li><p>Move the copy you just made to another place:</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>mv<span class="w"> </span>copyfile<span class="w"> </span>../
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Rename it.</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>mv<span class="w"> </span>../copyfile<span class="w"> </span>../renamedfile
+</pre></div>
+</div>
+</section>
+</section>
+<section id="archiving">
+<h2>Archiving<a class="headerlink" href="#archiving" title="Permalink to this heading"></a></h2>
+<p><strong>tar — archiving and compression</strong></p>
+<ul class="simple">
+<li><p>We’re going to need more files. Let’s extract the tar.gz file (tared and gzipped file)</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>tar<span class="w"> </span>-vxzf<span class="w"> </span>files.tar.gz
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>The flags mean:
+- <u>v</u>erbosely
+- e<u>x</u>tract
+- g<u>z</u>ipped
+- <u>f</u>ilename</p></li>
+<li><p>Order of flags may matter!</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">f</span></code> should be in the start or in the end!</p></li>
+</ul>
+</li>
+<li><p>You should see a list of files being extracted</p></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<ul class="simple">
+<li><p>To compress use the flag <code class="docutils literal notranslate"><span class="pre">-c</span></code>instead of <code class="docutils literal notranslate"><span class="pre">-x</span></code></p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>tar<span class="w"> </span>-czfv<span class="w"> </span>&lt;tar<span class="w"> </span>file&gt;<span class="w"> </span>&lt;path/to/directory/file<span class="o">(</span>s<span class="o">)</span>-or-directory&gt;
+</pre></div>
+</div>
+</div>
+</section>
+<section id="deleting">
+<h2>Deleting<a class="headerlink" href="#deleting" title="Permalink to this heading"></a></h2>
+<section id="rm-delete-files-or-directories">
+<h3>rm — delete files  or directories<a class="headerlink" href="#rm-delete-files-or-directories" title="Permalink to this heading"></a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><p><strong>Tip: make “rm” ask if you really want to erase:</strong></p>
+<ul>
+<li><p>Within a session: Type in the command prompt</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>alias rm=&#39;rm -i&#39;
+</pre></div>
+</div>
+</li>
+<li><p>Override asking with</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>rm –f &lt;&gt;
+</pre></div>
+</div>
+</li>
+<li><p>Edit file “.BASHrc” in /home directory by adding the alias line for this to start every time.</p></li>
+</ul>
+</li>
+<li><p>This will also work for mv and cp!</p></li>
+</ul>
+</div>
+<ul class="simple">
+<li><p>Deleting files works just like copying or moving them:
+<code class="docutils literal notranslate"><span class="pre">rm</span> <span class="pre">&lt;target&gt;</span></code></p></li>
+<li><p>Try it out:</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>rm<span class="w"> </span>../renamedfile
+
+<span class="gp">$ </span>rm<span class="w"> </span>this_is_empty
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>hmmmm…</p></li>
+</ul>
+</section>
+<section id="rmdir-delete-an-empty-directory">
+<h3>rmdir — delete an empty directory<a class="headerlink" href="#rmdir-delete-an-empty-directory" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>We need another command to delete directories</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>rmdir<span class="w"> </span>this_is_empty
+
+<span class="gp">$ </span>rmdir<span class="w"> </span>this_has_a_file
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Again??</p></li>
+<li><p>Is there a way to use rm to delete directories?</p></li>
+</ul>
+<div class="admonition-solution solution important dropdown admonition" id="solution-1">
+<p class="admonition-title">Solution</p>
+<ul class="simple">
+<li><p>Recursive commands <code class="docutils literal notranslate"><span class="pre">-r</span></code> are applied to directories and their contents</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>rm<span class="w"> </span>-r<span class="w"> </span>this_has_a_file
+</pre></div>
+</div>
+</div>
+</section>
+</section>
+<section id="help">
+<h2>Help<a class="headerlink" href="#help" title="Permalink to this heading"></a></h2>
+<section id="man-manual-look-up-the-right-flags">
+<h3>man — manual, look up the right flags<a class="headerlink" href="#man-manual-look-up-the-right-flags" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Nobody can remember whether it’s <code class="docutils literal notranslate"><span class="pre">-R</span></code> or <code class="docutils literal notranslate"><span class="pre">-r</span></code> for recursive, or if <code class="docutils literal notranslate"><span class="pre">-f</span></code> lets you choose a file or forces an action.</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>man<span class="w"> </span>ls<span class="w"> </span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>shows you how to use <code class="docutils literal notranslate"><span class="pre">ls</span></code> and all its options</p></li>
+<li><p>Type <code class="docutils literal notranslate"><span class="pre">/&lt;keyword&gt;</span></code> to search for a keyword, use <code class="docutils literal notranslate"><span class="pre">n</span></code> (forward) and ´N` (backward) to scan through hits.</p></li>
+<li><p>Scroll with arrows.</p></li>
+<li><p>Type <code class="docutils literal notranslate"><span class="pre">q</span></code> to quit.</p></li>
+</ul>
+<div class="admonition-exercise exercise important admonition" id="exercise-1">
+<p class="admonition-title">Exercise</p>
+<ul class="simple">
+<li><p>Spend some time now to browse the man pages for the commands you’ve just learned!</p></li>
+</ul>
+</div>
+<!--- 
+- Not only user commands!
+
+    Use sections like
+
+        man 2 write
+
+MANUAL SECTIONS
+       The standard sections of the manual include:
+
+       1      User Commands
+
+       2      System Calls
+
+       3      C Library Functions
+
+       4      Devices and Special Files
+
+       5      File Formats and Conventions
+
+       6      Games et. Al.
+
+       7      Miscellanea
+
+       8      System Administration tools and Deamons
+--->
+</section>
+</section>
+<section id="lets-get-wild-with-wildcards">
+<h2>Let’s get wild with Wildcards<a class="headerlink" href="#lets-get-wild-with-wildcards" title="Permalink to this heading"></a></h2>
+<p><img alt="Caption" src="_images/wildcards_bear.png" /></p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>ls<span class="w"> </span>many_files
+
+<span class="gp">$ </span>ls<span class="w"> </span>many_files/*.txt
+
+<span class="gp">$ </span>ls<span class="w"> </span>many_files/file_1*1.docx
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Want to clean out temporary files ending in .tmp in all the subdirectories?</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<ul class="simple">
+<li><p>NB! It could be wise to do <code class="docutils literal notranslate"><span class="pre">ls</span> <span class="pre">-a</span> <span class="pre">*/*.tmp</span></code> first to see what will be deleted…</p></li>
+</ul>
+</div>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp"> $ </span>rm<span class="w"> </span>*/*.tmp
+</pre></div>
+</div>
+<div class="admonition-exercise exercise important admonition" id="exercise-2">
+<p class="admonition-title">Exercise</p>
+<ul class="simple">
+<li><p>Exercise:  Create a new directory and move all .txt files in many_files to it.</p></li>
+</ul>
+</div>
+</section>
+<section id="reading-files">
+<h2>Reading files<a class="headerlink" href="#reading-files" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>In Linux, you can (if you wish) also display files without being able to change them</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span><span class="nb">cd</span><span class="w"> </span>old_project
+
+<span class="gp">$ </span>ls
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Hmm, which of these files are useful?</p></li>
+</ul>
+<section id="cat-concatenate-files-and-print-on-the-standard-output">
+<h3>cat - con<ins>cat</ins>enate files and print on the standard output<a class="headerlink" href="#cat-concatenate-files-and-print-on-the-standard-output" title="Permalink to this heading"></a></h3>
+<p><img alt="Caption" src="_images/cat.png" /></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">cat</span></code> dumps the contents of files to the terminal as text</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp"> $ </span>cat<span class="w"> </span>the_best
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Yummy!</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp"> $ </span>cat<span class="w"> </span>a
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>What’s this???</p></li>
+<li><p><strong>Concatenate</strong> files with this wizardry:</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp"> $ </span>cat<span class="w"> </span>a<span class="w"> </span>the_best<span class="w"> </span>&gt;<span class="w"> </span>combinedfiles.txt
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>File <code class="docutils literal notranslate"><span class="pre">a</span></code> is written first and <code class="docutils literal notranslate"><span class="pre">the_best</span></code> is appended</p></li>
+</ul>
+</section>
+<section id="head-display-the-top-heading-of-a-file">
+<h3>head — display the top (<u>head</u>ing) of a file<a class="headerlink" href="#head-display-the-top-heading-of-a-file" title="Permalink to this heading"></a></h3>
+<p><img alt="Caption" src="_images/head.png" /></p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp"> $ </span>head<span class="w"> </span>a
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>You can choose how many lines to display (default 10)</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp"> $ </span>head<span class="w"> </span>-n<span class="w"> </span><span class="m">4</span><span class="w"> </span>a
+</pre></div>
+</div>
+</section>
+<section id="tail-display-the-end-of-a-file">
+<h3>tail — display the end of a file<a class="headerlink" href="#tail-display-the-end-of-a-file" title="Permalink to this heading"></a></h3>
+<p><img alt="Caption" src="_images/tail.png" /></p>
+<ul class="simple">
+<li><p>Tail is the same as head, but for the other end.</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp"> $ </span>tail<span class="w"> </span>-n<span class="w"> </span><span class="m">5</span><span class="w"> </span>a
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Handy to look at log files or to figure out the structure of a text file.</p></li>
+</ul>
+</section>
+<section id="less-read-a-whole-file">
+<h3>less — read a whole file<a class="headerlink" href="#less-read-a-whole-file" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>cat doesn’t really work for long files</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp"> $ </span>less<span class="w"> </span>a
+</pre></div>
+</div>
+<ul>
+<li><p>Search with <code class="docutils literal notranslate"><span class="pre">/&lt;keyword&gt;</span></code> and <code class="docutils literal notranslate"><span class="pre">n</span></code>/<code class="docutils literal notranslate"><span class="pre">N</span></code></p></li>
+<li><p>Hit <code class="docutils literal notranslate"><span class="pre">q</span></code> to quit.</p></li>
+<li><p>scroll with arrows.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">man</span></code> uses <code class="docutils literal notranslate"><span class="pre">less</span></code>!</p>
+<p>“less is more”</p>
+</li>
+</ul>
+</section>
+</section>
+<section id="file-permissions">
+<h2>File permissions<a class="headerlink" href="#file-permissions" title="Permalink to this heading"></a></h2>
+<p><img alt="Caption" src="_images/permission.png" /></p>
+<section id="example">
+<h3>Example<a class="headerlink" href="#example" title="Permalink to this heading"></a></h3>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>ls<span class="w"> </span>-l
+
+<span class="go">  drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd </span>
+<span class="go">  -rwxr-xr-x 1 marcusl marcusl 17198 Jul 16 14:12 files.tar.gz</span>
+</pre></div>
+</div>
+<ul>
+<li><p>Leading symbol:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">d</span></code> directory</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-</span></code> regular file</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">l</span></code> symbolic link (more on this tomorrow)</p></li>
+<li><p>Others exist, but you can ignore them for now</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>ls<span class="w"> </span>-l
+
+<span class="go">drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd</span>
+
+<span class="go">-rwxr-xr-x 1 marcusl marcusl 17198 Jul 16 14:12 files.tar.gz</span>
+</pre></div>
+</div>
+</li>
+<li><p>Three sets of “rwx” permissions</p>
+<ul class="simple">
+<li><p>rwx: r ead, w rite, ex ecute</p></li>
+<li><p>User: the user account that owns the file (usually the one that created it)</p></li>
+<li><p>Group: the group that owns the file (usually the <em>project group</em> in /proj/xyz or the user’s group elsewhere)</p></li>
+<li><p>Others: everyone else on the system (literally a thousand strangers)</p></li>
+</ul>
+</li>
+<li><p>r – read</p>
+<ul class="simple">
+<li><p>Files: Read the contents of the file</p></li>
+<li><p>Directories: List the files in the directory</p></li>
+</ul>
+</li>
+<li><p>w – write</p>
+<ul class="simple">
+<li><p>Files: Modify the file</p></li>
+<li><p>Directories: Add, rename, or delete files in the directory</p></li>
+</ul>
+</li>
+<li><p>x – execute</p>
+<ul class="simple">
+<li><p>Files: Run the file as a program</p></li>
+<li><p>Directories: Traverse the directory (e.g. with “cd”)</p></li>
+</ul>
+</li>
+</ul>
+<div class="admonition-for-the-interested solution important dropdown admonition" id="solution-2">
+<p class="admonition-title">For the interested</p>
+<ul class="simple">
+<li><p>Now try:</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>ls<span class="w"> </span>-l<span class="w"> </span>/proj/introtouppmax/
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Huh, <code class="docutils literal notranslate"><span class="pre">rwxrwsr-x</span></code>?</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">s</span></code> in the group means <code class="docutils literal notranslate"><span class="pre">x</span></code> but with <em>gid bit set</em> ( g roup id of creator not launcher).</p>
+<ul>
+<li><p>The s or sticky bit is a group permission on directories which changes the default behaviour of new files are created with the same group_id as the users group_id to new files inheriting the group_id from the parent directory.</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">S</span></code> means <code class="docutils literal notranslate"><span class="pre">-</span></code> with gid bit set (rarely seen).</p></li>
+<li><p>Among other things, this makes the default group for new files/subdirectories the, for instance, <code class="docutils literal notranslate"><span class="pre">p_introtouppmax</span></code> group.</p></li>
+</ul>
+</div>
+</section>
+</section>
+<section id="changing-permissions">
+<h2>Changing permissions<a class="headerlink" href="#changing-permissions" title="Permalink to this heading"></a></h2>
+<p><strong>chmod</strong> — change file mode bits</p>
+<p><strong>If you own, i.e. created, the file or directory, you can modify the content</strong></p>
+<div class="admonition-common-issues admonition">
+<p class="admonition-title">Common issues</p>
+<ul class="simple">
+<li><p>Files with <code class="docutils literal notranslate"><span class="pre">w</span></code> can be modified and destroyed by accident. Protect your data!</p></li>
+<li><p>If you want to share data or scripts with a person not in your project (e.g. support staff like me), you can!</p></li>
+<li><p>If you want to keep non-members from even seeing which files you have, you can!</p></li>
+</ul>
+</div>
+<section id="syntax">
+<h3>Syntax<a class="headerlink" href="#syntax" title="Permalink to this heading"></a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">chmod</span> <span class="pre">&lt;mode&gt;</span> <span class="pre">&lt;files&gt;</span></code></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;mode&gt;</span></code> is of the form: For whom, Modify, What permission(s)</p></li>
+<li><p>For whom?</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">u</span></code>: user/owner</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">g</span></code>: group, often the members to a certain project</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">o</span></code>: others</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">a</span></code>: all</p></li>
+<li><p>if not set changes are applied for user AND group</p></li>
+</ul>
+</li>
+<li><p>Modify?</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">+</span></code>: add permissions,</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-</span></code>: remove</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">=</span></code>: set equal to</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">=</span></code> usually causes unmentioned bits to be removed except that a directory’s unmentioned set user and group ID bits are not affected.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>What permissions?</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">r</span></code>, <code class="docutils literal notranslate"><span class="pre">w</span></code>, <code class="docutils literal notranslate"><span class="pre">x</span></code>, i.e. the actual permission</p></li>
+</ul>
+</li>
+</ul>
+<section id="examples">
+<h4>Examples<a class="headerlink" href="#examples" title="Permalink to this heading"></a></h4>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;mode&gt;</span></code> can be e.g.:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">u+x</span></code> : lets You (owner) run a script you just wrote</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-w</span></code> : no write permissions for <strong>owner+group</strong></p></li>
+<li><p>warning: if <code class="docutils literal notranslate"><span class="pre">w</span></code> was already set for <em>others</em> it will be kept!!</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">+rw</span></code> : let user and group members read and edit this file, not others if not already set</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">=xw</span></code> : let group members go into your directory and put files there, but not see which files are there, others are not affected</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">a=xw</span></code> : set xw for everyone</p></li>
+</ul>
+</li>
+<li><p>chmod takes flags as usual, e.g.</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">-R</span></code> for recursive (i.e. all files and sub-directories therein)</p></li>
+</ul>
+</li>
+</ul>
+<div class="admonition-chmod-755-style-binary-sum-octal-bit-mask solution important dropdown admonition" id="solution-4">
+<p class="admonition-title">chmod 755 style - binary sum - “octal bit mask”</p>
+<ul class="simple">
+<li><p>Online, you will come across e.g. <code class="docutils literal notranslate"><span class="pre">chmod</span> <span class="pre">755</span> <span class="pre">&lt;file/dir&gt;</span></code>. What does this mean? It’s an “octal bit mask”:</p></li>
+<li><p>Each digit corresponds to the <strong>binary sum</strong> for the <em>owner</em>, <em>group</em> and <em>others</em>, respectively.</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">7</span> <span class="pre">=</span> <span class="pre">4</span> <span class="pre">+</span> <span class="pre">2</span> <span class="pre">+</span> <span class="pre">1</span> <span class="pre">=</span> <span class="pre">r</span> <span class="pre">+</span> <span class="pre">w</span> <span class="pre">+</span> <span class="pre">x</span></code>   All permissions</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">5</span> <span class="pre">=</span> <span class="pre">4</span> <span class="pre">+</span> <span class="pre">0</span> <span class="pre">+</span> <span class="pre">1</span> <span class="pre">=</span> <span class="pre">r</span> <span class="pre">+</span>&#160;&#160; <span class="pre">+</span> <span class="pre">x</span></code>   Read and execute permission</p></li>
+</ul>
+</li>
+<li><p>755 then means all permissions for owner, but limiting write permissions for the group and all others</p></li>
+<li><p>What number would <code class="docutils literal notranslate"><span class="pre">rw</span></code> be?</p></li>
+</ul>
+<div class="admonition-solution solution important dropdown admonition" id="solution-3">
+<p class="admonition-title">Solution</p>
+<p>6</p>
+</div>
+</div>
+<div class="admonition-chmod-hands-on exercise important admonition" id="exercise-3">
+<p class="admonition-title">chmod — Hands-on</p>
+<ul class="simple">
+<li><p>In your <em>locally created</em> <code class="docutils literal notranslate"><span class="pre">linux_tutorial</span></code> directory, find important files and old saved data that you wouldn’t want to lose (<em>imagine</em>).</p>
+<ul>
+<li><p>Directories: important_results/, old_project/</p></li>
+<li><p>File: last_years_data</p></li>
+</ul>
+</li>
+<li><p>Use chmod to remove write permission from those files and directories (use the <code class="docutils literal notranslate"><span class="pre">-R</span></code> flag (not <code class="docutils literal notranslate"><span class="pre">-r</span></code>) to also do the files in the directories).</p>
+<ul>
+<li><p>Take a moment to play around with chmod and explore the effects of permissions on files and directories.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="admonition-solution solution important dropdown admonition" id="solution-5">
+<p class="admonition-title">Solution</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>chmod<span class="w"> </span>-wR<span class="w"> </span>&lt;target&gt;
+</pre></div>
+</div>
+</div>
+<p><strong>More about BASH command line and scripts on Tuesday and Wednesday!</strong></p>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright UPPMAX.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

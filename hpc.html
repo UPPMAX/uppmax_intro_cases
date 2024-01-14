@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>High Performance Computing — HPC &mdash; UPPMAX intro course — part 1 0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="_static/togglebutton.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_lesson.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_rtd_theme_ext_color_contrast.css" type="text/css" />
+      <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+      <link rel="stylesheet" href="_static/tabs.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+        <script src="_static/minipres.js"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="_static/togglebutton.js"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="NAISS and projects" href="naiss.html" />
+    <link rel="prev" title="Overview" href="overview2.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> UPPMAX intro course — part 1
+            <img src="_static/c_242915-l_3-k_svg-uu-logo.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Intro</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="intro_online.html">Welcome on-line!</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Get started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="login2.html">Login</a></li>
+<li class="toctree-l1"><a class="reference internal" href="linux_cases.html">Linux and basic toolkit</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">More about UPPMAX</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview2.html">Overview</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">High Performance Computing — HPC</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#hpc-htc-and-mtc">HPC, HTC and MTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-a-cluster">What is a cluster?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#storage-basics">Storage basics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#the-uppmax-hardware">The UPPMAX hardware</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#clusters">Clusters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#uppmax-storage-system-names-projects-home-directories">UPPMAX storage system names (projects &amp; home directories)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#system-usage">System usage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#a-little-bit-more-about-snowy">A little bit more about Snowy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#about-bianca">About Bianca?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="naiss.html">NAISS and projects</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Using UPPMAX</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="software.html">Software and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="slurm_intro.html">Using the compute nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="working.html">Working on UPPMAX</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">NAISS SENS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="bianca.html">NAISS SENS and Bianca</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Courses and workshops</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="courses.html">Courses and workshops</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Summary</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">Summary</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">UPPMAX intro course — part 1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>High Performance Computing — HPC</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/hpc.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section class="tex2jax_ignore mathjax_ignore" id="high-performance-computing-hpc">
+<h1>High Performance Computing — HPC<a class="headerlink" href="#high-performance-computing-hpc" title="Permalink to this heading"></a></h1>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Let’s recap and go a little further into the UPPMAX hardware!</p></li>
+</ul>
+</div>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference external" href="http://docs.uppmax.uu.se/cluster_guides/uppmax_cluster/">Uppmax clusters</a></p>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Approx timing: 11.35-11:40</p></li>
+<li><p>Information</p></li>
+</ul>
+</div>
+<section id="hpc-htc-and-mtc">
+<h2>HPC, HTC and MTC<a class="headerlink" href="#hpc-htc-and-mtc" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>The Buzz word is <strong>HPC or High Performance Computing</strong>, but this is rather narrow focusing on fast calculation, i.e. processors and parallelism</p></li>
+<li><p>Many of your projects are more focusing on high throughput, large memory demands and many tasks.</p></li>
+<li><p>Here is a list of the three most common <strong>Computing paradigms</strong>:</p></li>
+<li><p><strong>HPC</strong>: High Performance Computing — Focus on floating point operations per second (<strong>FLOPS</strong>, flops or flop/s)</p>
+<ul>
+<li><p>characterized as needing large amounts of computing power for short periods of time</p></li>
+</ul>
+</li>
+<li><p><strong>HTC</strong>: High-Throughput Computing —</p>
+<ul>
+<li><p>operations or <strong>jobs per month or per year</strong>.</p></li>
+<li><p>more interested in how many jobs can be completed over a long period of time instead of how fast.</p></li>
+<li><p>independent, sequential jobs that can be individually scheduled o</p></li>
+</ul>
+</li>
+<li><p><strong>MTC</strong>: Many-task Computing — emphasis of using many computing resources over short periods of time to accomplish many computational tasks</p>
+<ul>
+<li><p>bridge the gap between HTC and HPC.</p></li>
+<li><p>reminiscent of HTC, but including both dependent and independent tasks), where the primary metrics are measured in seconds (e.g. <strong>FLOPS</strong>, tasks/s, <strong>MB/s</strong> <strong>I/O rates</strong>), as opposed to operations (e.g. jobs) per month.</p></li>
+<li><p>high-performance computations comprising multiple distinct activities, coupled via file system operations.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="what-is-a-cluster">
+<h2>What is a cluster?<a class="headerlink" href="#what-is-a-cluster" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>A network of computers, each computer working as a node.</p></li>
+<li><p>From small scale RaspberryPi cluster…</p></li>
+</ul>
+<p><img alt="RaspBerry" src="_images/IMG_5111.jpeg" /></p>
+<ul class="simple">
+<li><p>To supercomputers like Rackham.</p></li>
+</ul>
+<p><img alt="Rackham" src="_images/uppmax-light2.jpg" /></p>
+<ul class="simple">
+<li><p>Each node contains several processor cores and RAM and a local disk called scratch.</p></li>
+</ul>
+<p><img alt="Node" src="_images/node.png" /></p>
+<ul class="simple">
+<li><p>The user logs in to login nodes via Internet through ssh or Thinlinc.</p>
+<ul>
+<li><p>Here the file management and lighter data analysis can be performed.</p></li>
+</ul>
+</li>
+</ul>
+<p><img alt="RaspBerry" src="_images/nodes.png" /></p>
+<p><img alt="RaspBerry" src="_images/Bild1.png" /></p>
+<ul class="simple">
+<li><p>The calculation nodes has to be used for intense computing.</p>
+<ul>
+<li><p>“Normal” softwares use one core.</p></li>
+<li><p>Parallelized software can utilize several cores or even several nodes. Keywords signalizing this are e.g.:</p>
+<ul>
+<li><p>“multi-threaded”, “MPI”, “distributed memory”, “openMP”, “shared memory”.</p></li>
+</ul>
+</li>
+<li><p>To let your software run on the calculation nodes</p>
+<ul>
+<li><p>start an “interactive session” or</p></li>
+<li><p>“submit a batch job”.</p></li>
+<li><p>More about this in today’s introduction to jobs.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="storage-basics">
+<h2>Storage basics<a class="headerlink" href="#storage-basics" title="Permalink to this heading"></a></h2>
+<ul>
+<li><p>All nodes can access:</p>
+<ul class="simple">
+<li><p>Your home directory on Domus or Castor</p></li>
+<li><p>Your project directories on Crex or Castor</p></li>
+<li><p>Its own local scratch disk (2-3 TB)</p></li>
+</ul>
+</li>
+<li><p>If you’re reading/writing a file once, use a directory on Crex or Castor</p></li>
+<li><p>If you’re reading/writing a file many times…</p>
+<ul class="simple">
+<li><p>Copy the file to ”scratch”, the node local disk:</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>cp myFile $SNIC_TMP
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="the-uppmax-hardware">
+<h2>The UPPMAX hardware<a class="headerlink" href="#the-uppmax-hardware" title="Permalink to this heading"></a></h2>
+<section id="clusters">
+<h3>Clusters<a class="headerlink" href="#clusters" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>We have a number of compute clusters:</p>
+<ul>
+<li><p><a class="reference external" href="http://docs.uppmax.uu.se/cluster_guides/rackham_portal/">Rackham</a>
+, reserved for SNIC projects</p></li>
+<li><p><a class="reference external" href="http://docs.uppmax.uu.se/cluster_guides/snowy_portal/">Snowy</a>, GPU, long jobs reserved for UPPMAX projects and Education</p></li>
+<li><p><a class="reference external" href="http://docs.uppmax.uu.se/cluster_guides/bianca_portal/">Bianca</a>
+, a part of SNIC-SENS</p></li>
+<li><p><a class="reference external" href="https://www.uppmax.uu.se/resources/systems/miarka-cluster/">Miarka</a>, reserved for Scilifelab production</p></li>
+<li><p><a class="reference external" href="https://www.uppmax.uu.se/resources/systems/the-uppmax-cloud/">UPPMAX cloud</a>, a part of SNIC Science Cloud</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://docs.uppmax.uu.se/">User guides</a></p></li>
+<li><p>The storage systems we have provide a total volume of about 25 PB, the equivalent of  50,000 years of 128-bit encoded music. Read more on the <a class="reference external" href="https://www.uppmax.uu.se/resources/systems/storage-systems/">storage systems page</a>.</p></li>
+</ul>
+</section>
+<section id="uppmax-storage-system-names-projects-home-directories">
+<h3>UPPMAX storage system names (projects &amp; home directories)<a class="headerlink" href="#uppmax-storage-system-names-projects-home-directories" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Rackham storage: Crex &amp; Domus</p></li>
+<li><p>Bianca storage: Castor &amp; Cygnus</p></li>
+<li><p>NGI production system (Miarka): Vulpes</p></li>
+<li><p>NGI delivery server: Grus</p></li>
+<li><p>Off-load storage: Lutra</p></li>
+</ul>
+</section>
+<section id="system-usage">
+<h3>System usage<a class="headerlink" href="#system-usage" title="Permalink to this heading"></a></h3>
+<p><a class="reference external" href="https://www.uppmax.uu.se/resources/system-usage/">System usage</a></p>
+<ul class="simple">
+<li><p>More about the systems can be found at the <a class="reference external" href="https://www.uppmax.uu.se/resources/systems/">System resources page</a></p></li>
+</ul>
+</section>
+<section id="a-little-bit-more-about-snowy">
+<h3>A little bit more about Snowy<a class="headerlink" href="#a-little-bit-more-about-snowy" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="http://docs.uppmax.uu.se/cluster_guides/snowy_portal/">User guide</a>.</p>
+<ul>
+<li><p>There is a <a class="reference external" href="https://supr.naiss.se/round/uppmaxcompute2023/">local compute round</a> for UU users applying for Snowy in SUPR.</p></li>
+<li><p>GU (courses) applications (including GU GPU usage) are not done in SUPR, but are supposed to be routed through the service desk.</p></li>
+<li><p>The details can be found at the <a class="reference external" href="https://www.uppmax.uu.se/support/getting-started/course-projects/">Getting started page</a>.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="about-bianca">
+<h3>About Bianca?<a class="headerlink" href="#about-bianca" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Wait for it!</p></li>
+</ul>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>UPPMAX has several clusters</p>
+<ul>
+<li><p>each having its focus and limitation or possibilites</p></li>
+<li><p>access is determined by type of project</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="overview2.html" class="btn btn-neutral float-left" title="Overview" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="naiss.html" class="btn btn-neutral float-right" title="NAISS and projects" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright UPPMAX.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

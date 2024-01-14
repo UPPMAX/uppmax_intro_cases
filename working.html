@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Working on UPPMAX &mdash; UPPMAX intro course — part 1 0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="_static/togglebutton.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_lesson.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_rtd_theme_ext_color_contrast.css" type="text/css" />
+      <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+      <link rel="stylesheet" href="_static/tabs.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+        <script src="_static/minipres.js"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="_static/togglebutton.js"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="NAISS SENS and Bianca" href="bianca.html" />
+    <link rel="prev" title="Using the compute nodes" href="slurm_intro.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> UPPMAX intro course — part 1
+            <img src="_static/c_242915-l_3-k_svg-uu-logo.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Intro</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="intro_online.html">Welcome on-line!</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Get started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="login2.html">Login</a></li>
+<li class="toctree-l1"><a class="reference internal" href="linux_cases.html">Linux and basic toolkit</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">More about UPPMAX</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview2.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hpc.html">High Performance Computing — HPC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="naiss.html">NAISS and projects</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Using UPPMAX</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="software.html">Software and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="slurm_intro.html">Using the compute nodes</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Working on UPPMAX</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#home-dir-and-project-dir"><code class="docutils literal notranslate"><span class="pre">$HOME</span></code> dir and project dir</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#quota">Quota</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#core-hours">Core hours</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#what-kind-of-work-will-you-perform">What kind of work will you perform?</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#uppmax-cluster-overview-again">UPPMAX Cluster overview again!</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#common-problems">Common problems</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">NAISS SENS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="bianca.html">NAISS SENS and Bianca</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Courses and workshops</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="courses.html">Courses and workshops</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Summary</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">Summary</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">UPPMAX intro course — part 1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Working on UPPMAX</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/working.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section class="tex2jax_ignore mathjax_ignore" id="working-on-uppmax">
+<h1>Working on UPPMAX<a class="headerlink" href="#working-on-uppmax" title="Permalink to this heading"></a></h1>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Let’s get some tips and best practices</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Approx timing: 14.30-14:45</p>
+<ul>
+<li><p>May be expanded if good discussions and interactions</p></li>
+<li><p>Helpers and users can share their solutions</p></li>
+</ul>
+</li>
+<li><p>Information</p></li>
+<li><p>discussion</p></li>
+</ul>
+</div>
+<section id="home-dir-and-project-dir">
+<h2><code class="docutils literal notranslate"><span class="pre">$HOME</span></code> dir and project dir<a class="headerlink" href="#home-dir-and-project-dir" title="Permalink to this heading"></a></h2>
+<section id="quota">
+<h3>Quota<a class="headerlink" href="#quota" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Disk usage and number of files</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">$HOME</span></code> has always 32 GB and 300,000 files</p></li>
+<li><p>You typically have one project per project, their size dependent on type of project</p></li>
+<li><p>Compute projects both have disk space (128 GB) and computing time attached to them</p></li>
+<li><p>Check your quota with</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>uquota
+</pre></div>
+</div>
+</section>
+<section id="core-hours">
+<h3>Core hours<a class="headerlink" href="#core-hours" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>You  get core hours only from compute project</p></li>
+<li><p>When they are used you can still get “BONUS” jobs if the resources allow.</p></li>
+<li><p>You can find your current projects (and other projects that you have run jobs in) with the program <code class="docutils literal notranslate"><span class="pre">projinfo</span></code>.</p></li>
+</ul>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>projinfo<span class="w"> </span><span class="o">[</span>&lt;username&gt;<span class="o">]</span>
+</pre></div>
+</div>
+<p>or</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>projinfo<span class="w"> </span><span class="o">[</span>&lt;project<span class="w"> </span>name&gt;<span class="o">]</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>For example, if your project is named NAISS 2017/1-334 you specify <code class="docutils literal notranslate"><span class="pre">naiss2017-1-334</span></code></p></li>
+</ul>
+</section>
+</section>
+<section id="what-kind-of-work-will-you-perform">
+<h2>What kind of work will you perform?<a class="headerlink" href="#what-kind-of-work-will-you-perform" title="Permalink to this heading"></a></h2>
+<p class="plantuml">
+<img src="_images/plantuml-7e4c7f5a44bfa5548ada11af24e62e3e3d70a989.png" alt="&#64;startuml
+start
+
+:login;
+:Rackham login Node;
+if (Do CPU/memory intensive work) then (yes)
+  :Use calculation node;
+  if (Do interactive work) then (yes)
+    :$ interactive -A &lt;proj&gt; &lt;options&gt;;
+  else (no)
+    :Make a batch script;
+    :$ sbatch &lt;script&gt;;
+  endif 
+else (no)
+  :Stay on login node and load your module(s):
+  $ module load &lt;software/tool&gt;;
+  :Run tool: 
+  $ &lt;toolname&gt; [- options, input, output];
+endif
+:finish;
+stop
+&#64;enduml"/>
+</p>
+<section id="uppmax-cluster-overview-again">
+<h3>UPPMAX Cluster overview again!<a class="headerlink" href="#uppmax-cluster-overview-again" title="Permalink to this heading"></a></h3>
+<img src="_images/mermaid-cd1265279c453823b4cb3aeee063da2eec670533.png" alt="graph TB
+
+  Node1 -- interactive --&gt; SubGraph2Flow
+  Node1 -- sbatch --&gt; SubGraph2Flow
+  subgraph &quot;Snowy&quot;
+  SubGraph2Flow(calculation nodes) 
+        end
+
+        thinlinc -- usr-sensXXX + 2FA----&gt; SubGraph1Flow
+        Node1 -- usr-sensXXX + 2FA----&gt; SubGraph1Flow
+        subgraph &quot;Bianca&quot;
+        SubGraph1Flow(Bianca login) -- usr+passwd --&gt; private(private cluster)
+        private -- interactive --&gt; calcB(calculation nodes)
+        private -- sbatch --&gt; calcB
+        end
+
+        subgraph &quot;Rackham&quot;
+        Node1[Login] -- interactive --&gt; Node2[calculation nodes]
+        Node1 -- sbatch --&gt; Node2
+        end" />
+</section>
+</section>
+<section id="common-problems">
+<h2>Common problems<a class="headerlink" href="#common-problems" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Conda environment clashes with loaded python modules</p></li>
+<li><p>Forgotten environment variables defined in your <code class="docutils literal notranslate"><span class="pre">.bashrc</span></code> may give unexeptected errors when you run other programs or new versions of a program</p></li>
+<li><p>A full <code class="docutils literal notranslate"><span class="pre">$HOME</span></code> folder may cause unexpected errors</p>
+<ul>
+<li><p>check with <code class="docutils literal notranslate"><span class="pre">uquota</span></code></p></li>
+</ul>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>.bashrc</strong></p>
+<ul class="simple">
+<li><p>Do not fill <code class="docutils literal notranslate"><span class="pre">~/.bashrc</span></code> with too much</p>
+<ul>
+<li><p>Avoid loading modules, unless you are totally sure that those will not interact with other things you are doing</p></li>
+<li><p>Typical problem: loading several conflicting conda environments and python modules</p></li>
+</ul>
+</li>
+<li><p>Good place to have:</p>
+<ul>
+<li><p>aliases</p></li>
+<li><p>source files (if needed)</p>
+<ul>
+<li><p>these can set some environment variables</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Example from Björn C</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">alias</span><span class="w"> </span><span class="nv">lt</span><span class="o">=</span><span class="s1">&#39;ls -lrt&#39;</span>
+<span class="nb">alias</span><span class="w"> </span><span class="nv">sq</span><span class="o">=</span><span class="s1">&#39;squeue -u $USER&#39;</span>
+<span class="nb">alias</span><span class="w"> </span><span class="nv">sc</span><span class="o">=</span><span class="s1">&#39;scancel&#39;</span>
+<span class="nb">alias</span><span class="w"> </span><span class="nv">rm</span><span class="o">=</span><span class="s1">&#39;rm -i&#39;</span>
+<span class="nb">alias</span><span class="w"> </span><span class="nv">less</span><span class="o">=</span><span class="s1">&#39;less -R&#39;</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>When done, start a new bash session in a new terminal or type <code class="docutils literal notranslate"><span class="pre">bash</span></code> in the present one.</p></li>
+</ul>
+<p><strong>Conda</strong></p>
+<ul class="simple">
+<li><p>You cannot mix Conda environments with python software module</p></li>
+<li><p>Conda is very nice for Bianca, because of the ease of install packages without the internet connection.</p></li>
+<li><p>For Rackham we suggest Python virtual environemnts with virtualenv, see <a class="reference external" href="https://uppmax.github.io/R-python-julia-HPC/python/isolated.html">Python course</a></p>
+<ul>
+<li><p>Unless the conda environment is straight-forward to install and is well-defined.</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Things worked before but do not now</strong></p>
+<ul class="simple">
+<li><p>Check <code class="docutils literal notranslate"><span class="pre">uquota</span></code> !</p></li>
+<li><p>Very often a full disk space is the reason</p></li>
+</ul>
+</div>
+<div class="admonition-discussion discussion important admonition" id="discussion-0">
+<p class="admonition-title">Discussion</p>
+<ul class="simple">
+<li><p>Any input from other teachers!</p></li>
+</ul>
+</div>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Use your disk spaces wisely</p>
+<ul>
+<li><p>home folder just for general stuff and files needed by several projects</p>
+<ul>
+<li><p>always read and write protected for others by default</p></li>
+</ul>
+</li>
+<li><p>otherside project folder which will more easily become public for others</p>
+<ul>
+<li><p>by default available for all project members.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Use the computing resources wisely</p>
+<ul>
+<li><p>low intensity work on login node</p></li>
+<li><p>high intensity work on compute nodes (core hours are counted)</p>
+<ul>
+<li><p>for development use the interactive sessions</p></li>
+<li><p>otherwise make batch jobs!</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="slurm_intro.html" class="btn btn-neutral float-left" title="Using the compute nodes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="bianca.html" class="btn btn-neutral float-right" title="NAISS SENS and Bianca" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright UPPMAX.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

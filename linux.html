@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linux &mdash; UPPMAX intro course — part 1 0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="_static/togglebutton.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_lesson.css" type="text/css" />
+      <link rel="stylesheet" href="_static/sphinx_rtd_theme_ext_color_contrast.css" type="text/css" />
+      <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+      <link rel="stylesheet" href="_static/tabs.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+        <script src="_static/minipres.js"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="_static/togglebutton.js"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> UPPMAX intro course — part 1
+            <img src="_static/c_242915-l_3-k_svg-uu-logo.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Intro</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="intro_online.html">Welcome on-line!</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Get started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="login2.html">Login</a></li>
+<li class="toctree-l1"><a class="reference internal" href="linux_cases.html">Linux and basic toolkit</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">More about UPPMAX</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview2.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hpc.html">High Performance Computing — HPC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="naiss.html">NAISS and projects</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Using UPPMAX</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="software.html">Software and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="slurm_intro.html">Using the compute nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="working.html">Working on UPPMAX</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">NAISS SENS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="bianca.html">NAISS SENS and Bianca</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Courses and workshops</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="courses.html">Courses and workshops</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Summary</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">Summary</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">UPPMAX intro course — part 1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Linux</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/linux.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section class="tex2jax_ignore mathjax_ignore" id="linux">
+<h1>Linux<a class="headerlink" href="#linux" title="Permalink to this heading"></a></h1>
+<ul class="simple">
+<li><p>The “operating system” of the UPPMAX and most of the other clusters is <strong>Linux</strong>.</p></li>
+</ul>
+<div class="admonition-questions questions admonition" id="questions-0">
+<p class="admonition-title">Questions</p>
+<ul class="simple">
+<li><p>What is Linux?</p></li>
+<li><p>How to use the command line?</p></li>
+</ul>
+</div>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>We’ll briefly get an overview of Linux</p>
+<ul>
+<li><p>How the command line works</p></li>
+<li><p>Some text editors</p></li>
+<li><p>Things to be aware of</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<section id="what-is-linux">
+<h2>What is Linux?<a class="headerlink" href="#what-is-linux" title="Permalink to this heading"></a></h2>
+<p><img alt="Content" src="_images/pingvin.png" /></p>
+<ul class="simple">
+<li><p>Daily speaking: The Linux Operating system is a UNIX like and UNIX compatible Operating system.</p></li>
+<li><p>Linux is a “Kernel” on which many different programs can run.</p></li>
+<li><p>The shell (bash, sh, ksh, csh, tcsh and many more) is one such program.</p></li>
+</ul>
+<p><img alt="Content" src="_images/images.jfif" /></p>
+<ul class="simple">
+<li><p>Actually, for it to be an OS, it is supplied with GNU software and other additions giving us the name <strong>GNU/Linux</strong>.</p>
+<ul>
+<li><p>[Linux naming controversy]((https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy)</p></li>
+</ul>
+</li>
+</ul>
+<p><img alt="Content" src="_images/gnu.png" /></p>
+<ul class="simple">
+<li><p>Linux has a multiuser platform at its base which means permissions and security comes easy.</p></li>
+</ul>
+<section id="linux-comes-in-different-distributions-dialects-or-say-flavours">
+<h3>Linux comes in different distributions, dialects or, say, flavours.<a class="headerlink" href="#linux-comes-in-different-distributions-dialects-or-say-flavours" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>UPPMAX runs CentOS and RedHat</p></li>
+</ul>
+<p><img alt="Content" src="_images/flavours.png" /></p>
+</section>
+</section>
+<section id="using-the-command-line">
+<h2>Using the command line<a class="headerlink" href="#using-the-command-line" title="Permalink to this heading"></a></h2>
+<section id="command-line-with-bash-bourne-again-shell">
+<h3>Command line with bash (Bourne Again Shell)<a class="headerlink" href="#command-line-with-bash-bourne-again-shell" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>A Unix shell and command language.</p></li>
+<li><p>Often default shell</p></li>
+</ul>
+<p><img alt="Content" src="_images/shell.jpg" /></p>
+<ul class="simple">
+<li><p>The command-line interface: the bash prompt $</p></li>
+<li><p>bash can be seen as a program that finds and runs other programs</p></li>
+<li><p>bash is scripting language that is referred to as a shell</p>
+<ul>
+<li><p>(because it sits around the kernel making it easy to interact with)</p></li>
+</ul>
+</li>
+</ul>
+<p><img alt="Content" src="_images/unix_architecture.jpg" /></p>
+</section>
+<section id="the-prompt">
+<h3>The prompt<a class="headerlink" href="#the-prompt" title="Permalink to this heading"></a></h3>
+<p>[info]$ <span style="color:blue">program</span> word1 word2 word3 […]</p>
+<ul>
+<li><p>[info] is configurable, and usually tells you who you are, on what system, and where in the file system.</p>
+<ul>
+<li><p>Example:</p>
+<div class="highlight-bash= notranslate"><div class="highlight"><pre><span></span>  [bjornc@rackham3 linux_tutorial]$
+</pre></div>
+</div>
+</li>
+<li><p>For changing info (only for advanced users!)  Does not matter for this course!:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html">https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html</a></p></li>
+</ul>
+</li>
+<li><p>The <span style="color:blue">program</span> to run is the first word</p></li>
+<li><p>All words are separated by spaces</p></li>
+</ul>
+</li>
+</ul>
+<p><img alt="folders" src="_images/folders.png" /></p>
+</section>
+<section id="example-bash-command">
+<h3>Example bash command<a class="headerlink" href="#example-bash-command" title="Permalink to this heading"></a></h3>
+<section>
+<a class="reference internal image-reference" href="_images/mv_inbox.png"><img alt="mv inbox" class="align-left" src="_images/mv_inbox.png" style="width: 300px;" /></a>
+<p><br/><br/></p>
+<a class="reference internal image-reference" href="_images/program_flags.png"><img alt="program flags" class="align-left" src="_images/program_flags.png" style="width: 300px;" /></a>
+<p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></p>
+</section>
+<ul class="simple">
+<li><p>Terminal screen shows</p></li>
+</ul>
+</p>
+<p><img alt="Content" src="_images/screen.png" /></p>
+</section>
+<section id="tab-completion">
+<h3>Tab Completion<a class="headerlink" href="#tab-completion" title="Permalink to this heading"></a></h3>
+<section>
+<a class="reference internal image-reference" href="_images/tab.png"><img alt="tab" class="align-left" src="_images/tab.png" style="width: 200px;" /></a>
+<p><br/><br/><br/><br/><br/></p>
+</section>
+<ul class="simple">
+<li><p>Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to ask Bash to complete what you’re writing.</p></li>
+<li><p>Get in the habit of this — it will save you many hours!</p></li>
+</ul>
+</section>
+</section>
+<section id="editing-files-with-file-text-editors">
+<h2>Editing files with file/text editors<a class="headerlink" href="#editing-files-with-file-text-editors" title="Permalink to this heading"></a></h2>
+<p><img alt="Content" src="_images/edit.png" /></p>
+<section id="gedit">
+<h3>gedit<a class="headerlink" href="#gedit" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>graphical user interface — GUI, needs X-server</p></li>
+<li><p>Also graphical editor within MobaXterm</p></li>
+</ul>
+</section>
+<section id="nano">
+<h3>nano<a class="headerlink" href="#nano" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>keyboard shortcuts shown on-screen)</p></li>
+<li><p>Cheatsheet: <a class="reference external" href="http://staffwww.fullcoll.edu/sedwards/nano/UsefulNanoKeyCommands.html">http://staffwww.fullcoll.edu/sedwards/nano/UsefulNanoKeyCommands.html</a></p>
+<ul>
+<li><p>^ = Ctrl, M = meta key)</p>
+<ul>
+<li><p>Windows M = Alt</p></li>
+<li><p>On Mac: in the Terminal.app go to Preferences -&gt; Settings -&gt; Keyboard and turn on “Use option as meta key”: then M = Alt</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="admonition-not-to-try-today-if-you-haven-t-used-before solution important dropdown admonition" id="solution-0">
+<p class="admonition-title">Not to try today if you haven’t used before!!!</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<ul class="simple">
+<li><p>we suggest that you learn this tools before trying to work with them on UPPMAX</p></li>
+<li><p>If you start one of these editors you may have difficulties to exit!</p></li>
+</ul>
+</div>
+<p><strong>vim</strong></p>
+<ul class="simple">
+<li><p>fast and powerful, once you learn it</p></li>
+<li><p>on UPPMAX started with command <code class="docutils literal notranslate"><span class="pre">vi</span></code></p>
+<ul>
+<li><ol class="arabic simple">
+<li><p>Insert mode (type like normal text editor. Press <code class="docutils literal notranslate"><span class="pre">i</span></code> for insert mode)</p></li>
+</ol>
+</li>
+<li><ol class="arabic simple" start="2">
+<li><p>Command mode (give commands to the editor to get things done . Press <code class="docutils literal notranslate"><span class="pre">&lt;ESC&gt;</span></code> for command mode)</p></li>
+</ol>
+</li>
+<li><p>Cheat sheet: <a class="reference external" href="https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started">https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started</a></p></li>
+</ul>
+</li>
+</ul>
+<p><strong>gvim</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">vi</span></code>m with a GUI, lots of features very Fast</p></li>
+</ul>
+<p><strong>emacs</strong></p>
+<ul class="simple">
+<li><p>fast and powerful, once you learn it</p>
+<ul>
+<li><p>Cheat sheet: <a class="reference external" href="https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf">https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf</a></p>
+<ul>
+<li><p>(C = <code class="docutils literal notranslate"><span class="pre">&lt;Ctrl&gt;</span></code>)</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>also With GUI</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">emacs</span> <span class="pre">–nw</span></code></p>
+<ul>
+<li><p>keeps you in terminal window.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+<section id="the-graphical-editors">
+<h2>The graphical editors<a class="headerlink" href="#the-graphical-editors" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>When starting the graphical versions of an editor, add <code class="docutils literal notranslate"><span class="pre">&amp;</span></code> to be able to use the command line while program is open.</p>
+<ul>
+<li><p>Ex: <code class="docutils literal notranslate"><span class="pre">gedit</span> <span class="pre">&amp;</span></code></p></li>
+<li><p>If not, you can <code class="docutils literal notranslate"><span class="pre">&lt;Ctrl&gt;+z</span></code> and type <code class="docutils literal notranslate"><span class="pre">bg</span></code> to send program to background.</p></li>
+</ul>
+</li>
+</ul>
+<div class="admonition-try-gedit exercise important admonition" id="exercise-0">
+<p class="admonition-title">Try gedit</p>
+<ul class="simple">
+<li><p>start gedit with <code class="docutils literal notranslate"><span class="pre">gedit</span> <span class="pre">&amp;</span></code></p></li>
+<li><p>write something</p></li>
+<li><p>save</p></li>
+</ul>
+</div>
+<div class="highlight-[tip} notranslate"><div class="highlight"><pre><span></span>- ``ctrl-C`` interupts a program or a command that is &quot;stuck&quot;
+- ``ctrl-Z`` pauses a program, can be continues in background (``bg``) or  foreground (``fg``)
+- ``ctrl-D`` quits some programs
+</pre></div>
+</div>
+</section>
+<section id="typical-sources-of-error">
+<h2>Typical sources of error<a class="headerlink" href="#typical-sources-of-error" title="Permalink to this heading"></a></h2>
+<p><img alt="Content" src="_images/cross.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<ul class="simple">
+<li><p>Capitalization matters in file names and program names</p></li>
+<li><p>Spaces matter.</p>
+<ul>
+<li><p>Always have a space after the program name.</p></li>
+<li><p>Don’t add spaces within file names.</p></li>
+</ul>
+</li>
+<li><p>Check that you are in the right place in the file system.</p></li>
+<li><p>File permissions. Check that the right read, write and execute permission are set. See next session.</p></li>
+</ul>
+</div>
+</section>
+<section id="caution">
+<h2>Caution!!<a class="headerlink" href="#caution" title="Permalink to this heading"></a></h2>
+<p><img alt="Content" src="_images/caution.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<ul class="simple">
+<li><p>There is no undo for:</p>
+<ul>
+<li><p>copy (<code class="docutils literal notranslate"><span class="pre">cp</span></code>),</p></li>
+<li><p>move (<code class="docutils literal notranslate"><span class="pre">mv</span></code>), and</p></li>
+<li><p>remove (<code class="docutils literal notranslate"><span class="pre">rm</span></code>).</p></li>
+</ul>
+</li>
+<li><p><strong>Beware of overwriting files and deleting the wrong ones.</strong></p></li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><p><strong>Tip: make “<code class="docutils literal notranslate"><span class="pre">rm</span></code>” ask if you really want to erase:</strong></p>
+<ul>
+<li><p>Within a session: Type in the command prompt</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>alias rm=&#39;rm -i&#39;
+</pre></div>
+</div>
+</li>
+<li><p>Override asking with</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>rm –f &lt;&gt;
+</pre></div>
+</div>
+</li>
+<li><p>Edit file <code class="docutils literal notranslate"><span class="pre">.bashrc</span></code> in <code class="docutils literal notranslate"><span class="pre">home</span></code> directory by adding the alias line for this to start everytime.</p></li>
+</ul>
+</li>
+<li><p>This will also work for <code class="docutils literal notranslate"><span class="pre">mv</span></code> and <code class="docutils literal notranslate"><span class="pre">cp</span></code>!</p></li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>If you do destroy your data, email UPPMAX support, we may be able to help.</p></li>
+</ul>
+</div>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Linux Operating system is a UNIX-like and UNIX compatible Operating system.</p></li>
+<li><p>Typical command:
+$ program word1 word2 word3 […]</p></li>
+<li><p>Example of file editors</p>
+<ul>
+<li><p>terminal</p>
+<ul>
+<li><p>nano</p></li>
+<li><p>vim</p></li>
+<li><p>emacs</p></li>
+</ul>
+</li>
+<li><p>graphical:</p>
+<ul>
+<li><p>gedit</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Tips</p>
+<ul>
+<li><p>use Tab completion</p></li>
+<li><p>capitalization and spaces matters</p></li>
+<li><p>no undo:s for copying, moving and removing</p>
+<ul>
+<li><p>Solution: <code class="docutils literal notranslate"><span class="pre">alias</span> <span class="pre">rm='rm</span> <span class="pre">-i'</span> </code></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright UPPMAX.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
