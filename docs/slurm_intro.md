@@ -21,12 +21,12 @@ There are two types of nodes:
 
 Type        |Purpose
 ------------|--------------------------
-Login node  |Start jobs for worker nodes, do easy things. You share 2 cores and 15 GB RAM with active users within your project
-Compute nodes |Do hard calculations, either from scripts of an interactive session
+Login node  |Start jobs for worker nodes, do easy things.
+Compute nodes |Do hard calculations, either from scripts of an interactive session.
 
 Bianca contains hundreds of nodes, each of which is isolated from each other and the Internet.
 
-```mermaid
+```{mermaid}
 
   graph TB
 
@@ -75,7 +75,7 @@ Bianca contains hundreds of nodes, each of which is isolated from each other and
     - ... and more
 
 
-```{info "Some keywords"
+```{info} "Some keywords"
     - A program may run _serially_ and then needs only ONE _compute thread_, which will occupy 1 core, which is a physical unit of the CPU on the node.
         - You should most often just book 1 core. If you require more than 7 GB you can allocate more cores and you will get multiples of 7 GB.
     - A program may run in _parallel_ and then needs either several _threads_ or several _tasks_, both occupying several cores. 
@@ -154,7 +154,7 @@ Bianca contains hundreds of nodes, each of which is isolated from each other and
     - `$ sbatch <flags> <program>` or
     - `$ sbatch <job script>`
  
-```mermaid
+```{mermaid}
 flowchart TD
     UPPMAX(What to run on which node?)
     operation_type{What type of operation/calculation?}
@@ -221,19 +221,17 @@ interactive -A sens2023598 -p core -n 2 -t 8:0:0
 This starts an interactive session using project `sens2023598` 
 that uses 2 cores and has a maximum duration of 8 hours.
 
-```{tip
-   
-    ![copy-paste](./img/copy_paste.PNG)
+
 
 ### Try interactive and run RStudio
 
-```{note "Copied to [intermediate/rstudio.md](intermediate/rstudio.md)"
+```{note} "Copied to [intermediate/rstudio.md](intermediate/rstudio.md)"
 
     One may consider linking to that page :-)
 
 We recommend using at least two cores for RStudio, and to get those resources, you must should start an interactive job.
 
-```{example "Type-along"
+```{example} "Type-along"
     Use **ThinLinc**
 
     - Start **interactive session** on compute node (2 cores)
@@ -302,13 +300,13 @@ We recommend using at least two cores for RStudio, and to get those resources, y
 
 ### Try batch job
 
-```{example "Type-along"
+```{example} "Type-along"
 
     - Write a bash script called ``jobscript.sh`` 
          - You can be in your `~` folder    
     - To make it faster Copy-paste the code below.
 
-```{tip
+```{tip}
    
     ![copy-paste](./img/copy_paste.PNG)
 
@@ -379,12 +377,12 @@ echo Hello world!
 - `bianca_combined_jobinfo`
 
 
-```{admonition "See also"
+```{admonition} "See also"
 
     - [Intermediate workshop material on slurm](https://uppmax.github.io/bianca_workshop/extra/slurm/)
 
 
-```{admonition "Slurm Cheat Sheet"
+```{admonition} "Slurm Cheat Sheet"
 
     - ``-A``    project number
     - ``-t``    wall time
