@@ -44,7 +44,6 @@ We will present and refer a lot to our new documentation at http://docs.uppmax.u
    software.md
    slurm_intro.md
    working.md
-   courses.md
 
 .. toctree::
    :maxdepth: 2
@@ -54,15 +53,17 @@ We will present and refer a lot to our new documentation at http://docs.uppmax.u
  
 .. toctree::
    :maxdepth: 2
+   :caption: Courses and workshops
+ 
+   courses.md
+
+.. toctree::
+   :maxdepth: 2
    :caption: Summary
  
    summary.md
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Extras
- 
-   exercises.rst
+
 
    
 
