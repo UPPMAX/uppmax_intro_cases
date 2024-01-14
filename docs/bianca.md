@@ -11,6 +11,7 @@
 
 ```{instructor-note}
 - Approx timing: 14.45-15.30 (15 min Coffee break)
+    - Can perhaps be squeezed to 15 minutes after the  coffee break
 - Information
 ```
 
