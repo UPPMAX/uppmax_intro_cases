@@ -5,8 +5,9 @@
 ```
 
 ```{instructor-note}
-- Approx timing: 13.00-14.20 (10 min break)
+- Approx timing: 13.30-14.30 (10 min break)
 - Theory
+- Hands-on
 ```
 
 ```{attention}
@@ -121,14 +122,14 @@ Compute nodes |Do hard calculations, either from scripts of an interactive sessi
 
 <br>
 
-- 4 one-core jobs can run immediately (or a 4-core wide job).*
+- 4 one-core jobs can run immediately (or a 4-core wide job).
 
     - *The jobs are too long to fit at core number 9-13.*
 
 ![Image](./img/queue3.png)
 <br>
 
-- A 5-core job has to wait.*
+- A five-core job has to wait.
 
     - *Too long to fit in cores 9-13 and too wide to fit in the last cores.*
 
