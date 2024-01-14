@@ -9,7 +9,7 @@
 - Theory
 ```
 
-```{note}
+```{attention}
 - For now, **this course**, we use the **material on this present page**.
 - A SLURM introduction can otherwise be found here: <http://docs.uppmax.uu.se/cluster_guides/slurm/>
 ```
@@ -235,9 +235,7 @@ that uses 2 cores and has a maximum duration of 8 hours.
 
 - We recommend using at least two cores for RStudio, and to get those resources, you must start an interactive job.
 
-```{example}
-
-**Type-along**
+```{typealong}
 
 - Use **ThinLinc**
 
@@ -306,9 +304,7 @@ that uses 2 cores and has a maximum duration of 8 hours.
 
 ### Try batch job
 
-```{example}
-
-**Type'along**
+```{typealong}
 
 - Write a bash script called ``jobscript.sh`` 
     - You can be in your `~` folder    
@@ -417,30 +413,32 @@ Do you need more memory than 128 GB or GPU:s?
 
 ## Exercises
 
-???- question "Why not always use an interactive session?"
+```{challenge} "Why not always use an interactive session?"
 
-     - Because it is an inefficient use of your core hours.
+```{solution}
+- Because it is an inefficient use of your core hours.
 
-     - An interactive session means that you use a calculation node with low efficiency: only irregularly you will use such a node to its full
+- An interactive session means that you use a calculation node with low efficiency: only irregularly you will use such a node to its full
     capacity. 
-     - However, the number of core hours are registered as if the node is used at full capacity, as it is *reserved* to be used at that capacity.
+- However, the number of core hours are registered as if the node is used at full capacity, as it is *reserved* to be used at that capacity.
 
-???+ question "Which approach is best in the following use cases? Batch jobs or interactive sessions?"
+```{challenge} "Which approach is best in the following use cases? Batch jobs or interactive sessions?"
 
-    1.  Long jobs
-    1.  Short jobs with interactive "run-time"/interactive user input
-    1.  Short jobs without interactive "run-time"/interactive user input
-    1.  Test/debugging/developing code
-    1.  Playing with and plotting large data
+1.  Long jobs
+1.  Short jobs with interactive "run-time"/interactive user input
+1.  Short jobs without interactive "run-time"/interactive user input
+1.  Test/debugging/developing code
+1.  Playing with and plotting large data
 
-    ??? tip "Answer"
+```
+```{soulution} "Answer"
 
-        1.  batch
-        1.  interactice
-        1.  batch
-        1.  interactive
-        1.  interactive
-
+1.  batch
+1.  interactice
+1.  batch
+1.  interactive
+1.  interactive
+```
 
 
 ## Links
@@ -451,7 +449,7 @@ Do you need more memory than 128 GB or GPU:s?
 - [Plotting your core hour usage](https://www.uppmax.uu.se/support/user-guides/plotting-your-core-hour-usage/)
 
 
-``````{challenge} Exercise at home
+``````{homework} Exercise at home
 - Copy the code just further up!
 - Put it into a file named “jobtemplate.sh”
 - Make the file executable (chmod)
