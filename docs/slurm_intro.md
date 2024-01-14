@@ -133,11 +133,11 @@ Bianca contains hundreds of nodes, each of which is isolated from each other and
 
 ```{tip}
 
-    - You don't see the queue graphically, however.
-    - But, overall:
-        - short and narrow jobs will start fast
-        - test and development jobs can get use of specific development nodes if they are shorter than 1 hour and uses up to two nodes.
-        - waste of resources unless you have a parallel program or need all the memory, e.g. 128 GB per node
+- You don't see the queue graphically, however.
+- But, overall:
+    - short and narrow jobs will start fast
+    - test and development jobs can get use of specific development nodes if they are shorter than 1 hour and uses up to two nodes.
+    - waste of resources unless you have a parallel program or need all the memory, e.g. 128 GB per node
 ```
 
 ### Core-hours
