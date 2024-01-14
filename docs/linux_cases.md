@@ -36,7 +36,7 @@
 
 
 ```{Warning}
-
+  
 - There is no undo for:
   - copy (`cp`),
   - move (`mv`), and
