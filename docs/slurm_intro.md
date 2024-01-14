@@ -235,7 +235,7 @@ that uses 2 cores and has a maximum duration of 8 hours.
 
 - We recommend using at least two cores for RStudio, and to get those resources, you must start an interactive job.
 
-```{typealong}
+```{type-along}
 
 - Use **ThinLinc**
 
@@ -304,7 +304,7 @@ that uses 2 cores and has a maximum duration of 8 hours.
 
 ### Try batch job
 
-```{typealong}
+```{type-along}
 
 - Write a bash script called ``jobscript.sh`` 
     - You can be in your `~` folder    
@@ -421,6 +421,7 @@ Do you need more memory than 128 GB or GPU:s?
 - An interactive session means that you use a calculation node with low efficiency: only irregularly you will use such a node to its full
     capacity. 
 - However, the number of core hours are registered as if the node is used at full capacity, as it is *reserved* to be used at that capacity.
+```
 
 ```{challenge} "Which approach is best in the following use cases? Batch jobs or interactive sessions?"
 
@@ -431,7 +432,8 @@ Do you need more memory than 128 GB or GPU:s?
 1.  Playing with and plotting large data
 
 ```
-```{soulution} "Answer"
+
+```{solution} "Answer"
 
 1.  batch
 1.  interactice
@@ -454,25 +456,25 @@ Do you need more memory than 128 GB or GPU:s?
 - Put it into a file named “jobtemplate.sh”
 - Make the file executable (chmod)
 - Submit the job:
-```  {code-block} console
+```console
 
 $ sbatch jobtemplate.sh
 ```
 - Note the job id!
 - Check the queue:
 
-```  {code-block} console
+```console
 $ squeue -u <username>
 $ jobinfo -u <username>
 ```
 - When it’s done (rather fast), look for the output file (slurm-<jobid>.out):
 
-```  {code-block} console
+``` console
 $ ls -lrt slurm-*
 ```
 - Check the output file to see if it ran correctly
 
-```  {code-block} console
+```console
 $ cat <filename>
 ```
 ``````
