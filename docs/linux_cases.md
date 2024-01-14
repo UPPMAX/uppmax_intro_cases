@@ -155,4 +155,5 @@ $ ls -l /proj/introtouppmax/
 
  
 **More about BASH command line and scripts on Tuesday and Wednesday!**
-https://www.uppmax.uu.se/support/courses-and-workshops/uppmax-introductory-course/
+
+- https://www.uppmax.uu.se/support/courses-and-workshops/uppmax-introductory-course/
