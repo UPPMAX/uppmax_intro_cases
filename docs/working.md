@@ -82,18 +82,7 @@ graph TB
         end
 ```
 
-```{keypoints}
-- Use your disk spaces wisely
-  - home folder just for general stuff and files needed by several projects
-    - always read and write protected for others by default
-  - otherside project folder which will more easily become public for other's
-    - by default available for all project members.
-- Use the computing resources wisely
-  - low intensity work on login node
-  - high intensity work on compute nodes (core hours are counted)
-    - for development use the interactive sessions
-    - otherwise make batch jobs!
-```
+
 
 ## Common problems
 
@@ -101,3 +90,54 @@ graph TB
 - Forgotten environment variables defined in your `.bashrc` may give unexeptected errors when you run other programs or new versions of a program
 - A full ``$HOME`` folder may cause unexpected errors
   - check with ``uquota``
+ 
+```{tip}
+
+**.bashrc**
+
+- Do not fill ``~/.bashrc`` with too much
+  - Avoid loading modules, unless you are totally sure that those will not interact with other things you are doing
+  - Typical problem: loading several conflicting conda environments and python modules 
+- Good place to have:
+  - aliases
+  - source files (if needed)
+    - these can set some environment variables
+Example:
+
+```bash
+alias lt='ls -lrt'
+alias sq='squeue -u bjornc2'
+alias sc='scancel'
+alias rm='rm -i'
+alias less='less -R'
+```
+- When done, start a new bash session in a new terminal or type ``bash`` in the present one.
+
+
+**Conda**
+
+- You cannot mix Conda environments with python software module
+- Conda is very nice for Bianca, because of the ease of install packages without the internet connection.
+- For Rackham we suggest Python virtual environemnts with virtualenv, see [Python course](https://uppmax.github.io/R-python-julia-HPC/python/isolated.html)
+  - Unless the conda environment is straight-forward to install and is well-defined.
+
+
+**Things worked before but do not now**
+
+- Check ``uquota`` !
+- Very often a full disk space is the reason
+
+```
+
+```{keypoints}
+- Use your disk spaces wisely
+  - home folder just for general stuff and files needed by several projects
+    - always read and write protected for others by default
+  - otherside project folder which will more easily become public for others
+    - by default available for all project members.
+- Use the computing resources wisely
+  - low intensity work on login node
+  - high intensity work on compute nodes (core hours are counted)
+    - for development use the interactive sessions
+    - otherwise make batch jobs!
+```
