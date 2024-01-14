@@ -20,12 +20,12 @@ $ uquota
 - You can find your current projects (and other projects that you have run jobs in) with the program ``projinfo``.
 
 ```{code-block} console
-$ projinfo <username>
+$ projinfo [<username>]
 ```
 
 or
 ```{code-block} console
-$ projinfo <project name>
+$ projinfo [<project name>]
 ```
 - For example, if your project is named NAISS 2017/1-334 you specify ``naiss2017-1-334``
   
@@ -46,10 +46,10 @@ if (Do CPU/memory intensive work) then (yes)
     :$ sbatch <script>;
   endif 
 else (no)
-  :Stay on login node and laod your module(s):
-  $module load <software/tool>;
+  :Stay on login node and load your module(s):
+  $ module load <software/tool>;
   :Run tool: 
-  $<toolname> [- options, input, output];
+  $ <toolname> [- options, input, output];
 endif
 :finish;
 stop
